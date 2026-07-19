@@ -4,13 +4,40 @@ on:
   schedule:
     - cron: "17 */6 * * *"   # minute offset avoids GitHub's top-of-hour drop window
   workflow_dispatch:
+    inputs:
+      force:
+        description: "Ignore the 5h freshness gate and scrape anyway"
+        type: boolean
+        default: false
 
+# schedule + manual share ONE group; a newer run cancels an in-flight one
 concurrency:
   group: radar
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
+  preflight:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.gate.outputs.proceed }}
+      reason: ${{ steps.gate.outputs.reason }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Freshness gate
+        id: gate
+        env:
+          RADAR_FORCE: ${{ inputs.force }}
+        run: python3 -m scraper.preflight | tee -a "$GITHUB_OUTPUT"
+
+      - name: Report decision
+        run: |
+          echo "### preflight: proceed=${{ steps.gate.outputs.proceed }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "${{ steps.gate.outputs.reason }}" >> "$GITHUB_STEP_SUMMARY"
+
   scrape:
+    needs: preflight
+    if: needs.preflight.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -34,6 +61,7 @@ jobs:
         id: run
         env:
           MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
+          RADAR_FORCE: ${{ inputs.force }}
         run: |
           set +e
           python -m scraper.build
@@ -56,7 +84,8 @@ jobs:
           git push
 
   deploy:
-    needs: scrape
+    needs: [preflight, scrape]
+    if: needs.preflight.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write
@@ -77,13 +106,14 @@ jobs:
         uses: actions/deploy-pages@v5
 
   report:
-    needs: [scrape, deploy]
+    needs: [preflight, scrape, deploy]
+    if: needs.preflight.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Flag partial-stale runs red (after deploy already succeeded)
         run: |
           if [ "${{ needs.scrape.outputs.status }}" != "0" ]; then
-            echo "::error::partial failure — some categories or tiktok served stale data"
+            echo "::error::partial failure — some list/category pairs or tiktok served stale data"
             exit 1
           fi
           echo "all fresh"

@@ -1,8 +1,12 @@
 """Pipeline orchestrator: scrape → translate → mirror → surge → contract JSON.
 
-Exit codes: 0 = all fresh; 2 = partial (some categories/tiktok stale);
-1 = total failure (nothing written, old data preserved).
+Contract schema_version 2: one product per ASIN; per-list/category placements
+live in the product's `sources` array, surge placement in `surge`.
+
+Exit codes: 0 = all fresh; 2 = partial (some list/category pairs or tiktok
+stale); 1 = total failure (nothing written, old data preserved).
 """
+import os
 import re
 import sys
 
@@ -29,16 +33,98 @@ def tiktok_match(title_en: str, hashtag_names) -> list:
 
 
 def _prev_products(prev_radar, kind, category_id) -> list:
+    """Rebuild scrape-shaped entries for one (list, category) from prior radar.json.
+
+    Handles both schema v2 (sources array) and the original v1 flat products.
+    """
     if not prev_radar:
         return []
     out = []
     for p in prev_radar.get("products", []):
-        if p.get("list") == kind and p.get("category") == category_id:
+        if p.get("sources"):  # schema v2
+            src = next(
+                (s for s in p["sources"] if s["list"] == kind and s["category"] == category_id),
+                None,
+            )
+            if not src:
+                continue
+            out.append(
+                {
+                    "asin": p["asin"],
+                    "title": p.get("title_en"),
+                    "image": p.get("image"),
+                    "price": p.get("price"),
+                    "rating": p.get("rating"),
+                    "ratings_count": p.get("ratings_count"),
+                    "list": kind,
+                    "category": category_id,
+                    "rank": src["rank"],
+                }
+            )
+        elif p.get("list") == kind and p.get("category") == category_id:  # schema v1
             q = dict(p)
-            # re-derive scrape-shape fields so the pipeline can re-process them
             q["title"] = q.get("title_en")
             out.append(q)
     return out
+
+
+def collect_fresh_items(per_key, stale_pairs) -> list:
+    """Only actually-observed items feed snapshots and surge — never stale refills."""
+    return [
+        i
+        for (kind, cid), lst in per_key.items()
+        for i in lst
+        if (kind, cid) not in stale_pairs and i.get("rank")
+    ]
+
+
+def merge_products(entries) -> list:
+    """Merge flat (list, category) entries into one canonical product per ASIN.
+
+    Placements are kept in `sources`; scalar enrichment (title/image/price/…)
+    comes from the first source that has it, in (list, category, rank) order.
+    """
+    by_asin = {}
+    for e in sorted(entries, key=lambda x: (x["list"], x["category"], x["rank"])):
+        m = by_asin.setdefault(e["asin"], {"asin": e["asin"], "sources": []})
+        m["sources"].append({"list": e["list"], "category": e["category"], "rank": e["rank"]})
+        for field in ("title", "image_src", "image", "price", "rating", "ratings_count"):
+            if m.get(field) is None and e.get(field) is not None:
+                m[field] = e[field]
+    return sorted(by_asin.values(), key=lambda m: m["asin"])
+
+
+def build_run_meta(
+    started,
+    finished,
+    stale_pairs,
+    flat_entry_count,
+    merged_count,
+    products,
+    data_changed,
+    env=None,
+) -> dict:
+    env = os.environ if env is None else env
+    trigger_map = {"schedule": "schedule", "workflow_dispatch": "manual"}
+    event = env.get("GITHUB_EVENT_NAME", "")
+    all_pairs = [(k, c["id"]) for c in config.CATEGORIES for k in config.LISTS]
+    unique_asins = {p["asin"] for p in products}
+    return {
+        "run_id": env.get("GITHUB_RUN_ID", "local"),
+        "trigger": trigger_map.get(event, event or "local"),
+        "force": env.get("RADAR_FORCE", "").strip().lower() == "true",
+        "started_at": iso(started),
+        "finished_at": iso(finished),
+        "duration_seconds": round((finished - started).total_seconds(), 1),
+        "data_changed": data_changed,
+        "skipped_reason": None,  # skipped runs never reach build.py (preflight gates them)
+        "fresh_pairs": sorted(f"{k}:{c}" for (k, c) in all_pairs if (k, c) not in stale_pairs),
+        "stale_pairs": sorted(f"{k}:{c}" for (k, c) in stale_pairs),
+        "product_count": len(products),
+        "unique_asin_count": len(unique_asins),
+        "duplicate_count": flat_entry_count - merged_count,
+        "deployed_commit": env.get("GITHUB_SHA", "local"),
+    }
 
 
 def _scrape_amazon(prev_radar):
@@ -88,78 +174,85 @@ def main() -> int:
         ]
 
     # ---- snapshot fresh observations, compute surge on card-able fresh items
-    fresh_items = [
+    fresh_items = collect_fresh_items(per_key, stale_pairs)
+    fresh_cardable = [i for i in fresh_items if i.get("title") and i.get("image_src")]
+    baseline = movers.pick_baseline(now)
+    surge = movers.compute_surge(fresh_cardable, baseline)
+    surge_by_asin = {s["asin"]: s for s in surge}  # board is one-slot-per-ASIN
+
+    # ---- merge flat entries into canonical ASIN products
+    flat_cardable = [
         i
         for (kind, cid), lst in per_key.items()
         for i in lst
-        if (kind, cid) not in stale_pairs and i.get("rank")
+        if i.get("title") and (i.get("image_src") or i.get("image"))
     ]
-    cardable = [i for i in fresh_items if i.get("title") and i.get("image_src")]
-    baseline = movers.pick_baseline(now)
-    surge = movers.compute_surge(cardable, baseline)
-    surge_by_asin = {(s["list"], s["category"], s["asin"]): s for s in surge}
+    merged = merge_products(flat_cardable)
 
     # ---- translation (short titles + hashtag names, cached)
-    all_products = []
-    for (kind, cid), lst in per_key.items():
-        for i in lst:
-            if i.get("title") and (i.get("image_src") or i.get("image")):
-                all_products.append(i)
-    shorts = {translate.to_short_title(p["title"]) for p in all_products}
+    shorts = {translate.to_short_title(m["title"]) for m in merged}
     tag_names = [h["name"] for h in hashtags]
     used_texts = sorted(shorts) + tag_names
     zh_map = translate.translate_many(used_texts)
     translate.prune_cache(used_texts)
 
-    # ---- assemble contract products
+    # ---- assemble contract products (schema v2: one per ASIN)
     prev_first_seen = {
         p["asin"]: p.get("first_seen") for p in (prev_radar or {}).get("products", [])
     }
     today = now.strftime("%Y-%m-%d")
     products = []
-    for p in all_products:
-        short = translate.to_short_title(p["title"])
+    for m in merged:
+        short = translate.to_short_title(m["title"])
         title_zh = zh_map.get(short)
         keyword_zh = translate.to_keyword_zh(title_zh) if title_zh else None
-        s = surge_by_asin.get((p["list"], p["category"], p["asin"]))
-        matched = tiktok_match(p["title"], tag_names)
+        s = surge_by_asin.get(m["asin"])
         products.append(
             {
-                "asin": p["asin"],
-                "title_en": p["title"],
+                "asin": m["asin"],
+                "title_en": m["title"],
                 "title_zh": title_zh,
                 "keyword_zh": keyword_zh,
                 "url_1688": translate.url_1688(keyword_zh) if keyword_zh else None,
                 "url_1688_fallback": translate.url_1688_fallback(short),
-                "amazon_url": f"https://www.amazon.com/dp/{p['asin']}",
-                "image_src": p.get("image_src"),
-                "image": p.get("image"),
-                "price": p.get("price"),
-                "rating": p.get("rating"),
-                "ratings_count": p.get("ratings_count"),
-                "category": p["category"],
-                "list": p["list"],
-                "rank": p["rank"],
-                "rank_prev": s.get("rank_prev") if s else None,
-                "rank_delta": s.get("rank_delta") if s else None,
-                "rank_pct": s.get("rank_pct") if s else None,
-                "is_new_entry": s.get("is_new_entry", False) if s else False,
-                "surge_rank": s.get("surge_rank") if s else None,
+                "amazon_url": f"https://www.amazon.com/dp/{m['asin']}",
+                "image_src": m.get("image_src"),
+                "image": m.get("image"),
+                "price": m.get("price"),
+                "rating": m.get("rating"),
+                "ratings_count": m.get("ratings_count"),
+                "sources": m["sources"],
+                "surge": (
+                    {
+                        "list": s["list"],
+                        "category": s["category"],
+                        "rank": s["rank"],
+                        "rank_prev": s["rank_prev"],
+                        "rank_delta": s["rank_delta"],
+                        "rank_pct": s["rank_pct"],
+                        "is_new_entry": s["is_new_entry"],
+                        "surge_rank": s["surge_rank"],
+                    }
+                    if s
+                    else None
+                ),
+                "surge_rank": s["surge_rank"] if s else None,
                 "signals": {
                     "amazon_surge": bool(s),
-                    "tiktok": matched,
-                    "new_release": p["list"] == "new-releases",
+                    "tiktok": tiktok_match(m["title"], tag_names),
+                    "new_release": any(x["list"] == "new-releases" for x in m["sources"]),
                 },
-                "first_seen": prev_first_seen.get(p["asin"]) or today,
+                "first_seen": prev_first_seen.get(m["asin"]) or today,
             }
         )
 
     images.mirror(products)
     products = [p for p in products if p.get("image")]
     images.prune(products)
-    products.sort(key=lambda p: (p["list"], p["category"], p["rank"]))
+    products.sort(key=lambda p: p["asin"])
 
     radar = {
+        "schema_version": 2,
         "generated_at": iso(now),
         "real_movers_available": real_movers,
         "categories": [
@@ -193,9 +286,20 @@ def main() -> int:
         movers.save_snapshot(fresh_items, now)
     movers.prune_snapshots(now)
 
+    finished = now_utc()
+    data_changed = (prev_radar or {}).get("products") != products or [
+        h["name"] for h in (prev_trends or {}).get("hashtags", [])
+    ] != [t["name"] for t in trend_rows]
+    run_meta = build_run_meta(
+        now, finished, stale_pairs, len(flat_cardable), len(merged), products, data_changed
+    )
+    write_json(config.RUN_META, run_meta)
+
     log(
-        f"done: {len(products)} cards, surge={len(surge)}, hashtags={len(trend_rows)}, "
-        f"stale_pairs={sorted(stale_pairs)}, tiktok_stale={tiktok_stale}"
+        f"done: {len(products)} products ({run_meta['duplicate_count']} dup placements merged), "
+        f"surge={len(surge)}, hashtags={len(trend_rows)}, "
+        f"stale_pairs={sorted(stale_pairs)}, tiktok_stale={tiktok_stale}, "
+        f"data_changed={data_changed}"
     )
     return 2 if (stale_pairs or tiktok_stale) else 0
 

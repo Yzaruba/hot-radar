@@ -20,6 +20,13 @@
 - 卡片右上角点一下循环标记：**已定样 → 已上架 → 放弃**（存在你手机本地）
 - 商品标题命中 TikTok 热标签会亮 🎵 标——多信号确认的品更稳
 
+## 刷新机制（防重复跑）
+
+- 数据不足 **5 小时**新时，定时/手动运行都会在 preflight 阶段跳过（不抓取、不提交、不部署），Actions 摘要里写明原因
+- 想立即强制刷新：Actions → radar → Run workflow → 勾选 **force**
+- 同一时间只允许一个运行（新运行会取消进行中的旧运行）
+- 每次执行的运行会把覆盖情况写进 [site/data/run_meta.json](site/data/run_meta.json)，页面顶部展示"覆盖 X/12 榜单"
+
 ## 改配置
 
 - 品类列表：[scraper/config.py](scraper/config.py) 的 `CATEGORIES`

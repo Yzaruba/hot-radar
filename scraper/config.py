@@ -10,6 +10,7 @@ SITE_DATA = SITE_DIR / "data"
 IMG_DIR = SITE_DATA / "img"
 RADAR_JSON = SITE_DATA / "radar.json"
 TRENDS_JSON = SITE_DATA / "trends.json"
+RUN_META = SITE_DATA / "run_meta.json"
 
 # Amazon zg category slugs (verified against live pages in Task 5)
 CATEGORIES = [

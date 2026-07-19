@@ -3,7 +3,8 @@
   "use strict";
 
   const $ = (s) => document.querySelector(s);
-  const state = { tab: "surge", cat: "all", radar: null, trends: null };
+  const state = { tab: "surge", cat: "all", radar: null, trends: null, runMeta: null };
+  const LIST_ZH = { bestsellers: "畅销", "new-releases": "新品" };
   const STATUS_KEY = "hotradar_status";
   const STATUS_NAMES = ["标记", "已定样", "已上架", "放弃"];
 
@@ -38,12 +39,14 @@
   /* ── data loading ── */
   async function loadData() {
     try {
-      const [radar, trends] = await Promise.all([
+      const [radar, trends, runMeta] = await Promise.all([
         fetch("data/radar.json", { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
         fetch("data/trends.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : { hashtags: [] })).catch(() => ({ hashtags: [] })),
+        fetch("data/run_meta.json", { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null),
       ]);
       state.radar = radar;
       state.trends = trends;
+      state.runMeta = runMeta;
       renderMeta();
       $("#chips").hidden = false;
       renderChips();
@@ -59,11 +62,26 @@
   function renderMeta() {
     const g = state.radar.generated_at;
     const ageH = (Date.now() - Date.parse(g)) / 3600000;
+    const abs = new Date(g).toLocaleString("zh-CN", {
+      month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false,
+    });
+    const rm = state.runMeta;
+    const totalPairs = state.radar.categories.length * 2;
+    const cover = rm && rm.fresh_pairs ? ` · 覆盖${rm.fresh_pairs.length}/${totalPairs}榜单` : "";
     $("#meta").innerHTML =
-      `<span class="${ageH > 12 ? "old" : "fresh"}">● ${relTime(g)}更新</span><br>美区数据 · 每6小时`;
-    const staleCats = state.radar.categories.filter((c) => c.stale).map((c) => c.zh);
+      `<span class="${ageH > 12 ? "old" : "fresh"}">● ${relTime(g)}更新</span><br>${abs}${cover}`;
     const warns = [];
-    if (staleCats.length) warns.push(`⚠️ ${staleCats.join("/")} 品类本次抓取失败，显示上一次数据`);
+    if (ageH > 12) warns.push(`⚠️ 数据已 ${Math.round(ageH)} 小时未更新`);
+    if (rm && rm.stale_pairs && rm.stale_pairs.length) {
+      const names = rm.stale_pairs.map((s) => {
+        const [k, c] = s.split(":");
+        return `${LIST_ZH[k] || k}/${catZh(c)}`;
+      });
+      warns.push(`⚠️ 本次抓取失败(沿用旧数据)：${names.join("、")}`);
+    } else {
+      const staleCats = state.radar.categories.filter((c) => c.stale).map((c) => c.zh);
+      if (staleCats.length) warns.push(`⚠️ ${staleCats.join("/")} 品类本次抓取失败，显示上一次数据`);
+    }
     if (state.trends && state.trends.stale) warns.push("⚠️ TikTok 数据为上次缓存");
     if (state.radar.real_movers_available) warns.push("🎉 Amazon 官方飙升榜恢复可用了，可通知开发升级");
     const bar = $("#warnbar");
@@ -82,25 +100,34 @@
       .join("");
   }
 
-  /* ── product cards ── */
-  function visibleProducts() {
+  /* ── product cards (schema v2: one product per ASIN, placements in sources[]) ── */
+  function viewsFor() {
     const all = state.radar.products;
-    let list;
     if (state.tab === "surge") {
-      list = all.filter((p) => p.surge_rank != null).sort((a, b) => a.surge_rank - b.surge_rank);
-    } else {
-      list = all.filter((p) => p.list === state.tab).sort((a, b) => a.rank - b.rank);
+      return all
+        .filter((p) => p.surge_rank != null && p.surge)
+        .filter((p) => state.cat === "all" || p.surge.category === state.cat)
+        .sort((a, b) => a.surge_rank - b.surge_rank)
+        .map((p) => ({ p, rank: p.surge.rank, category: p.surge.category }));
     }
-    if (state.cat !== "all") list = list.filter((p) => p.category === state.cat);
-    return list;
+    const views = [];
+    for (const p of all) {
+      let srcs = (p.sources || []).filter((s) => s.list === state.tab);
+      if (state.cat !== "all") srcs = srcs.filter((s) => s.category === state.cat);
+      if (!srcs.length) continue;
+      const best = srcs.reduce((a, b) => (a.rank <= b.rank ? a : b));
+      views.push({ p, rank: best.rank, category: best.category });
+    }
+    views.sort((a, b) => a.rank - b.rank);
+    return views;
   }
 
-  function stickerHTML(p) {
-    if (state.tab === "surge" || p.surge_rank != null) {
-      if (p.is_new_entry) return `<span class="sticker new">NEW!</span>`;
-      if (p.rank_pct != null) return `<span class="sticker">↑${Math.round(p.rank_pct)}%</span>`;
+  function stickerHTML(v) {
+    if (state.tab === "surge") {
+      if (v.p.surge.is_new_entry) return `<span class="sticker new">NEW!</span>`;
+      if (v.p.surge.rank_pct != null) return `<span class="sticker">↑${Math.round(v.p.surge.rank_pct)}%</span>`;
     }
-    return `<span class="sticker">#${p.rank}</span>`;
+    return `<span class="sticker">#${v.rank}</span>`;
   }
 
   function catZh(id) {
@@ -108,30 +135,32 @@
     return c ? c.zh : id;
   }
 
-  function badgesHTML(p) {
+  function badgesHTML(v) {
+    const p = v.p;
     const b = [];
-    if (state.cat === "all") b.push(`<span class="badge rankb">${esc(catZh(p.category))}</span>`);
+    if (state.cat === "all") b.push(`<span class="badge rankb">${esc(catZh(v.category))}</span>`);
     if (p.signals.tiktok && p.signals.tiktok.length)
       b.push(`<span class="badge tk" title="${esc(p.signals.tiktok.join(" #"))}">🎵 #${esc(p.signals.tiktok[0])}</span>`);
-    if (p.signals.amazon_surge) b.push(`<span class="badge">📈 飙升</span>`);
+    if (state.tab !== "surge" && p.signals.amazon_surge) b.push(`<span class="badge">📈 飙升</span>`);
     if (state.tab !== "new-releases" && p.signals.new_release) b.push(`<span class="badge rankb">🆕 新品</span>`);
     return b.length ? `<div class="badges">${b.join("")}</div>` : "";
   }
 
-  function cardHTML(p, i) {
+  function cardHTML(v, i) {
+    const p = v.p;
     const st = statuses()[p.asin] || 0;
     const rating = p.rating != null ? `<span class="rating">★${p.rating}${p.ratings_count ? ` (${Number(p.ratings_count).toLocaleString()})` : ""}</span>` : "";
     return `
 <article class="card" data-i="${i}">
   <div class="card-imgwrap" data-action="view">
-    ${stickerHTML(p)}
+    ${stickerHTML(v)}
     <span class="status s${st}" data-action="status">${STATUS_NAMES[st]}</span>
     <img src="${esc(p.image)}" alt="${esc(p.title_en)}" loading="lazy">
   </div>
   <div class="card-body">
     <div class="title-zh">${esc(p.title_zh || "（未翻译）")}</div>
     <div class="title-en">${esc(p.title_en)}</div>
-    ${badgesHTML(p)}
+    ${badgesHTML(v)}
     <div class="price-row"><span class="price">${esc(p.price || "")}</span>${rating}</div>
   </div>
   <div class="card-actions">
@@ -143,7 +172,7 @@
   }
 
   function renderProducts() {
-    const list = visibleProducts();
+    const list = viewsFor();
     const titles = { surge: "🔥 飙升榜", bestsellers: "📈 畅销榜", "new-releases": "🆕 新品榜" };
     const subs = {
       surge: "对比24小时前排名自动计算 · 涨得猛的才配上榜",
@@ -158,7 +187,7 @@
     } else if (!list.length) {
       body = `<div class="empty"><span class="big">EMPTY!</span>这个品类暂时没有上榜商品</div>`;
     } else {
-      body = `<div class="grid">${list.map((p, i) => cardHTML(p, i)).join("")}</div>`;
+      body = `<div class="grid">${list.map((v, i) => cardHTML(v, i)).join("")}</div>`;
     }
     $("#content").innerHTML =
       `<h2 class="section-title bangers">${titles[state.tab]}</h2><p class="section-sub">${subs[state.tab]}</p>${body}`;
@@ -262,7 +291,7 @@
     $("#viewerImg").src = p.image;
     const sig = [];
     if (p.signals.tiktok && p.signals.tiktok.length) sig.push(`🎵 TikTok热标签：#${p.signals.tiktok.join(" #")}`);
-    if (p.surge_rank != null) sig.push(p.is_new_entry ? "🔥 新进榜" : `🔥 24h排名 ${p.rank_prev}→${p.rank}`);
+    if (p.surge) sig.push(p.surge.is_new_entry ? "🔥 新进榜" : `🔥 24h排名 ${p.surge.rank_prev}→${p.surge.rank}`);
     $("#viewerInfo").innerHTML =
       `<div class="vi-zh">${esc(p.title_zh || "")}</div>
        <div class="vi-en">${esc(p.title_en)}</div>
@@ -302,7 +331,9 @@
     if (!actEl) return;
     const card = actEl.closest(".card");
     if (!card) return;
-    const p = state.visible[Number(card.dataset.i)];
+    const view = state.visible[Number(card.dataset.i)];
+    if (!view) return;
+    const p = view.p;
     const action = actEl.dataset.action;
     if (action === "view") openViewer(p);
     else if (action === "save") saveImage(p);

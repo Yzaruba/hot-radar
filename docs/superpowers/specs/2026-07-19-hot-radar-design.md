@@ -72,7 +72,14 @@ GitHub Actions（cron: 17 */6 * * *，UTC，+ workflow_dispatch 手动触发）
 ### images.py
 - 下载 radar.json 引用的商品图至 `site/data/img/<ASIN>.jpg`（已存在跳过）；运行末删除未被当前 JSON 引用的图。TikTok 头像不镜像。
 
-### build.py 输出契约（前端唯一依赖）
+### 运行门控与元数据（2026-07-20 P0 修订）
+
+- **freshness preflight**：workflow 首个 job 调 `scraper/preflight.py`——radar.json 的 `generated_at` 距今不足 **5 小时** 且未带 `force` 时，跳过抓取/提交/部署（页面保持真实旧时间戳，不会假装"刚刚更新"）。`workflow_dispatch` 提供布尔输入 `force`（默认 false）绕过门控。定时与手动共用并发组 `radar`，`cancel-in-progress: true`。
+- **run_meta.json**（site/data/，每次执行的运行写入）：run_id、trigger(schedule/manual/local)、force、started_at、finished_at、duration_seconds、data_changed（与上次产物比较）、skipped_reason（恒为 null——被跳过的运行不产生提交）、fresh_pairs/stale_pairs（`榜单:品类` 粒度）、product_count、unique_asin_count、duplicate_count、deployed_commit（运行所基于的 GITHUB_SHA）。
+
+### build.py 输出契约（前端唯一依赖，schema_version 2）
+
+**v2（2026-07-20）：ASIN 为唯一主键，一 ASIN 一卡。** 多榜单/品类出现记录在 `sources` 数组 `[{list, category, rank}]`；飙升位记录在 `surge` 对象（含 rank_prev/rank_delta/rank_pct/is_new_entry/surge_rank）与顶层 `surge_rank`；`signals.new_release` = 任一 source 属新品榜。顶层增加 `"schema_version": 2`。前端已同步迁移（按 tab 从 sources 选择展示位）。以下 v1 字段示例中 category/list/rank/rank_* 等平铺字段已由 sources/surge 取代，其余字段不变：
 
 `site/data/radar.json`：
 ```json
