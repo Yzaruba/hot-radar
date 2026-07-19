@@ -1,0 +1,13 @@
+{
+  "name": "热品雷达 Hot Radar",
+  "short_name": "热品雷达",
+  "description": "美区热品飙升雷达：Amazon榜单 + TikTok热标签，一键1688搜同款",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#0e0e0e",
+  "theme_color": "#0e0e0e",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

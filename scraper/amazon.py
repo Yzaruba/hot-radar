@@ -80,7 +80,7 @@ def parse_zg_html(html: str) -> list:
         title_el = root.select_one("[class*='_cDEzb_p13n-sc-css-line-clamp']")
         if title_el:
             entry["title"] = title_el.get_text(strip=True)
-        price_el = root.select_one("[class*='_cDEzb_p13n-sc-price']")
+        price_el = root.select_one("[class*='p13n-sc-price']")  # matches both _cDEzb_* and legacy class
         if price_el:
             entry["price"] = price_el.get_text(strip=True)
         rating_el = root.select_one(".a-icon-alt")

@@ -13,6 +13,11 @@ def test_tiktok_match_no_hits():
     assert build.tiktok_match("Ceramic Mug", ["minifan"]) == []
 
 
+def test_tiktok_match_rejects_partial_word():
+    assert build.tiktok_match("Makeup Remover Wipes", ["remove"]) == []
+    assert build.tiktok_match("Remove Stains Fast", ["remove"]) == ["remove"]
+
+
 def test_prev_products_filters_and_restores_title():
     prev = {
         "products": [

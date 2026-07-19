@@ -29,4 +29,5 @@ def test_parse_zg_sample_has_ranked_items():
     assert all(i["asin"] and i["rank"] > 0 for i in items)
     enriched = [i for i in items if i.get("title") and i.get("image_src")]
     assert len(enriched) >= 25  # ~30 server-rendered items carry title/image
-    assert any(i.get("price") for i in enriched)
+    with_price = [i for i in enriched if i.get("price")]
+    assert len(with_price) >= len(enriched) * 0.8  # both price markup variants parsed

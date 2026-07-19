@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>热品雷达 HOT RADAR</title>
+<meta name="theme-color" content="#0e0e0e">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">
+    <span class="logo-zh">热品雷达</span>
+    <span class="logo-en">HOT RADAR</span>
+  </div>
+  <div class="meta" id="meta">加载中…</div>
+</header>
+
+<div id="warnbar" class="warnbar" hidden></div>
+
+<nav class="chips" id="chips" hidden></nav>
+
+<main id="content">
+  <div class="loading" id="loading">
+    <div class="loading-burst">LOADING!</div>
+    <p>雷达扫描中…</p>
+  </div>
+</main>
+
+<nav class="tabbar" id="tabbar">
+  <button data-tab="surge" class="active"><span class="t-ico">🔥</span><span>飙升</span></button>
+  <button data-tab="bestsellers"><span class="t-ico">📈</span><span>畅销</span></button>
+  <button data-tab="new-releases"><span class="t-ico">🆕</span><span>新品</span></button>
+  <button data-tab="tiktok"><span class="t-ico">🎵</span><span>TikTok</span></button>
+</nav>
+
+<div class="viewer" id="viewer" hidden>
+  <button class="viewer-close" id="viewerClose">✕</button>
+  <img id="viewerImg" alt="">
+  <div class="viewer-info" id="viewerInfo"></div>
+  <div class="viewer-actions">
+    <button class="btn btn-red" id="btnSave">💾 保存图片</button>
+    <a class="btn btn-dark" id="btn1688" target="_blank" rel="noopener">去1688搜</a>
+    <button class="btn btn-dark" id="btnCopy">📋 复制品名</button>
+    <a class="btn btn-ghost" id="btnAmazon" target="_blank" rel="noopener">Amazon页 ↗</a>
+  </div>
+  <p class="viewer-hint">保存不成功？长按上方图片也能存</p>
+</div>
+
+<div class="toast" id="toast" hidden></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

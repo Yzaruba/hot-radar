@@ -11,12 +11,19 @@ from .util import iso, log, now_utc, read_json, write_json
 
 
 def tiktok_match(title_en: str, hashtag_names) -> list:
-    """Hashtags (len>=4) appearing as substrings of the squashed lowercase title."""
-    squashed = re.sub(r"[^a-z0-9]", "", (title_en or "").lower())
+    """Hashtags (len>=4) equal to a run of 1-3 consecutive title words.
+
+    Word-run equality (not substring) so tag 'remove' does not hit 'Remover'.
+    """
+    words = re.findall(r"[a-z0-9]+", (title_en or "").lower())
+    grams = set()
+    for n in (1, 2, 3):
+        for i in range(len(words) - n + 1):
+            grams.add("".join(words[i : i + n]))
     hits = []
     for tag in hashtag_names:
         t = re.sub(r"[^a-z0-9]", "", tag.lower())
-        if len(t) >= 4 and t in squashed:
+        if len(t) >= 4 and t in grams:
             hits.append(tag)
     return hits
 
