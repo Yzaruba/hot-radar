@@ -31,7 +31,7 @@
       "zh": "运动户外"
     }
   ],
-  "generated_at": "2026-07-19T06:03:37Z",
+  "generated_at": "2026-07-19T08:34:55Z",
   "products": [
     {
       "amazon_url": "https://www.amazon.com/dp/B09V7Z4TJG",
@@ -48,7 +48,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 27869,
+      "ratings_count": 27919,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -75,7 +75,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 77935,
+      "ratings_count": 77996,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -102,7 +102,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 184866,
+      "ratings_count": 184891,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -129,7 +129,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 120504,
+      "ratings_count": 120537,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -156,7 +156,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 57080,
+      "ratings_count": 57196,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -183,7 +183,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 43362,
+      "ratings_count": 43439,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -204,13 +204,13 @@
       "is_new_entry": false,
       "keyword_zh": "medicube 胶原蛋白果冻霜 - 烟酰胺和冻干水解胶原蛋",
       "list": "bestsellers",
-      "price": "$9.90",
+      "price": "$14.90",
       "rank": 7,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 30480,
+      "ratings_count": 30558,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -237,7 +237,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 52288,
+      "ratings_count": 52320,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -258,13 +258,13 @@
       "is_new_entry": false,
       "keyword_zh": "太太。 MEYER'S CLEAN DAY 洗手液补充装",
       "list": "bestsellers",
-      "price": "$8.77",
+      "price": "$8.74",
       "rank": 9,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 93228,
+      "ratings_count": 93261,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -291,7 +291,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 44333,
+      "ratings_count": 44342,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -318,7 +318,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 186162,
+      "ratings_count": 186238,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -345,7 +345,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 82084,
+      "ratings_count": 82110,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -372,7 +372,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 44744,
+      "ratings_count": 44778,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -399,7 +399,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 7251,
+      "ratings_count": 7253,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -426,7 +426,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 20687,
+      "ratings_count": 20726,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -453,7 +453,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 19280,
+      "ratings_count": 19378,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -480,7 +480,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 111563,
+      "ratings_count": 111586,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -507,7 +507,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 18114,
+      "ratings_count": 18141,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -534,7 +534,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 109863,
+      "ratings_count": 109891,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -561,7 +561,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 115416,
+      "ratings_count": 115447,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -588,7 +588,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 47974,
+      "ratings_count": 47979,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -615,7 +615,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 415821,
+      "ratings_count": 415867,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -642,7 +642,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 51838,
+      "ratings_count": 51871,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -669,7 +669,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 923,
+      "ratings_count": 955,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -696,7 +696,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 50371,
+      "ratings_count": 50395,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -723,7 +723,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 24708,
+      "ratings_count": 24717,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -750,7 +750,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 36701,
+      "ratings_count": 36730,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -777,7 +777,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 17233,
+      "ratings_count": 17264,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -798,13 +798,13 @@
       "is_new_entry": false,
       "keyword_zh": "太太。 MEYER'S CLEAN DAY 洗手液",
       "list": "bestsellers",
-      "price": "$14.91",
+      "price": "$13.42",
       "rank": 29,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 111673,
+      "ratings_count": 111682,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -831,7 +831,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 60739,
+      "ratings_count": 60818,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -858,7 +858,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 6936,
+      "ratings_count": 6945,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -885,7 +885,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 33529,
+      "ratings_count": 33547,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -912,7 +912,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 19769,
+      "ratings_count": 19787,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -939,7 +939,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 18877,
+      "ratings_count": 18895,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -966,7 +966,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 48211,
+      "ratings_count": 48241,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -987,13 +987,13 @@
       "is_new_entry": false,
       "keyword_zh": "Anua 壬二酸 10 透明质酸红肿舒缓精华液",
       "list": "bestsellers",
-      "price": "$16.20",
+      "price": "$22.00",
       "rank": 56,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 5391,
+      "ratings_count": 5406,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1020,7 +1020,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 73915,
+      "ratings_count": 73934,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1047,7 +1047,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 18548,
+      "ratings_count": 18575,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1074,7 +1074,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 60518,
+      "ratings_count": 60533,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1101,7 +1101,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 62520,
+      "ratings_count": 62531,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1128,7 +1128,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 2039,
+      "ratings_count": 2067,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1155,7 +1155,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 13052,
+      "ratings_count": 13077,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1182,7 +1182,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 21899,
+      "ratings_count": 21918,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1209,7 +1209,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 10729,
+      "ratings_count": 10751,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1236,7 +1236,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 5886,
+      "ratings_count": 5903,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1263,7 +1263,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 52485,
+      "ratings_count": 52509,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1290,7 +1290,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 47273,
+      "ratings_count": 47296,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1317,7 +1317,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 17241,
+      "ratings_count": 17259,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1344,7 +1344,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 26092,
+      "ratings_count": 26114,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1365,13 +1365,13 @@
       "is_new_entry": false,
       "keyword_zh": "Anua PDRN 胶原蛋白焕彩面部精华喷雾",
       "list": "bestsellers",
-      "price": "$15.50",
+      "price": "$21.00",
       "rank": 70,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 4438,
+      "ratings_count": 4481,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1398,7 +1398,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 7935,
+      "ratings_count": 7949,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1425,7 +1425,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 86174,
+      "ratings_count": 86198,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1452,7 +1452,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 14378,
+      "ratings_count": 14410,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1479,7 +1479,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 24126,
+      "ratings_count": 24150,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1506,7 +1506,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 13099,
+      "ratings_count": 13108,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1533,7 +1533,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 6073,
+      "ratings_count": 6075,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1560,7 +1560,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 93856,
+      "ratings_count": 93883,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1587,7 +1587,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 8620,
+      "ratings_count": 8630,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1614,7 +1614,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 7813,
+      "ratings_count": 7855,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1641,7 +1641,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 8797,
+      "ratings_count": 8827,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1668,7 +1668,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 278131,
+      "ratings_count": 278161,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1695,7 +1695,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 15569,
+      "ratings_count": 15599,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1722,7 +1722,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 111375,
+      "ratings_count": 111406,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1749,7 +1749,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 6690,
+      "ratings_count": 6746,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1776,7 +1776,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 32151,
+      "ratings_count": 32201,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1803,7 +1803,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 12032,
+      "ratings_count": 12074,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1830,7 +1830,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 51465,
+      "ratings_count": 51496,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1857,7 +1857,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 21796,
+      "ratings_count": 21837,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1884,7 +1884,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 112109,
+      "ratings_count": 112150,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1911,7 +1911,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 309,
+      "ratings_count": 320,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1938,7 +1938,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 2653,
+      "ratings_count": 2679,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1965,7 +1965,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 6393,
+      "ratings_count": 6413,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -1992,7 +1992,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 196013,
+      "ratings_count": 196075,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2019,7 +2019,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 67245,
+      "ratings_count": 67279,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2046,7 +2046,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 12103,
+      "ratings_count": 12160,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2073,7 +2073,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 23835,
+      "ratings_count": 23858,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2100,7 +2100,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 13929,
+      "ratings_count": 13932,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2127,7 +2127,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 26395,
+      "ratings_count": 26436,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2154,7 +2154,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 70477,
+      "ratings_count": 70552,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2181,7 +2181,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 25292,
+      "ratings_count": 25309,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2208,7 +2208,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 21204,
+      "ratings_count": 21231,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2235,7 +2235,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 2281,
+      "ratings_count": 2325,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2262,7 +2262,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 69526,
+      "ratings_count": 69639,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2289,7 +2289,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 17884,
+      "ratings_count": 17916,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2316,7 +2316,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 87498,
+      "ratings_count": 87530,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2343,7 +2343,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 6131,
+      "ratings_count": 6146,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2370,7 +2370,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 83873,
+      "ratings_count": 83890,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2397,7 +2397,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 29997,
+      "ratings_count": 30010,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2424,7 +2424,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 46216,
+      "ratings_count": 46218,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2451,7 +2451,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 100119,
+      "ratings_count": 100132,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2478,7 +2478,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 39815,
+      "ratings_count": 39826,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2505,7 +2505,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 37442,
+      "ratings_count": 37467,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2532,7 +2532,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 8060,
+      "ratings_count": 8067,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2559,7 +2559,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 18086,
+      "ratings_count": 18105,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2586,7 +2586,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 75234,
+      "ratings_count": 75249,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2613,7 +2613,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1046,
+      "ratings_count": 1052,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2640,7 +2640,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 12912,
+      "ratings_count": 12918,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2667,7 +2667,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 6962,
+      "ratings_count": 6965,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2694,7 +2694,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 43502,
+      "ratings_count": 43556,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2721,7 +2721,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 41639,
+      "ratings_count": 41645,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2748,7 +2748,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 43862,
+      "ratings_count": 43888,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2775,7 +2775,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 6862,
+      "ratings_count": 6878,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2802,7 +2802,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 14908,
+      "ratings_count": 14912,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2829,7 +2829,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 7318,
+      "ratings_count": 7337,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2856,7 +2856,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 14296,
+      "ratings_count": 14304,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2883,7 +2883,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 15702,
+      "ratings_count": 15715,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2910,7 +2910,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 11907,
+      "ratings_count": 11911,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2937,7 +2937,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 111189,
+      "ratings_count": 111293,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2964,7 +2964,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 701,
+      "ratings_count": 703,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -2993,7 +2993,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 12943,
+      "ratings_count": 12950,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3020,7 +3020,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 5997,
+      "ratings_count": 6002,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3047,7 +3047,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 85013,
+      "ratings_count": 85021,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3101,7 +3101,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 3762,
+      "ratings_count": 3774,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3128,7 +3128,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 12952,
+      "ratings_count": 12970,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3155,7 +3155,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 75983,
+      "ratings_count": 76003,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3182,7 +3182,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 4720,
+      "ratings_count": 4724,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3209,7 +3209,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 7419,
+      "ratings_count": 7427,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3236,7 +3236,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 4574,
+      "ratings_count": 4575,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3263,7 +3263,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2452,
+      "ratings_count": 2455,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3290,7 +3290,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 447139,
+      "ratings_count": 447288,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3311,13 +3311,13 @@
       "is_new_entry": false,
       "keyword_zh": "泰罗",
       "list": "bestsellers",
-      "price": "$10.96",
+      "price": "$9.58",
       "rank": 2,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 159291,
+      "ratings_count": 159352,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3344,7 +3344,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 472945,
+      "ratings_count": 473029,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3371,7 +3371,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 33898,
+      "ratings_count": 33963,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3398,7 +3398,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 83289,
+      "ratings_count": 83364,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3425,7 +3425,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 130098,
+      "ratings_count": 130207,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3452,7 +3452,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 22732,
+      "ratings_count": 22793,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3479,7 +3479,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 40990,
+      "ratings_count": 41025,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3506,7 +3506,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 234288,
+      "ratings_count": 234337,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3533,7 +3533,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 98326,
+      "ratings_count": 98369,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3554,13 +3554,13 @@
       "is_new_entry": false,
       "keyword_zh": "LEVOIT 卧室家庭宿舍空气净化器",
       "list": "bestsellers",
-      "price": "$39.99",
+      "price": "$49.99",
       "rank": 11,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 44469,
+      "ratings_count": 44498,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3587,7 +3587,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 53436,
+      "ratings_count": 53506,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3614,7 +3614,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 34387,
+      "ratings_count": 34416,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3641,7 +3641,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 108110,
+      "ratings_count": 108121,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3670,7 +3670,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 58153,
+      "ratings_count": 58165,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3697,7 +3697,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 157647,
+      "ratings_count": 157685,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3724,7 +3724,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 49801,
+      "ratings_count": 49852,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3745,13 +3745,13 @@
       "is_new_entry": false,
       "keyword_zh": "大号床单套装",
       "list": "bestsellers",
-      "price": "$13.31",
+      "price": "$16.14",
       "rank": 18,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 240641,
+      "ratings_count": 240702,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3778,7 +3778,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 91702,
+      "ratings_count": 91759,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3805,7 +3805,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 2724,
+      "ratings_count": 2740,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3832,7 +3832,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 17052,
+      "ratings_count": 17076,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3859,7 +3859,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 78299,
+      "ratings_count": 78328,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3886,7 +3886,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 201983,
+      "ratings_count": 202050,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3913,7 +3913,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 217779,
+      "ratings_count": 217802,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3940,7 +3940,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 25290,
+      "ratings_count": 25302,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3967,7 +3967,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 9395,
+      "ratings_count": 9411,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -3994,7 +3994,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 11656,
+      "ratings_count": 11677,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4021,7 +4021,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 72969,
+      "ratings_count": 72982,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4048,7 +4048,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 175647,
+      "ratings_count": 175678,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4069,13 +4069,13 @@
       "is_new_entry": false,
       "keyword_zh": "6 件装超重型大型移动包，带强力拉链和舒适手柄",
       "list": "bestsellers",
-      "price": "$23.99",
+      "price": "$23.98",
       "rank": 30,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 11099,
+      "ratings_count": 11112,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4102,7 +4102,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 141245,
+      "ratings_count": 141286,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4129,7 +4129,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 5256,
+      "ratings_count": 5271,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4156,7 +4156,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 132434,
+      "ratings_count": 132466,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4183,7 +4183,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 3879,
+      "ratings_count": 3893,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4210,7 +4210,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 57399,
+      "ratings_count": 57430,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4237,7 +4237,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 62510,
+      "ratings_count": 62526,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4264,7 +4264,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 23766,
+      "ratings_count": 23783,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4291,7 +4291,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 21196,
+      "ratings_count": 21216,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4318,7 +4318,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 14229,
+      "ratings_count": 14239,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4345,7 +4345,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 21042,
+      "ratings_count": 21049,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4372,7 +4372,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 5047,
+      "ratings_count": 5056,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4399,7 +4399,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 28480,
+      "ratings_count": 28493,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4426,7 +4426,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 40680,
+      "ratings_count": 40694,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4453,7 +4453,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 15547,
+      "ratings_count": 15559,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4480,7 +4480,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 4978,
+      "ratings_count": 4989,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4507,7 +4507,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1329,
+      "ratings_count": 1353,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4534,7 +4534,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 15067,
+      "ratings_count": 15088,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4561,7 +4561,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 3488,
+      "ratings_count": 3511,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4588,7 +4588,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 147268,
+      "ratings_count": 147281,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4615,7 +4615,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 4574,
+      "ratings_count": 4595,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4642,7 +4642,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 63693,
+      "ratings_count": 63715,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4669,7 +4669,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 10698,
+      "ratings_count": 10712,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4696,7 +4696,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 13507,
+      "ratings_count": 13529,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4723,7 +4723,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 131474,
+      "ratings_count": 131510,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4750,7 +4750,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 3379,
+      "ratings_count": 3396,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4777,7 +4777,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 6929,
+      "ratings_count": 6944,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4804,7 +4804,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 49761,
+      "ratings_count": 49787,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4831,7 +4831,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 83985,
+      "ratings_count": 84010,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4858,7 +4858,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 30432,
+      "ratings_count": 30439,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4885,7 +4885,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 158757,
+      "ratings_count": 158789,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4912,7 +4912,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 130098,
+      "ratings_count": 130207,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4939,7 +4939,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 201983,
+      "ratings_count": 202050,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4966,7 +4966,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 175647,
+      "ratings_count": 175678,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -4993,7 +4993,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 19239,
+      "ratings_count": 19266,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5014,13 +5014,13 @@
       "is_new_entry": false,
       "keyword_zh": "贝拉 2 片超薄烤面包机",
       "list": "bestsellers",
-      "price": "$19.98",
+      "price": "$24.98",
       "rank": 5,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 17786,
+      "ratings_count": 17813,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5047,7 +5047,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 13507,
+      "ratings_count": 13529,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5074,7 +5074,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 90420,
+      "ratings_count": 90441,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5101,7 +5101,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 71897,
+      "ratings_count": 71921,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5128,7 +5128,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 53240,
+      "ratings_count": 53248,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5155,7 +5155,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 91036,
+      "ratings_count": 91049,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5182,7 +5182,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 31107,
+      "ratings_count": 31124,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5209,7 +5209,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 18657,
+      "ratings_count": 18683,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5236,7 +5236,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 46947,
+      "ratings_count": 46992,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5263,7 +5263,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 7138,
+      "ratings_count": 7152,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5290,7 +5290,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 117368,
+      "ratings_count": 117399,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5317,7 +5317,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 7496,
+      "ratings_count": 7512,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5344,7 +5344,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 59118,
+      "ratings_count": 59123,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5371,7 +5371,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 11156,
+      "ratings_count": 11172,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5397,8 +5397,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 60699,
+      "rating": 4.5,
+      "ratings_count": 60731,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5425,7 +5425,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 128535,
+      "ratings_count": 128554,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5452,7 +5452,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 43278,
+      "ratings_count": 43337,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5479,7 +5479,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 13521,
+      "ratings_count": 13533,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5506,7 +5506,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 9113,
+      "ratings_count": 9137,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5533,7 +5533,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 13878,
+      "ratings_count": 13889,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5560,7 +5560,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 22993,
+      "ratings_count": 23007,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5587,7 +5587,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 20418,
+      "ratings_count": 20448,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5614,7 +5614,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 55429,
+      "ratings_count": 55442,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5641,7 +5641,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 6729,
+      "ratings_count": 6742,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5662,13 +5662,13 @@
       "is_new_entry": false,
       "keyword_zh": "SURETIVIAN 鸡肉切碎机工具 扭转大型鸡胸肉切碎机带",
       "list": "bestsellers",
-      "price": "$15.99",
+      "price": "$22.99",
       "rank": 29,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 24638,
+      "ratings_count": 24672,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5695,7 +5695,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 12528,
+      "ratings_count": 12529,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5722,7 +5722,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 8803,
+      "ratings_count": 8808,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5749,7 +5749,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 60354,
+      "ratings_count": 60358,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5776,7 +5776,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 2260,
+      "ratings_count": 2266,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5803,7 +5803,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 34309,
+      "ratings_count": 34323,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5830,7 +5830,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 4407,
+      "ratings_count": 4417,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5857,7 +5857,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 8254,
+      "ratings_count": 8260,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5884,7 +5884,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 14589,
+      "ratings_count": 14607,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5911,7 +5911,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 3835,
+      "ratings_count": 3836,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5938,7 +5938,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 14039,
+      "ratings_count": 14044,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5965,7 +5965,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 47980,
+      "ratings_count": 47986,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -5992,7 +5992,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1970,
+      "ratings_count": 1992,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6019,7 +6019,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 64907,
+      "ratings_count": 64912,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6046,7 +6046,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 33343,
+      "ratings_count": 33351,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6073,7 +6073,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2345,
+      "ratings_count": 2353,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6100,7 +6100,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 48838,
+      "ratings_count": 48843,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6127,7 +6127,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 44780,
+      "ratings_count": 44795,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6154,7 +6154,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 19580,
+      "ratings_count": 19592,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6181,7 +6181,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 4993,
+      "ratings_count": 5003,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6208,7 +6208,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 6032,
+      "ratings_count": 6061,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6235,7 +6235,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 35003,
+      "ratings_count": 35012,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6262,7 +6262,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 34023,
+      "ratings_count": 34030,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6289,7 +6289,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 4906,
+      "ratings_count": 4907,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6316,7 +6316,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 63558,
+      "ratings_count": 63569,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6343,7 +6343,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 7002,
+      "ratings_count": 7005,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6370,7 +6370,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2563,
+      "ratings_count": 2569,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6397,7 +6397,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 57025,
+      "ratings_count": 57031,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6424,7 +6424,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 61750,
+      "ratings_count": 61760,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6451,7 +6451,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 5561,
+      "ratings_count": 5566,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6478,7 +6478,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 30707,
+      "ratings_count": 30711,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6505,7 +6505,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 17834,
+      "ratings_count": 17840,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6532,7 +6532,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 130098,
+      "ratings_count": 130207,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6553,13 +6553,13 @@
       "is_new_entry": false,
       "keyword_zh": "Amazon Basics 氯丁橡胶哑铃手部重量，用于锻炼和",
       "list": "bestsellers",
-      "price": "$9.45",
+      "price": "$8.76",
       "rank": 2,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 128458,
+      "ratings_count": 128496,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6586,7 +6586,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 9113,
+      "ratings_count": 9137,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6613,7 +6613,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 13934,
+      "ratings_count": 13944,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6640,7 +6640,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 49331,
+      "ratings_count": 49339,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6667,7 +6667,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 2902,
+      "ratings_count": 2921,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6694,7 +6694,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 4896,
+      "ratings_count": 4908,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6721,7 +6721,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1691,
+      "ratings_count": 1701,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6748,7 +6748,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 30277,
+      "ratings_count": 30285,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6775,7 +6775,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 16755,
+      "ratings_count": 16763,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6802,7 +6802,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.9,
-      "ratings_count": 1188,
+      "ratings_count": 1195,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6829,7 +6829,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 36252,
+      "ratings_count": 36265,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6856,7 +6856,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 6963,
+      "ratings_count": 6982,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6883,7 +6883,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 5837,
+      "ratings_count": 5851,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6910,7 +6910,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 15550,
+      "ratings_count": 15559,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6937,7 +6937,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 7577,
+      "ratings_count": 7591,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6964,7 +6964,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 136136,
+      "ratings_count": 136151,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -6991,7 +6991,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 6337,
+      "ratings_count": 6345,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7018,7 +7018,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1394,
+      "ratings_count": 1397,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7039,13 +7039,13 @@
       "is_new_entry": false,
       "keyword_zh": "亚马逊 Basics 超厚运动瑜伽垫，带背带",
       "list": "bestsellers",
-      "price": "$17.76",
+      "price": "$22.48",
       "rank": 20,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 69647,
+      "ratings_count": 69656,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7072,7 +7072,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 7791,
+      "ratings_count": 7793,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7099,7 +7099,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 9542,
+      "ratings_count": 9548,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7126,7 +7126,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 3300,
+      "ratings_count": 3301,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7153,7 +7153,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 26028,
+      "ratings_count": 26040,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7180,7 +7180,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 29908,
+      "ratings_count": 29909,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7207,7 +7207,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 6416,
+      "ratings_count": 6423,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7234,7 +7234,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 14685,
+      "ratings_count": 14692,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7261,7 +7261,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 26765,
+      "ratings_count": 26773,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7288,7 +7288,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 14795,
+      "ratings_count": 14797,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7315,7 +7315,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 25055,
+      "ratings_count": 25071,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7342,7 +7342,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 25671,
+      "ratings_count": 25679,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7369,7 +7369,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 16634,
+      "ratings_count": 16638,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7396,7 +7396,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 46602,
+      "ratings_count": 46620,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7423,7 +7423,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 12195,
+      "ratings_count": 12196,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7450,7 +7450,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 7350,
+      "ratings_count": 7356,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7477,7 +7477,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 38516,
+      "ratings_count": 38529,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7498,13 +7498,13 @@
       "is_new_entry": false,
       "keyword_zh": "照明 EVER LED 手电筒 高流明",
       "list": "bestsellers",
-      "price": "$9.99",
+      "price": "$7.59",
       "rank": 57,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 50017,
+      "ratings_count": 50033,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7531,7 +7531,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 71067,
+      "ratings_count": 71102,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7558,7 +7558,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 2852,
+      "ratings_count": 2855,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7585,7 +7585,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 13021,
+      "ratings_count": 13022,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7612,7 +7612,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 13375,
+      "ratings_count": 13385,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7639,7 +7639,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 5688,
+      "ratings_count": 5704,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7666,7 +7666,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 27193,
+      "ratings_count": 27218,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7693,7 +7693,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 84700,
+      "ratings_count": 84713,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7720,7 +7720,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 17552,
+      "ratings_count": 17572,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7747,7 +7747,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 3432,
+      "ratings_count": 3445,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7774,7 +7774,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 14048,
+      "ratings_count": 14074,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7801,7 +7801,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 8690,
+      "ratings_count": 8705,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7828,7 +7828,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 10364,
+      "ratings_count": 10373,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7855,7 +7855,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1425,
+      "ratings_count": 1443,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7882,7 +7882,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 16791,
+      "ratings_count": 16799,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7909,7 +7909,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 29971,
+      "ratings_count": 29978,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7936,7 +7936,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 1112,
+      "ratings_count": 1116,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7963,7 +7963,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 56307,
+      "ratings_count": 56319,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -7990,7 +7990,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 3973,
+      "ratings_count": 3975,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8017,7 +8017,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 14503,
+      "ratings_count": 14508,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8044,7 +8044,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 10466,
+      "ratings_count": 10474,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8071,7 +8071,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 21041,
+      "ratings_count": 21043,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8098,7 +8098,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 1047,
+      "ratings_count": 1050,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8125,7 +8125,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 16475,
+      "ratings_count": 16484,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8152,7 +8152,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 9145,
+      "ratings_count": 9150,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8173,13 +8173,13 @@
       "is_new_entry": false,
       "keyword_zh": "Schylling NeeDoh 软糖",
       "list": "bestsellers",
-      "price": "$19.99",
+      "price": "$20.95",
       "rank": 2,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 15681,
+      "ratings_count": 15698,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8206,7 +8206,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 726,
+      "ratings_count": 736,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8233,7 +8233,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 4347,
+      "ratings_count": 4358,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8260,7 +8260,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 20160,
+      "ratings_count": 20165,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8287,7 +8287,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 68617,
+      "ratings_count": 68625,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8316,7 +8316,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 13736,
+      "ratings_count": 13746,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8343,7 +8343,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 49880,
+      "ratings_count": 49888,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8370,7 +8370,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 48942,
+      "ratings_count": 48957,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8397,7 +8397,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 12500,
+      "ratings_count": 12509,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8424,7 +8424,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 4099,
+      "ratings_count": 4110,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8451,7 +8451,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 6572,
+      "ratings_count": 6577,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8478,7 +8478,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 19485,
+      "ratings_count": 19489,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8505,7 +8505,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 60560,
+      "ratings_count": 60567,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8532,7 +8532,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 4597,
+      "ratings_count": 4611,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8559,7 +8559,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 435,
+      "ratings_count": 441,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8586,7 +8586,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 13101,
+      "ratings_count": 13115,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8613,7 +8613,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 9167,
+      "ratings_count": 9179,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8640,7 +8640,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 17670,
+      "ratings_count": 17673,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8667,7 +8667,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 5476,
+      "ratings_count": 5479,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8694,7 +8694,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 16060,
+      "ratings_count": 16068,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8720,8 +8720,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.1,
-      "ratings_count": 75,
+      "rating": 4.2,
+      "ratings_count": 78,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8748,7 +8748,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 14713,
+      "ratings_count": 14718,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8775,7 +8775,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 10176,
+      "ratings_count": 10178,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8802,7 +8802,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 146543,
+      "ratings_count": 146555,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8829,7 +8829,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 549,
+      "ratings_count": 556,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8856,7 +8856,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 3068,
+      "ratings_count": 3071,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8883,7 +8883,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 69557,
+      "ratings_count": 69561,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8910,7 +8910,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 24612,
+      "ratings_count": 24622,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8937,7 +8937,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 28997,
+      "ratings_count": 29003,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8964,7 +8964,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 9046,
+      "ratings_count": 9052,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -8991,7 +8991,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 11794,
+      "ratings_count": 11807,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9018,7 +9018,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 957,
+      "ratings_count": 959,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9045,7 +9045,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 75171,
+      "ratings_count": 75177,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9072,7 +9072,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 582,
+      "ratings_count": 583,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9099,7 +9099,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 32158,
+      "ratings_count": 32165,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9126,7 +9126,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 3981,
+      "ratings_count": 3983,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9147,13 +9147,13 @@
       "is_new_entry": false,
       "keyword_zh": "Skillmatics 水泡芙",
       "list": "bestsellers",
-      "price": "$24.97",
+      "price": "$19.97",
       "rank": 58,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1569,
+      "ratings_count": 1572,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9180,7 +9180,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 8580,
+      "ratings_count": 8581,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9207,7 +9207,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2445,
+      "ratings_count": 2448,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9234,7 +9234,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 2859,
+      "ratings_count": 2862,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9261,7 +9261,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.7,
-      "ratings_count": 820,
+      "ratings_count": 826,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9288,7 +9288,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 15519,
+      "ratings_count": 15520,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9315,7 +9315,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 40188,
+      "ratings_count": 40193,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9342,7 +9342,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 240,
+      "ratings_count": 243,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9369,7 +9369,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 3308,
+      "ratings_count": 3310,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9396,7 +9396,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1368,
+      "ratings_count": 1369,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9425,7 +9425,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 1218,
+      "ratings_count": 1229,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9452,7 +9452,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 8742,
+      "ratings_count": 8747,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9479,7 +9479,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2760,
+      "ratings_count": 2765,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9506,7 +9506,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 11522,
+      "ratings_count": 11523,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9533,7 +9533,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 3257,
+      "ratings_count": 3260,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9560,7 +9560,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 37530,
+      "ratings_count": 37534,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9587,7 +9587,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 4167,
+      "ratings_count": 4170,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9614,7 +9614,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 2880,
+      "ratings_count": 2887,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9641,7 +9641,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 921,
+      "ratings_count": 927,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9669,8 +9669,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.1,
-      "ratings_count": 500,
+      "rating": 4.2,
+      "ratings_count": 513,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9697,7 +9697,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 46924,
+      "ratings_count": 46934,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9724,7 +9724,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 5509,
+      "ratings_count": 5518,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9751,7 +9751,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 17313,
+      "ratings_count": 17316,
       "signals": {
         "amazon_surge": false,
         "new_release": false,
@@ -9780,7 +9780,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.6,
-      "ratings_count": 308,
+      "ratings_count": 312,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9807,7 +9807,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.4,
-      "ratings_count": 1047,
+      "ratings_count": 1059,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9833,8 +9833,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 157,
+      "rating": 4.5,
+      "ratings_count": 160,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9863,7 +9863,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 790,
+      "ratings_count": 800,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9890,7 +9890,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 132,
+      "ratings_count": 134,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9917,7 +9917,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 12119,
+      "ratings_count": 12122,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9944,7 +9944,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 188,
+      "ratings_count": 193,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9971,7 +9971,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 58,
+      "ratings_count": 65,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -9998,7 +9998,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 300,
+      "ratings_count": 302,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10054,7 +10054,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 224,
+      "ratings_count": 226,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10081,7 +10081,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 151,
+      "ratings_count": 153,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10107,8 +10107,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 44,
+      "rating": 4.5,
+      "ratings_count": 45,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10135,7 +10135,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.9,
-      "ratings_count": 737,
+      "ratings_count": 741,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10162,7 +10162,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 136,
+      "ratings_count": 139,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10189,7 +10189,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 334,
+      "ratings_count": 341,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10216,7 +10216,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 114,
+      "ratings_count": 117,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10243,7 +10243,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 58,
+      "ratings_count": 59,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10270,7 +10270,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 279,
+      "ratings_count": 281,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10296,8 +10296,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.0,
-      "ratings_count": 73,
+      "rating": 4.1,
+      "ratings_count": 76,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10324,7 +10324,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 159,
+      "ratings_count": 163,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10351,7 +10351,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 518,
+      "ratings_count": 521,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10378,7 +10378,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 256,
+      "ratings_count": 259,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10404,8 +10404,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 45,
+      "rating": 4.7,
+      "ratings_count": 47,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10485,8 +10485,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.5,
-      "ratings_count": 100,
+      "rating": 4.6,
+      "ratings_count": 103,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10513,7 +10513,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 45,
+      "ratings_count": 46,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10539,8 +10539,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 153,
+      "rating": 4.5,
+      "ratings_count": 156,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10567,7 +10567,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 50,
+      "ratings_count": 51,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10588,7 +10588,7 @@
       "is_new_entry": false,
       "keyword_zh": "LONDONTOWN 完美指甲面纱",
       "list": "new-releases",
-      "price": "$17.30",
+      "price": "$16.94",
       "rank": 51,
       "rank_delta": null,
       "rank_pct": null,
@@ -10621,7 +10621,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 175,
+      "ratings_count": 179,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10648,7 +10648,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 113,
+      "ratings_count": 116,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10675,7 +10675,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 88,
+      "ratings_count": 89,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10702,7 +10702,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 62,
+      "ratings_count": 65,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10812,7 +10812,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 102,
+      "ratings_count": 103,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10893,7 +10893,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 139,
+      "ratings_count": 145,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10920,7 +10920,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 164,
+      "ratings_count": 166,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -10947,7 +10947,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 10350,
+      "ratings_count": 10354,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11029,8 +11029,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 62,
+      "rating": 4.7,
+      "ratings_count": 63,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11057,7 +11057,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 36,
+      "ratings_count": 37,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11084,7 +11084,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 154,
+      "ratings_count": 156,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11111,7 +11111,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 130,
+      "ratings_count": 132,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11138,7 +11138,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 125,
+      "ratings_count": 126,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11165,7 +11165,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 148,
+      "ratings_count": 157,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11192,7 +11192,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 30,
+      "ratings_count": 31,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11219,7 +11219,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 669,
+      "ratings_count": 670,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11246,7 +11246,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 31,
+      "ratings_count": 32,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11300,7 +11300,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 72,
+      "ratings_count": 74,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11381,7 +11381,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 184,
+      "ratings_count": 185,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11408,7 +11408,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 309,
+      "ratings_count": 320,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11435,7 +11435,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 2281,
+      "ratings_count": 2325,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11462,7 +11462,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1046,
+      "ratings_count": 1052,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11489,7 +11489,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 310,
+      "ratings_count": 316,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11516,7 +11516,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 595,
+      "ratings_count": 599,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11543,7 +11543,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 933,
+      "ratings_count": 940,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11570,7 +11570,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 99,
+      "ratings_count": 100,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11624,7 +11624,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 820,
+      "ratings_count": 824,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11651,7 +11651,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 153,
+      "ratings_count": 156,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11678,7 +11678,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1810,
+      "ratings_count": 1819,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11699,13 +11699,13 @@
       "is_new_entry": false,
       "keyword_zh": "Fhumsh 无线耳机",
       "list": "new-releases",
-      "price": "$18.99",
+      "price": "$17.99",
       "rank": 12,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 182,
+      "ratings_count": 183,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11761,7 +11761,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1061,
+      "ratings_count": 1069,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11788,7 +11788,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 278,
+      "ratings_count": 283,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11815,7 +11815,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 503,
+      "ratings_count": 508,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11868,8 +11868,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.7,
-      "ratings_count": 260,
+      "rating": 4.6,
+      "ratings_count": 265,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11898,7 +11898,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 386,
+      "ratings_count": 388,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11925,7 +11925,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 253,
+      "ratings_count": 257,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11951,8 +11951,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.0,
-      "ratings_count": 81,
+      "rating": 3.9,
+      "ratings_count": 84,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -11979,7 +11979,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 89,
+      "ratings_count": 90,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12006,7 +12006,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 332,
+      "ratings_count": 331,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12033,7 +12033,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 412,
+      "ratings_count": 419,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12060,7 +12060,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 423,
+      "ratings_count": 426,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12086,8 +12086,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 31,
+      "rating": 4.7,
+      "ratings_count": 33,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12114,7 +12114,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 61,
+      "ratings_count": 64,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12141,7 +12141,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 368,
+      "ratings_count": 369,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12251,7 +12251,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 93,
+      "ratings_count": 94,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12280,7 +12280,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 155,
+      "ratings_count": 159,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12306,7 +12306,7 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.3,
+      "rating": 3.4,
       "ratings_count": 34,
       "signals": {
         "amazon_surge": false,
@@ -12334,7 +12334,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 221,
+      "ratings_count": 223,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12360,8 +12360,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.7,
-      "ratings_count": 240,
+      "rating": 4.6,
+      "ratings_count": 242,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12388,7 +12388,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 615,
+      "ratings_count": 616,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12442,7 +12442,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 99,
+      "ratings_count": 100,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12471,7 +12471,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 308,
+      "ratings_count": 310,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12579,7 +12579,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 97,
+      "ratings_count": 99,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12606,7 +12606,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 1172,
+      "ratings_count": 1174,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12689,7 +12689,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 189,
+      "ratings_count": 192,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12716,7 +12716,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 1799,
+      "ratings_count": 1800,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12824,7 +12824,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 137,
+      "ratings_count": 140,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12878,7 +12878,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 51,
+      "ratings_count": 52,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -12959,7 +12959,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 429,
+      "ratings_count": 430,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13013,7 +13013,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 32,
+      "ratings_count": 33,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13040,7 +13040,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 1329,
+      "ratings_count": 1353,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13067,7 +13067,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 7161,
+      "ratings_count": 7176,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13094,7 +13094,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 848,
+      "ratings_count": 855,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13121,7 +13121,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 883,
+      "ratings_count": 896,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13148,7 +13148,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 5016,
+      "ratings_count": 5026,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13175,7 +13175,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 2295,
+      "ratings_count": 2298,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13202,7 +13202,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 632,
+      "ratings_count": 640,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13229,7 +13229,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 290,
+      "ratings_count": 292,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13283,7 +13283,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 399,
+      "ratings_count": 408,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13310,7 +13310,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 349,
+      "ratings_count": 352,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13337,7 +13337,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 410,
+      "ratings_count": 412,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13364,7 +13364,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 230,
+      "ratings_count": 234,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13445,7 +13445,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 52,
+      "ratings_count": 54,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13472,7 +13472,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.8,
-      "ratings_count": 176,
+      "ratings_count": 179,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13499,7 +13499,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 172,
+      "ratings_count": 179,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13525,8 +13525,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.7,
-      "ratings_count": 204,
+      "rating": 4.8,
+      "ratings_count": 80,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13553,7 +13553,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 281,
+      "ratings_count": 287,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13580,7 +13580,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 46,
+      "ratings_count": 47,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13601,13 +13601,13 @@
       "is_new_entry": false,
       "keyword_zh": "Sweetcrispy 家庭办公室经理执行椅，符合人体工学设",
       "list": "new-releases",
-      "price": "$37.97",
+      "price": "$76.99",
       "rank": 22,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 525,
+      "rating": 4.5,
+      "ratings_count": 527,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13634,7 +13634,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 134,
+      "ratings_count": 137,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13661,7 +13661,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 219,
+      "ratings_count": 221,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13689,8 +13689,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.5,
-      "ratings_count": 70,
+      "rating": 4.6,
+      "ratings_count": 74,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13717,7 +13717,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 150,
+      "ratings_count": 154,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13744,7 +13744,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 574,
+      "ratings_count": 576,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13798,7 +13798,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 96,
+      "ratings_count": 98,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13825,7 +13825,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 1,
+      "ratings_count": 3,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13878,8 +13878,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.9,
-      "ratings_count": 66,
+      "rating": 3.8,
+      "ratings_count": 69,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13933,7 +13933,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.0,
-      "ratings_count": 127,
+      "ratings_count": 128,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13960,7 +13960,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 288,
+      "ratings_count": 287,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -13981,13 +13981,13 @@
       "is_new_entry": false,
       "keyword_zh": "Sweetcrispy 空气炸锅 6 夸脱，带窗口",
       "list": "new-releases",
-      "price": "$51.86",
+      "price": "$39.98",
       "rank": 56,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 571,
+      "ratings_count": 572,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14013,8 +14013,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 5.0,
-      "ratings_count": 57,
+      "rating": 4.8,
+      "ratings_count": 58,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14041,7 +14041,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.8,
-      "ratings_count": 305,
+      "ratings_count": 306,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14068,7 +14068,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 2,
+      "ratings_count": 3,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14094,8 +14094,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.1,
-      "ratings_count": 328,
+      "rating": 4.0,
+      "ratings_count": 330,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14122,7 +14122,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 384,
+      "ratings_count": 388,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14149,7 +14149,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 75,
+      "ratings_count": 78,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14176,7 +14176,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 473,
+      "ratings_count": 474,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14202,8 +14202,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 5.0,
-      "ratings_count": 8,
+      "rating": 4.4,
+      "ratings_count": 9,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14257,7 +14257,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 237,
+      "ratings_count": 242,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14284,7 +14284,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 637,
+      "ratings_count": 640,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14337,8 +14337,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.6,
-      "ratings_count": 116,
+      "rating": 3.7,
+      "ratings_count": 122,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14365,7 +14365,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 256,
+      "ratings_count": 257,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14392,7 +14392,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 265,
+      "ratings_count": 269,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14419,7 +14419,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 55,
+      "ratings_count": 57,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14473,7 +14473,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 47,
+      "ratings_count": 48,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14500,7 +14500,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 418,
+      "ratings_count": 419,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14527,7 +14527,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 425,
+      "ratings_count": 428,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14581,7 +14581,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 72,
+      "ratings_count": 74,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14635,7 +14635,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 400,
+      "ratings_count": 403,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14662,7 +14662,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 281,
+      "ratings_count": 287,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14689,7 +14689,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 574,
+      "ratings_count": 576,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14710,13 +14710,13 @@
       "is_new_entry": false,
       "keyword_zh": "Poshetion 2 合 1 烹饪用橄榄油喷雾器",
       "list": "new-releases",
-      "price": "$9.99",
+      "price": "$9.48",
       "rank": 3,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 1036,
+      "ratings_count": 1038,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14764,13 +14764,13 @@
       "is_new_entry": false,
       "keyword_zh": "Sweetcrispy 空气炸锅 6 夸脱，带窗口",
       "list": "new-releases",
-      "price": "$51.86",
+      "price": "$39.98",
       "rank": 5,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 571,
+      "ratings_count": 572,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14797,7 +14797,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 237,
+      "ratings_count": 242,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14824,7 +14824,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 47,
+      "ratings_count": 48,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14851,7 +14851,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 400,
+      "ratings_count": 403,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -14904,8 +14904,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.3,
-      "ratings_count": 26,
+      "rating": 4.4,
+      "ratings_count": 29,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15013,7 +15013,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 33,
+      "ratings_count": 35,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15040,7 +15040,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1763,
+      "ratings_count": 1764,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15066,8 +15066,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 5.0,
-      "ratings_count": 5,
+      "rating": 4.8,
+      "ratings_count": 7,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15148,7 +15148,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 2723,
+      "ratings_count": 2727,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15175,7 +15175,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 126,
+      "ratings_count": 129,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15229,7 +15229,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1685,
+      "ratings_count": 1687,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15256,7 +15256,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 181,
+      "ratings_count": 185,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15282,8 +15282,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.2,
-      "ratings_count": 64,
+      "rating": 4.1,
+      "ratings_count": 65,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15337,7 +15337,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 85,
+      "ratings_count": 86,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15364,7 +15364,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 82,
+      "ratings_count": 86,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15417,8 +15417,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": null,
-      "ratings_count": null,
+      "rating": 3.2,
+      "ratings_count": 38,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15472,7 +15472,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 330,
+      "ratings_count": 331,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15499,7 +15499,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 50,
+      "ratings_count": 52,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15526,7 +15526,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 91,
+      "ratings_count": 92,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15633,8 +15633,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.8,
-      "ratings_count": 14,
+      "rating": 4.7,
+      "ratings_count": 17,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15660,8 +15660,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.8,
-      "ratings_count": 34,
+      "rating": 4.9,
+      "ratings_count": 35,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15688,7 +15688,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 2.8,
-      "ratings_count": 498,
+      "ratings_count": 502,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15715,7 +15715,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 69,
+      "ratings_count": 72,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15742,7 +15742,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1215,
+      "ratings_count": 1216,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15796,7 +15796,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 71,
+      "ratings_count": 72,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15850,7 +15850,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 16,
+      "ratings_count": 17,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15904,7 +15904,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 465,
+      "ratings_count": 467,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -15985,7 +15985,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 2630,
+      "ratings_count": 2631,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16066,7 +16066,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 967,
+      "ratings_count": 971,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16114,7 +16114,7 @@
       "is_new_entry": false,
       "keyword_zh": "Ember 温控智能马克杯 2",
       "list": "new-releases",
-      "price": "$119.96",
+      "price": "$89.97",
       "rank": 75,
       "rank_delta": null,
       "rank_pct": null,
@@ -16201,7 +16201,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 41,
+      "ratings_count": 43,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16228,7 +16228,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 33,
+      "ratings_count": 34,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16255,7 +16255,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 446,
+      "ratings_count": 447,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16282,7 +16282,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.9,
-      "ratings_count": 1188,
+      "ratings_count": 1195,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16309,7 +16309,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 498,
+      "ratings_count": 504,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16336,7 +16336,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 906,
+      "ratings_count": 922,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16363,7 +16363,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 9640,
+      "ratings_count": 9641,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16390,7 +16390,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 668,
+      "ratings_count": 671,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16417,7 +16417,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 462,
+      "ratings_count": 464,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16443,8 +16443,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.5,
-      "ratings_count": 1370,
+      "rating": 4.6,
+      "ratings_count": 1375,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16471,7 +16471,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 88,
+      "ratings_count": 91,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16498,7 +16498,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 7592,
+      "ratings_count": 7599,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16525,7 +16525,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 915,
+      "ratings_count": 916,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16552,7 +16552,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 1001,
+      "ratings_count": 1002,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16579,7 +16579,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 1387,
+      "ratings_count": 1399,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16606,7 +16606,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 2856,
+      "ratings_count": 2860,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16660,7 +16660,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 195,
+      "ratings_count": 196,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16687,7 +16687,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 243,
+      "ratings_count": 247,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16708,13 +16708,13 @@
       "is_new_entry": false,
       "keyword_zh": "UGBEM 香茅蜡烛户外露营庭院",
       "list": "new-releases",
-      "price": "$8.99",
+      "price": "$9.99",
       "rank": 17,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 87,
+      "ratings_count": 88,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16741,7 +16741,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 741,
+      "ratings_count": 742,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16762,13 +16762,13 @@
       "is_new_entry": false,
       "keyword_zh": "OlarHike 轮胎充气机 便携式空气压缩机",
       "list": "new-releases",
-      "price": "$19.99",
+      "price": "$21.99",
       "rank": 19,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1148,
+      "ratings_count": 1150,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16795,7 +16795,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 115,
+      "ratings_count": 117,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16822,7 +16822,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 390,
+      "ratings_count": 392,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16876,7 +16876,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 133,
+      "ratings_count": 134,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16903,7 +16903,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 124,
+      "ratings_count": 130,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16930,7 +16930,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 22497,
+      "ratings_count": 22501,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16957,7 +16957,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 1146,
+      "ratings_count": 1164,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -16984,7 +16984,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 2030,
+      "ratings_count": 2032,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17038,7 +17038,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 250,
+      "ratings_count": 254,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17064,8 +17064,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.5,
-      "ratings_count": 144,
+      "rating": 4.4,
+      "ratings_count": 147,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17146,7 +17146,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 36,
+      "ratings_count": 37,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17227,7 +17227,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 1328,
+      "ratings_count": 1331,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17254,7 +17254,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 785,
+      "ratings_count": 789,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17281,7 +17281,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 385,
+      "ratings_count": 387,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17308,7 +17308,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 49,
+      "ratings_count": 50,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17335,7 +17335,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 57,
+      "ratings_count": 58,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17362,7 +17362,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 127,
+      "ratings_count": 129,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17389,7 +17389,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 85,
+      "ratings_count": 86,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17415,8 +17415,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 111,
+      "rating": 4.5,
+      "ratings_count": 114,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17443,7 +17443,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 201983,
+      "ratings_count": 202050,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17470,7 +17470,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1100,
+      "ratings_count": 1104,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17524,7 +17524,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 945,
+      "ratings_count": 946,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17551,7 +17551,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 2793,
+      "ratings_count": 2794,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17577,8 +17577,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.7,
-      "ratings_count": 178,
+      "rating": 4.6,
+      "ratings_count": 180,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17605,7 +17605,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 197,
+      "ratings_count": 198,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17632,7 +17632,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 519,
+      "ratings_count": 520,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17659,7 +17659,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 377,
+      "ratings_count": 378,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17686,7 +17686,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 96,
+      "ratings_count": 98,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17739,8 +17739,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 75,
+      "rating": 4.5,
+      "ratings_count": 76,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17767,7 +17767,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 95,
+      "ratings_count": 97,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17794,7 +17794,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 12051,
+      "ratings_count": 12053,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17842,13 +17842,13 @@
       "is_new_entry": false,
       "keyword_zh": "适合儿童和成人的 Halo 运动回旋镖",
       "list": "new-releases",
-      "price": "$14.99",
+      "price": "$12.99",
       "rank": 79,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.3,
-      "ratings_count": 168,
+      "ratings_count": 169,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17875,7 +17875,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 11543,
+      "ratings_count": 11547,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17901,8 +17901,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.1,
-      "ratings_count": 75,
+      "rating": 4.2,
+      "ratings_count": 78,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17929,7 +17929,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 549,
+      "ratings_count": 556,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17956,7 +17956,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.7,
-      "ratings_count": 820,
+      "ratings_count": 826,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -17983,7 +17983,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 240,
+      "ratings_count": 243,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18009,8 +18009,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.1,
-      "ratings_count": 500,
+      "rating": 4.2,
+      "ratings_count": 513,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18091,7 +18091,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.2,
-      "ratings_count": 272,
+      "ratings_count": 276,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18117,8 +18117,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 1186,
+      "rating": 4.5,
+      "ratings_count": 1188,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18145,7 +18145,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 31,
+      "ratings_count": 35,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18193,13 +18193,13 @@
       "is_new_entry": false,
       "keyword_zh": "Mattel Kpop 恶魔猎人 HUNTR/X Mira ",
       "list": "new-releases",
-      "price": "$26.99",
+      "price": "$26.97",
       "rank": 12,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 13,
+      "ratings_count": 15,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18226,7 +18226,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 255,
+      "ratings_count": 258,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18247,13 +18247,13 @@
       "is_new_entry": false,
       "keyword_zh": "乐高版莱昂内尔·梅西",
       "list": "new-releases",
-      "price": "$29.21",
+      "price": "$28.98",
       "rank": 14,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 257,
+      "ratings_count": 259,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18307,7 +18307,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.8,
-      "ratings_count": 405,
+      "ratings_count": 407,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18334,7 +18334,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 440,
+      "ratings_count": 446,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18388,7 +18388,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 2.5,
-      "ratings_count": 382,
+      "ratings_count": 385,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18441,8 +18441,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.6,
-      "ratings_count": 64,
+      "rating": 4.7,
+      "ratings_count": 67,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18469,7 +18469,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 1329,
+      "ratings_count": 1335,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18496,7 +18496,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 357,
+      "ratings_count": 360,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18550,7 +18550,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 127,
+      "ratings_count": 132,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18598,13 +18598,13 @@
       "is_new_entry": false,
       "keyword_zh": "精灵宝可梦 TCG：超级进化 — 混沌崛起强化包",
       "list": "new-releases",
-      "price": "$45.24",
+      "price": "$48.74",
       "rank": 27,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.0,
-      "ratings_count": 521,
+      "ratings_count": 529,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18631,7 +18631,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.4,
-      "ratings_count": 71,
+      "ratings_count": 75,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18679,13 +18679,13 @@
       "is_new_entry": false,
       "keyword_zh": "精灵宝可梦 TCG：第一伙伴插画集 — 系列 2",
       "list": "new-releases",
-      "price": "$50.89",
+      "price": "$51.00",
       "rank": 30,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.4,
-      "ratings_count": 60,
+      "rating": 4.5,
+      "ratings_count": 61,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18712,7 +18712,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 11,
+      "ratings_count": 12,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18739,7 +18739,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 3.6,
-      "ratings_count": 47,
+      "ratings_count": 48,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18765,8 +18765,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.0,
-      "ratings_count": 39,
+      "rating": 3.8,
+      "ratings_count": 41,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18820,7 +18820,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 111,
+      "ratings_count": 113,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18846,8 +18846,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.5,
-      "ratings_count": 62,
+      "rating": 3.4,
+      "ratings_count": 63,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18927,7 +18927,7 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.0,
+      "rating": 4.2,
       "ratings_count": 33,
       "signals": {
         "amazon_surge": false,
@@ -18954,8 +18954,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.0,
-      "ratings_count": 173,
+      "rating": 4.1,
+      "ratings_count": 176,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -18982,7 +18982,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 2.8,
-      "ratings_count": 199,
+      "ratings_count": 201,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19008,8 +19008,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.5,
-      "ratings_count": 57,
+      "rating": 4.6,
+      "ratings_count": 58,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19036,7 +19036,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 81,
+      "ratings_count": 83,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19063,7 +19063,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 6,
+      "ratings_count": 7,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19090,7 +19090,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 250,
+      "ratings_count": 252,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19117,7 +19117,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 14,
+      "ratings_count": 15,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19144,7 +19144,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.8,
-      "ratings_count": 98,
+      "ratings_count": 99,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19198,7 +19198,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.7,
-      "ratings_count": 135,
+      "ratings_count": 139,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19224,8 +19224,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.4,
-      "ratings_count": 7,
+      "rating": 3.6,
+      "ratings_count": 8,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19252,7 +19252,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.5,
-      "ratings_count": 593,
+      "ratings_count": 597,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19279,7 +19279,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 5.0,
-      "ratings_count": 34,
+      "ratings_count": 35,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19306,7 +19306,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.1,
-      "ratings_count": 63,
+      "ratings_count": 64,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19327,13 +19327,13 @@
       "is_new_entry": false,
       "keyword_zh": "乐高版凯利安·姆巴佩",
       "list": "new-releases",
-      "price": "$29.85",
+      "price": "$29.98",
       "rank": 74,
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 72,
+      "ratings_count": 74,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19360,7 +19360,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.9,
-      "ratings_count": 47,
+      "ratings_count": 49,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19414,7 +19414,7 @@
       "rank_pct": null,
       "rank_prev": null,
       "rating": 4.6,
-      "ratings_count": 1515,
+      "ratings_count": 1516,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19440,8 +19440,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 3.4,
-      "ratings_count": 123,
+      "rating": 3.3,
+      "ratings_count": 125,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
@@ -19467,8 +19467,8 @@
       "rank_delta": null,
       "rank_pct": null,
       "rank_prev": null,
-      "rating": 4.8,
-      "ratings_count": 29,
+      "rating": 4.9,
+      "ratings_count": 30,
       "signals": {
         "amazon_surge": false,
         "new_release": true,
