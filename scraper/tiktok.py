@@ -4,11 +4,23 @@ The old Top Products board was removed in the mid-2026 TikTok One redesign;
 GetHashtagList is the surviving anonymous endpoint. HTTP 200 is NOT success —
 the business code must be 0 and items non-empty, else we raise.
 """
+import time
+
 import httpx
 
 from . import config
+from .util import log
 
 API = "https://ads.tiktok.com/CreativeOne/KnowledgeAPI/GetHashtagList"
+CONFIG_API = "https://ads.tiktok.com/cc_portal_api/api/trendsTcc"
+
+# Anonymous responses cap at ~3 hashtags per view, so we aggregate the overall
+# view plus every industry view (industryID must be an int — strings are ignored).
+FALLBACK_INDUSTRIES = [
+    10000000000, 11000000000, 12000000000, 14000000000, 15000000000,
+    17000000000, 18000000000, 19000000000, 21000000000, 22000000000,
+    23000000000, 25000000000, 27000000000, 28000000000, 29000000000,
+]
 
 HEADERS = {
     "User-Agent": config.UA,
@@ -73,17 +85,41 @@ def _post(client: httpx.Client, body: dict) -> dict:
     return r.json()
 
 
+def _industries(client: httpx.Client) -> list:
+    try:
+        r = client.get(CONFIG_API)
+        r.raise_for_status()
+        j = r.json()
+        if j.get("code") == 0:
+            ids = (j.get("data") or {}).get("industry") or []
+            if ids:
+                return [int(i) for i in ids]
+    except Exception as e:  # noqa: BLE001
+        log(f"tiktok industry config failed ({e}), using fallback list")
+    return FALLBACK_INDUSTRIES
+
+
 def fetch_hashtags(limit=config.TIKTOK_HASHTAG_LIMIT) -> list:
-    items, page = [], 1
+    seen = {}
     with httpx.Client(headers=HEADERS, timeout=20) as client:
-        while len(items) < limit and page <= 10:
-            payload = _post(client, {"timeRange": 7, "countryCode": "US", "page": page, "limit": 20})
-            _validate(payload)
-            batch = _extract_items(payload)
-            if not batch:
-                break
-            items.extend(batch)
-            page += 1
-    if not items:
+        views = [None] + _industries(client)
+        for ind in views:
+            body = {"timeRange": 7, "countryCode": "US", "page": 1, "limit": 20}
+            if ind is not None:
+                body["industryID"] = ind
+            try:
+                payload = _post(client, body)
+                _validate(payload)
+                batch = _extract_items(payload)
+            except Exception as e:  # noqa: BLE001
+                log(f"tiktok view {ind}: {e}")
+                continue
+            for it in batch:
+                seen.setdefault(it["name"], it)
+            time.sleep(0.3)
+    if not seen:
         raise TikTokError("no hashtags returned")
-    return items[:limit]
+    items = sorted(seen.values(), key=lambda x: -x["posts"])[:limit]
+    for n, it in enumerate(items, 1):
+        it["rank"] = n
+    return items

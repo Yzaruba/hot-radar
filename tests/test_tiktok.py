@@ -33,15 +33,39 @@ def test_extract_items_maps_fields():
 
 def test_fetch_hashtags_raises_when_empty(monkeypatch):
     monkeypatch.setattr(tiktok, "_post", lambda client, body: {"code": 0, "data": {"items": []}})
+    monkeypatch.setattr(tiktok, "_industries", lambda client: [111])
+    monkeypatch.setattr(tiktok.time, "sleep", lambda s: None)
     with pytest.raises(tiktok.TikTokError):
         tiktok.fetch_hashtags(limit=10)
 
 
-def test_fetch_hashtags_paginates(monkeypatch):
-    pages = {
-        1: {"code": 0, "data": {"items": [{"hashtagName": f"tag{i}", "rankIndex": i, "publishCnt": 1} for i in range(1, 21)]}},
-        2: {"code": 0, "data": {"items": [{"hashtagName": f"tag{i}", "rankIndex": i, "publishCnt": 1} for i in range(21, 41)]}},
-    }
-    monkeypatch.setattr(tiktok, "_post", lambda client, body: pages.get(body["page"], {"code": 0, "data": {"items": []}}))
-    items = tiktok.fetch_hashtags(limit=30)
-    assert len(items) == 30 and items[0]["name"] == "tag1"
+def test_fetch_hashtags_aggregates_views_dedupes_and_reranks(monkeypatch):
+    def fake_post(client, body):
+        ind = body.get("industryID")
+        if ind is None:
+            items = [{"hashtagName": "alpha", "publishCnt": 100},
+                     {"hashtagName": "beta", "publishCnt": 50}]
+        else:
+            items = [{"hashtagName": "beta", "publishCnt": 50},
+                     {"hashtagName": "gamma", "publishCnt": 900}]
+        return {"code": 0, "data": {"items": items}}
+
+    monkeypatch.setattr(tiktok, "_post", fake_post)
+    monkeypatch.setattr(tiktok, "_industries", lambda client: [111])
+    monkeypatch.setattr(tiktok.time, "sleep", lambda s: None)
+    items = tiktok.fetch_hashtags(limit=10)
+    assert [i["name"] for i in items] == ["gamma", "alpha", "beta"]  # posts desc, deduped
+    assert [i["rank"] for i in items] == [1, 2, 3]
+
+
+def test_fetch_hashtags_survives_partial_view_failures(monkeypatch):
+    def fake_post(client, body):
+        if body.get("industryID") == 111:
+            raise RuntimeError("400")
+        return {"code": 0, "data": {"items": [{"hashtagName": "alpha", "publishCnt": 1}]}}
+
+    monkeypatch.setattr(tiktok, "_post", fake_post)
+    monkeypatch.setattr(tiktok, "_industries", lambda client: [111, 222])
+    monkeypatch.setattr(tiktok.time, "sleep", lambda s: None)
+    items = tiktok.fetch_hashtags(limit=10)
+    assert [i["name"] for i in items] == ["alpha"]
