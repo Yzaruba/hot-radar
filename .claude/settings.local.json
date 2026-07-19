@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(gh --version)",
+      "WebSearch",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code}\\\\n\" \"https://ads.tiktok.com/creative_radar_api/v1/popular_trend/product/list?period=7&page=1&limit=10&country_code=US\" -H \"User-Agent: Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/126.0.0.0 Safari/537.36\" --max-time 30)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:www.amazon.com)",
+      "Bash(curl -s -D - -o /dev/null -H \"Origin: https://example.com\" \"https://m.media-amazon.com/images/I/71vFKBpKakL._AC_UL320_.jpg\")",
+      "Bash(gh api *)",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/126.0.0.0 Safari/537.36\" -H \"Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\" -H \"Accept-Language: en-US,en;q=0.9\" --compressed \"https://www.amazon.com/gp/movers-and-shakers\" -o movers.html)",
+      "WebFetch(domain:docs.github.com)"
+    ]
+  }
+}
