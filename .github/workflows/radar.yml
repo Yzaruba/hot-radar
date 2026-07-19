@@ -32,13 +32,17 @@ jobs:
 
       - name: Scrape and build data
         id: run
+        env:
+          MYMEMORY_EMAIL: ${{ secrets.MYMEMORY_EMAIL }}
         run: |
           set +e
           python -m scraper.build
           code=$?
           echo "status=$code" >> "$GITHUB_OUTPUT"
-          # 1 = total failure: keep old data, stop the run red, skip deploy
-          [ "$code" = "1" ] && exit 1
+          # Only 0 (fresh) and 2 (partial-stale) may proceed to commit+deploy.
+          # Anything else (1 = total failure, or a signal death like 137) must
+          # not overwrite good data.
+          if [ "$code" != "0" ] && [ "$code" != "2" ]; then exit 1; fi
           exit 0
 
       - name: Commit data if changed

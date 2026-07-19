@@ -59,8 +59,9 @@ GitHub Actions（cron: 17 */6 * * *，UTC，+ workflow_dispatch 手动触发）
 
 ### movers.py（自算飙升榜）
 - 快照：`data/snapshots/<UTC时间戳>.json`，仅存 `{list, category, asin, rank}` 精简结构；保留 14 天，运行时修剪。
-- 对比目标：时间距当前 20–28h 的最近快照（无则取最老可用；首日无对比 → 飙升榜为空并在页面提示"数据积累中"）。
-- 指标：`delta = prev_rank - cur_rank`；`pct = delta / prev_rank * 100`。上榜条件 `delta > 0`；上次不在 Top100 而本次进入者标记 `NEW`（按当前排名排序插入）。飙升榜取综合前 30。
+- 对比目标：快照年龄在 8–48h 之间、最接近 24h 者；无合格快照 → 飙升榜为空并在页面提示"数据积累中"（过新=抖动噪声，过老=把慢漂移误标为24h飙升，都不用）。
+- 指标：`delta = prev_rank - cur_rank`；`pct = delta / prev_rank * 100`。上榜条件 `delta > 0`。
+- 榜单构成（2026-07-19 审查后修订）：真实排名上涨者按 pct 降序优先占位；`NEW`（上次不在 Top100 本次进入）仅统计畅销榜（新品榜天然高流转无信号价值）、按当前排名排序垫底、至多 10 席；基线快照中未观测的 (榜单,品类) 组合整体跳过（防止品类抓取失败一天后被误标 NEW）；每 ASIN 只占一席；总榜 30。
 
 ### translate.py
 - 主：`translate.googleapis.com/translate_a/single?client=gtx`（无 key）；调用间隔 0.5–1s，429 退避重试。

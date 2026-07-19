@@ -7,7 +7,7 @@ def _item(asin, rank, lst="bestsellers", cat="electronics"):
     return {"asin": asin, "list": lst, "category": cat, "rank": rank}
 
 
-def test_surge_ranks_by_pct_and_marks_new():
+def test_surge_risers_outrank_new_entries():
     base = {"bestsellers:electronics:A": 50, "bestsellers:electronics:B": 10}
     cur = [_item("A", 5), _item("B", 12), _item("C", 3)]
     out = movers.compute_surge(cur, base)
@@ -15,27 +15,49 @@ def test_surge_ranks_by_pct_and_marks_new():
     c = next(x for x in out if x["asin"] == "C")
     assert a["rank_prev"] == 50 and a["rank_delta"] == 45 and a["is_new_entry"] is False
     assert round(a["rank_pct"], 1) == 90.0
-    assert c["is_new_entry"] is True and c["rank_prev"] is None
-    assert c["surge_rank"] == 1 and a["surge_rank"] == 2  # NEW@3 outranks 50->5
+    assert c["is_new_entry"] is True and c["rank_prev"] is None and c["rank_pct"] is None
+    assert a["surge_rank"] == 1 and c["surge_rank"] == 2  # genuine riser beats NEW
     assert all(x["asin"] != "B" for x in out)  # dropped rank never surges
 
 
-def test_surge_key_separates_list_and_category():
+def test_surge_skips_unobserved_pairs():
+    # category failed yesterday -> absent from baseline -> must NOT fake NEW
     base = {"bestsellers:electronics:A": 50}
-    cur = [_item("A", 5, cat="kitchen")]
+    cur = [_item("X", 5, cat="kitchen")]
+    assert movers.compute_surge(cur, base) == []
+
+
+def test_surge_new_only_from_bestsellers():
+    base = {"bestsellers:electronics:A": 50, "new-releases:electronics:B": 9}
+    cur = [_item("N", 1, lst="new-releases")]
+    assert movers.compute_surge(cur, base) == []  # new-releases churn is not a signal
+
+
+def test_surge_new_entries_capped():
+    base = {"bestsellers:electronics:Z9": 100}
+    cur = [_item(f"N{i}", i + 1) for i in range(20)]
     out = movers.compute_surge(cur, base)
-    assert out[0]["is_new_entry"] is True  # different category = no baseline match
+    assert len(out) == 10  # SURGE_NEW_MAX
+    assert all(x["is_new_entry"] for x in out)
+
+
+def test_surge_caps_size_with_risers():
+    base = {f"bestsellers:electronics:A{i}": i + 41 for i in range(60)}
+    cur = [_item(f"A{i}", i + 1) for i in range(60)]
+    out = movers.compute_surge(cur, base)
+    assert len(out) == 30
+    assert all(not x["is_new_entry"] for x in out)
+
+
+def test_surge_one_slot_per_asin():
+    base = {"bestsellers:electronics:A": 50, "bestsellers:kitchen:A": 60}
+    cur = [_item("A", 5), _item("A", 6, cat="kitchen")]
+    out = movers.compute_surge(cur, base)
+    assert len(out) == 1
 
 
 def test_surge_empty_baseline_returns_empty():
     assert movers.compute_surge([_item("A", 5)], None) == []
-
-
-def test_surge_caps_size():
-    base = {}
-    cur = [_item(f"A{i}", i + 1) for i in range(60)]
-    out = movers.compute_surge(cur, base)
-    assert len(out) == 30
 
 
 def test_snapshot_roundtrip_and_baseline_window(tmp_path):
@@ -47,17 +69,23 @@ def test_snapshot_roundtrip_and_baseline_window(tmp_path):
     assert base == {"bestsellers:electronics:A": 7}  # 25h is closest to the 24h ideal
 
 
-def test_baseline_falls_back_to_oldest_outside_window(tmp_path):
+def test_baseline_falls_back_within_age_bounds(tmp_path):
     now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
     movers.save_snapshot([_item("A", 4)], now - timedelta(hours=10), snap_dir=tmp_path)
     movers.save_snapshot([_item("A", 8)], now - timedelta(hours=13), snap_dir=tmp_path)
     base = movers.pick_baseline(now, snap_dir=tmp_path)
-    assert base == {"bestsellers:electronics:A": 8}
+    assert base == {"bestsellers:electronics:A": 8}  # 13h closer to 24h than 10h
 
 
 def test_baseline_rejects_too_young_snapshots(tmp_path):
     now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
     movers.save_snapshot([_item("A", 4)], now - timedelta(minutes=25), snap_dir=tmp_path)
+    assert movers.pick_baseline(now, snap_dir=tmp_path) is None
+
+
+def test_baseline_rejects_too_old_snapshots(tmp_path):
+    now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
+    movers.save_snapshot([_item("A", 4)], now - timedelta(days=5), snap_dir=tmp_path)
     assert movers.pick_baseline(now, snap_dir=tmp_path) is None
 
 

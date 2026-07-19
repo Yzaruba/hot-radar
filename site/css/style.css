@@ -57,7 +57,7 @@ body {
 
 /* ── category chips ── */
 .chips {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: var(--topbar-h, 58px); z-index: 20;
   display: flex; gap: 8px; overflow-x: auto; padding: 10px 14px;
   background: rgba(14,14,14,.94); backdrop-filter: blur(6px);
   scrollbar-width: none;

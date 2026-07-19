@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -23,10 +24,12 @@ CATEGORIES = [
 LISTS = ["bestsellers", "new-releases"]
 TOP_N = 100
 SURGE_SIZE = 30
+SURGE_NEW_MAX = 10
 SNAPSHOT_KEEP_DAYS = 14
-BASELINE_WINDOW_H = (20, 28)
 MIN_BASELINE_H = 8
+MAX_BASELINE_H = 48
 TIKTOK_HASHTAG_LIMIT = 50
-MYMEMORY_EMAIL = "yuzhanwu9611@gmail.com"
+TRANS_CACHE_MAX = 4000
+MYMEMORY_EMAIL = os.environ.get("MYMEMORY_EMAIL", "")
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36")

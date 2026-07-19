@@ -44,7 +44,7 @@ def _prev_products(prev_radar, kind, category_id) -> list:
 def _scrape_amazon(prev_radar):
     from playwright.sync_api import sync_playwright
 
-    per_key, stale = {}, set()
+    per_key, stale_pairs = {}, set()
     with sync_playwright() as pw:
         browser = pw.chromium.launch(headless=True)
         try:
@@ -57,12 +57,12 @@ def _scrape_amazon(prev_radar):
                         log(f"OK {kind}/{cat['id']}: {len(per_key[(kind, cat['id'])])} items")
                     except Exception as e:  # noqa: BLE001
                         log(f"FAIL {kind}/{cat['id']}: {e}")
-                        stale.add(cat["id"])
+                        stale_pairs.add((kind, cat["id"]))
                         per_key[(kind, cat["id"])] = _prev_products(prev_radar, kind, cat["id"])
             real_movers = amazon.probe_real_movers(browser)
         finally:
             browser.close()
-    return per_key, stale, real_movers
+    return per_key, stale_pairs, real_movers
 
 
 def main() -> int:
@@ -70,10 +70,10 @@ def main() -> int:
     prev_radar = read_json(config.RADAR_JSON)
     prev_trends = read_json(config.TRENDS_JSON)
 
-    per_key, stale_cats, real_movers = _scrape_amazon(prev_radar)
-    fresh_cats = [c["id"] for c in config.CATEGORIES if c["id"] not in stale_cats]
-    if not fresh_cats:
-        log("ALL categories failed — refusing to overwrite good data")
+    per_key, stale_pairs, real_movers = _scrape_amazon(prev_radar)
+    stale_cats = {cid for (_, cid) in stale_pairs}
+    if len(stale_pairs) >= len(config.CATEGORIES) * len(config.LISTS):
+        log("ALL lists failed — refusing to overwrite good data")
         return 1
 
     tiktok_stale = False
@@ -92,7 +92,7 @@ def main() -> int:
         i
         for (kind, cid), lst in per_key.items()
         for i in lst
-        if cid not in stale_cats and i.get("rank")
+        if (kind, cid) not in stale_pairs and i.get("rank")
     ]
     cardable = [i for i in fresh_items if i.get("title") and i.get("image_src")]
     baseline = movers.pick_baseline(now)
@@ -107,7 +107,9 @@ def main() -> int:
                 all_products.append(i)
     shorts = {translate.to_short_title(p["title"]) for p in all_products}
     tag_names = [h["name"] for h in hashtags]
-    zh_map = translate.translate_many(sorted(shorts) + tag_names)
+    used_texts = sorted(shorts) + tag_names
+    zh_map = translate.translate_many(used_texts)
+    translate.prune_cache(used_texts)
 
     # ---- assemble contract products
     prev_first_seen = {
@@ -193,9 +195,9 @@ def main() -> int:
 
     log(
         f"done: {len(products)} cards, surge={len(surge)}, hashtags={len(trend_rows)}, "
-        f"stale_cats={sorted(stale_cats)}, tiktok_stale={tiktok_stale}"
+        f"stale_pairs={sorted(stale_pairs)}, tiktok_stale={tiktok_stale}"
     )
-    return 2 if (stale_cats or tiktok_stale) else 0
+    return 2 if (stale_pairs or tiktok_stale) else 0
 
 
 if __name__ == "__main__":

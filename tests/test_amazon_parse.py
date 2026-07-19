@@ -14,12 +14,13 @@ def test_parse_empty_grid_returns_empty():
 
 def test_parse_recs_list_primary():
     recs = json.dumps([
-        {"id": "B0TEST00A", "metadataMap": {"render.zg.rank": "7"}},
-        {"id": "B0TEST00B", "metadataMap": {"render.zg.rank": "8"}},
+        {"id": "B0TEST000A", "metadataMap": {"render.zg.rank": "7"}},
+        {"id": "B0TEST000B", "metadataMap": {"render.zg.rank": "8"}},
+        {"id": "../evil/x", "metadataMap": {"render.zg.rank": "9"}},  # rejected: not an ASIN
     ]).replace('"', "&quot;")
     html = f'<div data-client-recs-list="{recs}"></div>'
     items = amazon.parse_zg_html(html)
-    assert {(i["asin"], i["rank"]) for i in items} == {("B0TEST00A", 7), ("B0TEST00B", 8)}
+    assert {(i["asin"], i["rank"]) for i in items} == {("B0TEST000A", 7), ("B0TEST000B", 8)}
 
 
 @pytest.mark.skipif(not FIXTURE.exists(), reason="live fixture not captured yet")

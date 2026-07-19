@@ -34,59 +34,86 @@ def _snapshot_times(snap_dir):
 
 
 def pick_baseline(now: datetime, snap_dir=config.SNAP_DIR):
-    """Rank map from the snapshot closest to 24h old (20-28h window).
+    """Rank map from the snapshot closest to 24h old.
 
-    Fallback: the oldest snapshot, but only if it is at least MIN_BASELINE_H
-    old — a minutes-old baseline would just surface meaningless rank jitter.
+    Only snapshots aged MIN_BASELINE_H..MAX_BASELINE_H qualify — a minutes-old
+    baseline surfaces meaningless jitter, and after a long outage a days-old
+    baseline would mislabel slow drift as a 24h surge. No candidate → None.
     """
     if not snap_dir.exists():
         return None
     snaps = _snapshot_times(snap_dir)
-    if not snaps:
+    candidates = [
+        (t, f)
+        for t, f in snaps
+        if config.MIN_BASELINE_H <= (now - t).total_seconds() / 3600 <= config.MAX_BASELINE_H
+    ]
+    if not candidates:
         return None
-    lo, hi = config.BASELINE_WINDOW_H
-    in_window = [(t, f) for t, f in snaps if lo <= (now - t).total_seconds() / 3600 <= hi]
-    if in_window:
-        target = now - timedelta(hours=24)
-        chosen = min(in_window, key=lambda tf: abs((tf[0] - target).total_seconds()))[1]
-    else:
-        oldest_t, oldest_f = snaps[0]
-        if (now - oldest_t).total_seconds() / 3600 < config.MIN_BASELINE_H:
-            return None
-        chosen = oldest_f
+    target = now - timedelta(hours=24)
+    chosen = min(candidates, key=lambda tf: abs((tf[0] - target).total_seconds()))[1]
     data = read_json(chosen, {})
     return {_key(i): i["rank"] for i in data.get("items", [])}
 
 
 def compute_surge(current, baseline) -> list:
-    """Enrich current items with rank movement vs baseline; top SURGE_SIZE risers."""
+    """Surge board: genuine rank risers first, NEW top-100 entrants capped after.
+
+    - Items whose (list, category) was not observed in the baseline snapshot are
+      skipped entirely (a failed-category snapshot must not fake NEW entries).
+    - NEW entrants only count for bestsellers (new-releases churn is trivial),
+      never outrank a genuine riser, and take at most SURGE_NEW_MAX slots.
+    - One board slot per ASIN.
+    """
     if baseline is None:
         return []
-    virtual_prev = config.TOP_N + 1
-    risers = []
+    observed = {k.rsplit(":", 1)[0] for k in baseline}
+    risers, news = [], []
     for item in current:
+        if f"{item['list']}:{item['category']}" not in observed:
+            continue
         prev = baseline.get(_key(item))
         cur = item["rank"]
         if prev is None:
-            eff_prev, is_new = virtual_prev, True
-        else:
-            eff_prev, is_new = prev, False
-        delta = eff_prev - cur
+            if item["list"] != "bestsellers":
+                continue
+            entrant = dict(item)
+            entrant.update(rank_prev=None, rank_delta=None, rank_pct=None, is_new_entry=True)
+            news.append(entrant)
+            continue
+        delta = prev - cur
         if delta <= 0:
             continue
-        enriched = dict(item)
-        enriched.update(
+        riser = dict(item)
+        riser.update(
             rank_prev=prev,
-            rank_delta=(None if is_new else delta),
-            rank_pct=round(delta / eff_prev * 100, 1),
-            is_new_entry=is_new,
+            rank_delta=delta,
+            rank_pct=round(delta / prev * 100, 1),
+            is_new_entry=False,
         )
-        risers.append(enriched)
+        risers.append(riser)
     risers.sort(key=lambda x: (-x["rank_pct"], x["rank"]))
-    risers = risers[: config.SURGE_SIZE]
-    for n, item in enumerate(risers, 1):
+    news.sort(key=lambda x: x["rank"])
+    board, seen = [], set()
+    for item in risers:
+        if len(board) >= config.SURGE_SIZE:
+            break
+        if item["asin"] in seen:
+            continue
+        seen.add(item["asin"])
+        board.append(item)
+    news_added = 0
+    for item in news:
+        if len(board) >= config.SURGE_SIZE or news_added >= config.SURGE_NEW_MAX:
+            break
+        if item["asin"] in seen:
+            continue
+        seen.add(item["asin"])
+        board.append(item)
+        news_added += 1
+    for n, item in enumerate(board, 1):
         item["surge_rank"] = n
-    return risers
+    return board
 
 
 def prune_snapshots(now: datetime, keep_days=config.SNAPSHOT_KEEP_DAYS, snap_dir=config.SNAP_DIR) -> None:

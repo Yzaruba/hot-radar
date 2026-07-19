@@ -17,10 +17,17 @@ from . import config
 from .util import log
 
 BASE = "https://www.amazon.com/gp"
+_ASIN_RE = re.compile(r"[A-Z0-9]{10}")
 
 
 class CategoryEmpty(RuntimeError):
     pass
+
+
+def _valid_asin(asin) -> bool:
+    # ASINs are exactly 10 uppercase alphanumerics; anything else is untrusted
+    # markup and must not reach file paths or URLs.
+    return isinstance(asin, str) and bool(_ASIN_RE.fullmatch(asin))
 
 
 def _dynamic_image(attr_json: str):
@@ -61,13 +68,13 @@ def parse_zg_html(html: str) -> list:
                 rank = int(meta.get("render.zg.rank"))
             except (TypeError, ValueError):
                 rank = None
-            if asin and rank:
+            if _valid_asin(asin) and rank:
                 items.setdefault(asin, {"asin": asin, "rank": rank})
 
     for root in soup.find_all(id="gridItemRoot"):
         asin_el = root.find(attrs={"data-asin": True})
         asin = asin_el["data-asin"] if asin_el else None
-        if not asin:
+        if not _valid_asin(asin):
             continue
         entry = items.setdefault(asin, {"asin": asin, "rank": None})
         if entry["rank"] is None:
@@ -131,6 +138,9 @@ def fetch_category(browser, slug: str, kind: str, category_id: str) -> list:
             except Exception as e:  # noqa: BLE001 - retry navigation errors
                 log(f"{url}: attempt {attempt + 1} error: {e}")
             time.sleep(3 * (attempt + 1))
+        if suffix == "" and not items:
+            # page 1 empty after retries = soft-block; page 2 alone is useless
+            raise CategoryEmpty(f"{kind}/{slug}: page 1 parsed 0 items (soft-block?)")
         for i in items:
             i["list"] = kind
             i["category"] = category_id

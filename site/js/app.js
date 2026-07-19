@@ -151,10 +151,12 @@
       "new-releases": "Amazon 美区新品榜 · 工厂端的先行信号",
     };
     let body;
-    if (!list.length && state.tab === "surge") {
+    const surgeEmptyGlobally =
+      state.tab === "surge" && !state.radar.products.some((p) => p.surge_rank != null);
+    if (surgeEmptyGlobally) {
       body = `<div class="empty"><span class="big">CHARGING…</span>飙升榜需要积累两次抓取（约24小时）后出现<br>先去畅销榜和新品榜逛逛</div>`;
     } else if (!list.length) {
-      body = `<div class="empty"><span class="big">EMPTY!</span>这个品类暂时没有数据</div>`;
+      body = `<div class="empty"><span class="big">EMPTY!</span>这个品类暂时没有上榜商品</div>`;
     } else {
       body = `<div class="grid">${list.map((p, i) => cardHTML(p, i)).join("")}</div>`;
     }
@@ -209,7 +211,9 @@
 
   async function saveImage(p, blobPromise) {
     try {
-      const blob = await (blobPromise || fetchBlob(p));
+      let blob = blobPromise ? await blobPromise : null;
+      if (!blob) blob = await fetchBlob(p); // prefetch failed or absent — retry live
+      if (!blob.size) throw new Error("empty image");
       const file = new File([blob], `${p.asin}.jpg`, { type: blob.type || "image/jpeg" });
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
         try {
@@ -315,6 +319,19 @@
   $("#viewerClose").addEventListener("click", closeViewer);
   $("#btnSave").addEventListener("click", () => viewerProduct && saveImage(viewerProduct, viewerBlob));
   $("#btnCopy").addEventListener("click", () => viewerProduct && copyText(viewerProduct.title_en));
+
+  // chips stick right below the topbar, whose height varies with safe-area insets
+  const setTopbarH = () => {
+    const tb = document.querySelector(".topbar");
+    if (tb) document.documentElement.style.setProperty("--topbar-h", `${tb.offsetHeight}px`);
+  };
+  setTopbarH();
+  window.addEventListener("resize", setTopbarH);
+
+  // keep the freshness indicator honest on a tab left open
+  setInterval(() => {
+    if (state.radar) renderMeta();
+  }, 60000);
 
   loadData();
 })();

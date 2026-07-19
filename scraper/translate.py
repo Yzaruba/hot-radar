@@ -59,9 +59,12 @@ def _google_one(text: str) -> str:
 
 
 def _mymemory_one(text: str) -> str:
+    params = {"q": text, "langpair": "en|zh-CN"}
+    if config.MYMEMORY_EMAIL:  # raises the daily quota; injected via env/secret
+        params["de"] = config.MYMEMORY_EMAIL
     r = httpx.get(
         "https://api.mymemory.translated.net/get",
-        params={"q": text, "langpair": "en|zh-CN", "de": config.MYMEMORY_EMAIL},
+        params=params,
         timeout=15,
     )
     r.raise_for_status()
@@ -106,3 +109,12 @@ def translate_many(texts, cache_path=config.TRANS_CACHE) -> dict:
     if dirty:
         write_json(cache_path, cache)
     return result
+
+
+def prune_cache(used_texts, cache_path=config.TRANS_CACHE, max_size=config.TRANS_CACHE_MAX) -> None:
+    """Keep the committed cache bounded: once over max_size, keep only live keys."""
+    cache = read_json(cache_path, {}) or {}
+    if len(cache) <= max_size:
+        return
+    kept = {t: cache[t] for t in used_texts if t in cache}
+    write_json(cache_path, kept)
