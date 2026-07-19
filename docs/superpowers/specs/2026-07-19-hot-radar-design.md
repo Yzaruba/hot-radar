@@ -74,7 +74,7 @@ GitHub Actions（cron: 17 */6 * * *，UTC，+ workflow_dispatch 手动触发）
 
 ### 运行门控与元数据（2026-07-20 P0 修订）
 
-- **freshness preflight**：workflow 首个 job 调 `scraper/preflight.py`——radar.json 的 `generated_at` 距今不足 **5 小时** 且未带 `force` 时，跳过抓取/提交/部署（页面保持真实旧时间戳，不会假装"刚刚更新"）。`workflow_dispatch` 提供布尔输入 `force`（默认 false）绕过门控。定时与手动共用并发组 `radar`，`cancel-in-progress: true`。
+- **freshness preflight**：workflow 首个 job 调 `scraper/preflight.py`——radar.json 的 `generated_at` 距今不足 **4 小时**（初版5小时；GitHub cron 常态性迟到≤2小时会造成下一轮被误跳过、产生12小时空窗，故下调）且未带 `force` 时，跳过抓取/提交/部署（页面保持真实旧时间戳，不会假装"刚刚更新"）。`workflow_dispatch` 提供布尔输入 `force`（默认 false）绕过门控。定时与手动共用并发组 `radar`，`cancel-in-progress: true`。
 - **run_meta.json**（site/data/，每次执行的运行写入）：run_id、trigger(schedule/manual/local)、force、started_at、finished_at、duration_seconds、data_changed（与上次产物比较）、skipped_reason（恒为 null——被跳过的运行不产生提交）、fresh_pairs/stale_pairs（`榜单:品类` 粒度）、product_count、unique_asin_count、duplicate_count、deployed_commit（运行所基于的 GITHUB_SHA）。
 
 ### build.py 输出契约（前端唯一依赖，schema_version 2）

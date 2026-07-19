@@ -21,8 +21,15 @@ def test_force_manual_run_is_not_skipped():
     assert reason == "forced"
 
 
-def test_boundary_exactly_5h_runs():
-    proceed, _ = preflight.should_run(_iso(NOW - timedelta(hours=5)), NOW, force=False)
+def test_boundary_exactly_at_threshold_runs():
+    at_threshold = NOW - timedelta(hours=preflight.FRESH_THRESHOLD_H)
+    proceed, _ = preflight.should_run(_iso(at_threshold), NOW, force=False)
+    assert proceed is True
+
+
+def test_delayed_cron_next_run_not_skipped():
+    # cron fired 1.5h late -> next on-time run sees ~4.5h-old data and must run
+    proceed, _ = preflight.should_run(_iso(NOW - timedelta(hours=4, minutes=30)), NOW, force=False)
     assert proceed is True
 
 

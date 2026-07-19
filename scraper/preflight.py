@@ -10,7 +10,10 @@ from datetime import datetime, timezone
 
 from . import config
 
-FRESH_THRESHOLD_H = 5
+# 4h (not 5h): GitHub cron routinely fires up to ~2h late; with a 6h cadence a
+# 5h gate made the *next* on-time run see ~4.6h-old data and skip, producing
+# occasional 12h gaps. 4h tolerates the delay while still blocking double-runs.
+FRESH_THRESHOLD_H = 4
 
 
 def should_run(generated_at_iso, now, force, threshold_h=FRESH_THRESHOLD_H):

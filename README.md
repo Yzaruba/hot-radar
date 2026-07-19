@@ -22,7 +22,7 @@
 
 ## 刷新机制（防重复跑）
 
-- 数据不足 **5 小时**新时，定时/手动运行都会在 preflight 阶段跳过（不抓取、不提交、不部署），Actions 摘要里写明原因
+- 数据不足 **4 小时**新时，定时/手动运行都会在 preflight 阶段跳过（不抓取、不提交、不部署），Actions 摘要里写明原因
 - 想立即强制刷新：Actions → radar → Run workflow → 勾选 **force**
 - 同一时间只允许一个运行（新运行会取消进行中的旧运行）
 - 每次执行的运行会把覆盖情况写进 [site/data/run_meta.json](site/data/run_meta.json)，页面顶部展示"覆盖 X/12 榜单"
