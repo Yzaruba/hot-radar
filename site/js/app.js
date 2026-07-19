@@ -103,8 +103,14 @@
     return `<span class="sticker">#${p.rank}</span>`;
   }
 
+  function catZh(id) {
+    const c = state.radar.categories.find((c) => c.id === id);
+    return c ? c.zh : id;
+  }
+
   function badgesHTML(p) {
     const b = [];
+    if (state.cat === "all") b.push(`<span class="badge rankb">${esc(catZh(p.category))}</span>`);
     if (p.signals.tiktok && p.signals.tiktok.length)
       b.push(`<span class="badge tk" title="${esc(p.signals.tiktok.join(" #"))}">🎵 #${esc(p.signals.tiktok[0])}</span>`);
     if (p.signals.amazon_surge) b.push(`<span class="badge">📈 飙升</span>`);

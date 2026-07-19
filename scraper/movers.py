@@ -34,7 +34,11 @@ def _snapshot_times(snap_dir):
 
 
 def pick_baseline(now: datetime, snap_dir=config.SNAP_DIR):
-    """Rank map from the snapshot closest to 24h old (20-28h window), else the oldest."""
+    """Rank map from the snapshot closest to 24h old (20-28h window).
+
+    Fallback: the oldest snapshot, but only if it is at least MIN_BASELINE_H
+    old — a minutes-old baseline would just surface meaningless rank jitter.
+    """
     if not snap_dir.exists():
         return None
     snaps = _snapshot_times(snap_dir)
@@ -46,7 +50,10 @@ def pick_baseline(now: datetime, snap_dir=config.SNAP_DIR):
         target = now - timedelta(hours=24)
         chosen = min(in_window, key=lambda tf: abs((tf[0] - target).total_seconds()))[1]
     else:
-        chosen = snaps[0][1]  # oldest
+        oldest_t, oldest_f = snaps[0]
+        if (now - oldest_t).total_seconds() / 3600 < config.MIN_BASELINE_H:
+            return None
+        chosen = oldest_f
     data = read_json(chosen, {})
     return {_key(i): i["rank"] for i in data.get("items", [])}
 

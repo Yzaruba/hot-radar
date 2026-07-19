@@ -49,10 +49,16 @@ def test_snapshot_roundtrip_and_baseline_window(tmp_path):
 
 def test_baseline_falls_back_to_oldest_outside_window(tmp_path):
     now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
-    movers.save_snapshot([_item("A", 4)], now - timedelta(hours=2), snap_dir=tmp_path)
-    movers.save_snapshot([_item("A", 8)], now - timedelta(hours=5), snap_dir=tmp_path)
+    movers.save_snapshot([_item("A", 4)], now - timedelta(hours=10), snap_dir=tmp_path)
+    movers.save_snapshot([_item("A", 8)], now - timedelta(hours=13), snap_dir=tmp_path)
     base = movers.pick_baseline(now, snap_dir=tmp_path)
     assert base == {"bestsellers:electronics:A": 8}
+
+
+def test_baseline_rejects_too_young_snapshots(tmp_path):
+    now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
+    movers.save_snapshot([_item("A", 4)], now - timedelta(minutes=25), snap_dir=tmp_path)
+    assert movers.pick_baseline(now, snap_dir=tmp_path) is None
 
 
 def test_baseline_none_when_no_snapshots(tmp_path):

@@ -63,6 +63,7 @@ body {
   scrollbar-width: none;
 }
 .chips::-webkit-scrollbar { display: none; }
+.chips[hidden] { display: none; }
 .chip {
   flex: 0 0 auto; font-size: 13px; font-weight: 700; color: var(--paper);
   background: #1c1c1c; border: 2px solid #333; border-radius: 3px;
