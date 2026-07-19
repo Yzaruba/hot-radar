@@ -6,7 +6,10 @@
   const state = { tab: "surge", cat: "all", radar: null, trends: null, runMeta: null };
   const LIST_ZH = { bestsellers: "畅销", "new-releases": "新品" };
   const STATUS_KEY = "hotradar_status";
-  const STATUS_NAMES = ["标记", "已定样", "已上架", "放弃"];
+  // indices 1-3 are long-standing stored values — only ever APPEND here
+  const STATUS_NAMES = ["标记", "已定样", "已上架", "放弃", "观察中"];
+  const RECO_CLASS = { "立即找货": "r1", "小批测试": "r2", "继续观察": "r3", "高风险": "r4" };
+  const CONF_ZH = { high: "置信度高", medium: "置信度中", low: "置信度低" };
 
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -68,8 +71,14 @@
     const rm = state.runMeta;
     const totalPairs = state.radar.categories.length * 2;
     const cover = rm && rm.fresh_pairs ? ` · 覆盖${rm.fresh_pairs.length}/${totalPairs}榜单` : "";
+    const incomplete =
+      (rm && rm.stale_pairs && rm.stale_pairs.length > 0) ||
+      state.radar.categories.some((c) => c.stale);
+    const t3 = state.radar.top3;
+    const actions = t3 && t3.asins ? t3.asins.length : 0;
     $("#meta").innerHTML =
-      `<span class="${ageH > 12 ? "old" : "fresh"}">● ${relTime(g)}更新</span><br>${abs}${cover}`;
+      `<span class="${ageH > 12 ? "old" : "fresh"}">● ${relTime(g)}更新</span><br>${abs}${cover}<br>` +
+      `${incomplete ? "⚠️数据不完整" : "数据完整"} · 今日${actions}个行动`;
     const warns = [];
     if (ageH > 12) warns.push(`⚠️ 数据已 ${Math.round(ageH)} 小时未更新`);
     if (rm && rm.stale_pairs && rm.stale_pairs.length) {
@@ -171,6 +180,50 @@
 </article>`;
   }
 
+  /* ── today's top 3 hero (first screen, surge tab only) ── */
+  function renderTop3HTML() {
+    const t3 = state.radar.top3;
+    const header = `<h2 class="section-title bangers">⚡ 今日 Top 3</h2>`;
+    if (!t3 || !t3.asins || !t3.asins.length) {
+      state.top3 = [];
+      return `<section class="top3">${header}
+        <div class="empty"><span class="big">NONE</span>今天没有商品达到推荐标准<br>去下面的榜单自己淘一淘</div></section>`;
+    }
+    const byAsin = new Map(state.radar.products.map((p) => [p.asin, p]));
+    state.top3 = t3.asins.map((a) => byAsin.get(a)).filter(Boolean);
+    const note =
+      t3.qualified_count < 3
+        ? `<p class="top3-note">⚠️ 今天只有 ${t3.qualified_count} 个商品达到推荐标准，宁缺毋滥</p>`
+        : `<p class="top3-note">${t3.qualified_count} 个商品达标 · 展示最强 3 个</p>`;
+    const cards = state.top3
+      .map((p, i) => {
+        const st = statuses()[p.asin] || 0;
+        const watching = st === 4;
+        return `
+<article class="hero" data-t3="${i}">
+  <span class="hero-rank bangers">TOP ${i + 1}</span>
+  <div class="hero-img" data-action="t3view"><img src="${esc(p.image)}" alt="${esc(p.title_en)}"></div>
+  <div class="hero-body">
+    <div class="hero-score">
+      <span class="bangers hs-num">${Math.round(p.opportunity_score)}</span>
+      <span class="conf conf-${p.confidence}">${CONF_ZH[p.confidence] || ""}</span>
+      <span class="reco ${RECO_CLASS[p.recommendation] || "r3"}">${esc(p.recommendation)}</span>
+    </div>
+    <div class="hero-name">${esc(p.keyword_zh || p.title_zh || p.title_en)}</div>
+    <div class="hero-why">✅ ${esc(p.reason_zh || "")}</div>
+    <div class="hero-risk">⚠️ ${esc(p.primary_risk_zh || "")}</div>
+    <div class="hero-actions">
+      <button data-action="t3view">查看详情</button>
+      <a class="h1688" href="${esc(p.url_1688 || p.url_1688_fallback)}" target="_blank" rel="noopener">去1688搜</a>
+      <button data-action="t3watch" class="${watching ? "on" : ""}">${watching ? "👁 观察中" : "标记观察"}</button>
+    </div>
+  </div>
+</article>`;
+      })
+      .join("");
+    return `<section class="top3">${header}${note}<div class="top3-cards">${cards}</div></section>`;
+  }
+
   function renderProducts() {
     const list = viewsFor();
     const titles = { surge: "🔥 飙升榜", bestsellers: "📈 畅销榜", "new-releases": "🆕 新品榜" };
@@ -189,8 +242,9 @@
     } else {
       body = `<div class="grid">${list.map((v, i) => cardHTML(v, i)).join("")}</div>`;
     }
+    const top3Html = state.tab === "surge" ? renderTop3HTML() : "";
     $("#content").innerHTML =
-      `<h2 class="section-title bangers">${titles[state.tab]}</h2><p class="section-sub">${subs[state.tab]}</p>${body}`;
+      `${top3Html}<h2 class="section-title bangers">${titles[state.tab]}</h2><p class="section-sub">${subs[state.tab]}</p>${body}`;
     state.visible = list;
   }
 
@@ -329,6 +383,26 @@
   $("#content").addEventListener("click", (e) => {
     const actEl = e.target.closest("[data-action]");
     if (!actEl) return;
+    const hero = actEl.closest(".hero");
+    if (hero) {
+      const p = (state.top3 || [])[Number(hero.dataset.t3)];
+      if (!p) return;
+      const action = actEl.dataset.action;
+      if (action === "t3view") openViewer(p);
+      else if (action === "t3watch") {
+        const st = statuses()[p.asin] || 0;
+        if (st >= 1 && st <= 3) {
+          toast(`已有标记：${STATUS_NAMES[st]}`);
+          return;
+        }
+        const next = st === 4 ? 0 : 4;
+        setStatus(p.asin, next);
+        actEl.classList.toggle("on", next === 4);
+        actEl.textContent = next === 4 ? "👁 观察中" : "标记观察";
+        toast(next === 4 ? "已加入观察清单 👁" : "已取消观察");
+      }
+      return;
+    }
     const card = actEl.closest(".card");
     if (!card) return;
     const view = state.visible[Number(card.dataset.i)];
@@ -339,7 +413,7 @@
     else if (action === "save") saveImage(p);
     else if (action === "copy") copyText(p.title_en);
     else if (action === "status") {
-      const next = ((statuses()[p.asin] || 0) + 1) % 4;
+      const next = ((statuses()[p.asin] || 0) + 1) % STATUS_NAMES.length;
       setStatus(p.asin, next);
       actEl.className = `status s${next}`;
       actEl.textContent = STATUS_NAMES[next];

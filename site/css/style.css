@@ -120,7 +120,10 @@ body {
 .status.s3 { background: #777; color: #fff; border-style: solid; text-decoration: line-through; }
 
 .card-body { padding: 8px 9px 9px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
-.title-zh { font-size: 14px; font-weight: 900; line-height: 1.25; }
+.title-zh {
+  font-size: 14px; font-weight: 900; line-height: 1.25;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+}
 .title-en {
   font-size: 11px; color: #444; line-height: 1.3;
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
@@ -142,6 +145,56 @@ body {
 }
 .card-actions .a1688 { flex: 2.2; background: var(--red); color: #fff; letter-spacing: .04em; }
 .card-actions > * + * { border-left: 2px solid #000; }
+
+/* ── today's top 3 hero ── */
+.top3 { margin-bottom: 20px; }
+.top3-note { font-size: 12px; color: var(--gray); margin: -6px 2px 12px; }
+.hero {
+  position: relative; background: var(--paper); color: #000;
+  border: 3px solid #000; box-shadow: 5px 5px 0 var(--red);
+  display: flex; gap: 10px; padding: 14px 12px 12px; margin-bottom: 16px;
+}
+.hero-rank {
+  position: absolute; top: -11px; left: -7px; z-index: 2;
+  background: #000; color: var(--yellow); font-size: 15px;
+  padding: 1px 10px 2px; transform: rotate(-4deg);
+  border: 2px solid var(--yellow); letter-spacing: .06em;
+}
+.hero-img { flex: 0 0 104px; }
+.hero-img img {
+  width: 104px; height: 104px; object-fit: contain; background: #fff;
+  border: 2px solid #000; display: block; cursor: pointer;
+}
+.hero-body { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.hero-score { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.hs-num { font-size: 30px; color: var(--red); line-height: 1; }
+.conf { font-size: 10px; font-weight: 700; padding: 1px 6px; border: 1px solid #000; }
+.conf-high { background: var(--green); color: #fff; }
+.conf-medium { background: var(--yellow); }
+.conf-low { background: #ccc; }
+.reco {
+  font-size: 11px; font-weight: 900; padding: 2px 8px;
+  border: 2px solid #000; box-shadow: 2px 2px 0 #000;
+}
+.reco.r1 { background: var(--red); color: #fff; }
+.reco.r2 { background: var(--yellow); }
+.reco.r3 { background: #ddd; }
+.reco.r4 { background: #555; color: #fff; }
+.hero-name { font-size: 15px; font-weight: 900; line-height: 1.25; }
+.hero-why, .hero-risk { font-size: 12px; line-height: 1.35; }
+.hero-risk { color: #8a5b00; }
+.hero-actions { display: flex; gap: 6px; margin-top: 5px; }
+.hero-actions > * {
+  flex: 1; text-align: center; font-size: 12px; font-weight: 900; padding: 7px 0;
+  border: 2px solid #000; background: #fff; cursor: pointer;
+  text-decoration: none; color: #000; white-space: nowrap;
+}
+.hero-actions .h1688 { background: var(--red); color: #fff; }
+.hero-actions .on { background: #000; color: var(--yellow); }
+@media (min-width: 960px) {
+  .top3-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .top3-cards .hero { margin-bottom: 0; }
+}
 
 /* ── tiktok trend cards ── */
 .trend {
@@ -168,6 +221,7 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
   background: #050505; border-top: 3px solid var(--red);
 }
+.tabbar button[hidden] { display: none; }
 .tabbar button {
   flex: 1; background: none; border: 0; color: var(--gray);
   font-size: 11px; font-weight: 700; cursor: pointer;

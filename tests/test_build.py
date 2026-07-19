@@ -97,7 +97,8 @@ def test_run_meta_unique_asin_count_matches_output():
     assert meta["unique_asin_count"] == len(products) == meta["product_count"]
     assert meta["duplicate_count"] == 2
     assert meta["trigger"] == "manual" and meta["force"] is True
-    assert meta["run_id"] == "42" and meta["deployed_commit"] == "abc123"
+    assert meta["run_id"] == "42" and meta["source_commit"] == "abc123"
+    assert "deployed_commit" not in meta  # renamed in P1A — old name overpromised
     assert meta["duration_seconds"] == 90.0
     assert "new-releases:kitchen" in meta["stale_pairs"]
     assert "bestsellers:kitchen" in meta["fresh_pairs"]

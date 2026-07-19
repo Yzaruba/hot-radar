@@ -10,7 +10,7 @@ import os
 import re
 import sys
 
-from . import amazon, config, images, movers, tiktok, translate
+from . import amazon, config, images, movers, scoring, tiktok, translate
 from .util import iso, log, now_utc, read_json, write_json
 
 
@@ -123,7 +123,9 @@ def build_run_meta(
         "product_count": len(products),
         "unique_asin_count": len(unique_asins),
         "duplicate_count": flat_entry_count - merged_count,
-        "deployed_commit": env.get("GITHUB_SHA", "local"),
+        # renamed from deployed_commit (P1A): this is the commit the run executed
+        # FROM, not the data commit it created — the old name overpromised
+        "source_commit": env.get("GITHUB_SHA", "local"),
     }
 
 
@@ -251,8 +253,12 @@ def main() -> int:
     images.prune(products)
     products.sort(key=lambda p: p["asin"])
 
+    scoring.apply(products, now.date())
+    top3 = scoring.pick_top3(products)
+
     radar = {
         "schema_version": 2,
+        "top3": top3,
         "generated_at": iso(now),
         "real_movers_available": real_movers,
         "categories": [

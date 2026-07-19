@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       force:
-        description: "Ignore the 5h freshness gate and scrape anyway"
+        description: "Ignore the 4h freshness gate and scrape anyway"
         type: boolean
         default: false
 
@@ -22,7 +22,7 @@ jobs:
       proceed: ${{ steps.gate.outputs.proceed }}
       reason: ${{ steps.gate.outputs.reason }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Freshness gate
         id: gate
@@ -44,9 +44,9 @@ jobs:
     outputs:
       status: ${{ steps.run.outputs.status }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -94,7 +94,7 @@ jobs:
       name: github-pages
       url: ${{ steps.d.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7   # v7: current Node runtime, silences Node20 deprecation
         with:
           ref: main   # pick up the data commit pushed by the scrape job
 
