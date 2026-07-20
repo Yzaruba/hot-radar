@@ -1,8 +1,8 @@
 {
   "data_changed": true,
   "duplicate_count": 25,
-  "duration_seconds": 168.0,
-  "finished_at": "2026-07-19T22:17:10Z",
+  "duration_seconds": 167.1,
+  "finished_at": "2026-07-20T01:37:25Z",
   "force": true,
   "fresh_pairs": [
     "bestsellers:beauty",
@@ -19,11 +19,11 @@
     "new-releases:toys"
   ],
   "product_count": 695,
-  "run_id": "29705768969",
+  "run_id": "29711103803",
   "skipped_reason": null,
-  "source_commit": "d869449ef3a674132e85c0f16a3250a522c5f49a",
+  "source_commit": "6612a82b2117bf4ef42ac40e17b3da5c5c883eee",
   "stale_pairs": [],
-  "started_at": "2026-07-19T22:14:22Z",
+  "started_at": "2026-07-20T01:34:38Z",
   "trigger": "manual",
   "unique_asin_count": 695
 }
