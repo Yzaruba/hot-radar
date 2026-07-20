@@ -39,11 +39,13 @@ STORE_FIT_TIERS = {
         {"zh": "美妆个护/美甲", "keywords": [
             "nail", "press on", "makeup", "lip gloss", "lip balm", "lash",
             "eyeliner", "blush", "hair clip", "claw clip", "scrunchie",
-            "hair tie", "face mask sheet", "pimple patch"]},
+            "hair tie", "face mask sheet", "pimple patch", "acne patch",
+            "sunscreen", "spf ", "serum", "toner", "moisturizer", "cleanser"]},
         {"zh": "文具/DIY手工材料", "keywords": [
             "rhinestone", "diy kit", "craft kit", "sticker", "stationery",
             "gel pen", "beads", "bracelet making", "diamond painting",
-            "scrapbook", "washi tape", "coloring", "origami", "clay kit"]},
+            "scrapbook", "washi tape", "coloring", "origami", "clay kit",
+            "modeling compound", "playing cards", "card game"]},
         {"zh": "礼品/钥匙扣/小装饰", "keywords": [
             "keychain", "key ring", "ornament", "charm", "night light",
             "gift for", "lanyard", "magnet", "snow globe", "wind chime",
@@ -60,14 +62,16 @@ STORE_FIT_TIERS = {
         {"zh": "小型厨房创意用品", "keywords": [
             "kitchen gadget", "silicone mold", "ice cube tray", "bottle opener",
             "measuring spoon", "peeler", "whisk", "tongs", "straw", "tumbler",
-            "mug", "egg timer", "jar opener", "chip clip"]},
+            "mug", "egg timer", "jar opener", "chip clip", "kitchen scale",
+            "thermometer", "can opener"]},
         {"zh": "小型家居新奇用品", "keywords": [
             "led strip", "galaxy projector", "projector light", "mini lamp",
             "humidifier", "diffuser", "coaster", "candle", "mini fridge",
             "sunset lamp", "lava lamp", "photo clip"]},
         {"zh": "小型运动户外用品", "keywords": [
             "resistance band", "jump rope", "pickleball", "tennis ball",
-            "yoga strap", "water bottle", "grip strengthener", "massage ball"]},
+            "yoga strap", "water bottle", "grip strengthener", "massage ball",
+            "shaker bottle"]},
     ],
     "low": [
         {"zh": "搬家/普通收纳", "keywords": [
@@ -82,7 +86,7 @@ STORE_FIT_TIERS = {
             "furniture", "cabinet", "recliner", "sectional", "air fryer",
             "vacuum cleaner", "robot vacuum", "space heater", "dehumidifier",
             "tower fan", "box spring", "headboard", "sheet set", "comforter",
-            "pillow set", "curtains"]},
+            "pillow set", "curtains", "dumbbell", "doorbell", "security camera"]},
         {"zh": "专业工具", "keywords": [
             "drill", "socket set", "wrench", "multimeter", "soldering",
             "chainsaw", "pressure washer", "impact driver", "tool box"]},
@@ -90,7 +94,8 @@ STORE_FIT_TIERS = {
             "paper towels", "batteries", "light bulbs", "extension cord",
             "surge protector", "toilet paper", "laundry", "insect", "pest ",
             "mouse trap", "fly trap", "roach", "dryer sheets", "air filter",
-            "furnace filter", "water filter replacement"]},
+            "furnace filter", "water filter replacement", "ant killer",
+            "bait station", "hand soap", "soap refill", "air freshener"]},
     ],
 }
 STORE_FIT_POINTS = {"high": 10.0, "mid": 6.0, "low": 0.0}  # neutral = category prior × 4
@@ -235,3 +240,18 @@ PROCUREMENT_STRIP_ZH = [
 ]
 PROCUREMENT_MIN_LEN = 8
 PROCUREMENT_MAX_LEN = 24
+
+# 翻译腔 → 采购行业用语（deterministic replacements, applied after stripping）
+PROCUREMENT_REWRITE_ZH = {
+    "软玩具": "捏捏乐",
+    "挤压玩具": "捏捏乐",
+    "缓慢上升": "慢回弹",
+    "减压玩具": "解压玩具",
+    "移动袋": "搬家收纳袋",
+    "电唱机": "唱片机",
+    "不倒翁": "保温杯",  # gtx habitually mistranslates "tumbler"
+    "带草盖": "带吸管盖",
+    "草盖": "吸管盖",
+}
+# extra pure-marketing words spotted in real data
+PROCUREMENT_STRIP_ZH_EXTRA = ["炫目", "易于使用", "经典", "原创", "简约现代", "华丽", "梦幻"]

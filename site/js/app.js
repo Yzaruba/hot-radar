@@ -348,6 +348,7 @@
   /* ── fullscreen viewer ── */
   let viewerProduct = null;
   let viewerBlob = null;
+  let viewerLastFocus = null;
 
   function viewerDetailHTML(p) {
     if (p.opportunity_score == null) return "";
@@ -386,8 +387,50 @@
   <p>⚠️ ${esc(p.primary_risk_zh || "")}</p>
   <p>📊 ${market} · 24h排名 ${esc(rank24)}</p>
   ${p.procurement_keyword_zh ? `<p>🛒 采购词：「${esc(p.procurement_keyword_zh)}」</p>` : ""}
-  <p class="vd-note">💬 评论总结：待接入（不基于标题猜测）</p>
-</div>`;
+</div>
+<div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;
+  }
+
+  /* ── review summary (real Amazon reviews only; honest empty states) ── */
+  function themeChips(themes, cls) {
+    if (!themes || !themes.length) return `<span class="vd-note">未归纳出明显主题</span>`;
+    return themes
+      .map((t) => `<span class="rv-chip ${cls}">${esc(t.zh)} ×${t.count}</span>`)
+      .join("");
+  }
+
+  function renderReviews(doc) {
+    const box = $("#vdReviews");
+    if (!box) return;
+    if (!doc || doc.status === "unconfigured") {
+      box.innerHTML = `<p class="vd-note">💬 评论总结待数据源接入</p>`;
+      return;
+    }
+    if (!(doc.status === "ready" || doc.status === "stale") || !doc.summary_zh) {
+      box.innerHTML = `<p class="vd-note">💬 评论数据暂不可用</p>`;
+      return;
+    }
+    const stale = doc.status === "stale" ||
+      (doc.expires_at && Date.parse(doc.expires_at) < Date.now());
+    const s = doc.summary_zh;
+    box.innerHTML = `
+<p class="rv-head">💬 真实评论总结
+  <span class="vd-note">（${doc.sample_count}条样本 · ${relTime(doc.fetched_at)}抓取${stale ? " · 数据较旧" : ""}）</span></p>
+<div class="rv-row"><span class="rv-label">好评</span>${themeChips(s.positive_themes, "pos")}</div>
+<div class="rv-row"><span class="rv-label">差评</span>${themeChips(s.negative_themes, "neg")}</div>
+<p class="rv-verdict">🧭 ${esc(s.procurement_verdict_zh || "")}</p>
+<p class="vd-note">${esc(s.basis_zh || "")}${doc.total_review_count ? ` · 全站共${Number(doc.total_review_count).toLocaleString()}条评论` : ""}</p>`;
+  }
+
+  function loadReviews(p) {
+    fetch(`data/reviews/${encodeURIComponent(p.asin)}.json`, { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((doc) => {
+        if (viewerProduct && viewerProduct.asin === p.asin) renderReviews(doc);
+      })
+      .catch(() => {
+        if (viewerProduct && viewerProduct.asin === p.asin) renderReviews(null);
+      });
   }
 
   function openViewer(p) {
@@ -401,9 +444,12 @@
     $("#viewerDetail").innerHTML = viewerDetailHTML(p);
     $("#btn1688").href = p.url_1688 || p.url_1688_fallback;
     $("#btnAmazon").href = p.amazon_url;
+    viewerLastFocus = document.activeElement;
     $("#viewer").hidden = false;
     document.body.style.overflow = "hidden";
     $("#viewer").scrollTop = 0;
+    $("#viewerClose").focus();
+    loadReviews(p);
   }
 
   function closeViewer() {
@@ -412,7 +458,13 @@
     document.body.style.overflow = "";
     viewerProduct = null;
     viewerBlob = null;
+    if (viewerLastFocus && document.contains(viewerLastFocus)) viewerLastFocus.focus();
+    viewerLastFocus = null;
   }
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("#viewer").hidden) closeViewer();
+  });
 
   /* ── events ── */
   $("#tabbar").addEventListener("click", (e) => {

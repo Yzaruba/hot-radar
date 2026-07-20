@@ -252,7 +252,7 @@ def test_asin_is_only_final_anchor_and_tied_flagged():
 def test_procurement_keyword_strips_latin_brands():
     kw = scoring.procurement_keyword("HomeSURE 支持 200 磅重型移动袋")
     assert kw and "HomeSURE" not in kw and "支持" not in kw and "重型" not in kw
-    assert "移动袋" in kw
+    assert "搬家收纳袋" in kw  # 翻译腔"移动袋"已被行业用语改写
 
     kw2 = scoring.procurement_keyword("Gikboup 40000 件 40 色带水钻的炫目套件")
     assert kw2 and "Gikboup" not in kw2 and "水钻" in kw2

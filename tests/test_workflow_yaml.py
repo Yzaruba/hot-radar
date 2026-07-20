@@ -43,3 +43,23 @@ def test_preflight_receives_force_input():
     steps = WF["jobs"]["preflight"]["steps"]
     gate_step = next(s for s in steps if s.get("id") == "gate")
     assert gate_step["env"]["RADAR_FORCE"] == "${{ inputs.force }}"
+
+
+RV_PATH = Path(__file__).resolve().parents[1] / ".github" / "workflows" / "reviews.yml"
+RV = yaml.safe_load(RV_PATH.read_text(encoding="utf-8"))
+
+
+def test_reviews_workflow_decoupled_from_radar():
+    on = RV.get("on") or RV.get(True)
+    assert "schedule" in on and "workflow_dispatch" in on
+    assert RV["concurrency"]["group"] == "reviews"  # never shares the radar group
+    # once a day, not every 6h
+    assert "* * *" in on["schedule"][0]["cron"] and "*/6" not in on["schedule"][0]["cron"]
+
+
+def test_reviews_workflow_key_comes_from_secrets_only():
+    raw = RV_PATH.read_text(encoding="utf-8")
+    assert "${{ secrets.REVIEWS_API_KEY }}" in raw
+    # no literal key material anywhere in the workflow
+    import re
+    assert not re.search(r"(api[_-]?key\s*[:=]\s*['\"][A-Za-z0-9]{8,})", raw, re.I)

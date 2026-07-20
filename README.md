@@ -27,6 +27,13 @@
 - 同一时间只允许一个运行（新运行会取消进行中的旧运行）
 - 每次执行的运行会把覆盖情况写进 [site/data/run_meta.json](site/data/run_meta.json)，页面顶部展示"覆盖 X/12 榜单"
 
+## 评论增强（独立于雷达主流程）
+
+- [reviews.yml](.github/workflows/reviews.yml) 每天一次挑最值得关注的20个商品尝试获取**真实Amazon评论**，生成中文好评/差评主题和采购判断，写入 [site/data/reviews/](site/data/reviews/)；评论任务失败**不影响**雷达主数据
+- 评论总结只来自真实抓到的评论文本，绝不由标题或评分猜测；没有数据时详情页显示"评论数据暂不可用/待数据源接入"
+- 2026-07实测：Amazon商品页已不再匿名渲染评论正文（评论页是登录墙），当前默认的 `amazon_page` provider 充当每日金丝雀——Amazon恢复渲染即自动出总结；要立即出总结需接入外部Provider：仓库 Variables 设 `REVIEWS_PROVIDER`，Secrets 设 `REVIEWS_API_KEY`
+- 缓存7天；评论量涨超20%提前刷新；单商品失败重试1次后跳过
+
 ## 改配置
 
 - 品类列表：[scraper/config.py](scraper/config.py) 的 `CATEGORIES`

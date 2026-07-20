@@ -285,10 +285,18 @@ def procurement_keyword(title_zh):
     text = _ASCII_RUN.sub(_keep, title_zh)
     for b in cfg.BRAND_ZH:
         text = text.replace(b, " ")
-    for w in cfg.PROCUREMENT_STRIP_ZH:
+    for w in cfg.PROCUREMENT_STRIP_ZH + cfg.PROCUREMENT_STRIP_ZH_EXTRA:
         text = text.replace(w, " ")
     text = re.sub(r"[|,，。.:：;；()（）\[\]【】/\\\-–—_+~!！?？'\"“”]+", " ", text)
+    for src, dst in cfg.PROCUREMENT_REWRITE_ZH.items():  # 翻译腔 → 行业用语
+        text = text.replace(src, dst)
     text = " ".join(text.split())
+    # no dangling particles left by brand removal ("MGA的…" → "的…")
+    text = re.sub(r"^[的与和及之\s]+|[的与和及之\s]+$", "", text)
+    text = re.sub(r"的\s+", "的", text)  # "带水钻的 套件" → "带水钻的套件"
+    # "2 件套" → "2件套": no space between digits and CJK
+    text = re.sub(r"(?<=[0-9])\s+(?=[一-鿿])", "", text)
+    text = re.sub(r"(?<=[一-鿿])\s+(?=[0-9])", "", text)
     if len(text.replace(" ", "")) > cfg.PROCUREMENT_MAX_LEN:
         out, ln = [], 0
         for part in text.split(" "):

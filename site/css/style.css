@@ -247,7 +247,7 @@ body {
 }
 .viewer-close {
   position: fixed; top: calc(8px + env(safe-area-inset-top)); right: 12px;
-  width: 38px; height: 38px; font-size: 18px; font-weight: 900;
+  width: 48px; height: 48px; font-size: 22px; font-weight: 900;
   background: var(--red); color: #fff; border: 2px solid #000; cursor: pointer; z-index: 2;
 }
 .viewer-info { margin: 12px auto 4px; max-width: 500px; }
@@ -282,6 +282,24 @@ body {
 .bd-fill { display: block; height: 100%; background: var(--red); }
 .bd-val { flex: 0 0 52px; font-size: 11px; color: var(--gray); text-align: right; }
 .bd-val.neg { color: var(--yellow); font-weight: 900; }
+.vd-reviews {
+  margin-top: 12px; background: rgba(255,255,255,.06);
+  border: 2px solid #333; padding: 10px 12px; text-align: left;
+}
+.rv-head { font-size: 13px; font-weight: 900; color: var(--paper); margin-bottom: 8px; }
+.rv-row { display: flex; align-items: flex-start; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+.rv-label {
+  flex: 0 0 auto; font-size: 11px; font-weight: 900; padding: 2px 7px;
+  background: #262626; color: var(--paper); border: 1px solid #000;
+}
+.rv-chip {
+  font-size: 12px; font-weight: 700; padding: 2px 8px; border: 2px solid #000;
+  margin: 1px 2px;
+}
+.rv-chip.pos { background: var(--green); color: #fff; }
+.rv-chip.neg { background: var(--yellow); color: #000; }
+.rv-verdict { font-size: 13px; font-weight: 900; color: #fff; margin-top: 8px; }
+
 .vd-lines { margin-top: 10px; }
 .vd-lines p { font-size: 13px; line-height: 1.5; color: var(--paper); margin: 6px 0; }
 .vd-note { color: var(--gray); font-size: 12px; }
