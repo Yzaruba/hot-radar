@@ -185,7 +185,8 @@ body {
 .hero-risk { color: #8a5b00; }
 .hero-actions { display: flex; gap: 6px; margin-top: 5px; }
 .hero-actions > * {
-  flex: 1; text-align: center; font-size: 12px; font-weight: 900; padding: 7px 0;
+  flex: 1; font-size: 12px; font-weight: 900;
+  min-height: 44px; display: flex; align-items: center; justify-content: center;
   border: 2px solid #000; background: #fff; cursor: pointer;
   text-decoration: none; color: #000; white-space: nowrap;
 }
@@ -237,7 +238,8 @@ body {
 /* ── fullscreen viewer ── */
 .viewer {
   position: fixed; inset: 0; z-index: 100; overflow-y: auto;
-  background: rgba(5,5,5,.97); padding: 46px 16px 30px; text-align: center;
+  background: #070707; text-align: center;
+  padding: 46px 16px calc(60px + env(safe-area-inset-bottom)); /* clear of any bottom bar */
 }
 .viewer img {
   max-width: 100%; max-height: 55vh; background: #fff;
@@ -263,6 +265,35 @@ body {
 .btn-dark { background: var(--paper); color: #000; box-shadow: 3px 3px 0 var(--red); }
 .btn-ghost { background: none; color: var(--gray); border-color: #333; }
 .viewer-hint { font-size: 11px; color: var(--gray); margin-top: 14px; }
+
+/* viewer detail panel (P1B) */
+.viewer-detail { max-width: 500px; margin: 12px auto 0; text-align: left; }
+.vd-score {
+  display: flex; align-items: center; gap: 12px; justify-content: center; margin-bottom: 10px;
+}
+.vd-num { font-size: 44px; color: var(--red); line-height: 1; text-shadow: 2px 2px 0 #000; }
+.vd-tags { display: flex; flex-direction: column; gap: 5px; }
+.vd-bars {
+  background: rgba(255,255,255,.06); border: 2px solid #333; padding: 10px 12px;
+}
+.bd-row { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+.bd-label { flex: 0 0 74px; font-size: 12px; color: var(--paper); }
+.bd-track { flex: 1; height: 8px; background: #262626; border: 1px solid #000; }
+.bd-fill { display: block; height: 100%; background: var(--red); }
+.bd-val { flex: 0 0 52px; font-size: 11px; color: var(--gray); text-align: right; }
+.bd-val.neg { color: var(--yellow); font-weight: 900; }
+.vd-lines { margin-top: 10px; }
+.vd-lines p { font-size: 13px; line-height: 1.5; color: var(--paper); margin: 6px 0; }
+.vd-note { color: var(--gray); font-size: 12px; }
+
+/* accessibility (P1B) */
+:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
 
 /* ── misc ── */
 .loading { text-align: center; padding: 80px 0; }

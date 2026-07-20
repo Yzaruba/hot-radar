@@ -102,10 +102,45 @@ def fresh_score(p, today: date) -> float:
     return min(float(cfg.MAX_FRESH), pts)
 
 
+def store_fit(p):
+    """(tier, group_zh) from product FORM keywords in the title.
+
+    Precedence low > high > mid: recommending a non-fit product costs real
+    money, so the conservative tier wins on conflicting matches.
+    """
+    title = _title_lower(p)
+    for tier in ("low", "high", "mid"):
+        best = None  # (position, group_zh): earliest keyword hit names the group
+        for group in cfg.STORE_FIT_TIERS[tier]:
+            for k in group["keywords"]:
+                pos = title.find(k)
+                if pos >= 0 and (best is None or pos < best[0]):
+                    best = (pos, group["zh"])
+        if best:
+            return tier, best[1]
+    return "neutral", None
+
+
+def store_fit_reason_zh_for(p) -> str:
+    tier, group = store_fit(p)
+    if tier == "neutral":
+        cats = sorted({s["category"] for s in p.get("sources", [])})
+        zh = "/".join(cfg.CATEGORY_ZH.get(c, c) for c in cats)
+        return cfg.STORE_FIT_REASON_ZH["neutral"].format(cat=zh or "未知")
+    return cfg.STORE_FIT_REASON_ZH[tier].format(group=group)
+
+
 def fit_score(p) -> float:
-    """0..MAX_FIT: category affinity (10) + small-batch price band (10)."""
-    cats = {s["category"] for s in p.get("sources", [])}
-    cat_factor = max((cfg.CATEGORY_FIT.get(c, 0.5) for c in cats), default=0.5)
+    """0..MAX_FIT: store-fit form tier (10) + small-batch price band (10).
+
+    Amazon's big category is only a weak prior, used when no form matches.
+    """
+    tier, _ = store_fit(p)
+    if tier == "neutral":
+        cats = {s["category"] for s in p.get("sources", [])}
+        tier_pts = max((cfg.CATEGORY_FIT.get(c, 0.5) for c in cats), default=0.5) * 4
+    else:
+        tier_pts = cfg.STORE_FIT_POINTS[tier]
     price = parse_price(p.get("price"))
     if price is None:
         price_factor = 0.0
@@ -113,7 +148,7 @@ def fit_score(p) -> float:
         price_factor = next(
             (f for lo, hi, f in cfg.PRICE_BANDS if lo <= price < hi), 0.1
         )
-    return round(cat_factor * 10 + price_factor * 10, 1)
+    return round(tier_pts + price_factor * 10, 1)
 
 
 def multi_signal_score(p) -> float:
@@ -154,6 +189,9 @@ def risk_deductions(p):
     if _contains_any(title, cfg.BULKY_KEYWORDS):
         pts += cfg.PENALTY_BULKY
         codes.append("BULKY_ITEM")
+    if store_fit(p)[0] == "low":
+        pts += cfg.PENALTY_LOW_STORE_FIT
+        codes.append("LOW_STORE_FIT")
     return pts, codes
 
 
@@ -208,9 +246,61 @@ def primary_risk_zh_for(p, risk_codes) -> str:
     if risk_codes:
         code = risk_codes[0]
         if code == "LOW_REVIEWS":
-            return f"评论仅{p.get('ratings_count') or 0}条，需求还没被验证"
-        return cfg.RISK_ZH.get(code, cfg.DEFAULT_RISK_ZH)
-    return cfg.DEFAULT_RISK_ZH
+            return f"评论仅{p.get('ratings_count') or 0}条，需求规模未验证"
+        if code == "LOW_STORE_FIT":
+            _, group = store_fit(p)
+            return f"属于「{group}」，{cfg.RISK_ZH['LOW_STORE_FIT']}"
+        return cfg.RISK_ZH.get(code, cfg.RISK_LOCAL_ZH)
+    # no hard flaw in platform data — still name the most relevant SPECIFIC risk
+    title = _title_lower(p)
+    if _contains_any(title, cfg.SEASONAL_KEYWORDS):
+        specific = cfg.RISK_SEASONAL_ZH
+    elif (parse_price(p.get("price")) or 0) >= 25:
+        specific = cfg.RISK_MARGIN_ZH
+    elif (p.get("ratings_count") or 0) < 200:
+        specific = cfg.RISK_SAMPLE_ZH
+    elif any(s["category"] in ("home", "kitchen", "sports") for s in p.get("sources", [])):
+        specific = cfg.RISK_SHIPPING_ZH
+    else:
+        specific = cfg.RISK_LOCAL_ZH
+    return f"{cfg.NO_RISK_PREFIX}；{specific}"
+
+
+_ASCII_RUN = re.compile(r"[A-Za-z][A-Za-z0-9&'’.\-]*")
+
+
+def procurement_keyword(title_zh):
+    """Sourcing keyword for 1688: brands/marketing gone, form+material+spec kept.
+
+    Deterministic text surgery on the machine-translated title — no LLM.
+    Returns None when nothing usable remains (caller falls back to keyword_zh).
+    """
+    if not title_zh:
+        return None
+
+    def _keep(m):
+        tok = m.group(0)
+        return tok if tok.upper() in cfg.PROCUREMENT_ASCII_KEEP else " "
+
+    text = _ASCII_RUN.sub(_keep, title_zh)
+    for b in cfg.BRAND_ZH:
+        text = text.replace(b, " ")
+    for w in cfg.PROCUREMENT_STRIP_ZH:
+        text = text.replace(w, " ")
+    text = re.sub(r"[|,，。.:：;；()（）\[\]【】/\\\-–—_+~!！?？'\"“”]+", " ", text)
+    text = " ".join(text.split())
+    if len(text.replace(" ", "")) > cfg.PROCUREMENT_MAX_LEN:
+        out, ln = [], 0
+        for part in text.split(" "):
+            if ln + len(part) > cfg.PROCUREMENT_MAX_LEN:
+                break
+            out.append(part)
+            ln += len(part)
+        text = " ".join(out) if out else text.replace(" ", "")[: cfg.PROCUREMENT_MAX_LEN]
+    compact_len = len(text.replace(" ", ""))
+    if compact_len < 4:
+        return None  # unusable残渣
+    return text.strip()
 
 
 # ---------- main entry points ----------
@@ -237,6 +327,7 @@ def score_product(p, today: date) -> dict:
         "recommendation": recommendation_for(score, confidence, risk_pts, excluded),
         "reason_codes": risk_codes,
         "reason_zh": reason_zh_for(p, breakdown),
+        "store_fit_reason_zh": store_fit_reason_zh_for(p),
         "primary_risk_zh": primary_risk_zh_for(p, risk_codes),
         "score_breakdown": breakdown,
     }
@@ -258,7 +349,20 @@ def pick_top3(products) -> dict:
         if p["opportunity_score"] >= cfg.QUALIFY_MIN_SCORE
         and p["recommendation"] in ("立即找货", "小批测试")
     ]
-    qualified.sort(key=lambda p: (-p["opportunity_score"], p["asin"]))
+
+    def _key_scores(p):
+        b = p["score_breakdown"]
+        return (
+            p["opportunity_score"],
+            b.get("fit", 0),
+            b.get("trend", 0),
+            b.get("market", 0),
+            b.get("multi_signal", 0),
+        )
+
+    # ties resolved by BUSINESS priority (fit > trend > market > multi-signal);
+    # ASIN is only the final stability anchor, never a meaningful rank
+    qualified.sort(key=lambda p: tuple(-v for v in _key_scores(p)) + (p["asin"],))
     picked, picked_tokens = [], []
     for p in qualified:
         toks = title_tokens(p.get("title_en"))
@@ -266,7 +370,13 @@ def pick_top3(products) -> dict:
             continue
         picked.append(p)
         picked_tokens.append(toks)
+    top = picked[:3]
+    tied = [
+        i > 0 and _key_scores(top[i]) == _key_scores(top[i - 1])
+        for i in range(len(top))
+    ]
     return {
-        "asins": [p["asin"] for p in picked[:3]],
+        "asins": [p["asin"] for p in top],
+        "tied": tied,
         "qualified_count": len(picked),
     }

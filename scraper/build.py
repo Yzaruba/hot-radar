@@ -208,6 +208,9 @@ def main() -> int:
         short = translate.to_short_title(m["title"])
         title_zh = zh_map.get(short)
         keyword_zh = translate.to_keyword_zh(title_zh) if title_zh else None
+        # sourcing keyword: brands/marketing stripped — this is what 1688 gets
+        procurement = scoring.procurement_keyword(title_zh) if title_zh else None
+        search_kw = procurement or keyword_zh
         s = surge_by_asin.get(m["asin"])
         products.append(
             {
@@ -215,7 +218,8 @@ def main() -> int:
                 "title_en": m["title"],
                 "title_zh": title_zh,
                 "keyword_zh": keyword_zh,
-                "url_1688": translate.url_1688(keyword_zh) if keyword_zh else None,
+                "procurement_keyword_zh": procurement,
+                "url_1688": translate.url_1688(search_kw) if search_kw else None,
                 "url_1688_fallback": translate.url_1688_fallback(short),
                 "amazon_url": f"https://www.amazon.com/dp/{m['asin']}",
                 "image_src": m.get("image_src"),

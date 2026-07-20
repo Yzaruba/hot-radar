@@ -154,7 +154,7 @@ def _fleet():
         _p(asin="B00000000C", surge=_surge(rank=9, prev=44), ratings_count=2500,
            first_seen="2026-07-17", title_en="Portable Neck Fan Mini Rechargeable Cooling"),
         _p(asin="B00000000D", surge=_surge(rank=12, prev=30), ratings_count=900,
-           first_seen="2026-07-16", title_en="LED Photo Clip String Lights Bedroom"),
+           first_seen="2026-07-16", title_en="Bracelet Making Beads Kit 5000 Pcs Charms"),
         _p(asin="B00000000E", ratings_count=3, title_en="Unknown Gadget Cube"),
     ]
 
@@ -178,6 +178,118 @@ def test_top3_dedupes_similar_products_keeping_best():
     # B and C are near-identical neck fans; only the higher-scoring one stays
     assert not ({"B00000000B", "B00000000C"} <= set(top3["asins"]))
     assert len(top3["asins"]) == 3
+
+
+# ---- P1B: store fit ----
+
+def test_low_fit_moving_bags_penalized_with_reason():
+    p = _p(title_en="HOMESURE Supports 200lbs Heavy Duty Moving Bags with Zippers",
+           sources=[{"list": "bestsellers", "category": "home", "rank": 1}])
+    assert scoring.store_fit(p)[0] == "low"
+    out = scoring.score_product(p, TODAY)
+    assert "LOW_STORE_FIT" in out["reason_codes"]
+    assert "不匹配" in out["store_fit_reason_zh"]
+    assert "搬家" in out["primary_risk_zh"] or "非Goodies" in out["primary_risk_zh"]
+
+
+def test_cleaning_products_low_fit():
+    p = _p(title_en="Fruit Fly Trap Indoor Insect Catcher")
+    assert scoring.store_fit(p)[0] == "low"
+
+
+def test_high_fit_forms_score_full():
+    for title in ("Rainbow Butter Squishy Toys Slow Rising",
+                  "Cute Phone Charm Strap Beaded",
+                  "Press On Nails French Tip Kit",
+                  "Rhinestone DIY Kit 40 Colors Flatback"):
+        p = _p(title_en=title)
+        assert scoring.fit_score(p) == 20.0, title
+        assert "核心品类" in scoring.store_fit_reason_zh_for(p)
+
+
+def test_mid_fit_kitchen_gadget():
+    p = _p(title_en="Silicone Mold Mini Ice Cube Tray Fun Shapes")
+    assert scoring.store_fit(p)[0] == "mid"
+    assert scoring.fit_score(p) == 16.0  # 6 + price 10
+
+
+def test_low_tier_wins_on_conflict():
+    # a "toy storage bags" product must NOT sneak in via the toy keyword
+    p = _p(title_en="Fidget Toys Storage Bags Large Capacity")
+    assert scoring.store_fit(p)[0] == "low"
+
+
+# ---- P1B: tie-break + tied flag ----
+
+def _scored(asin, title, fit, trend, market=10.0, multi=0.0, score=65.0):
+    return {
+        "asin": asin, "title_en": title,
+        "opportunity_score": score, "recommendation": "小批测试",
+        "score_breakdown": {"trend": trend, "market": market, "fresh": 5.0,
+                            "fit": fit, "multi_signal": multi, "risk": 0.0},
+    }
+
+
+def test_tiebreak_business_priority_fit_then_trend():
+    low_fit = _scored("B00000000A", "Alpha Gadget Cube", fit=12.0, trend=20.0)
+    high_fit = _scored("B00000000Z", "Zeta Squishy Ball", fit=20.0, trend=12.0)
+    out = scoring.pick_top3([low_fit, high_fit])
+    # despite Z having the "worse" asin, higher fit wins the 65-point tie
+    assert out["asins"] == ["B00000000Z", "B00000000A"]
+    assert out["tied"] == [False, False]  # key scores differ → not a true tie
+
+
+def test_asin_is_only_final_anchor_and_tied_flagged():
+    a = _scored("B00000000B", "Alpha Gadget One", fit=20.0, trend=12.0)
+    b = _scored("B00000000A", "Beta Widget Two", fit=20.0, trend=12.0)
+    out = scoring.pick_top3([a, b])
+    assert out["asins"] == ["B00000000A", "B00000000B"]  # asin only stabilizes
+    assert out["tied"] == [False, True]  # identical key scores → 并列
+
+
+# ---- P1B: procurement keyword ----
+
+def test_procurement_keyword_strips_latin_brands():
+    kw = scoring.procurement_keyword("HomeSURE 支持 200 磅重型移动袋")
+    assert kw and "HomeSURE" not in kw and "支持" not in kw and "重型" not in kw
+    assert "移动袋" in kw
+
+    kw2 = scoring.procurement_keyword("Gikboup 40000 件 40 色带水钻的炫目套件")
+    assert kw2 and "Gikboup" not in kw2 and "水钻" in kw2
+    assert 4 <= len(kw2.replace(" ", "")) <= 24
+
+
+def test_procurement_keyword_strips_zh_brands_keeps_spec_terms():
+    kw = scoring.procurement_keyword("绘儿乐彩色铅笔 36支 儿童绘画")
+    assert kw and "绘儿乐" not in kw and "彩色铅笔" in kw
+    kw2 = scoring.procurement_keyword("DIY 水钻贴画材料包 40色")
+    assert kw2 and "DIY" in kw2
+
+
+def test_procurement_keyword_length_bounds():
+    long_zh = "超长描述" * 20
+    kw = scoring.procurement_keyword(long_zh)
+    assert kw and len(kw.replace(" ", "")) <= 24
+    assert scoring.procurement_keyword("笔") is None  # unusable → caller falls back
+
+
+# ---- P1B: honest copy ----
+
+def test_no_google_trends_boilerplate_and_specific_risk():
+    strong = _p(surge=_surge(rank=5, prev=50), ratings_count=10000, first_seen="2026-07-18")
+    out = scoring.score_product(strong, TODAY)
+    assert "Google Trends" not in out["primary_risk_zh"]
+    assert "无明显硬伤" not in out["primary_risk_zh"]
+    assert out["primary_risk_zh"].startswith("平台数据暂未发现明显风险")
+    # specific tail, not empty reassurance
+    assert "；" in out["primary_risk_zh"]
+
+
+def test_seasonal_risk_specific():
+    p = _p(title_en="Beach Sand Toys Set for Summer", ratings_count=10000,
+           price="$9.99")
+    out = scoring.score_product(p, TODAY)
+    assert "季节窗口" in out["primary_risk_zh"]
 
 
 def test_top3_never_pads_with_unqualified():

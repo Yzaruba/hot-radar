@@ -9,7 +9,11 @@
   // indices 1-3 are long-standing stored values — only ever APPEND here
   const STATUS_NAMES = ["标记", "已定样", "已上架", "放弃", "观察中"];
   const RECO_CLASS = { "立即找货": "r1", "小批测试": "r2", "继续观察": "r3", "高风险": "r4" };
-  const CONF_ZH = { high: "置信度高", medium: "置信度中", low: "置信度低" };
+  const CONF_ZH = { high: "数据置信度高", medium: "数据置信度中", low: "数据置信度低" };
+  const BREAKDOWN_META = [
+    ["trend", "趋势", 35], ["market", "市场验证", 20], ["fresh", "新品窗口", 15],
+    ["fit", "Goodies适配", 20], ["multi_signal", "多信号", 10],
+  ];
 
   const esc = (s) =>
     String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -161,7 +165,7 @@
     const rating = p.rating != null ? `<span class="rating">★${p.rating}${p.ratings_count ? ` (${Number(p.ratings_count).toLocaleString()})` : ""}</span>` : "";
     return `
 <article class="card" data-i="${i}">
-  <div class="card-imgwrap" data-action="view">
+  <div class="card-imgwrap" data-action="view" tabindex="0" role="button" aria-label="查看${esc(p.keyword_zh || "商品")}详情">
     ${stickerHTML(v)}
     <span class="status s${st}" data-action="status">${STATUS_NAMES[st]}</span>
     <img src="${esc(p.image)}" alt="${esc(p.title_en)}" loading="lazy">
@@ -195,14 +199,20 @@
       t3.qualified_count < 3
         ? `<p class="top3-note">⚠️ 今天只有 ${t3.qualified_count} 个商品达到推荐标准，宁缺毋滥</p>`
         : `<p class="top3-note">${t3.qualified_count} 个商品达标 · 展示最强 3 个</p>`;
+    const tiedArr = t3.tied || [];
+    const ranks = [];
+    state.top3.forEach((p, i) => {
+      ranks[i] = i > 0 && tiedArr[i] ? ranks[i - 1] : i + 1;
+    });
     const cards = state.top3
       .map((p, i) => {
         const st = statuses()[p.asin] || 0;
         const watching = st === 4;
+        const rankLabel = tiedArr[i] ? `并列 TOP ${ranks[i]}` : `TOP ${ranks[i]}`;
         return `
 <article class="hero" data-t3="${i}">
-  <span class="hero-rank bangers">TOP ${i + 1}</span>
-  <div class="hero-img" data-action="t3view"><img src="${esc(p.image)}" alt="${esc(p.title_en)}"></div>
+  <span class="hero-rank bangers">${rankLabel}</span>
+  <div class="hero-img" data-action="t3view" tabindex="0" role="button" aria-label="查看${esc(p.keyword_zh || "商品")}大图与详情"><img src="${esc(p.image)}" alt="${esc(p.title_en)}"></div>
   <div class="hero-body">
     <div class="hero-score">
       <span class="bangers hs-num">${Math.round(p.opportunity_score)}</span>
@@ -339,21 +349,61 @@
   let viewerProduct = null;
   let viewerBlob = null;
 
+  function viewerDetailHTML(p) {
+    if (p.opportunity_score == null) return "";
+    const b = p.score_breakdown || {};
+    const bars = BREAKDOWN_META.map(([key, label, max]) => {
+      const v = b[key] ?? 0;
+      const pct = Math.max(0, Math.min(100, (v / max) * 100));
+      return `<div class="bd-row"><span class="bd-label">${label}</span>
+        <span class="bd-track"><span class="bd-fill" style="width:${pct}%"></span></span>
+        <span class="bd-val">${v}/${max}</span></div>`;
+    }).join("");
+    const riskPts = b.risk ?? 0;
+    const rank24 = p.surge
+      ? (p.surge.is_new_entry ? "新进榜Top100" : `${p.surge.rank_prev} → ${p.surge.rank}（↑${Math.round(p.surge.rank_pct || 0)}%）`)
+      : "无飙升记录";
+    const market = [
+      p.price ? `价格 ${esc(p.price)}` : "价格缺失",
+      p.rating != null ? `★${p.rating}` : "无评分",
+      p.ratings_count ? `${Number(p.ratings_count).toLocaleString()}条评论` : "无评论数据",
+    ].join(" · ");
+    return `
+<div class="vd-score">
+  <span class="bangers vd-num">${Math.round(p.opportunity_score)}</span>
+  <div class="vd-tags">
+    <span class="conf conf-${p.confidence}">${CONF_ZH[p.confidence] || ""}</span>
+    <span class="reco ${RECO_CLASS[p.recommendation] || "r3"}">${esc(p.recommendation)}</span>
+  </div>
+</div>
+<div class="vd-bars">${bars}
+  <div class="bd-row"><span class="bd-label">风险扣分</span><span class="bd-track"></span>
+    <span class="bd-val ${riskPts < 0 ? "neg" : ""}">${riskPts}</span></div>
+</div>
+<div class="vd-lines">
+  <p>✅ ${esc(p.reason_zh || "")}</p>
+  <p>🏪 ${esc(p.store_fit_reason_zh || "")}</p>
+  <p>⚠️ ${esc(p.primary_risk_zh || "")}</p>
+  <p>📊 ${market} · 24h排名 ${esc(rank24)}</p>
+  ${p.procurement_keyword_zh ? `<p>🛒 采购词：「${esc(p.procurement_keyword_zh)}」</p>` : ""}
+  <p class="vd-note">💬 评论总结：待接入（不基于标题猜测）</p>
+</div>`;
+  }
+
   function openViewer(p) {
     viewerProduct = p;
     viewerBlob = fetchBlob(p).catch(() => null); // prefetch so save happens within tap gesture
     $("#viewerImg").src = p.image;
-    const sig = [];
-    if (p.signals.tiktok && p.signals.tiktok.length) sig.push(`🎵 TikTok热标签：#${p.signals.tiktok.join(" #")}`);
-    if (p.surge) sig.push(p.surge.is_new_entry ? "🔥 新进榜" : `🔥 24h排名 ${p.surge.rank_prev}→${p.surge.rank}`);
     $("#viewerInfo").innerHTML =
       `<div class="vi-zh">${esc(p.title_zh || "")}</div>
        <div class="vi-en">${esc(p.title_en)}</div>
-       ${sig.length ? `<div class="vi-sig">${esc(sig.join("　"))}</div>` : ""}`;
+       ${p.signals.tiktok && p.signals.tiktok.length ? `<div class="vi-sig">🎵 TikTok热标签：#${esc(p.signals.tiktok.join(" #"))}</div>` : ""}`;
+    $("#viewerDetail").innerHTML = viewerDetailHTML(p);
     $("#btn1688").href = p.url_1688 || p.url_1688_fallback;
     $("#btnAmazon").href = p.amazon_url;
     $("#viewer").hidden = false;
     document.body.style.overflow = "hidden";
+    $("#viewer").scrollTop = 0;
   }
 
   function closeViewer() {
@@ -424,6 +474,21 @@
   $("#viewerClose").addEventListener("click", closeViewer);
   $("#btnSave").addEventListener("click", () => viewerProduct && saveImage(viewerProduct, viewerBlob));
   $("#btnCopy").addEventListener("click", () => viewerProduct && copyText(viewerProduct.title_en));
+  $("#btnCopyProc").addEventListener("click", () => {
+    if (!viewerProduct) return;
+    const kw = viewerProduct.procurement_keyword_zh || viewerProduct.keyword_zh;
+    if (kw) copyText(kw);
+    else toast("暂无中文采购词");
+  });
+
+  // keyboard access: Enter/Space on focusable image wrappers triggers the tap action
+  $("#content").addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const el = e.target.closest('[data-action][tabindex="0"]');
+    if (!el) return;
+    e.preventDefault();
+    el.click();
+  });
 
   // chips stick right below the topbar, whose height varies with safe-area insets
   const setTopbarH = () => {
