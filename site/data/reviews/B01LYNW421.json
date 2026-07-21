@@ -1,5 +1,5 @@
 {
-  "asin": "B0GYTRYV7P",
+  "asin": "B01LYNW421",
   "error_code": "no_reviews_rendered",
   "expires_at": "2026-07-28T05:37:45Z",
   "fetched_at": "2026-07-21T05:37:45Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B0GYTRYV7P",
+  "source_url": "https://www.amazon.com/dp/B01LYNW421",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
