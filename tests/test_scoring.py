@@ -219,6 +219,39 @@ def test_low_tier_wins_on_conflict():
     assert scoring.store_fit(p)[0] == "low"
 
 
+def test_high_vs_mid_resolved_by_earliest_keyword():
+    # "Mini Fridge ... Makeup Fridge" is a fridge (mid), not makeup (high)
+    fridge = _p(title_en="OSTBA Mini Fridge, 4 Liter Mini Makeup Fridge Portable")
+    assert scoring.store_fit(fridge) == ("mid", "小型家居新奇用品")
+    # a genuine makeup product stays high even if a mid word appears later
+    makeup = _p(title_en="Makeup Brush Set with Travel Mug Holder")
+    assert scoring.store_fit(makeup)[0] == "high"
+
+
+def test_new_brand_gaps_covered():
+    for title in ("eos Shea Better Body Lotion Vanilla Cashmere",
+                  "Amazon Fire TV Stick HD newest model",
+                  "Etekcity Food Kitchen Scale Digital"):
+        _, codes = scoring.risk_deductions(_p(title_en=title))
+        assert "BRAND_PRODUCT" in codes, title
+
+
+def test_body_lotion_is_beauty_fit_and_hose_is_low():
+    assert scoring.store_fit(_p(title_en="Shea Body Lotion Vanilla"))[0] == "high"
+    assert scoring.store_fit(_p(title_en="Flexible Garden Hose 100 FT"))[0] == "low"
+
+
+def test_brand_products_capped_at_watch_never_top3():
+    # huge surge + 70k reviews, but branded → not actionable via 1688 loop
+    p = _p(title_en="eos Shea Better Body Lotion Vanilla",
+           surge=_surge(rank=7, prev=35), ratings_count=71000, first_seen="2026-07-19")
+    out = scoring.score_product(p, TODAY)
+    assert "BRAND_PRODUCT" in out["reason_codes"]
+    assert out["recommendation"] == "继续观察"
+    scoring.apply([p], TODAY)
+    assert scoring.pick_top3([p])["asins"] == []  # qualification requires 找货/测试
+
+
 # ---- P1B: tie-break + tied flag ----
 
 def _scored(asin, title, fit, trend, market=10.0, multi=0.0, score=65.0):

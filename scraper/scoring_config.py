@@ -40,7 +40,8 @@ STORE_FIT_TIERS = {
             "nail", "press on", "makeup", "lip gloss", "lip balm", "lash",
             "eyeliner", "blush", "hair clip", "claw clip", "scrunchie",
             "hair tie", "face mask sheet", "pimple patch", "acne patch",
-            "sunscreen", "spf ", "serum", "toner", "moisturizer", "cleanser"]},
+            "sunscreen", "spf ", "serum", "toner", "moisturizer", "cleanser",
+            "body lotion", "lip scrub", "body scrub", "hand cream"]},
         {"zh": "文具/DIY手工材料", "keywords": [
             "rhinestone", "diy kit", "craft kit", "sticker", "stationery",
             "gel pen", "beads", "bracelet making", "diamond painting",
@@ -89,7 +90,8 @@ STORE_FIT_TIERS = {
             "pillow set", "curtains", "dumbbell", "doorbell", "security camera"]},
         {"zh": "专业工具", "keywords": [
             "drill", "socket set", "wrench", "multimeter", "soldering",
-            "chainsaw", "pressure washer", "impact driver", "tool box"]},
+            "chainsaw", "pressure washer", "impact driver", "tool box",
+            "garden hose", "hose reel", "sprinkler"]},
         {"zh": "低趣味刚需品", "keywords": [
             "paper towels", "batteries", "light bulbs", "extension cord",
             "surge protector", "toilet paper", "laundry", "insect", "pest ",
@@ -173,6 +175,8 @@ BRAND_KEYWORDS = [
     "kitchenaid", "instant pot", "dyson", "shark", "bissell", "oral-b",
     "philips", "braun", "gillette", "colgate", "crest", "listerine",
     "crayola", "olay", "band-aid", "sharpie", "elmer's", "play-doh",
+    "eos ", "fire tv", "kindle", "echo dot", "alexa", "amazon basics",
+    "etekcity", "blenderbottle",
 ]
 
 # ---- hard exclusions: medication / prescription-adjacent (never recommend) ----
@@ -252,6 +256,8 @@ PROCUREMENT_REWRITE_ZH = {
     "不倒翁": "保温杯",  # gtx habitually mistranslates "tumbler"
     "带草盖": "带吸管盖",
     "草盖": "吸管盖",
+    "挤压黄油": "黄油捏捏乐",
+    "身体乳液": "身体乳",
 }
 # extra pure-marketing words spotted in real data
 PROCUREMENT_STRIP_ZH_EXTRA = ["炫目", "易于使用", "经典", "原创", "简约现代", "华丽", "梦幻"]

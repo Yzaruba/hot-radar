@@ -109,15 +109,26 @@ def store_fit(p):
     money, so the conservative tier wins on conflicting matches.
     """
     title = _title_lower(p)
-    for tier in ("low", "high", "mid"):
-        best = None  # (position, group_zh): earliest keyword hit names the group
+
+    def _earliest(tier):
+        best = None  # (position, group_zh)
         for group in cfg.STORE_FIT_TIERS[tier]:
             for k in group["keywords"]:
                 pos = title.find(k)
                 if pos >= 0 and (best is None or pos < best[0]):
                     best = (pos, group["zh"])
-        if best:
-            return tier, best[1]
+        return best
+
+    low = _earliest("low")
+    if low:  # conservative: any low-fit signal wins outright
+        return "low", low[1]
+    # high vs mid: the keyword appearing EARLIEST in the title names the form
+    # ("OSTBA Mini Fridge ... Makeup Fridge" is a fridge, not makeup)
+    high, mid = _earliest("high"), _earliest("mid")
+    if high and (not mid or high[0] <= mid[0]):
+        return "high", high[1]
+    if mid:
+        return "mid", mid[1]
     return "neutral", None
 
 
@@ -203,9 +214,12 @@ def confidence_for(p, risk_codes) -> str:
     return "medium"
 
 
-def recommendation_for(score, confidence, risk_pts, excluded) -> str:
+def recommendation_for(score, confidence, risk_pts, excluded, risk_codes=()) -> str:
     if excluded:
         return "高风险"
+    if "BRAND_PRODUCT" in risk_codes:
+        # not actionable through the 1688 generic-sourcing loop — never Top 3
+        return "继续观察" if score >= cfg.WATCH_MIN_SCORE else "高风险"
     if score < cfg.QUALIFY_MIN_SCORE and risk_pts <= cfg.HIGH_RISK_PENALTY_THRESHOLD:
         return "高风险"
     if score >= cfg.IMMEDIATE_MIN_SCORE and confidence == "high":
@@ -332,7 +346,7 @@ def score_product(p, today: date) -> dict:
     return {
         "opportunity_score": score,
         "confidence": confidence,
-        "recommendation": recommendation_for(score, confidence, risk_pts, excluded),
+        "recommendation": recommendation_for(score, confidence, risk_pts, excluded, risk_codes),
         "reason_codes": risk_codes,
         "reason_zh": reason_zh_for(p, breakdown),
         "store_fit_reason_zh": store_fit_reason_zh_for(p),
