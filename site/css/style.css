@@ -108,6 +108,8 @@ body {
   box-shadow: 2px 2px 0 #000;
 }
 .sticker.new { background: var(--yellow); color: #000; }
+.sticker.deal { background: var(--yellow); color: #000; }
+.badge.deal { background: var(--yellow); color: #000; border: 1px solid #000; }
 
 .status {
   position: absolute; top: 6px; right: 6px; z-index: 2;

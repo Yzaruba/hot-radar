@@ -23,12 +23,25 @@ CATEGORIES = [
 ]
 
 LISTS = ["bestsellers", "new-releases"]
+
+# IP/collectible verticals (node IDs live-verified 2026-07-21). These feed the
+# separate 潮流IP board: branded/IP goods sourced via distributors, NOT 1688 —
+# so they never mix into the main Goodies-scored product flow.
+IP_CATEGORIES = [
+    {"id": "tcg", "zh": "集换卡牌", "slug": "toys-and-games/166242011"},
+    {"id": "anime", "zh": "手办/角色", "slug": "toys-and-games/2514571011"},
+    {"id": "manga", "zh": "日漫图书", "slug": "books/4367"},
+]
+IP_LISTS = ["bestsellers"]  # bestsellers only — half the requests, enough signal
+
 TOP_N = 100
 SURGE_SIZE = 30
 SURGE_NEW_MAX = 10
 SNAPSHOT_KEEP_DAYS = 14
 MIN_BASELINE_H = 8
 MAX_BASELINE_H = 48
+PRICE_DROP_PCT = 20        # sudden-drop alert threshold vs ~24h-ago price
+PRICE_LOW_MIN_POINTS = 8   # history depth (≈2 days) before a "period low" counts
 TIKTOK_HASHTAG_LIMIT = 50
 TRANS_CACHE_MAX = 4000
 MYMEMORY_EMAIL = os.environ.get("MYMEMORY_EMAIL", "")

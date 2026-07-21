@@ -261,3 +261,8 @@ PROCUREMENT_REWRITE_ZH = {
 }
 # extra pure-marketing words spotted in real data
 PROCUREMENT_STRIP_ZH_EXTRA = ["炫目", "易于使用", "经典", "原创", "简约现代", "华丽", "梦幻"]
+
+# machine-translation misses for well-known IP titles (applied to display names)
+IP_TITLE_FIX_ZH = {
+    "柔术海战": "咒术回战",
+}

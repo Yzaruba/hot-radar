@@ -73,16 +73,21 @@
       month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false,
     });
     const rm = state.runMeta;
-    const totalPairs = state.radar.categories.length * 2;
+    const totalPairs =
+      rm && rm.fresh_pairs
+        ? rm.fresh_pairs.length + (rm.stale_pairs || []).length
+        : state.radar.categories.length * 2;
     const cover = rm && rm.fresh_pairs ? ` · 覆盖${rm.fresh_pairs.length}/${totalPairs}榜单` : "";
     const incomplete =
       (rm && rm.stale_pairs && rm.stale_pairs.length > 0) ||
       state.radar.categories.some((c) => c.stale);
     const t3 = state.radar.top3;
     const actions = t3 && t3.asins ? t3.asins.length : 0;
+    const drops = [...state.radar.products, ...(state.radar.ip_products || [])]
+      .filter((p) => p.price_drop).length;
     $("#meta").innerHTML =
       `<span class="${ageH > 12 ? "old" : "fresh"}">● ${relTime(g)}更新</span><br>${abs}${cover}<br>` +
-      `${incomplete ? "⚠️数据不完整" : "数据完整"} · 今日${actions}个行动`;
+      `${incomplete ? "⚠️数据不完整" : "数据完整"} · 今日${actions}个行动${drops ? ` · 💰${drops}个降价` : ""}`;
     const warns = [];
     if (ageH > 12) warns.push(`⚠️ 数据已 ${Math.round(ageH)} 小时未更新`);
     if (rm && rm.stale_pairs && rm.stale_pairs.length) {
@@ -107,7 +112,8 @@
     const el = $("#chips");
     if (state.tab === "tiktok") { el.hidden = true; return; }
     el.hidden = false;
-    const cats = [{ id: "all", zh: "全部" }, ...state.radar.categories];
+    const source = state.tab === "ip" ? state.radar.ip_categories || [] : state.radar.categories;
+    const cats = [{ id: "all", zh: "全部" }, ...source];
     el.innerHTML = cats
       .map((c) => `<button class="chip ${state.cat === c.id ? "active" : ""}" data-cat="${c.id}">${esc(c.zh)}</button>`)
       .join("");
@@ -144,14 +150,27 @@
   }
 
   function catZh(id) {
-    const c = state.radar.categories.find((c) => c.id === id);
+    const c =
+      state.radar.categories.find((c) => c.id === id) ||
+      (state.radar.ip_categories || []).find((c) => c.id === id);
     return c ? c.zh : id;
+  }
+
+  function dropBadges(p) {
+    const pd = p.price_drop;
+    if (!pd) return "";
+    const b = [];
+    if (pd.drop) b.push(`<span class="badge deal">💰↓${Math.round(pd.drop.pct)}%</span>`);
+    if (pd.low_14d) b.push(`<span class="badge deal">📉14天最低</span>`);
+    return b.join("");
   }
 
   function badgesHTML(v) {
     const p = v.p;
     const b = [];
     if (state.cat === "all") b.push(`<span class="badge rankb">${esc(catZh(v.category))}</span>`);
+    const deals = dropBadges(p);
+    if (deals) b.push(deals);
     if (p.signals.tiktok && p.signals.tiktok.length)
       b.push(`<span class="badge tk" title="${esc(p.signals.tiktok.join(" #"))}">🎵 #${esc(p.signals.tiktok[0])}</span>`);
     if (state.tab !== "surge" && p.signals.amazon_surge) b.push(`<span class="badge">📈 飙升</span>`);
@@ -288,9 +307,67 @@
       (rows || `<div class="empty"><span class="big">EMPTY!</span>暂无标签数据</div>`);
   }
 
+  /* ── IP trend board (branded/collectible: distributor-sourced, no 1688) ── */
+  function ipCardHTML(v, i) {
+    const p = v.p;
+    const st = statuses()[p.asin] || 0;
+    const pd = p.price_drop;
+    const sticker = pd && pd.drop
+      ? `<span class="sticker deal">↓${Math.round(pd.drop.pct)}%</span>`
+      : p.rank_pct != null
+        ? `<span class="sticker">↑${Math.round(p.rank_pct)}%</span>`
+        : `<span class="sticker">#${p.rank}</span>`;
+    const rating = p.rating != null ? `<span class="rating">★${p.rating}${p.ratings_count ? ` (${Number(p.ratings_count).toLocaleString()})` : ""}</span>` : "";
+    const badges = [`<span class="badge rankb">${esc(catZh(p.category))}</span>`];
+    if (p.rank_pct != null) badges.push(`<span class="badge">📈 24h ${p.rank_prev}→${p.rank}</span>`);
+    const deals = dropBadges(p);
+    if (deals) badges.push(deals);
+    return `
+<article class="card" data-i="${i}">
+  <div class="card-imgwrap" data-action="view" tabindex="0" role="button" aria-label="查看详情">
+    ${sticker}
+    <span class="status s${st}" data-action="status">${STATUS_NAMES[st]}</span>
+    <img src="${esc(p.image)}" alt="${esc(p.title_en)}" loading="lazy">
+  </div>
+  <div class="card-body">
+    <div class="title-zh">${esc(p.title_zh || "（未翻译）")}</div>
+    <div class="title-en">${esc(p.title_en)}</div>
+    <div class="badges">${badges.join("")}</div>
+    <div class="price-row"><span class="price">${esc(p.price || "")}</span>${rating}</div>
+  </div>
+  <div class="card-actions">
+    <a class="a1688" href="${esc(p.amazon_url)}" target="_blank" rel="noopener">看Amazon</a>
+    <button data-action="save" title="保存图片">💾</button>
+    <button data-action="copy" title="复制英文品名">📋</button>
+  </div>
+</article>`;
+  }
+
+  function renderIP() {
+    let list = (state.radar.ip_products || []).slice();
+    if (state.cat !== "all") list = list.filter((p) => p.category === state.cat);
+    list.sort((a, b) => {
+      const da = a.price_drop && a.price_drop.drop ? a.price_drop.drop.pct : -1;
+      const db = b.price_drop && b.price_drop.drop ? b.price_drop.drop.pct : -1;
+      if (da !== db) return db - da;                       // deals first, deepest first
+      const sa = a.rank_pct || 0, sb = b.rank_pct || 0;
+      if (sa !== sb) return sb - sa;                       // then rank surges
+      return a.rank - b.rank;
+    });
+    const views = list.map((p) => ({ p, rank: p.rank, category: p.category }));
+    const body = views.length
+      ? `<div class="grid">${views.map((v, i) => ipCardHTML(v, i)).join("")}</div>`
+      : `<div class="empty"><span class="big">EMPTY!</span>暂无数据</div>`;
+    $("#content").innerHTML =
+      `<h2 class="section-title bangers">🎴 IP潮流榜</h2>
+       <p class="section-sub">TCG/手办/日漫 · 正版IP走分销渠道，不适用1688 · 降价优先展示</p>${body}`;
+    state.visible = views;
+  }
+
   function render() {
     renderChips();
     if (state.tab === "tiktok") renderTrends();
+    else if (state.tab === "ip") renderIP();
     else renderProducts();
     window.scrollTo(0, 0);
   }
@@ -351,7 +428,20 @@
   let viewerLastFocus = null;
 
   function viewerDetailHTML(p) {
-    if (p.opportunity_score == null) return "";
+    if (p.opportunity_score == null) {
+      if (p.rank == null) return "";
+      // IP-board product: lite detail (no Goodies score by design)
+      const pd = p.price_drop;
+      const lines = [
+        `📊 ${p.price ? "价格 " + esc(p.price) : "价格缺失"} · ${p.rating != null ? "★" + p.rating : "无评分"}${p.ratings_count ? " · " + Number(p.ratings_count).toLocaleString() + "条评论" : ""}`,
+        `🏆 ${esc(catZh(p.category))}榜 #${p.rank}${p.rank_prev ? `（24h ${p.rank_prev}→${p.rank}）` : ""}`,
+      ];
+      if (pd && pd.drop) lines.push(`💰 比24小时前降价 ${Math.round(pd.drop.pct)}%（原价 $${pd.drop.prev_price}）`);
+      if (pd && pd.low_14d) lines.push("📉 近14天最低价");
+      lines.push("🏪 正版IP商品：走官方分销/批发渠道，不适用1688搜同款");
+      return `<div class="vd-lines">${lines.map((l) => `<p>${l}</p>`).join("")}</div>
+<div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;
+    }
     const b = p.score_breakdown || {};
     const bars = BREAKDOWN_META.map(([key, label, max]) => {
       const v = b[key] ?? 0;
@@ -369,6 +459,10 @@
       p.rating != null ? `★${p.rating}` : "无评分",
       p.ratings_count ? `${Number(p.ratings_count).toLocaleString()}条评论` : "无评论数据",
     ].join(" · ");
+    const pd = p.price_drop;
+    const dealLine = pd
+      ? `<p>💰 ${pd.drop ? `比24小时前降价 ${Math.round(pd.drop.pct)}%（原价 $${pd.drop.prev_price}）` : ""}${pd.drop && pd.low_14d ? " · " : ""}${pd.low_14d ? "近14天最低价" : ""}</p>`
+      : "";
     return `
 <div class="vd-score">
   <span class="bangers vd-num">${Math.round(p.opportunity_score)}</span>
@@ -386,6 +480,7 @@
   <p>🏪 ${esc(p.store_fit_reason_zh || "")}</p>
   <p>⚠️ ${esc(p.primary_risk_zh || "")}</p>
   <p>📊 ${market} · 24h排名 ${esc(rank24)}</p>
+  ${dealLine}
   ${p.procurement_keyword_zh ? `<p>🛒 采购词：「${esc(p.procurement_keyword_zh)}」</p>` : ""}
 </div>
 <div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;
@@ -437,13 +532,16 @@
     viewerProduct = p;
     viewerBlob = fetchBlob(p).catch(() => null); // prefetch so save happens within tap gesture
     $("#viewerImg").src = p.image;
+    const tk = (p.signals && p.signals.tiktok) || [];
     $("#viewerInfo").innerHTML =
       `<div class="vi-zh">${esc(p.title_zh || "")}</div>
        <div class="vi-en">${esc(p.title_en)}</div>
-       ${p.signals.tiktok && p.signals.tiktok.length ? `<div class="vi-sig">🎵 TikTok热标签：#${esc(p.signals.tiktok.join(" #"))}</div>` : ""}`;
+       ${tk.length ? `<div class="vi-sig">🎵 TikTok热标签：#${esc(tk.join(" #"))}</div>` : ""}`;
     $("#viewerDetail").innerHTML = viewerDetailHTML(p);
-    $("#btn1688").href = p.url_1688 || p.url_1688_fallback;
+    $("#btn1688").href = p.url_1688 || p.url_1688_fallback || p.amazon_url;
     $("#btnAmazon").href = p.amazon_url;
+    $("#btn1688").hidden = !(p.url_1688 || p.url_1688_fallback);
+    $("#btnCopyProc").hidden = !(p.procurement_keyword_zh || p.keyword_zh);
     viewerLastFocus = document.activeElement;
     $("#viewer").hidden = false;
     document.body.style.overflow = "hidden";
@@ -471,6 +569,7 @@
     const btn = e.target.closest("button[data-tab]");
     if (!btn) return;
     state.tab = btn.dataset.tab;
+    state.cat = "all"; // main and IP tabs have different category sets
     document.querySelectorAll("#tabbar button").forEach((b) => b.classList.toggle("active", b === btn));
     render();
   });

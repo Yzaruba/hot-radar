@@ -93,6 +93,60 @@ def test_baseline_none_when_no_snapshots(tmp_path):
     assert movers.pick_baseline(datetime.now(timezone.utc), snap_dir=tmp_path) is None
 
 
+def _pitem(asin, rank, price, lst="bestsellers", cat="tcg"):
+    return {"asin": asin, "list": lst, "category": cat, "rank": rank, "price_val": price}
+
+
+def test_snapshot_stores_price():
+    import json
+    from scraper.util import read_json
+    from pathlib import Path
+    import tempfile
+
+    with tempfile.TemporaryDirectory() as d:
+        now = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+        movers.save_snapshot([_pitem("A", 1, 19.99)], now, snap_dir=Path(d))
+        data = read_json(next(Path(d).glob("*.json")))
+        assert data["items"][0]["price"] == 19.99
+
+
+def test_price_report_detects_24h_drop(tmp_path):
+    now = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+    movers.save_snapshot([_pitem("A", 1, 40.0)], now - timedelta(hours=24), snap_dir=tmp_path)
+    out = movers.price_report([_pitem("A", 1, 29.99)], now, snap_dir=tmp_path)
+    key = "bestsellers:tcg:A"
+    assert out[key]["drop"]["prev_price"] == 40.0
+    assert out[key]["drop"]["pct"] == 25.0
+
+
+def test_price_report_small_drop_ignored(tmp_path):
+    now = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+    movers.save_snapshot([_pitem("A", 1, 40.0)], now - timedelta(hours=24), snap_dir=tmp_path)
+    out = movers.price_report([_pitem("A", 1, 36.0)], now, snap_dir=tmp_path)  # -10%
+    assert out == {}
+
+
+def test_price_report_low_needs_history_depth(tmp_path):
+    now = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+    # only 3 history points → no "period low" even though it's the cheapest yet
+    for h in (30, 20, 10):
+        movers.save_snapshot([_pitem("A", 1, 40.0)], now - timedelta(hours=h), snap_dir=tmp_path)
+    out = movers.price_report([_pitem("A", 1, 39.0)], now, snap_dir=tmp_path)
+    assert out == {}
+    # 8+ points and strictly below all of them → low_14d
+    for h in (72, 66, 60, 54, 48):
+        movers.save_snapshot([_pitem("A", 1, 41.0)], now - timedelta(hours=h), snap_dir=tmp_path)
+    out2 = movers.price_report([_pitem("A", 1, 39.0)], now, snap_dir=tmp_path)
+    assert out2["bestsellers:tcg:A"]["low_14d"] is True
+
+
+def test_price_report_missing_price_safe(tmp_path):
+    now = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+    movers.save_snapshot([_pitem("A", 1, None)], now - timedelta(hours=24), snap_dir=tmp_path)
+    out = movers.price_report([_pitem("A", 1, None)], now, snap_dir=tmp_path)
+    assert out == {}
+
+
 def test_prune_keeps_recent(tmp_path):
     now = datetime(2026, 7, 19, 12, 0, tzinfo=timezone.utc)
     movers.save_snapshot([_item("A", 1)], now - timedelta(days=20), snap_dir=tmp_path)

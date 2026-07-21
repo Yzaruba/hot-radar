@@ -16,10 +16,12 @@ def _key(item) -> str:
 
 
 def save_snapshot(items, when: datetime, snap_dir=config.SNAP_DIR) -> None:
-    slim = [
-        {"asin": i["asin"], "list": i["list"], "category": i["category"], "rank": i["rank"]}
-        for i in items
-    ]
+    slim = []
+    for i in items:
+        row = {"asin": i["asin"], "list": i["list"], "category": i["category"], "rank": i["rank"]}
+        if i.get("price_val") is not None:  # parsed float, set by build.py
+            row["price"] = i["price_val"]
+        slim.append(row)
     write_json(snap_dir / f"{when.strftime(_FMT)}.json", {"when": when.strftime(_FMT), "items": slim})
 
 
@@ -114,6 +116,45 @@ def compute_surge(current, baseline) -> list:
     for n, item in enumerate(board, 1):
         item["surge_rank"] = n
     return board
+
+
+def price_report(current, now: datetime, snap_dir=config.SNAP_DIR) -> dict:
+    """key → {'drop': {prev_price, pct} | None, 'low_14d': bool} for deal detection.
+
+    drop: current price is >= PRICE_DROP_PCT below the ~24h-ago snapshot price.
+    low_14d: strictly below every retained snapshot price, with enough history
+    depth that "period low" means something (PRICE_LOW_MIN_POINTS).
+    """
+    hist = {}  # key -> [(age_h, price)]
+    for t, f in _snapshot_times(snap_dir) if snap_dir.exists() else []:
+        age = (now - t).total_seconds() / 3600
+        for i in read_json(f, {}).get("items", []):
+            if i.get("price") is None:
+                continue
+            hist.setdefault(_key(i), []).append((age, i["price"]))
+    out = {}
+    for item in current:
+        cur = item.get("price_val")
+        if cur is None:
+            continue
+        h = hist.get(_key(item))
+        if not h:
+            continue
+        candidates = [
+            (abs(a - 24), p) for a, p in h
+            if config.MIN_BASELINE_H <= a <= config.MAX_BASELINE_H
+        ]
+        drop = None
+        if candidates:
+            prev = min(candidates)[1]
+            if prev > 0 and cur < prev:
+                pct = (prev - cur) / prev * 100
+                if pct >= config.PRICE_DROP_PCT:
+                    drop = {"prev_price": prev, "pct": round(pct, 1)}
+        low = len(h) >= config.PRICE_LOW_MIN_POINTS and cur < min(p for _, p in h)
+        if drop or low:
+            out[_key(item)] = {"drop": drop, "low_14d": low}
+    return out
 
 
 def prune_snapshots(now: datetime, keep_days=config.SNAPSHOT_KEEP_DAYS, snap_dir=config.SNAP_DIR) -> None:

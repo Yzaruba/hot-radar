@@ -82,6 +82,44 @@ def test_stale_pairs_do_not_overwrite_fresh_pairs():
     assert [i["asin"] for i in fresh] == ["A"]  # stale refill stays out of snapshots/surge
 
 
+def test_prev_ip_products_rebuilds_scrape_shape():
+    prev = {"ip_products": [
+        {"asin": "A", "title_en": "Pokemon TCG Box", "image": "data/img/A.jpg",
+         "price": "$39.99", "rating": 4.8, "ratings_count": 900,
+         "category": "tcg", "rank": 2},
+        {"asin": "B", "title_en": "Figure", "category": "anime", "rank": 5},
+    ]}
+    out = build._prev_ip_products(prev, "tcg")
+    assert len(out) == 1
+    assert out[0]["title"] == "Pokemon TCG Box" and out[0]["list"] == "bestsellers"
+    assert build._prev_ip_products(None, "tcg") == []
+
+
+def test_usd_only_enters_price_history():
+    per_key = {("bestsellers", "electronics"): [
+        {"asin": "A", "list": "bestsellers", "category": "electronics", "rank": 1, "price": "$19.99"},
+        {"asin": "B", "list": "bestsellers", "category": "electronics", "rank": 2, "price": "AWG 35.90"},
+    ]}
+    fresh = build.collect_fresh_items(per_key, set())
+    from scraper import scoring
+    for i in fresh:
+        raw = (i.get("price") or "").strip()
+        i["price_val"] = scoring.parse_price(raw) if raw.startswith("$") else None
+    vals = {i["asin"]: i["price_val"] for i in fresh}
+    assert vals["A"] == 19.99
+    assert vals["B"] is None  # AWG (local geo-pricing) never poisons the history
+
+
+def test_run_meta_covers_ip_pairs():
+    started = datetime(2026, 7, 21, 12, 0, tzinfo=timezone.utc)
+    meta = build.build_run_meta(
+        started, started + timedelta(seconds=10), stale_pairs=set(),
+        flat_entry_count=0, merged_count=0, products=[], data_changed=False, env={},
+    )
+    assert "bestsellers:tcg" in meta["fresh_pairs"]
+    assert "bestsellers:manga" in meta["fresh_pairs"]
+
+
 def test_run_meta_unique_asin_count_matches_output():
     started = datetime(2026, 7, 20, 12, 0, tzinfo=timezone.utc)
     finished = started + timedelta(seconds=90)
