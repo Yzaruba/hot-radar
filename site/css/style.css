@@ -12,6 +12,7 @@
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+[hidden] { display: none !important; }  /* hidden attr must beat any display rule */
 
 html { background: var(--bg); }
 
@@ -134,6 +135,7 @@ body {
 .price { font-weight: 900; font-size: 14px; color: var(--red-dark); }
 .rating { color: #7a5b00; }
 .badges { display: flex; gap: 4px; font-size: 11px; flex-wrap: wrap; }
+.landed { font-size: 11px; font-weight: 700; color: #1e6e2e; }
 .badge {
   background: #111; color: #fff; padding: 1px 6px; border-radius: 2px; font-weight: 700;
 }

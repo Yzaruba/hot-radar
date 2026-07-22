@@ -280,6 +280,27 @@ def primary_risk_zh_for(p, risk_codes) -> str:
     return f"{cfg.NO_RISK_PREFIX}；{specific}"
 
 
+def landed_fl_range(price_str):
+    """USD price → {'low','high','sell_min'} in whole florin, else None.
+
+    sell_min = worst-case landed / (1 - TARGET_MARGIN): the retail price a
+    tourist must plausibly pay for the buy to make sense.
+    """
+    raw = (str(price_str) if price_str else "").strip()
+    if not raw.startswith("$"):
+        return None
+    usd = parse_price(raw)
+    if usd is None:
+        return None
+    low = round(usd * cfg.LANDED_FL_LOW)
+    high = round(usd * cfg.LANDED_FL_HIGH)
+    return {
+        "low": low,
+        "high": high,
+        "sell_min": round(high / (1 - cfg.TARGET_MARGIN)),
+    }
+
+
 _ASCII_RUN = re.compile(r"[A-Za-z][A-Za-z0-9&'’.\-]*")
 
 

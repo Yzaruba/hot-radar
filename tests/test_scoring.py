@@ -241,6 +241,17 @@ def test_body_lotion_is_beauty_fit_and_hose_is_low():
     assert scoring.store_fit(_p(title_en="Flexible Garden Hose 100 FT"))[0] == "low"
 
 
+def test_landed_fl_range_from_usd():
+    out = scoring.landed_fl_range("$10.00")
+    assert out == {"low": 21, "high": 25, "sell_min": 42}  # 25/(1-0.4)=41.7→42
+
+
+def test_landed_fl_range_rejects_non_usd():
+    assert scoring.landed_fl_range("AWG 21.70") is None
+    assert scoring.landed_fl_range(None) is None
+    assert scoring.landed_fl_range("") is None
+
+
 def test_brand_products_capped_at_watch_never_top3():
     # huge surge + 70k reviews, but branded → not actionable via 1688 loop
     p = _p(title_en="eos Shea Better Body Lotion Vanilla",

@@ -266,3 +266,9 @@ PROCUREMENT_STRIP_ZH_EXTRA = ["炫目", "易于使用", "经典", "原创", "简
 IP_TITLE_FIX_ZH = {
     "柔术海战": "咒术回战",
 }
+
+# ---- landed cost: Amazon USD price → in-hand Aruba florin (owner-measured
+# 2026-07: ×2.1–2.5 all-in = FX 1.79 + Miami freight + duty; bulkier → higher)
+LANDED_FL_LOW = 2.1
+LANDED_FL_HIGH = 2.5
+TARGET_MARGIN = 0.40   # "需卖≥" reference price assumes this gross margin

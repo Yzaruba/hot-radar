@@ -322,6 +322,9 @@
     if (p.rank_pct != null) badges.push(`<span class="badge">📈 24h ${p.rank_prev}→${p.rank}</span>`);
     const deals = dropBadges(p);
     if (deals) badges.push(deals);
+    const landed = p.landed_fl
+      ? `<div class="landed">到手约 ${p.landed_fl.low}-${p.landed_fl.high} fl</div>`
+      : "";
     return `
 <article class="card" data-i="${i}">
   <div class="card-imgwrap" data-action="view" tabindex="0" role="button" aria-label="查看详情">
@@ -334,6 +337,7 @@
     <div class="title-en">${esc(p.title_en)}</div>
     <div class="badges">${badges.join("")}</div>
     <div class="price-row"><span class="price">${esc(p.price || "")}</span>${rating}</div>
+    ${landed}
   </div>
   <div class="card-actions">
     <a class="a1688" href="${esc(p.amazon_url)}" target="_blank" rel="noopener">看Amazon</a>
@@ -438,6 +442,8 @@
       ];
       if (pd && pd.drop) lines.push(`💰 比24小时前降价 ${Math.round(pd.drop.pct)}%（原价 $${pd.drop.prev_price}）`);
       if (pd && pd.low_14d) lines.push("📉 近14天最低价");
+      if (p.landed_fl)
+        lines.push(`💵 到手约 ${p.landed_fl.low}-${p.landed_fl.high} fl · 40%毛利需卖 ≥${p.landed_fl.sell_min} fl`);
       lines.push("🏪 正版IP商品：走官方分销/批发渠道，不适用1688搜同款");
       return `<div class="vd-lines">${lines.map((l) => `<p>${l}</p>`).join("")}</div>
 <div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;
@@ -463,6 +469,9 @@
     const dealLine = pd
       ? `<p>💰 ${pd.drop ? `比24小时前降价 ${Math.round(pd.drop.pct)}%（原价 $${pd.drop.prev_price}）` : ""}${pd.drop && pd.low_14d ? " · " : ""}${pd.low_14d ? "近14天最低价" : ""}</p>`
       : "";
+    const landedLine = p.landed_fl
+      ? `<p>💵 从Amazon直订到手约 ${p.landed_fl.low}-${p.landed_fl.high} fl · 40%毛利需卖 ≥${p.landed_fl.sell_min} fl</p>`
+      : "";
     return `
 <div class="vd-score">
   <span class="bangers vd-num">${Math.round(p.opportunity_score)}</span>
@@ -480,7 +489,7 @@
   <p>🏪 ${esc(p.store_fit_reason_zh || "")}</p>
   <p>⚠️ ${esc(p.primary_risk_zh || "")}</p>
   <p>📊 ${market} · 24h排名 ${esc(rank24)}</p>
-  ${dealLine}
+  ${dealLine}${landedLine}
   ${p.procurement_keyword_zh ? `<p>🛒 采购词：「${esc(p.procurement_keyword_zh)}」</p>` : ""}
 </div>
 <div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;

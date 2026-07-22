@@ -311,6 +311,7 @@ def main() -> int:
                     "tiktok": tiktok_match(m["title"], tag_names),
                     "new_release": any(x["list"] == "new-releases" for x in m["sources"]),
                 },
+                "landed_fl": scoring.landed_fl_range(m.get("price")),
                 "first_seen": prev_first_seen.get(m["asin"]) or today,
             }
         )
@@ -358,6 +359,7 @@ def main() -> int:
                 "rank_delta": delta,
                 "rank_pct": (round(delta / prev_rank * 100, 1) if delta and delta > 0 else None),
                 "price_drop": price_info.get(key),
+                "landed_fl": scoring.landed_fl_range(i.get("price")),
                 "amazon_url": f"https://www.amazon.com/dp/{i['asin']}",
                 "first_seen": ip_prev_first.get(i["asin"]) or today,
             }
