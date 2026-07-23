@@ -1,16 +1,18 @@
 {
   "data_changed": true,
-  "duplicate_count": 26,
-  "duration_seconds": 206.4,
-  "finished_at": "2026-07-22T20:56:08Z",
+  "duplicate_count": 35,
+  "duration_seconds": 528.5,
+  "finished_at": "2026-07-23T00:28:15Z",
   "force": true,
   "fresh_pairs": [
     "bestsellers:anime",
     "bestsellers:beauty",
+    "bestsellers:candy",
     "bestsellers:electronics",
     "bestsellers:home",
     "bestsellers:kitchen",
     "bestsellers:manga",
+    "bestsellers:plush",
     "bestsellers:sports",
     "bestsellers:tcg",
     "bestsellers:toys",
@@ -18,15 +20,16 @@
     "new-releases:electronics",
     "new-releases:home",
     "new-releases:kitchen",
+    "new-releases:plush",
     "new-releases:sports",
     "new-releases:toys"
   ],
-  "product_count": 694,
-  "run_id": "29956883716",
+  "product_count": 805,
+  "run_id": "29968708366",
   "skipped_reason": null,
-  "source_commit": "a40c2c82f99ff75d48ab89758091a6b513c8763b",
+  "source_commit": "12a26dd0ed4a730dcdbf17c3c215088daf0c4b71",
   "stale_pairs": [],
-  "started_at": "2026-07-22T20:52:41Z",
+  "started_at": "2026-07-23T00:19:26Z",
   "trigger": "manual",
-  "unique_asin_count": 694
+  "unique_asin_count": 805
 }
