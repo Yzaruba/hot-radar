@@ -15,6 +15,7 @@ MAX_MULTI = 10
 # Weak prior only — the store-fit form-factor tiers below dominate.
 CATEGORY_FIT = {
     "toys": 1.0,
+    "plush": 1.0,
     "beauty": 1.0,
     "kitchen": 0.9,
     "electronics": 0.85,
@@ -105,7 +106,7 @@ PENALTY_LOW_STORE_FIT = -6
 
 CATEGORY_ZH = {
     "electronics": "电子", "beauty": "美妆", "toys": "玩具",
-    "kitchen": "厨房", "home": "家居", "sports": "运动",
+    "kitchen": "厨房", "home": "家居", "sports": "运动", "plush": "毛绒",
 }
 
 STORE_FIT_REASON_ZH = {

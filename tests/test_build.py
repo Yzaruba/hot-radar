@@ -118,6 +118,15 @@ def test_run_meta_covers_ip_pairs():
     )
     assert "bestsellers:tcg" in meta["fresh_pairs"]
     assert "bestsellers:manga" in meta["fresh_pairs"]
+    assert "bestsellers:candy" in meta["fresh_pairs"]
+    assert "bestsellers:plush" in meta["fresh_pairs"] and "new-releases:plush" in meta["fresh_pairs"]
+
+
+def test_candy_is_flagged_food_and_plush_is_main():
+    from scraper import config as c
+    assert "candy" in {x["id"] for x in c.IP_CATEGORIES}
+    assert "candy" in c.FOOD_IP_IDS
+    assert "plush" in {x["id"] for x in c.CATEGORIES}  # 1688-sourceable → main flow
 
 
 def test_run_meta_unique_asin_count_matches_output():

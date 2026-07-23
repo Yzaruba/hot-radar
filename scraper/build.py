@@ -360,6 +360,7 @@ def main() -> int:
                 "rank_pct": (round(delta / prev_rank * 100, 1) if delta and delta > 0 else None),
                 "price_drop": price_info.get(key),
                 "landed_fl": scoring.landed_fl_range(i.get("price")),
+                "food": i["category"] in config.FOOD_IP_IDS,
                 "amazon_url": f"https://www.amazon.com/dp/{i['asin']}",
                 "first_seen": ip_prev_first.get(i["asin"]) or today,
             }

@@ -20,6 +20,9 @@ CATEGORIES = [
     {"id": "kitchen", "zh": "厨房", "slug": "kitchen"},
     {"id": "home", "zh": "家居", "slug": "home-garden"},
     {"id": "sports", "zh": "运动户外", "slug": "sporting-goods"},
+    # store-DNA vertical (IG/site audit 2026-07-23): plush is a Goodies core
+    # category and generic plush IS 1688-sourceable → full main flow
+    {"id": "plush", "zh": "毛绒", "slug": "toys-and-games/166461011"},
 ]
 
 LISTS = ["bestsellers", "new-releases"]
@@ -31,8 +34,14 @@ IP_CATEGORIES = [
     {"id": "tcg", "zh": "集换卡牌", "slug": "toys-and-games/166242011"},
     {"id": "anime", "zh": "手办/角色", "slug": "toys-and-games/2514571011"},
     {"id": "manga", "zh": "日漫图书", "slug": "books/4367"},
+    # viral US candy (MrBeast Feastables direction): branded food = Amazon
+    # direct-buy channel, never 1688; node live-verified 2026-07-23
+    {"id": "candy", "zh": "零食糖果", "slug": "grocery/16322461"},
 ]
 IP_LISTS = ["bestsellers"]  # bestsellers only — half the requests, enough signal
+# food categories: shelf-life/meltage warning on cards (Amazon does not publish
+# expiry dates — the radar flags the risk instead of pretending to know)
+FOOD_IP_IDS = {"candy"}
 
 TOP_N = 100
 SURGE_SIZE = 30

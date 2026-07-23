@@ -322,6 +322,7 @@
     if (p.rank_pct != null) badges.push(`<span class="badge">📈 24h ${p.rank_prev}→${p.rank}</span>`);
     const deals = dropBadges(p);
     if (deals) badges.push(deals);
+    if (p.food) badges.push(`<span class="badge deal">🍫留意保质期</span>`);
     const landed = p.landed_fl
       ? `<div class="landed">到手约 ${p.landed_fl.low}-${p.landed_fl.high} fl</div>`
       : "";
@@ -363,8 +364,8 @@
       ? `<div class="grid">${views.map((v, i) => ipCardHTML(v, i)).join("")}</div>`
       : `<div class="empty"><span class="big">EMPTY!</span>暂无数据</div>`;
     $("#content").innerHTML =
-      `<h2 class="section-title bangers">🎴 IP潮流榜</h2>
-       <p class="section-sub">TCG/手办/日漫 · 正版IP走分销渠道，不适用1688 · 降价优先展示</p>${body}`;
+      `<h2 class="section-title bangers">🎴 潮流直订榜</h2>
+       <p class="section-sub">TCG/手办/日漫/零食糖果 · 正版与品牌食品走Amazon直订，不适用1688 · 降价优先展示</p>${body}`;
     state.visible = views;
   }
 
@@ -444,7 +445,11 @@
       if (pd && pd.low_14d) lines.push("📉 近14天最低价");
       if (p.landed_fl)
         lines.push(`💵 到手约 ${p.landed_fl.low}-${p.landed_fl.high} fl · 40%毛利需卖 ≥${p.landed_fl.sell_min} fl`);
-      lines.push("🏪 正版IP商品：走官方分销/批发渠道，不适用1688搜同款");
+      if (p.food)
+        lines.push("🍫 食品类：Amazon不公布保质期，下单前留言核对日期；巧克力海运有融化风险");
+      lines.push(p.food
+        ? "🏪 品牌零食：Amazon直订渠道，不适用1688"
+        : "🏪 正版IP商品：走官方分销/批发渠道，不适用1688搜同款");
       return `<div class="vd-lines">${lines.map((l) => `<p>${l}</p>`).join("")}</div>
 <div class="vd-reviews" id="vdReviews"><p class="vd-note">💬 评论数据加载中…</p></div>`;
     }
