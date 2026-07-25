@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T08:25:53Z",
+  "generated_at": "2026-07-25T14:04:13Z",
   "hashtags": [
     {
       "curve": [
@@ -21,6 +21,23 @@
     {
       "curve": [
         0.0,
+        2.4,
+        46.9,
+        81.8,
+        100.0,
+        75.9,
+        44.8
+      ],
+      "keyword_zh": "猫咪",
+      "name": "kitty",
+      "posts": 33233,
+      "rank": 2,
+      "url_1688": "https://m.1688.com/offer_search/-C3A8DFE4.html",
+      "zh": "猫咪"
+    },
+    {
+      "curve": [
+        0.0,
         3.9,
         9.5,
         41.2,
@@ -31,7 +48,7 @@
       "keyword_zh": "鲍勃",
       "name": "bob",
       "posts": 22603,
-      "rank": 2,
+      "rank": 3,
       "url_1688": "https://m.1688.com/offer_search/-B1ABB2AA.html",
       "zh": "鲍勃"
     },
@@ -48,7 +65,7 @@
       "keyword_zh": "杰克保罗",
       "name": "jakepaul",
       "posts": 21718,
-      "rank": 3,
+      "rank": 4,
       "url_1688": "https://m.1688.com/offer_search/-BDDCBFCBB1A3C2DE.html",
       "zh": "杰克保罗"
     },
@@ -65,7 +82,7 @@
       "keyword_zh": "复仇者联盟末日",
       "name": "avengersdoomsday",
       "posts": 20479,
-      "rank": 4,
+      "rank": 5,
       "url_1688": "https://m.1688.com/offer_search/-B8B4B3F0D5DFC1AAC3CBC4A9C8D5.html",
       "zh": "复仇者联盟末日"
     },
@@ -82,7 +99,7 @@
       "keyword_zh": "反乌托邦的",
       "name": "dystopian",
       "posts": 16904,
-      "rank": 5,
+      "rank": 6,
       "url_1688": "https://m.1688.com/offer_search/-B7B4CEDACDD0B0EEB5C4.html",
       "zh": "反乌托邦的"
     },
@@ -99,7 +116,7 @@
       "keyword_zh": "弗鲁蒂杰拉罗",
       "name": "frutigeraero",
       "posts": 13922,
-      "rank": 6,
+      "rank": 7,
       "url_1688": "https://m.1688.com/offer_search/-B8A5C2B3B5D9BDDCC0ADC2DE.html",
       "zh": "弗鲁蒂杰拉罗"
     },
@@ -116,7 +133,7 @@
       "keyword_zh": "狮子座季节",
       "name": "leoseason",
       "posts": 12387,
-      "rank": 7,
+      "rank": 8,
       "url_1688": "https://m.1688.com/offer_search/-CAA8D7D3D7F9BCBEBDDA.html",
       "zh": "狮子座季节"
     },
@@ -133,7 +150,7 @@
       "keyword_zh": "洁白的牙齿",
       "name": "whiteteeth",
       "posts": 11570,
-      "rank": 8,
+      "rank": 9,
       "url_1688": "https://m.1688.com/offer_search/-BDE0B0D7B5C4D1C0B3DD.html",
       "zh": "洁白的牙齿"
     },
@@ -150,7 +167,7 @@
       "keyword_zh": "穿戴式吸奶器",
       "name": "wearablebreastpump",
       "posts": 11135,
-      "rank": 9,
+      "rank": 10,
       "url_1688": "https://m.1688.com/offer_search/-B4A9B4F7CABDCEFCC4CCC6F7.html",
       "zh": "穿戴式吸奶器"
     },
@@ -167,7 +184,7 @@
       "keyword_zh": "麦当劳工人",
       "name": "mcdonaldsworker",
       "posts": 8304,
-      "rank": 10,
+      "rank": 11,
       "url_1688": "https://m.1688.com/offer_search/-C2F3B5B1C0CDB9A4C8CB.html",
       "zh": "麦当劳工人"
     },
@@ -184,7 +201,7 @@
       "keyword_zh": "奥德里夏",
       "name": "audrisummer",
       "posts": 8176,
-      "rank": 11,
+      "rank": 12,
       "url_1688": "https://m.1688.com/offer_search/-B0C2B5C2C0EFCFC4.html",
       "zh": "奥德里夏"
     },
@@ -201,7 +218,7 @@
       "keyword_zh": "繁荣",
       "name": "prosperfitness",
       "posts": 7934,
-      "rank": 12,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-B7B1C8D9.html",
       "zh": "繁荣"
     },
@@ -218,7 +235,7 @@
       "keyword_zh": "妈妈科兹w1",
       "name": "momcozyw1",
       "posts": 7909,
-      "rank": 13,
+      "rank": 14,
       "url_1688": "https://m.1688.com/offer_search/-C2E8C2E8BFC6D7C87731.html",
       "zh": "妈妈科兹w1"
     },
@@ -235,7 +252,7 @@
       "keyword_zh": "漆黑的",
       "name": "pitchblack",
       "posts": 7789,
-      "rank": 14,
+      "rank": 15,
       "url_1688": "https://m.1688.com/offer_search/-C6E1BADAB5C4.html",
       "zh": "漆黑的"
     },
@@ -252,7 +269,7 @@
       "keyword_zh": "1000件小事",
       "name": "1000littlethings",
       "posts": 7694,
-      "rank": 15,
+      "rank": 16,
       "url_1688": "https://m.1688.com/offer_search/-31303030BCFED0A1CAC2.html",
       "zh": "1000件小事"
     },
@@ -269,7 +286,7 @@
       "keyword_zh": "厄运",
       "name": "doom",
       "posts": 6686,
-      "rank": 16,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-B6F2D4CB.html",
       "zh": "厄运"
     },
@@ -286,7 +303,7 @@
       "keyword_zh": "开学第一天",
       "name": "firstdayofschool",
       "posts": 6522,
-      "rank": 17,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-BFAAD1A7B5DAD2BBCCEC.html",
       "zh": "开学第一天"
     },
@@ -303,7 +320,7 @@
       "keyword_zh": "吉莫西",
       "name": "jimothy",
       "posts": 5367,
-      "rank": 18,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-BCAAC4AACEF7.html",
       "zh": "吉莫西"
     },
@@ -320,7 +337,7 @@
       "keyword_zh": "半场表演",
       "name": "halftimeshow",
       "posts": 5035,
-      "rank": 19,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-B0EBB3A1B1EDD1DD.html",
       "zh": "半场表演"
     },
@@ -337,26 +354,9 @@
       "keyword_zh": "莴苣",
       "name": "lettuce",
       "posts": 4993,
-      "rank": 20,
+      "rank": 21,
       "url_1688": "https://m.1688.com/offer_search/-DDABDCC4.html",
       "zh": "莴苣"
-    },
-    {
-      "curve": [
-        0.0,
-        17.8,
-        82.3,
-        91.6,
-        98.4,
-        100.0,
-        68.8
-      ],
-      "keyword_zh": "爱猫",
-      "name": "ilovemycat",
-      "posts": 4674,
-      "rank": 21,
-      "url_1688": "https://m.1688.com/offer_search/-B0AEC3A8.html",
-      "zh": "爱猫"
     },
     {
       "curve": [
