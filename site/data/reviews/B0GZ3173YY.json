@@ -1,0 +1,15 @@
+{
+  "asin": "B0GZ3173YY",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-08-02T05:47:31Z",
+  "fetched_at": "2026-07-26T05:47:31Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B0GZ3173YY",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}
