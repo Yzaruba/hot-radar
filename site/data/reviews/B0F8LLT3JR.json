@@ -1,5 +1,5 @@
 {
-  "asin": "B00006RVTS",
+  "asin": "B0F8LLT3JR",
   "error_code": "no_reviews_rendered",
   "expires_at": "2026-08-08T05:42:46Z",
   "fetched_at": "2026-08-01T05:42:46Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B00006RVTS",
+  "source_url": "https://www.amazon.com/dp/B0F8LLT3JR",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
