@@ -1,787 +1,753 @@
 {
-  "generated_at": "2026-07-31T19:54:53Z",
+  "generated_at": "2026-08-01T03:52:52Z",
   "hashtags": [
     {
       "curve": [
+        1.1,
         0.0,
-        47.5,
-        60.6,
-        72.5,
-        96.9,
-        96.6,
-        100.0
-      ],
-      "keyword_zh": "抖音商店夏季促销",
-      "name": "tiktokshopsummersale",
-      "posts": 1174530,
-      "rank": 1,
-      "url_1688": "https://m.1688.com/offer_search/-B6B6D2F4C9CCB5EACFC4BCBEB4D9CFFA.html",
-      "zh": "抖音商店夏季促销"
-    },
-    {
-      "curve": [
-        0.0,
-        50.4,
-        67.3,
-        100.0,
-        97.8,
-        62.4,
-        32.1
-      ],
-      "keyword_zh": "紧急准备",
-      "name": "rushready",
-      "posts": 864929,
-      "rank": 2,
-      "url_1688": "https://m.1688.com/offer_search/-BDF4BCB1D7BCB1B8.html",
-      "zh": "紧急准备"
-    },
-    {
-      "curve": [
-        0.0,
-        2.4,
-        1.2,
-        15.8,
-        38.6,
-        85.2,
+        13.4,
+        34.3,
+        77.1,
+        90.7,
         100.0
       ],
       "keyword_zh": "蜘蛛侠品牌新日",
       "name": "spidermanbrandnewday",
-      "posts": 93022,
-      "rank": 3,
+      "posts": 155696,
+      "rank": 1,
       "url_1688": "https://m.1688.com/offer_search/-D6A9D6EBCFC0C6B7C5C6D0C2C8D5.html",
       "zh": "蜘蛛侠品牌新日"
     },
     {
       "curve": [
-        13.5,
-        13.4,
-        0.0,
-        6.4,
-        67.9,
-        88.0,
-        100.0
-      ],
-      "keyword_zh": "回到学校",
-      "name": "backtoschool",
-      "posts": 78158,
-      "rank": 4,
-      "url_1688": "https://m.1688.com/offer_search/-BBD8B5BDD1A7D0A3.html",
-      "zh": "回到学校"
-    },
-    {
-      "curve": [
-        6.2,
         34.0,
         7.4,
         0.0,
         76.0,
         87.0,
-        100.0
+        100.0,
+        96.1
       ],
       "keyword_zh": "健康",
       "name": "health",
-      "posts": 72692,
-      "rank": 5,
+      "posts": 81291,
+      "rank": 2,
       "url_1688": "https://m.1688.com/offer_search/-BDA1BFB5.html",
       "zh": "健康"
     },
     {
       "curve": [
         100.0,
-        45.5,
-        25.5,
-        29.3,
-        12.3,
-        7.9,
-        0.0
-      ],
-      "keyword_zh": "风相遇之处",
-      "name": "wherewindsmeet",
-      "posts": 58642,
-      "rank": 6,
-      "url_1688": "https://m.1688.com/offer_search/-B7E7CFE0D3F6D6AEB4A6.html",
-      "zh": "风相遇之处"
-    },
-    {
-      "curve": [
-        100.0,
-        11.3,
-        4.6,
-        5.5,
+        57.8,
+        49.9,
+        51.4,
+        29.7,
         0.0,
-        8.9,
-        1.3
-      ],
-      "keyword_zh": "银宫",
-      "name": "silverpalace",
-      "posts": 39796,
-      "rank": 7,
-      "url_1688": "https://m.1688.com/offer_search/-D2F8B9AC.html",
-      "zh": "银宫"
-    },
-    {
-      "curve": [
-        100.0,
-        66.0,
-        38.1,
-        32.9,
-        33.9,
-        19.6,
-        0.0
+        4.9
       ],
       "keyword_zh": "狮子座季节",
       "name": "leoseason",
-      "posts": 23261,
-      "rank": 8,
+      "posts": 21410,
+      "rank": 3,
       "url_1688": "https://m.1688.com/offer_search/-CAA8D7D3D7F9BCBEBDDA.html",
       "zh": "狮子座季节"
     },
     {
       "curve": [
-        0.0,
         100.0,
-        50.5,
-        35.9,
-        32.0,
-        31.6,
-        27.1
+        36.6,
+        17.9,
+        13.0,
+        12.4,
+        6.7,
+        0.0
       ],
       "keyword_zh": "动物",
       "name": "animal",
-      "posts": 18265,
-      "rank": 9,
+      "posts": 18501,
+      "rank": 4,
       "url_1688": "https://m.1688.com/offer_search/-B6AFCEEF.html",
       "zh": "动物"
     },
     {
       "curve": [
-        65.7,
-        55.1,
-        18.9,
-        0.0,
+        83.1,
+        90.5,
+        89.0,
         100.0,
-        63.3,
-        61.3
-      ],
-      "keyword_zh": "发尖",
-      "name": "hairtips",
-      "posts": 17640,
-      "rank": 10,
-      "url_1688": "https://m.1688.com/offer_search/-B7A2BCE2.html",
-      "zh": "发尖"
-    },
-    {
-      "curve": [
-        5.2,
-        82.9,
-        90.4,
-        88.9,
-        100.0,
-        7.5,
+        8.2,
+        0.8,
         0.0
       ],
       "keyword_zh": "医生",
       "name": "doctor",
-      "posts": 17462,
-      "rank": 11,
+      "posts": 17359,
+      "rank": 5,
       "url_1688": "https://m.1688.com/offer_search/-D2BDC9FA.html",
       "zh": "医生"
     },
     {
       "curve": [
-        0.0,
         100.0,
-        89.9,
-        71.2,
-        66.4,
-        67.6,
-        60.3
+        76.2,
+        32.2,
+        20.9,
+        23.6,
+        6.5,
+        0.0
       ],
       "keyword_zh": "76人队",
       "name": "76ers",
-      "posts": 15369,
-      "rank": 12,
+      "posts": 16612,
+      "rank": 6,
       "url_1688": "https://m.1688.com/offer_search/-3736C8CBB6D3.html",
       "zh": "76人队"
     },
     {
       "curve": [
         0.0,
-        6.8,
-        3.7,
         100.0,
-        1.9,
-        4.4,
-        2.5
-      ],
-      "keyword_zh": "野莓",
-      "name": "wildberries",
-      "posts": 12931,
-      "rank": 13,
-      "url_1688": "https://m.1688.com/offer_search/-D2B0DDAE.html",
-      "zh": "野莓"
-    },
-    {
-      "curve": [
-        0.0,
-        59.8,
-        100.0,
-        98.9,
-        96.0,
-        94.5,
-        79.2
+        97.2,
+        90.0,
+        86.3,
+        48.3,
+        60.0
       ],
       "keyword_zh": "窗帘",
       "name": "curtains",
-      "posts": 12187,
-      "rank": 14,
+      "posts": 13673,
+      "rank": 7,
       "url_1688": "https://m.1688.com/offer_search/-B4B0C1B1.html",
       "zh": "窗帘"
     },
     {
       "curve": [
-        0.0,
+        5.0,
+        1.8,
         100.0,
-        54.6,
-        44.2,
-        66.7,
-        17.1,
-        17.4
+        0.0,
+        2.6,
+        0.6,
+        5.4
       ],
-      "keyword_zh": "2022 年秋季",
-      "name": "fall2022",
-      "posts": 9700,
-      "rank": 15,
-      "url_1688": "https://m.1688.com/offer_search/-3230323220C4EAC7EFBCBE.html",
-      "zh": "2022 年秋季"
+      "keyword_zh": "野莓",
+      "name": "wildberries",
+      "posts": 12935,
+      "rank": 8,
+      "url_1688": "https://m.1688.com/offer_search/-D2B0DDAE.html",
+      "zh": "野莓"
     },
     {
       "curve": [
-        21.2,
-        29.6,
+        27.2,
         0.0,
         0.6,
-        59.8,
-        66.9,
+        55.0,
+        61.6,
+        92.0,
         100.0
       ],
       "keyword_zh": "开学第一天",
       "name": "firstdayofschool",
-      "posts": 9600,
-      "rank": 16,
+      "posts": 11138,
+      "rank": 9,
       "url_1688": "https://m.1688.com/offer_search/-BFAAD1A7B5DAD2BBCCEC.html",
       "zh": "开学第一天"
     },
     {
       "curve": [
         0.0,
+        42.5,
+        79.3,
         100.0,
-        90.3,
-        68.6,
-        64.8,
-        61.8,
-        53.5
+        85.7,
+        85.9,
+        59.6
+      ],
+      "keyword_zh": "书呆子女孩",
+      "name": "nerdgirl",
+      "posts": 9935,
+      "rank": 10,
+      "url_1688": "https://m.1688.com/offer_search/-CAE9B4F4D7D3C5AEBAA2.html",
+      "zh": "书呆子女孩"
+    },
+    {
+      "curve": [
+        2.2,
+        0.0,
+        14.9,
+        34.2,
+        57.7,
+        91.7,
+        100.0
+      ],
+      "keyword_zh": "满月",
+      "name": "fullmoon",
+      "posts": 9677,
+      "rank": 11,
+      "url_1688": "https://m.1688.com/offer_search/-C2FAD4C2.html",
+      "zh": "满月"
+    },
+    {
+      "curve": [
+        0.0,
+        5.7,
+        6.6,
+        6.1,
+        23.9,
+        54.1,
+        100.0
+      ],
+      "keyword_zh": "蜘蛛侠",
+      "name": "pubgmxspiderman",
+      "posts": 9366,
+      "rank": 12,
+      "url_1688": "https://m.1688.com/offer_search/-D6A9D6EBCFC0.html",
+      "zh": "蜘蛛侠"
+    },
+    {
+      "curve": [
+        100.0,
+        81.1,
+        39.0,
+        31.6,
+        25.7,
+        9.7,
+        0.0
       ],
       "keyword_zh": "76人队",
       "name": "sixers",
-      "posts": 8323,
-      "rank": 17,
+      "posts": 8669,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-3736C8CBB6D3.html",
       "zh": "76人队"
     },
     {
       "curve": [
-        93.8,
+        0.0,
+        4.2,
+        32.9,
+        48.8,
+        49.1,
+        81.7,
+        100.0
+      ],
+      "keyword_zh": "实用篮球",
+      "name": "practicalbasketball",
+      "posts": 8669,
+      "rank": 14,
+      "url_1688": "https://m.1688.com/offer_search/-CAB5D3C3C0BAC7F2.html",
+      "zh": "实用篮球"
+    },
+    {
+      "curve": [
+        57.1,
+        30.7,
+        0.0,
+        23.8,
+        54.8,
+        100.0,
+        96.3
+      ],
+      "keyword_zh": "幼儿园",
+      "name": "kindergarten",
+      "posts": 8347,
+      "rank": 15,
+      "url_1688": "https://m.1688.com/offer_search/-D3D7B6F9D4B0.html",
+      "zh": "幼儿园"
+    },
+    {
+      "curve": [
+        92.4,
+        96.6,
+        100.0,
+        54.8,
+        24.4,
+        32.8,
+        0.0
+      ],
+      "keyword_zh": "tbvnks",
+      "name": "tbvnks",
+      "posts": 8311,
+      "rank": 16,
+      "url_1688": "https://m.1688.com/offer_search/-7462766E6B73.html",
+      "zh": "tbvnks"
+    },
+    {
+      "curve": [
         100.0,
         59.3,
         14.2,
         0.0,
         3.4,
-        28.7
+        28.7,
+        58.9
       ],
       "keyword_zh": "希尔顿",
       "name": "hilton",
-      "posts": 8270,
-      "rank": 18,
+      "posts": 8044,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-CFA3B6FBB6D9.html",
       "zh": "希尔顿"
     },
     {
       "curve": [
         0.0,
-        95.5,
-        98.0,
+        99.3,
         100.0,
+        90.7,
+        96.2,
         73.2,
-        55.1,
-        60.1
-      ],
-      "keyword_zh": "tbvnks",
-      "name": "tbvnks",
-      "posts": 8128,
-      "rank": 19,
-      "url_1688": "https://m.1688.com/offer_search/-7462766E6B73.html",
-      "zh": "tbvnks"
-    },
-    {
-      "curve": [
-        0.0,
-        64.5,
-        99.8,
-        100.0,
-        96.7,
-        98.7,
-        90.5
+        77.5
       ],
       "keyword_zh": "窗饰",
       "name": "windowdecor",
-      "posts": 6329,
-      "rank": 20,
+      "posts": 7307,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-B4B0CACE.html",
       "zh": "窗饰"
     },
     {
       "curve": [
         0.0,
+        97.8,
         100.0,
-        93.2,
-        73.2,
-        44.9,
-        33.9,
-        29.0
-      ],
-      "keyword_zh": "忍者神龟",
-      "name": "ninjaturtles",
-      "posts": 5807,
-      "rank": 21,
-      "url_1688": "https://m.1688.com/offer_search/-C8CCD5DFC9F1B9EA.html",
-      "zh": "忍者神龟"
-    },
-    {
-      "curve": [
-        0.0,
-        33.7,
-        98.5,
-        100.0,
-        80.2,
-        51.2,
-        36.2
+        70.2,
+        26.5,
+        3.9,
+        7.8
       ],
       "keyword_zh": "维亚扬多波尔蒙多",
       "name": "viajandoporelmundo",
-      "posts": 5179,
-      "rank": 22,
+      "posts": 5345,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-CEACD1C7D1EFB6E0B2A8B6FBC3C9B6E0.html",
       "zh": "维亚扬多波尔蒙多"
     },
     {
       "curve": [
+        23.1,
+        11.7,
         0.0,
-        61.0,
-        71.2,
+        72.8,
         100.0,
-        67.9,
-        43.5,
-        14.5
-      ],
-      "keyword_zh": "温鲍尔明星",
-      "name": "wnbaallstar",
-      "posts": 4569,
-      "rank": 23,
-      "url_1688": "https://m.1688.com/offer_search/-CEC2B1ABB6FBC3F7D0C7.html",
-      "zh": "温鲍尔明星"
-    },
-    {
-      "curve": [
-        100.0,
-        98.5,
-        47.4,
-        10.1,
-        0.0,
-        9.5,
-        33.0
-      ],
-      "keyword_zh": "希尔顿荣誉客会",
-      "name": "hiltonhonors",
-      "posts": 4517,
-      "rank": 24,
-      "url_1688": "https://m.1688.com/offer_search/-CFA3B6FBB6D9C8D9D3FEBFCDBBE1.html",
-      "zh": "希尔顿荣誉客会"
-    },
-    {
-      "curve": [
-        0.0,
-        49.7,
-        42.2,
-        34.5,
-        82.2,
-        100.0,
-        85.6
+        78.0,
+        61.6
       ],
       "keyword_zh": "布雷兹",
       "name": "brez",
-      "posts": 3963,
-      "rank": 25,
+      "posts": 4568,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-B2BCC0D7D7C8.html",
       "zh": "布雷兹"
     },
     {
       "curve": [
+        5.1,
         0.0,
-        21.3,
-        13.3,
-        26.2,
-        70.2,
-        83.8,
+        8.3,
+        36.5,
+        45.3,
+        55.7,
         100.0
       ],
       "keyword_zh": "聚酯纤维",
       "name": "polyester",
-      "posts": 3443,
-      "rank": 26,
+      "posts": 4398,
+      "rank": 21,
       "url_1688": "https://m.1688.com/offer_search/-BEDBF5A5CFCBCEAC.html",
       "zh": "聚酯纤维"
     },
     {
       "curve": [
         0.0,
-        52.1,
-        59.2,
-        45.0,
-        88.1,
-        100.0,
-        99.3
-      ],
-      "keyword_zh": "抖音商店夏季促销",
-      "name": "tiktokshopsummersales",
-      "posts": 3403,
-      "rank": 27,
-      "url_1688": "https://m.1688.com/offer_search/-B6B6D2F4C9CCB5EACFC4BCBEB4D9CFFA.html",
-      "zh": "抖音商店夏季促销"
-    },
-    {
-      "curve": [
-        0.0,
-        80.0,
-        82.6,
-        99.2,
-        100.0,
-        82.9,
-        90.4
-      ],
-      "keyword_zh": "苗圃因斯波",
-      "name": "nurseryinspo",
-      "posts": 3245,
-      "rank": 28,
-      "url_1688": "https://m.1688.com/offer_search/-C3E7C6D4D2F2CBB9B2A8.html",
-      "zh": "苗圃因斯波"
-    },
-    {
-      "curve": [
-        0.0,
-        69.2,
-        100.0,
-        100.0,
-        96.8,
         95.5,
-        92.5
+        75.4,
+        100.0,
+        79.7,
+        3.1,
+        17.9
+      ],
+      "keyword_zh": "小宝贝",
+      "name": "littlebaby",
+      "posts": 3934,
+      "rank": 22,
+      "url_1688": "https://m.1688.com/offer_search/-D0A1B1A6B1B4.html",
+      "zh": "小宝贝"
+    },
+    {
+      "curve": [
+        0.0,
+        99.9,
+        100.0,
+        89.6,
+        85.4,
+        75.5,
+        77.6
       ],
       "keyword_zh": "猫室",
       "name": "catroom",
-      "posts": 3214,
-      "rank": 29,
+      "posts": 3761,
+      "rank": 23,
       "url_1688": "https://m.1688.com/offer_search/-C3A8CAD2.html",
       "zh": "猫室"
     },
     {
       "curve": [
         0.0,
-        84.2,
-        90.6,
+        13.2,
+        96.1,
         100.0,
-        99.5,
-        87.8,
-        95.8
+        14.8,
+        52.1,
+        41.0
+      ],
+      "keyword_zh": "苗圃因斯波",
+      "name": "nurseryinspo",
+      "posts": 3741,
+      "rank": 24,
+      "url_1688": "https://m.1688.com/offer_search/-C3E7C6D4D2F2CBB9B2A8.html",
+      "zh": "苗圃因斯波"
+    },
+    {
+      "curve": [
+        0.0,
+        40.4,
+        100.0,
+        97.0,
+        22.7,
+        73.2,
+        56.6
       ],
       "keyword_zh": "亚马逊婴儿发现",
       "name": "amazonbabyfinds",
-      "posts": 3135,
-      "rank": 30,
+      "posts": 3644,
+      "rank": 25,
       "url_1688": "https://m.1688.com/offer_search/-D1C7C2EDD1B7D3A4B6F9B7A2CFD6.html",
       "zh": "亚马逊婴儿发现"
     },
     {
       "curve": [
+        11.1,
+        22.3,
         0.0,
-        53.6,
-        99.2,
-        100.0,
-        69.3,
-        32.6,
-        18.7
+        67.6,
+        86.3,
+        85.2,
+        100.0
       ],
-      "keyword_zh": "大房子",
-      "name": "bighouse",
-      "posts": 2933,
-      "rank": 31,
-      "url_1688": "https://m.1688.com/offer_search/-B4F3B7BFD7D3.html",
-      "zh": "大房子"
+      "keyword_zh": "抖音商店夏季促销",
+      "name": "tiktokshopsummersales",
+      "posts": 3523,
+      "rank": 26,
+      "url_1688": "https://m.1688.com/offer_search/-B6B6D2F4C9CCB5EACFC4BCBEB4D9CFFA.html",
+      "zh": "抖音商店夏季促销"
     },
     {
       "curve": [
+        77.3,
         0.0,
-        79.2,
-        8.2,
         100.0,
-        26.7,
-        93.0,
-        58.8
+        20.2,
+        92.3,
+        55.1,
+        51.0
       ],
       "keyword_zh": "迪恩特斯布兰科斯",
       "name": "dientesblancos",
-      "posts": 2882,
-      "rank": 32,
+      "posts": 3049,
+      "rank": 27,
       "url_1688": "https://m.1688.com/offer_search/-B5CFB6F7CCD8CBB9B2BCC0BCBFC6CBB9.html",
       "zh": "迪恩特斯布兰科斯"
     },
     {
       "curve": [
-        64.1,
-        96.7,
-        80.3,
-        78.9,
+        46.3,
+        99.1,
         100.0,
-        0.0,
-        63.1
+        64.4,
+        22.0,
+        5.9,
+        0.0
       ],
-      "keyword_zh": "西瓜雕刻",
-      "name": "watermeloncarving",
-      "posts": 2762,
-      "rank": 33,
-      "url_1688": "https://m.1688.com/offer_search/-CEF7B9CFB5F1BFCC.html",
-      "zh": "西瓜雕刻"
+      "keyword_zh": "大房子",
+      "name": "bighouse",
+      "posts": 2941,
+      "rank": 28,
+      "url_1688": "https://m.1688.com/offer_search/-B4F3B7BFD7D3.html",
+      "zh": "大房子"
     },
     {
       "curve": [
+        35.0,
+        23.6,
         0.0,
-        25.0,
-        92.6,
-        100.0,
-        80.0,
-        93.7,
-        61.2
+        45.7,
+        65.9,
+        83.6,
+        100.0
       ],
-      "keyword_zh": "眼睛健康",
-      "name": "eyehealth",
-      "posts": 2112,
-      "rank": 34,
-      "url_1688": "https://m.1688.com/offer_search/-D1DBBEA6BDA1BFB5.html",
-      "zh": "眼睛健康"
+      "keyword_zh": "林赛克兰西",
+      "name": "lindsayclancy",
+      "posts": 2876,
+      "rank": 29,
+      "url_1688": "https://m.1688.com/offer_search/-C1D6C8FCBFCBC0BCCEF7.html",
+      "zh": "林赛克兰西"
     },
     {
       "curve": [
-        9.3,
         0.0,
         5.1,
         13.5,
         9.5,
         100.0,
-        99.9
+        99.9,
+        94.7
       ],
       "keyword_zh": "风干粘土",
       "name": "airdryclay",
-      "posts": 1970,
-      "rank": 35,
+      "posts": 2778,
+      "rank": 30,
       "url_1688": "https://m.1688.com/offer_search/-B7E7B8C9D5B3CDC1.html",
       "zh": "风干粘土"
     },
     {
       "curve": [
-        51.6,
+        0.0,
+        14.6,
+        20.9,
+        35.6,
+        53.9,
         100.0,
-        57.7,
-        13.7,
-        64.5,
-        38.1,
-        0.0
+        73.5
       ],
-      "keyword_zh": "秋季家居装饰",
-      "name": "fallhomedecor",
-      "posts": 1970,
-      "rank": 36,
-      "url_1688": "https://m.1688.com/offer_search/-C7EFBCBEBCD2BED3D7B0CACE.html",
-      "zh": "秋季家居装饰"
+      "keyword_zh": "全国口红日",
+      "name": "nationallipstickday",
+      "posts": 2002,
+      "rank": 31,
+      "url_1688": "https://m.1688.com/offer_search/-C8ABB9FABFDABAECC8D5.html",
+      "zh": "全国口红日"
     },
     {
       "curve": [
-        85.1,
+        0.0,
+        49.3,
+        84.2,
         100.0,
-        46.5,
-        19.2,
-        60.4,
-        45.0,
-        0.0
+        88.3,
+        73.4,
+        48.7
       ],
-      "keyword_zh": "钻石艺术套件",
-      "name": "diamondartkit",
-      "posts": 1863,
-      "rank": 37,
-      "url_1688": "https://m.1688.com/offer_search/-D7EACAAFD2D5CAF5CCD7BCFE.html",
-      "zh": "钻石艺术套件"
+      "keyword_zh": "西装和领带",
+      "name": "suitandtie",
+      "posts": 1756,
+      "rank": 32,
+      "url_1688": "https://m.1688.com/offer_search/-CEF7D7B0BACDC1ECB4F8.html",
+      "zh": "西装和领带"
     },
     {
       "curve": [
-        67.9,
         82.0,
         0.0,
         63.1,
         100.0,
         36.7,
-        52.6
+        52.6,
+        35.6
       ],
       "keyword_zh": "水果雕刻",
       "name": "fruitcarving",
-      "posts": 1776,
-      "rank": 38,
+      "posts": 1750,
+      "rank": 33,
       "url_1688": "https://m.1688.com/offer_search/-CBAEB9FBB5F1BFCC.html",
       "zh": "水果雕刻"
     },
     {
       "curve": [
-        76.3,
-        100.0,
-        39.5,
+        64.2,
+        58.9,
         0.0,
-        10.8,
-        4.2,
-        27.4
+        23.8,
+        100.0,
+        83.3,
+        27.5
       ],
-      "keyword_zh": "自行车制造",
-      "name": "bikebuild",
-      "posts": 1694,
-      "rank": 39,
-      "url_1688": "https://m.1688.com/offer_search/-D7D4D0D0B3B5D6C6D4EC.html",
-      "zh": "自行车制造"
+      "keyword_zh": "卡伊达德尔卡贝洛",
+      "name": "caídadelcabello",
+      "posts": 1682,
+      "rank": 34,
+      "url_1688": "https://m.1688.com/offer_search/-BFA8D2C1B4EFB5C2B6FBBFA8B1B4C2E5.html",
+      "zh": "卡伊达德尔卡贝洛"
     },
     {
       "curve": [
-        69.8,
         100.0,
-        85.5,
-        40.8,
-        20.6,
-        10.3,
+        85.8,
+        41.7,
+        21.8,
+        11.6,
+        1.5,
         0.0
       ],
       "keyword_zh": "国家龙舌兰酒日",
       "name": "nationaltequiladay",
-      "posts": 1684,
-      "rank": 40,
+      "posts": 1558,
+      "rank": 35,
       "url_1688": "https://m.1688.com/offer_search/-B9FABCD2C1FAC9E0C0BCBEC6C8D5.html",
       "zh": "国家龙舌兰酒日"
     },
     {
       "curve": [
         0.0,
-        66.9,
-        61.9,
-        7.5,
-        29.5,
-        100.0,
-        84.5
+        2.5,
+        28.2,
+        63.3,
+        69.3,
+        86.8,
+        100.0
       ],
-      "keyword_zh": "卡伊达德尔卡贝洛",
-      "name": "caídadelcabello",
-      "posts": 1637,
-      "rank": 41,
-      "url_1688": "https://m.1688.com/offer_search/-BFA8D2C1B4EFB5C2B6FBBFA8B1B4C2E5.html",
-      "zh": "卡伊达德尔卡贝洛"
+      "keyword_zh": "自问",
+      "name": "selfquestion",
+      "posts": 1544,
+      "rank": 36,
+      "url_1688": "https://m.1688.com/offer_search/-D7D4CECA.html",
+      "zh": "自问"
     },
     {
       "curve": [
-        2.3,
         15.6,
         0.0,
         13.3,
         87.7,
         93.6,
-        100.0
+        100.0,
+        10.0
       ],
       "keyword_zh": "发痒的狗",
       "name": "itchydog",
-      "posts": 1390,
-      "rank": 42,
+      "posts": 1393,
+      "rank": 37,
       "url_1688": "https://m.1688.com/offer_search/-B7A2D1F7B5C4B9B7.html",
       "zh": "发痒的狗"
     },
     {
       "curve": [
-        82.6,
-        100.0,
-        43.3,
-        17.9,
-        31.0,
-        76.8,
-        0.0
-      ],
-      "keyword_zh": "之间的空间",
-      "name": "spacebetween",
-      "posts": 1238,
-      "rank": 43,
-      "url_1688": "https://m.1688.com/offer_search/-D6AEBCE4B5C4BFD5BCE4.html",
-      "zh": "之间的空间"
-    },
-    {
-      "curve": [
-        32.7,
         9.0,
         0.0,
         64.8,
         57.9,
         71.6,
-        100.0
+        100.0,
+        98.9
       ],
       "keyword_zh": "银河zfold8",
       "name": "galaxyzfold8",
-      "posts": 1233,
-      "rank": 44,
+      "posts": 1324,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-D2F8BAD37A666F6C6438.html",
       "zh": "银河zfold8"
     },
     {
       "curve": [
+        100.0,
+        10.8,
         0.0,
-        28.1,
-        24.6,
-        35.6,
-        37.2,
-        31.6,
-        100.0
+        12.6,
+        8.7,
+        38.8,
+        37.7
+      ],
+      "keyword_zh": "美丽的地方",
+      "name": "beautifulplaces",
+      "posts": 1230,
+      "rank": 39,
+      "url_1688": "https://m.1688.com/offer_search/-C3C0C0F6B5C4B5D8B7BD.html",
+      "zh": "美丽的地方"
+    },
+    {
+      "curve": [
+        100.0,
+        43.3,
+        17.9,
+        31.0,
+        76.8,
+        0.0,
+        10.6
+      ],
+      "keyword_zh": "之间的空间",
+      "name": "spacebetween",
+      "posts": 1118,
+      "rank": 40,
+      "url_1688": "https://m.1688.com/offer_search/-D6AEBCE4B5C4BFD5BCE4.html",
+      "zh": "之间的空间"
+    },
+    {
+      "curve": [
+        4.6,
+        0.0,
+        14.6,
+        16.7,
+        9.2,
+        100.0,
+        62.3
       ],
       "keyword_zh": "万圣节DIY",
       "name": "halloweendiy",
-      "posts": 826,
-      "rank": 45,
+      "posts": 913,
+      "rank": 41,
       "url_1688": "https://m.1688.com/offer_search/-CDF2CAA5BDDA444959.html",
       "zh": "万圣节DIY"
     },
     {
       "curve": [
-        82.3,
-        25.8,
-        100.0,
-        75.4,
         0.0,
-        44.7,
-        8.9
+        29.7,
+        49.9,
+        48.7,
+        83.7,
+        92.4,
+        100.0
       ],
-      "keyword_zh": "智能手机",
-      "name": "smartphones",
-      "posts": 584,
-      "rank": 46,
-      "url_1688": "https://m.1688.com/offer_search/-D6C7C4DCCAD6BBFA.html",
-      "zh": "智能手机"
+      "keyword_zh": "拉塔塔塔",
+      "name": "ratatata",
+      "posts": 855,
+      "rank": 42,
+      "url_1688": "https://m.1688.com/offer_search/-C0ADCBFECBFECBFE.html",
+      "zh": "拉塔塔塔"
+    },
+    {
+      "curve": [
+        51.3,
+        18.5,
+        0.0,
+        18.9,
+        43.0,
+        100.0,
+        94.5
+      ],
+      "keyword_zh": "存储管理器",
+      "name": "storageorganizer",
+      "posts": 772,
+      "rank": 43,
+      "url_1688": "https://m.1688.com/offer_search/-B4E6B4A2B9DCC0EDC6F7.html",
+      "zh": "存储管理器"
+    },
+    {
+      "curve": [
+        8.0,
+        9.4,
+        0.0,
+        41.4,
+        72.3,
+        91.2,
+        100.0
+      ],
+      "keyword_zh": "感应音箱",
+      "name": "inductionspeaker",
+      "posts": 652,
+      "rank": 44,
+      "url_1688": "https://m.1688.com/offer_search/-B8D0D3A6D2F4CFE4.html",
+      "zh": "感应音箱"
     }
   ],
   "stale": false
