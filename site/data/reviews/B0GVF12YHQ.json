@@ -1,5 +1,5 @@
 {
-  "asin": "B0GFGM476L",
+  "asin": "B0GVF12YHQ",
   "error_code": "bot_check_page",
   "expires_at": "2026-08-17T04:18:11Z",
   "fetched_at": "2026-08-10T04:18:11Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B0GFGM476L",
+  "source_url": "https://www.amazon.com/dp/B0GVF12YHQ",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
