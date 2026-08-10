@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T08:06:23Z",
+  "generated_at": "2026-08-10T13:47:01Z",
   "hashtags": [
     {
       "curve": [
@@ -37,6 +37,23 @@
     },
     {
       "curve": [
+        0.0,
+        83.5,
+        82.6,
+        97.1,
+        100.0,
+        94.8,
+        53.7
+      ],
+      "keyword_zh": "学校",
+      "name": "school",
+      "posts": 167865,
+      "rank": 3,
+      "url_1688": "https://m.1688.com/offer_search/-D1A7D0A3.html",
+      "zh": "学校"
+    },
+    {
+      "curve": [
         24.0,
         87.1,
         100.0,
@@ -48,7 +65,7 @@
       "keyword_zh": "妈妈软件",
       "name": "momsoftiktok",
       "posts": 62637,
-      "rank": 3,
+      "rank": 4,
       "url_1688": "https://m.1688.com/offer_search/-C2E8C2E8C8EDBCFE.html",
       "zh": "妈妈软件"
     },
@@ -65,7 +82,7 @@
       "keyword_zh": "冰冻世界",
       "name": "worldoffrozen",
       "posts": 61774,
-      "rank": 4,
+      "rank": 5,
       "url_1688": "https://m.1688.com/offer_search/-B1F9B6B3CAC0BDE7.html",
       "zh": "冰冻世界"
     },
@@ -82,7 +99,7 @@
       "keyword_zh": "迪士尼冒险世界",
       "name": "disneyadventureworld",
       "posts": 59520,
-      "rank": 5,
+      "rank": 6,
       "url_1688": "https://m.1688.com/offer_search/-B5CFCABFC4E1C3B0CFD5CAC0BDE7.html",
       "zh": "迪士尼冒险世界"
     },
@@ -99,7 +116,7 @@
       "keyword_zh": "刚刚上线",
       "name": "justgolive",
       "posts": 56204,
-      "rank": 6,
+      "rank": 7,
       "url_1688": "https://m.1688.com/offer_search/-B8D5B8D5C9CFCFDF.html",
       "zh": "刚刚上线"
     },
@@ -116,26 +133,9 @@
       "keyword_zh": "巴黎迪士尼乐园",
       "name": "disneylandparis",
       "posts": 52206,
-      "rank": 7,
+      "rank": 8,
       "url_1688": "https://m.1688.com/offer_search/-B0CDC0E8B5CFCABFC4E1C0D6D4B0.html",
       "zh": "巴黎迪士尼乐园"
-    },
-    {
-      "curve": [
-        0.0,
-        90.0,
-        85.3,
-        94.5,
-        100.0,
-        76.5,
-        40.6
-      ],
-      "keyword_zh": "开学第一天",
-      "name": "firstdayofschool",
-      "posts": 48793,
-      "rank": 8,
-      "url_1688": "https://m.1688.com/offer_search/-BFAAD1A7B5DAD2BBCCEC.html",
-      "zh": "开学第一天"
     },
     {
       "curve": [
