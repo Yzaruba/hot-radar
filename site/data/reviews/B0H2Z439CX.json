@@ -1,5 +1,5 @@
 {
-  "asin": "B0H73T3PD7",
+  "asin": "B0H2Z439CX",
   "error_code": "bot_check_page",
   "expires_at": "2026-08-19T04:27:20Z",
   "fetched_at": "2026-08-12T04:27:20Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B0H73T3PD7",
+  "source_url": "https://www.amazon.com/dp/B0H2Z439CX",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
