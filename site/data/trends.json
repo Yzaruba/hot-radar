@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T06:59:08Z",
+  "generated_at": "2026-08-15T13:00:40Z",
   "hashtags": [
     {
       "curve": [
@@ -190,23 +190,6 @@
     },
     {
       "curve": [
-        0.0,
-        24.9,
-        7.3,
-        2.2,
-        68.0,
-        21.9,
-        100.0
-      ],
-      "keyword_zh": "บรีสเอกเซล",
-      "name": "บรีสเอกเซล",
-      "posts": 15953,
-      "rank": 12,
-      "url_1688": null,
-      "zh": "บรีสเอกเซล"
-    },
-    {
-      "curve": [
         45.8,
         20.5,
         0.0,
@@ -218,7 +201,7 @@
       "keyword_zh": "这个和那个",
       "name": "this_and_that",
       "posts": 15590,
-      "rank": 13,
+      "rank": 12,
       "url_1688": "https://m.1688.com/offer_search/-D5E2B8F6BACDC4C7B8F6.html",
       "zh": "这个和那个"
     },
@@ -235,7 +218,7 @@
       "keyword_zh": "莱特森",
       "name": "lightson",
       "posts": 15183,
-      "rank": 14,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-C0B3CCD8C9AD.html",
       "zh": "莱特森"
     },
@@ -252,7 +235,7 @@
       "keyword_zh": "拉塞尔·威斯布鲁克",
       "name": "russellwestbrook",
       "posts": 10243,
-      "rank": 15,
+      "rank": 14,
       "url_1688": "https://m.1688.com/offer_search/-C0ADC8FBB6FBA1A4CDFECBB9B2BCC2B3BFCB.html",
       "zh": "拉塞尔·威斯布鲁克"
     },
@@ -269,7 +252,7 @@
       "keyword_zh": "alixmiamis 泳装",
       "name": "alixmiamiswimsuit",
       "posts": 8245,
-      "rank": 16,
+      "rank": 15,
       "url_1688": "https://m.1688.com/offer_search/-616C69786D69616D697320D3BED7B0.html",
       "zh": "alixmiamis 泳装"
     },
@@ -286,7 +269,7 @@
       "keyword_zh": "日食",
       "name": "solareclipse",
       "posts": 6377,
-      "rank": 17,
+      "rank": 16,
       "url_1688": "https://m.1688.com/offer_search/-C8D5CAB3.html",
       "zh": "日食"
     },
@@ -303,7 +286,7 @@
       "keyword_zh": "短剧",
       "name": "aishortdrama",
       "posts": 5273,
-      "rank": 18,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-B6CCBEE7.html",
       "zh": "短剧"
     },
@@ -320,7 +303,7 @@
       "keyword_zh": "阿拉尼努",
       "name": "alaninu",
       "posts": 5176,
-      "rank": 19,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-B0A2C0ADC4E1C5AC.html",
       "zh": "阿拉尼努"
     },
@@ -337,7 +320,7 @@
       "keyword_zh": "朱利安·纽曼",
       "name": "juliannewman",
       "posts": 5174,
-      "rank": 20,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-D6ECC0FBB0B2A1A4C5A6C2FC.html",
       "zh": "朱利安·纽曼"
     },
@@ -354,7 +337,7 @@
       "keyword_zh": "女巫啤酒",
       "name": "witchesbrew",
       "posts": 4580,
-      "rank": 21,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-C5AECED7C6A1BEC6.html",
       "zh": "女巫啤酒"
     },
@@ -371,7 +354,7 @@
       "keyword_zh": "家庭影院",
       "name": "hometheater",
       "posts": 4433,
-      "rank": 22,
+      "rank": 21,
       "url_1688": "https://m.1688.com/offer_search/-BCD2CDA5D3B0D4BA.html",
       "zh": "家庭影院"
     },
@@ -388,7 +371,7 @@
       "keyword_zh": "qvc",
       "name": "qvc",
       "posts": 4373,
-      "rank": 23,
+      "rank": 22,
       "url_1688": "https://m.1688.com/offer_search/-717663.html",
       "zh": "qvc"
     },
@@ -405,7 +388,7 @@
       "keyword_zh": "电子数据处理",
       "name": "edp",
       "posts": 3159,
-      "rank": 24,
+      "rank": 23,
       "url_1688": "https://m.1688.com/offer_search/-B5E7D7D3CAFDBEDDB4A6C0ED.html",
       "zh": "电子数据处理"
     },
@@ -422,7 +405,7 @@
       "keyword_zh": "毛绒动物",
       "name": "stuffedanimal",
       "posts": 2699,
-      "rank": 25,
+      "rank": 24,
       "url_1688": "https://m.1688.com/offer_search/-C3ABC8DEB6AFCEEF.html",
       "zh": "毛绒动物"
     },
@@ -439,7 +422,7 @@
       "keyword_zh": "医学事实",
       "name": "medicalfacts",
       "posts": 2647,
-      "rank": 26,
+      "rank": 25,
       "url_1688": "https://m.1688.com/offer_search/-D2BDD1A7CAC2CAB5.html",
       "zh": "医学事实"
     },
@@ -456,7 +439,7 @@
       "keyword_zh": "阿德里尔",
       "name": "adriel",
       "posts": 2242,
-      "rank": 27,
+      "rank": 26,
       "url_1688": "https://m.1688.com/offer_search/-B0A2B5C2C0EFB6FB.html",
       "zh": "阿德里尔"
     },
@@ -473,7 +456,7 @@
       "keyword_zh": "汽车周刊",
       "name": "carweek",
       "posts": 2235,
-      "rank": 28,
+      "rank": 27,
       "url_1688": "https://m.1688.com/offer_search/-C6FBB3B5D6DCBFAF.html",
       "zh": "汽车周刊"
     },
@@ -490,7 +473,7 @@
       "keyword_zh": "免费试用",
       "name": "freetrial",
       "posts": 2078,
-      "rank": 29,
+      "rank": 28,
       "url_1688": "https://m.1688.com/offer_search/-C3E2B7D1CAD4D3C3.html",
       "zh": "免费试用"
     },
@@ -507,7 +490,7 @@
       "keyword_zh": "拥有秘密账户",
       "name": "havingasecretaccount",
       "posts": 1909,
-      "rank": 30,
+      "rank": 29,
       "url_1688": "https://m.1688.com/offer_search/-D3B5D3D0C3D8C3DCD5CBBBA7.html",
       "zh": "拥有秘密账户"
     },
@@ -524,7 +507,7 @@
       "keyword_zh": "宿舍之旅",
       "name": "dormtour",
       "posts": 1869,
-      "rank": 31,
+      "rank": 30,
       "url_1688": "https://m.1688.com/offer_search/-CBDEC9E1D6AEC2C3.html",
       "zh": "宿舍之旅"
     },
@@ -541,7 +524,7 @@
       "keyword_zh": "元素节",
       "name": "elementsfestival",
       "posts": 1856,
-      "rank": 32,
+      "rank": 31,
       "url_1688": "https://m.1688.com/offer_search/-D4AACBD8BDDA.html",
       "zh": "元素节"
     },
@@ -558,7 +541,7 @@
       "keyword_zh": "引物迪亚德克拉斯",
       "name": "primerdiadeclases",
       "posts": 1791,
-      "rank": 33,
+      "rank": 32,
       "url_1688": "https://m.1688.com/offer_search/-D2FDCEEFB5CFD1C7B5C2BFCBC0ADCBB9.html",
       "zh": "引物迪亚德克拉斯"
     },
@@ -575,7 +558,7 @@
       "keyword_zh": "猫人",
       "name": "catperson",
       "posts": 1790,
-      "rank": 34,
+      "rank": 33,
       "url_1688": "https://m.1688.com/offer_search/-C3A8C8CB.html",
       "zh": "猫人"
     },
@@ -592,7 +575,7 @@
       "keyword_zh": "开学第一周",
       "name": "firstweekofschool",
       "posts": 1730,
-      "rank": 35,
+      "rank": 34,
       "url_1688": "https://m.1688.com/offer_search/-BFAAD1A7B5DAD2BBD6DC.html",
       "zh": "开学第一周"
     },
@@ -609,7 +592,7 @@
       "keyword_zh": "埃利斯",
       "name": "ellis",
       "posts": 1637,
-      "rank": 36,
+      "rank": 35,
       "url_1688": "https://m.1688.com/offer_search/-B0A3C0FBCBB9.html",
       "zh": "埃利斯"
     },
@@ -626,7 +609,7 @@
       "keyword_zh": "乔尔勒布朗",
       "name": "joolslebron",
       "posts": 1568,
-      "rank": 37,
+      "rank": 36,
       "url_1688": "https://m.1688.com/offer_search/-C7C7B6FBC0D5B2BCC0CA.html",
       "zh": "乔尔勒布朗"
     },
@@ -643,7 +626,7 @@
       "keyword_zh": "卡帕三角洲",
       "name": "kappadelta",
       "posts": 1485,
-      "rank": 38,
+      "rank": 37,
       "url_1688": "https://m.1688.com/offer_search/-BFA8C5C1C8FDBDC7D6DE.html",
       "zh": "卡帕三角洲"
     },
@@ -660,7 +643,7 @@
       "keyword_zh": "开学第二天",
       "name": "2nddayofschool",
       "posts": 1354,
-      "rank": 39,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-BFAAD1A7B5DAB6FECCEC.html",
       "zh": "开学第二天"
     },
@@ -677,7 +660,7 @@
       "keyword_zh": "上学的最后第一天",
       "name": "lastfirstdayofschool",
       "posts": 1296,
-      "rank": 40,
+      "rank": 39,
       "url_1688": "https://m.1688.com/offer_search/-C9CFD1A7B5C4D7EEBAF3B5DAD2BBCCEC.html",
       "zh": "上学的最后第一天"
     },
@@ -694,7 +677,7 @@
       "keyword_zh": "妇科医生",
       "name": "gynecologist",
       "posts": 1296,
-      "rank": 41,
+      "rank": 40,
       "url_1688": "https://m.1688.com/offer_search/-B8BEBFC6D2BDC9FA.html",
       "zh": "妇科医生"
     },
@@ -711,7 +694,7 @@
       "keyword_zh": "8月8日",
       "name": "august8",
       "posts": 1026,
-      "rank": 42,
+      "rank": 41,
       "url_1688": "https://m.1688.com/offer_search/-38D4C238C8D5.html",
       "zh": "8月8日"
     },
@@ -728,7 +711,7 @@
       "keyword_zh": "乌尔克拉什",
       "name": "uarkrush",
       "posts": 971,
-      "rank": 43,
+      "rank": 42,
       "url_1688": "https://m.1688.com/offer_search/-CEDAB6FBBFCBC0ADCAB2.html",
       "zh": "乌尔克拉什"
     },
@@ -745,9 +728,26 @@
       "keyword_zh": "盐和胡椒",
       "name": "saltandpepper",
       "posts": 550,
-      "rank": 44,
+      "rank": 43,
       "url_1688": "https://m.1688.com/offer_search/-D1CEBACDBAFABDB7.html",
       "zh": "盐和胡椒"
+    },
+    {
+      "curve": [
+        0.0,
+        13.3,
+        23.1,
+        43.4,
+        71.5,
+        63.6,
+        100.0
+      ],
+      "keyword_zh": "粉红色的东西",
+      "name": "thepinkstuff",
+      "posts": 534,
+      "rank": 44,
+      "url_1688": "https://m.1688.com/offer_search/-B7DBBAECC9ABB5C4B6ABCEF7.html",
+      "zh": "粉红色的东西"
     }
   ],
   "stale": false
