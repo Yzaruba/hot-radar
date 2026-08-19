@@ -1,5 +1,5 @@
 {
-  "asin": "B00006RVTS",
+  "asin": "B0GS1MB6FZ",
   "error_code": "bot_check_page",
   "expires_at": "2026-08-26T03:29:18Z",
   "fetched_at": "2026-08-19T03:29:18Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B00006RVTS",
+  "source_url": "https://www.amazon.com/dp/B0GS1MB6FZ",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
