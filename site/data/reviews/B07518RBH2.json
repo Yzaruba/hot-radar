@@ -1,8 +1,8 @@
 {
   "asin": "B07518RBH2",
-  "error_code": "bot_check_page",
-  "expires_at": "2026-08-23T03:32:37Z",
-  "fetched_at": "2026-08-16T03:32:37Z",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-08-31T03:38:22Z",
+  "fetched_at": "2026-08-24T03:38:22Z",
   "provider": "amazon_page",
   "rating": null,
   "sample_count": 0,
