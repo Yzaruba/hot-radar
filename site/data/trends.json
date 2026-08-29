@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T07:07:10Z",
+  "generated_at": "2026-08-29T16:45:10Z",
   "hashtags": [
     {
       "curve": [
@@ -71,40 +71,6 @@
     },
     {
       "curve": [
-        35.4,
-        100.0,
-        88.6,
-        76.5,
-        50.2,
-        18.6,
-        0.0
-      ],
-      "keyword_zh": "mw4",
-      "name": "mw4",
-      "posts": 25804,
-      "rank": 5,
-      "url_1688": "https://m.1688.com/offer_search/-6D7734.html",
-      "zh": "mw4"
-    },
-    {
-      "curve": [
-        0.0,
-        26.7,
-        20.9,
-        29.3,
-        51.2,
-        90.4,
-        100.0
-      ],
-      "keyword_zh": "2k27",
-      "name": "2k27",
-      "posts": 25460,
-      "rank": 6,
-      "url_1688": "https://m.1688.com/offer_search/-326B3237.html",
-      "zh": "2k27"
-    },
-    {
-      "curve": [
         22.5,
         0.0,
         80.8,
@@ -116,7 +82,7 @@
       "keyword_zh": "dentaltok",
       "name": "dentaltok",
       "posts": 19392,
-      "rank": 7,
+      "rank": 5,
       "url_1688": "https://m.1688.com/offer_search/-64656E74616C746F6B.html",
       "zh": "dentaltok"
     },
@@ -133,7 +99,7 @@
       "keyword_zh": "图例",
       "name": "legend",
       "posts": 18340,
-      "rank": 8,
+      "rank": 6,
       "url_1688": "https://m.1688.com/offer_search/-CDBCC0FD.html",
       "zh": "图例"
     },
@@ -150,7 +116,7 @@
       "keyword_zh": "多莱坞",
       "name": "dollywood",
       "posts": 17621,
-      "rank": 9,
+      "rank": 7,
       "url_1688": "https://m.1688.com/offer_search/-B6E0C0B3CEEB.html",
       "zh": "多莱坞"
     },
@@ -167,26 +133,9 @@
       "keyword_zh": "潘泰拉",
       "name": "пантера",
       "posts": 14571,
-      "rank": 10,
+      "rank": 8,
       "url_1688": "https://m.1688.com/offer_search/-C5CBCCA9C0AD.html",
       "zh": "潘泰拉"
-    },
-    {
-      "curve": [
-        0.0,
-        56.6,
-        88.4,
-        94.4,
-        100.0,
-        90.9,
-        95.2
-      ],
-      "keyword_zh": "pmos",
-      "name": "pmos",
-      "posts": 13967,
-      "rank": 11,
-      "url_1688": "https://m.1688.com/offer_search/-706D6F73.html",
-      "zh": "pmos"
     },
     {
       "curve": [
@@ -201,26 +150,9 @@
       "keyword_zh": "brez",
       "name": "brez",
       "posts": 11056,
-      "rank": 12,
+      "rank": 9,
       "url_1688": "https://m.1688.com/offer_search/-6272657A.html",
       "zh": "brez"
-    },
-    {
-      "curve": [
-        42.3,
-        100.0,
-        83.8,
-        64.7,
-        45.0,
-        9.5,
-        0.0
-      ],
-      "keyword_zh": "modernwarfare4",
-      "name": "modernwarfare4",
-      "posts": 6560,
-      "rank": 13,
-      "url_1688": "https://m.1688.com/offer_search/-6D6F6465726E7761726661726534.html",
-      "zh": "modernwarfare4"
     },
     {
       "curve": [
@@ -235,7 +167,7 @@
       "keyword_zh": "LSP",
       "name": "lsp",
       "posts": 5669,
-      "rank": 14,
+      "rank": 10,
       "url_1688": "https://m.1688.com/offer_search/-4C5350.html",
       "zh": "LSP"
     },
@@ -252,7 +184,7 @@
       "keyword_zh": "hygieneroutine",
       "name": "hygieneroutine",
       "posts": 4660,
-      "rank": 15,
+      "rank": 11,
       "url_1688": "https://m.1688.com/offer_search/-68796769656E65726F7574696E65.html",
       "zh": "hygieneroutine"
     },
@@ -269,7 +201,7 @@
       "keyword_zh": "beta",
       "name": "beta",
       "posts": 4355,
-      "rank": 16,
+      "rank": 12,
       "url_1688": "https://m.1688.com/offer_search/-62657461.html",
       "zh": "beta"
     },
@@ -286,7 +218,7 @@
       "keyword_zh": "SAKO",
       "name": "sako",
       "posts": 4226,
-      "rank": 17,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-53414B4F.html",
       "zh": "SAKO"
     },
@@ -303,7 +235,7 @@
       "keyword_zh": "levisstadium",
       "name": "levisstadium",
       "posts": 4087,
-      "rank": 18,
+      "rank": 14,
       "url_1688": "https://m.1688.com/offer_search/-6C657669737374616469756D.html",
       "zh": "levisstadium"
     },
@@ -320,7 +252,7 @@
       "keyword_zh": "starbucksfalldrinks",
       "name": "starbucksfalldrinks",
       "posts": 4028,
-      "rank": 19,
+      "rank": 15,
       "url_1688": "https://m.1688.com/offer_search/-737461726275636B7366616C6C6472696E6B73.html",
       "zh": "starbucksfalldrinks"
     },
@@ -337,7 +269,7 @@
       "keyword_zh": "beerposter",
       "name": "beerposter",
       "posts": 4002,
-      "rank": 20,
+      "rank": 16,
       "url_1688": "https://m.1688.com/offer_search/-62656572706F73746572.html",
       "zh": "beerposter"
     },
@@ -354,7 +286,7 @@
       "keyword_zh": "鸡肉和华夫饼",
       "name": "chickenandwaffles",
       "posts": 3410,
-      "rank": 21,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-BCA6C8E2BACDBBAAB7F2B1FD.html",
       "zh": "鸡肉和华夫饼"
     },
@@ -371,7 +303,7 @@
       "keyword_zh": "pumpkinspiceseason",
       "name": "pumpkinspiceseason",
       "posts": 3184,
-      "rank": 22,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-70756D706B696E7370696365736561736F6E.html",
       "zh": "pumpkinspiceseason"
     },
@@ -388,7 +320,7 @@
       "keyword_zh": "粉色卧室",
       "name": "pinkbedroom",
       "posts": 3149,
-      "rank": 23,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-B7DBC9ABCED4CAD2.html",
       "zh": "粉色卧室"
     },
@@ -405,7 +337,7 @@
       "keyword_zh": "biggirlroom",
       "name": "biggirlroom",
       "posts": 3043,
-      "rank": 24,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-6269676769726C726F6F6D.html",
       "zh": "biggirlroom"
     },
@@ -422,7 +354,7 @@
       "keyword_zh": "imaginationlibrary",
       "name": "imaginationlibrary",
       "posts": 2702,
-      "rank": 25,
+      "rank": 21,
       "url_1688": "https://m.1688.com/offer_search/-696D6167696E6174696F6E6C696272617279.html",
       "zh": "imaginationlibrary"
     },
@@ -439,26 +371,9 @@
       "keyword_zh": "dollytok",
       "name": "dollytok",
       "posts": 2456,
-      "rank": 26,
+      "rank": 22,
       "url_1688": "https://m.1688.com/offer_search/-646F6C6C79746F6B.html",
       "zh": "dollytok"
-    },
-    {
-      "curve": [
-        0.0,
-        69.5,
-        75.4,
-        58.3,
-        38.9,
-        81.9,
-        100.0
-      ],
-      "keyword_zh": "HPV",
-      "name": "hpv",
-      "posts": 2409,
-      "rank": 27,
-      "url_1688": "https://m.1688.com/offer_search/-485056.html",
-      "zh": "HPV"
     },
     {
       "curve": [
@@ -473,7 +388,7 @@
       "keyword_zh": "野马",
       "name": "wildhorses",
       "posts": 2247,
-      "rank": 28,
+      "rank": 23,
       "url_1688": "https://m.1688.com/offer_search/-D2B0C2ED.html",
       "zh": "野马"
     },
@@ -490,7 +405,7 @@
       "keyword_zh": "restockasmr",
       "name": "restockasmr",
       "posts": 2055,
-      "rank": 29,
+      "rank": 24,
       "url_1688": "https://m.1688.com/offer_search/-726573746F636B61736D72.html",
       "zh": "restockasmr"
     },
@@ -507,7 +422,7 @@
       "keyword_zh": "痤疮之旅",
       "name": "acnejourney",
       "posts": 1937,
-      "rank": 30,
+      "rank": 25,
       "url_1688": "https://m.1688.com/offer_search/-F0EEB4AFD6AEC2C3.html",
       "zh": "痤疮之旅"
     },
@@ -524,26 +439,9 @@
       "keyword_zh": "coatofmanycolors",
       "name": "coatofmanycolors",
       "posts": 1912,
-      "rank": 31,
+      "rank": 26,
       "url_1688": "https://m.1688.com/offer_search/-636F61746F666D616E79636F6C6F7273.html",
       "zh": "coatofmanycolors"
-    },
-    {
-      "curve": [
-        0.0,
-        17.0,
-        53.2,
-        54.2,
-        74.2,
-        100.0,
-        78.6
-      ],
-      "keyword_zh": "均衡",
-      "name": "balanced",
-      "posts": 1845,
-      "rank": 32,
-      "url_1688": "https://m.1688.com/offer_search/-BEF9BAE2.html",
-      "zh": "均衡"
     },
     {
       "curve": [
@@ -558,7 +456,7 @@
       "keyword_zh": "backtoit",
       "name": "backtoit",
       "posts": 1811,
-      "rank": 33,
+      "rank": 27,
       "url_1688": "https://m.1688.com/offer_search/-6261636B746F6974.html",
       "zh": "backtoit"
     },
@@ -575,7 +473,7 @@
       "keyword_zh": "vevorsuperbrandday",
       "name": "vevorsuperbrandday",
       "posts": 1635,
-      "rank": 34,
+      "rank": 28,
       "url_1688": "https://m.1688.com/offer_search/-7665766F7273757065726272616E64646179.html",
       "zh": "vevorsuperbrandday"
     },
@@ -592,7 +490,7 @@
       "keyword_zh": "labordaysale",
       "name": "labordaysale",
       "posts": 1529,
-      "rank": 35,
+      "rank": 29,
       "url_1688": "https://m.1688.com/offer_search/-6C61626F7264617973616C65.html",
       "zh": "labordaysale"
     },
@@ -609,7 +507,7 @@
       "keyword_zh": "familytrend",
       "name": "familytrend",
       "posts": 1343,
-      "rank": 36,
+      "rank": 30,
       "url_1688": "https://m.1688.com/offer_search/-66616D696C797472656E64.html",
       "zh": "familytrend"
     },
@@ -626,7 +524,7 @@
       "keyword_zh": "winterwonderland",
       "name": "winterwonderland",
       "posts": 1305,
-      "rank": 37,
+      "rank": 31,
       "url_1688": "https://m.1688.com/offer_search/-77696E746572776F6E6465726C616E64.html",
       "zh": "winterwonderland"
     },
@@ -643,7 +541,7 @@
       "keyword_zh": "grimreaper",
       "name": "grimreaper",
       "posts": 1246,
-      "rank": 38,
+      "rank": 32,
       "url_1688": "https://m.1688.com/offer_search/-6772696D726561706572.html",
       "zh": "grimreaper"
     },
@@ -660,7 +558,7 @@
       "keyword_zh": "苹果支付",
       "name": "applepay",
       "posts": 1197,
-      "rank": 39,
+      "rank": 33,
       "url_1688": "https://m.1688.com/offer_search/-C6BBB9FBD6A7B8B6.html",
       "zh": "苹果支付"
     },
@@ -677,7 +575,7 @@
       "keyword_zh": "petodor",
       "name": "petodor",
       "posts": 1144,
-      "rank": 40,
+      "rank": 34,
       "url_1688": "https://m.1688.com/offer_search/-7065746F646F72.html",
       "zh": "petodor"
     },
@@ -694,7 +592,7 @@
       "keyword_zh": "jmu",
       "name": "jmu",
       "posts": 1024,
-      "rank": 41,
+      "rank": 35,
       "url_1688": "https://m.1688.com/offer_search/-6A6D75.html",
       "zh": "jmu"
     },
@@ -711,7 +609,7 @@
       "keyword_zh": "csuf",
       "name": "csuf",
       "posts": 978,
-      "rank": 42,
+      "rank": 36,
       "url_1688": "https://m.1688.com/offer_search/-63737566.html",
       "zh": "csuf"
     },
@@ -728,7 +626,7 @@
       "keyword_zh": "去除污渍",
       "name": "stainremoval",
       "posts": 765,
-      "rank": 43,
+      "rank": 37,
       "url_1688": "https://m.1688.com/offer_search/-C8A5B3FDCEDBD7D5.html",
       "zh": "去除污渍"
     },
@@ -745,7 +643,7 @@
       "keyword_zh": "lightscameraaction",
       "name": "lightscameraaction",
       "posts": 715,
-      "rank": 44,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-6C696768747363616D657261616374696F6E.html",
       "zh": "lightscameraaction"
     }
