@@ -1,8 +1,8 @@
 {
   "asin": "B00006RVTS",
-  "error_code": "bot_check_page",
-  "expires_at": "2026-08-26T03:29:18Z",
-  "fetched_at": "2026-08-19T03:29:18Z",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-09-07T08:54:40Z",
+  "fetched_at": "2026-08-31T08:54:40Z",
   "provider": "amazon_page",
   "rating": null,
   "sample_count": 0,
