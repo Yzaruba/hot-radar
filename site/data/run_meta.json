@@ -1,8 +1,8 @@
 {
   "data_changed": true,
-  "duplicate_count": 50,
-  "duration_seconds": 1101.8,
-  "finished_at": "2026-08-31T23:11:34Z",
+  "duplicate_count": 48,
+  "duration_seconds": 352.2,
+  "finished_at": "2026-09-01T05:19:38Z",
   "force": false,
   "fresh_pairs": [
     "bestsellers:anime",
@@ -24,12 +24,12 @@
     "new-releases:sports",
     "new-releases:toys"
   ],
-  "product_count": 790,
-  "run_id": "33448190855",
+  "product_count": 792,
+  "run_id": "33472733540",
   "skipped_reason": null,
-  "source_commit": "6bb0cca873a71c7ffe6d6d6f3e285aa3a7c679d4",
+  "source_commit": "cf817801109c497ef27d55b98a76f0c5b55c012a",
   "stale_pairs": [],
-  "started_at": "2026-08-31T22:53:12Z",
+  "started_at": "2026-09-01T05:13:46Z",
   "trigger": "schedule",
-  "unique_asin_count": 790
+  "unique_asin_count": 792
 }
