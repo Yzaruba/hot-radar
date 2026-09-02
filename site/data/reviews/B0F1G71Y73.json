@@ -1,5 +1,5 @@
 {
-  "asin": "B0C3HCD34R",
+  "asin": "B0F1G71Y73",
   "error_code": "no_reviews_rendered",
   "expires_at": "2026-09-09T07:19:54Z",
   "fetched_at": "2026-09-02T07:19:54Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B0C3HCD34R",
+  "source_url": "https://www.amazon.com/dp/B0F1G71Y73",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
