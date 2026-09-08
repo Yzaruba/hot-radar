@@ -1,8 +1,8 @@
 {
   "asin": "B0H7R1LD7B",
-  "error_code": "no_reviews_rendered",
-  "expires_at": "2026-09-01T03:30:25Z",
-  "fetched_at": "2026-08-25T03:30:25Z",
+  "error_code": "bot_check_page",
+  "expires_at": "2026-09-15T07:26:13Z",
+  "fetched_at": "2026-09-08T07:26:13Z",
   "provider": "amazon_page",
   "rating": null,
   "sample_count": 0,
