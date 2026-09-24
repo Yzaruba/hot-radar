@@ -36,7 +36,7 @@
       "zh": "毛绒"
     }
   ],
-  "generated_at": "2026-09-24T17:14:28Z",
+  "generated_at": "2026-09-24T21:33:21Z",
   "ip_categories": [
     {
       "id": "tcg",
@@ -286,7 +286,7 @@
       "rank_pct": null,
       "rank_prev": 7,
       "rating": 4.9,
-      "ratings_count": 19410,
+      "ratings_count": 19411,
       "title_en": "Berserk Deluxe Volume 1",
       "title_zh": "狂暴豪华卷 1"
     },
@@ -332,7 +332,7 @@
       "rank_pct": 3.5,
       "rank_prev": 57,
       "rating": 5.0,
-      "ratings_count": 7747,
+      "ratings_count": 7748,
       "title_en": "Berserk Deluxe Volume 5",
       "title_zh": "狂暴豪华卷 5"
     },
@@ -528,11 +528,11 @@
       "food": false,
       "image": "data/img/1936096862.jpg",
       "landed_fl": {
-        "high": 26,
-        "low": 22,
-        "sell_min": 43
+        "high": 25,
+        "low": 21,
+        "sell_min": 42
       },
-      "price": "$10.39",
+      "price": "$10.19",
       "price_drop": {
         "drop": null,
         "low_14d": true
@@ -772,7 +772,7 @@
       "rank_pct": 6.9,
       "rank_prev": 29,
       "rating": 4.9,
-      "ratings_count": 9188,
+      "ratings_count": 9189,
       "title_en": "Jujutsu Kaisen 0",
       "title_zh": "金属徽章"
     },
@@ -1025,7 +1025,7 @@
       "rank_pct": 5.3,
       "rank_prev": 19,
       "rating": 4.9,
-      "ratings_count": 1187,
+      "ratings_count": 1188,
       "title_en": "Jujutsu Kaisen, Vol. 28",
       "title_zh": "咒术回战"
     },
@@ -1199,10 +1199,10 @@
       "image": "data/img/B000SR5KQE.jpg",
       "landed_fl": {
         "high": 17,
-        "low": 15,
+        "low": 14,
         "sell_min": 28
       },
-      "price": "$6.93",
+      "price": "$6.89",
       "price_drop": null,
       "rank": 13,
       "rank_delta": 0,
@@ -1340,7 +1340,7 @@
         "low": 54,
         "sell_min": 107
       },
-      "price": "$25.74",
+      "price": "$25.75",
       "price_drop": null,
       "rank": 8,
       "rank_delta": 0,
@@ -1359,11 +1359,11 @@
       "food": true,
       "image": "data/img/B001EPQDLK.jpg",
       "landed_fl": {
-        "high": 16,
-        "low": 13,
-        "sell_min": 27
+        "high": 13,
+        "low": 11,
+        "sell_min": 22
       },
-      "price": "$6.39",
+      "price": "$5.39",
       "price_drop": null,
       "rank": 23,
       "rank_delta": 0,
@@ -1520,11 +1520,11 @@
       "food": true,
       "image": "data/img/B0029JHH4W.jpg",
       "landed_fl": {
-        "high": 118,
-        "low": 99,
-        "sell_min": 197
+        "high": 120,
+        "low": 101,
+        "sell_min": 200
       },
-      "price": "$47.27",
+      "price": "$47.86",
       "price_drop": null,
       "rank": 21,
       "rank_delta": 0,
@@ -1543,18 +1543,12 @@
       "food": true,
       "image": "data/img/B0029JI9OE.jpg",
       "landed_fl": {
-        "high": 67,
-        "low": 57,
-        "sell_min": 112
+        "high": 130,
+        "low": 109,
+        "sell_min": 217
       },
-      "price": "$26.93",
-      "price_drop": {
-        "drop": {
-          "pct": 48.0,
-          "prev_price": 51.8
-        },
-        "low_14d": true
-      },
+      "price": "$51.80",
+      "price_drop": null,
       "rank": 9,
       "rank_delta": 2,
       "rank_pct": 18.2,
@@ -1924,7 +1918,7 @@
       "rank_pct": 10.3,
       "rank_prev": 68,
       "rating": 3.9,
-      "ratings_count": 5803,
+      "ratings_count": 5802,
       "title_en": "Pokemon TCG : 100 Card LOT Rare, COM/UNC, Holo & Guaranteed EX, MEGA OR Full Art,",
       "title_zh": "口袋妖怪 TCG：100 张卡牌大量稀有"
     },
@@ -1936,11 +1930,11 @@
       "food": true,
       "image": "data/img/B01965DYYS.jpg",
       "landed_fl": {
-        "high": 62,
-        "low": 52,
-        "sell_min": 103
+        "high": 70,
+        "low": 59,
+        "sell_min": 117
       },
-      "price": "$24.84",
+      "price": "$27.99",
       "price_drop": null,
       "rank": 4,
       "rank_delta": 0,
@@ -2039,7 +2033,7 @@
       "rank_pct": 2.6,
       "rank_prev": 77,
       "rating": 4.8,
-      "ratings_count": 3100,
+      "ratings_count": 3099,
       "title_en": "Marvel Deadpool 12-Inch Action Figure with Accessory, Super Hero Toys for Fans Ages 14 and Up",
       "title_zh": "漫威死侍12英寸可动人偶带配件"
     },
@@ -2246,7 +2240,7 @@
       "rank_pct": null,
       "rank_prev": 51,
       "rating": 4.7,
-      "ratings_count": 11967,
+      "ratings_count": 11966,
       "title_en": "Limit Breaker Series - Dragon Ball Super - Goku, Limit Breaker 12\" Action Figure",
       "title_zh": "限位器系列"
     },
@@ -2292,7 +2286,7 @@
       "rank_pct": null,
       "rank_prev": 7,
       "rating": 4.4,
-      "ratings_count": 3702,
+      "ratings_count": 3701,
       "title_en": "Heroes of Goo Jit Zu Marvel Mega Mini 6 Pack - Superhero Toys, Squishy, Stretchy, Gooey Mini Heroes - Ironman, Spider-Man, Captain America, Miles Morales, Hulk and Black Panther",
       "title_zh": "Goo Jit Zu 英雄 Marvel Mega 迷你 6 件装"
     },
@@ -2378,13 +2372,7 @@
         "sell_min": 42
       },
       "price": "$9.88",
-      "price_drop": {
-        "drop": {
-          "pct": 23.9,
-          "prev_price": 12.99
-        },
-        "low_14d": false
-      },
+      "price_drop": null,
       "rank": 20,
       "rank_delta": 6,
       "rank_pct": 23.1,
@@ -2919,7 +2907,7 @@
       "rank_pct": 5.6,
       "rank_prev": 72,
       "rating": 4.8,
-      "ratings_count": 623,
+      "ratings_count": 624,
       "title_en": "Magic: The Gathering 2025 Land Station (400 Basic Land Cards)",
       "title_zh": "万智牌 2025 陆地站"
     },
@@ -3023,11 +3011,11 @@
       "food": false,
       "image": "data/img/B0F2BDXW4J.jpg",
       "landed_fl": {
-        "high": 312,
-        "low": 262,
-        "sell_min": 520
+        "high": 322,
+        "low": 271,
+        "sell_min": 537
       },
-      "price": "$125.00",
+      "price": "$128.88",
       "price_drop": null,
       "rank": 17,
       "rank_delta": -4,
@@ -3598,13 +3586,16 @@
       "food": false,
       "image": "data/img/B0G1N6NM1X.jpg",
       "landed_fl": {
-        "high": 150,
-        "low": 126,
-        "sell_min": 250
+        "high": 75,
+        "low": 63,
+        "sell_min": 125
       },
-      "price": "$59.99",
+      "price": "$29.99",
       "price_drop": {
-        "drop": null,
+        "drop": {
+          "pct": 53.1,
+          "prev_price": 64.0
+        },
         "low_14d": true
       },
       "rank": 77,
@@ -3657,8 +3648,8 @@
       "rank_delta": -14,
       "rank_pct": null,
       "rank_prev": 58,
-      "rating": null,
-      "ratings_count": null,
+      "rating": 5.0,
+      "ratings_count": 1,
       "title_en": "Transformers Studio Series Optimus Prime, Age of Extinction Voyager Class 6.75-Inch Converting Action Figure, Robot Toys for 8+",
       "title_zh": "变形金刚工作室系列擎天柱"
     },
@@ -3693,18 +3684,18 @@
       "food": false,
       "image": "data/img/B0G3CV6Z9D.jpg",
       "landed_fl": {
-        "high": 257,
-        "low": 216,
-        "sell_min": 428
+        "high": 261,
+        "low": 219,
+        "sell_min": 435
       },
-      "price": "$102.88",
+      "price": "$104.48",
       "price_drop": null,
       "rank": 54,
       "rank_delta": -4,
       "rank_pct": null,
       "rank_prev": 50,
       "rating": 4.2,
-      "ratings_count": 561,
+      "ratings_count": 560,
       "title_en": "Pokémon TCG: Mega Evolution—Ascended Heroes Booster Bundle",
       "title_zh": "Pokémon TCG：Mega Evolution — Ascended Heroes 补充包"
     },
@@ -3951,7 +3942,13 @@
         "sell_min": 87
       },
       "price": "$20.99",
-      "price_drop": null,
+      "price_drop": {
+        "drop": {
+          "pct": 22.2,
+          "prev_price": 26.99
+        },
+        "low_14d": false
+      },
       "rank": 24,
       "rank_delta": 0,
       "rank_pct": null,
@@ -4015,11 +4012,11 @@
       "food": false,
       "image": "data/img/B0GG11K25W.jpg",
       "landed_fl": {
-        "high": 110,
-        "low": 93,
-        "sell_min": 183
+        "high": 112,
+        "low": 94,
+        "sell_min": 187
       },
-      "price": "$44.15",
+      "price": "$44.63",
       "price_drop": null,
       "rank": 60,
       "rank_delta": -14,
@@ -4061,11 +4058,11 @@
       "food": false,
       "image": "data/img/B0GHBP46HL.jpg",
       "landed_fl": {
-        "high": 30,
-        "low": 25,
-        "sell_min": 50
+        "high": 27,
+        "low": 23,
+        "sell_min": 45
       },
-      "price": "$11.99",
+      "price": "$10.97",
       "price_drop": null,
       "rank": 79,
       "rank_delta": null,
@@ -4084,14 +4081,14 @@
       "food": false,
       "image": "data/img/B0GJQSXHH8.jpg",
       "landed_fl": {
-        "high": 17,
-        "low": 15,
-        "sell_min": 28
+        "high": 24,
+        "low": 20,
+        "sell_min": 40
       },
-      "price": "$6.99",
+      "price": "$9.49",
       "price_drop": {
         "drop": {
-          "pct": 41.5,
+          "pct": 20.6,
           "prev_price": 11.95
         },
         "low_14d": false
@@ -4124,7 +4121,7 @@
       "rank_pct": null,
       "rank_prev": 63,
       "rating": 4.6,
-      "ratings_count": 3704,
+      "ratings_count": 3705,
       "title_en": "POP MART Hirono Tamed Wildgrass Series Blind Box Figures, Single Box | Collectible Toys Home Decorations, Holiday Birthday Gifts for Girls and Boys",
       "title_zh": "POP MART POP MART 广野驯服野草系列盲盒公仔"
     },
@@ -4182,11 +4179,11 @@
       "food": false,
       "image": "data/img/B0GR6M4JV3.jpg",
       "landed_fl": {
-        "high": 62,
-        "low": 52,
-        "sell_min": 103
+        "high": 65,
+        "low": 55,
+        "sell_min": 108
       },
-      "price": "$24.99",
+      "price": "$25.98",
       "price_drop": null,
       "rank": 53,
       "rank_delta": 0,
@@ -4228,21 +4225,18 @@
       "food": false,
       "image": "data/img/B0GR6Q72ND.jpg",
       "landed_fl": {
-        "high": 92,
-        "low": 78,
-        "sell_min": 153
+        "high": 112,
+        "low": 94,
+        "sell_min": 187
       },
-      "price": "$37.00",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price": "$44.98",
+      "price_drop": null,
       "rank": 62,
       "rank_delta": -10,
       "rank_pct": null,
       "rank_prev": 52,
       "rating": 4.1,
-      "ratings_count": 986,
+      "ratings_count": 984,
       "title_en": "Pokémon TCG: Mega Evolution—Chaos Rising Booster Bundle, 6 Pack",
       "title_zh": "精灵宝可梦 TCG：超级进化 — 混沌崛起强化包"
     },
@@ -4254,18 +4248,12 @@
       "food": false,
       "image": "data/img/B0GRCDKMSW.jpg",
       "landed_fl": {
-        "high": 35,
-        "low": 29,
-        "sell_min": 58
+        "high": 56,
+        "low": 47,
+        "sell_min": 93
       },
-      "price": "$13.87",
-      "price_drop": {
-        "drop": {
-          "pct": 38.1,
-          "prev_price": 22.42
-        },
-        "low_14d": false
-      },
+      "price": "$22.41",
+      "price_drop": null,
       "rank": 67,
       "rank_delta": 6,
       "rank_pct": 8.2,
@@ -4329,11 +4317,11 @@
       "food": false,
       "image": "data/img/B0GV94JYDY.jpg",
       "landed_fl": {
-        "high": 22,
-        "low": 19,
-        "sell_min": 37
+        "high": 21,
+        "low": 17,
+        "sell_min": 35
       },
-      "price": "$8.99",
+      "price": "$8.25",
       "price_drop": null,
       "rank": 51,
       "rank_delta": 5,
@@ -4490,11 +4478,11 @@
       "food": false,
       "image": "data/img/B0GXC9SDV9.jpg",
       "landed_fl": {
-        "high": 198,
-        "low": 167,
-        "sell_min": 330
+        "high": 190,
+        "low": 159,
+        "sell_min": 317
       },
-      "price": "$79.39",
+      "price": "$75.88",
       "price_drop": null,
       "rank": 29,
       "rank_delta": 0,
@@ -4559,11 +4547,11 @@
       "food": false,
       "image": "data/img/B0GXCBW828.jpg",
       "landed_fl": {
-        "high": 575,
-        "low": 483,
-        "sell_min": 958
+        "high": 565,
+        "low": 474,
+        "sell_min": 942
       },
-      "price": "$229.99",
+      "price": "$225.88",
       "price_drop": null,
       "rank": 77,
       "rank_delta": -38,
@@ -4685,7 +4673,7 @@
       "rank_pct": null,
       "rank_prev": 12,
       "rating": 4.2,
-      "ratings_count": 851,
+      "ratings_count": 852,
       "title_en": "Pokémon TCG: Mega Evolution—Pitch Black Booster Bundle",
       "title_zh": "神奇宝贝 TCG：超级进化 - 漆黑助推器捆绑包"
     },
@@ -4789,11 +4777,11 @@
       "food": false,
       "image": "data/img/B0H8SV3WJ8.jpg",
       "landed_fl": {
-        "high": 524,
-        "low": 440,
-        "sell_min": 873
+        "high": 513,
+        "low": 431,
+        "sell_min": 855
       },
-      "price": "$209.50",
+      "price": "$205.39",
       "price_drop": null,
       "rank": 21,
       "rank_delta": 2,
@@ -4939,11 +4927,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "6 22夸脱沙拉旋转器",
       "rating": 4.7,
-      "ratings_count": 55377,
+      "ratings_count": 55379,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "55,377条评论·4.7分，$32.95适合小批进货",
+      "reason_zh": "55,379条评论·4.7分，$32.95适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.6,
@@ -4991,11 +4979,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "彩色铅笔",
       "rating": 4.8,
-      "ratings_count": 50542,
+      "ratings_count": 50541,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "50,542条评论·4.8分，$6.57适合小批进货",
+      "reason_zh": "50,541条评论·4.8分，$6.57适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -5228,9 +5216,9 @@
         "rank_delta": 32,
         "rank_pct": 35.6,
         "rank_prev": 90,
-        "surge_rank": 20
+        "surge_rank": 18
       },
-      "surge_rank": 20,
+      "surge_rank": 18,
       "title_en": "Prang (Formerly SunWorks) Construction Paper, 10 Assorted Colors, 12\" x 18\", 50 Sheets",
       "title_zh": "Prang",
       "url_1688": "https://m.1688.com/offer_search/-5072616E67.html",
@@ -5501,16 +5489,16 @@
         "sell_min": 28
       },
       "opportunity_score": 25.2,
-      "price": "$6.97",
+      "price": "$6.94",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "维纳斯敏感女士一次性剃须刀",
       "rating": 4.7,
-      "ratings_count": 34909,
+      "ratings_count": 34910,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "34,909条评论·4.7分，$6.97适合小批进货",
+      "reason_zh": "34,910条评论·4.7分，$6.94适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 14.0,
@@ -5960,19 +5948,19 @@
       "image": "data/img/B008J1QP7Y.jpg",
       "keyword_zh": "Bright Starts 球形摇铃摇铃玩具",
       "landed_fl": {
-        "high": 9,
+        "high": 10,
         "low": 8,
-        "sell_min": 15
+        "sell_min": 17
       },
       "opportunity_score": 37.7,
-      "price": "$3.62",
+      "price": "$3.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "球形摇铃摇铃玩具",
       "rating": 4.7,
       "ratings_count": 47261,
       "reason_codes": [],
-      "reason_zh": "47,261条评论·4.7分，$3.62适合小批进货",
+      "reason_zh": "47,261条评论·4.7分，$3.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -6020,9 +6008,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "肌肤完美2% 去角质",
       "rating": 4.5,
-      "ratings_count": 116732,
+      "ratings_count": 116733,
       "reason_codes": [],
-      "reason_zh": "116,732条评论·4.5分，$37.00适合小批进货",
+      "reason_zh": "116,733条评论·4.5分，$37.00适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -6070,9 +6058,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "去屑洗发水含1% 酮康唑",
       "rating": 4.6,
-      "ratings_count": 113006,
+      "ratings_count": 112900,
       "reason_codes": [],
-      "reason_zh": "113,006条评论·4.6分，$16.88适合小批进货",
+      "reason_zh": "112,900条评论·4.6分，$16.88适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -6220,11 +6208,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "液体灭蚁剂诱饵站",
       "rating": 4.6,
-      "ratings_count": 163533,
+      "ratings_count": 163538,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "163,533条评论·4.6分，$9.58适合小批进货",
+      "reason_zh": "163,538条评论·4.6分，$9.58适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -6262,19 +6250,19 @@
       "image": "data/img/B00EB4ADQW.jpg",
       "keyword_zh": "FUJIFILM Instax Mini 即时胶片双装",
       "landed_fl": {
-        "high": 44,
-        "low": 37,
-        "sell_min": 73
+        "high": 45,
+        "low": 38,
+        "sell_min": 75
       },
       "opportunity_score": 33.4,
-      "price": "$17.50",
+      "price": "$17.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "即时胶片双装",
       "rating": 4.8,
-      "ratings_count": 112953,
+      "ratings_count": 112954,
       "reason_codes": [],
-      "reason_zh": "112,953条评论·4.8分，$17.50适合小批进货",
+      "reason_zh": "112,954条评论·4.8分，$17.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -6293,7 +6281,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 30
+          "rank": 29
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -6374,12 +6362,12 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 超薄天鹅绒防滑节省空间西装衣架",
       "rating": 4.8,
-      "ratings_count": 236777,
+      "ratings_count": 236776,
       "reason_codes": [
         "BRAND_PRODUCT",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "236,777条评论·4.8分，$20.69适合小批进货",
+      "reason_zh": "236,776条评论·4.8分，$20.69适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -6427,9 +6415,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "100女士止汗除臭剂",
       "rating": 4.6,
-      "ratings_count": 27703,
+      "ratings_count": 27705,
       "reason_codes": [],
-      "reason_zh": "27,703条评论·4.6分，$13.97适合小批进货",
+      "reason_zh": "27,705条评论·4.6分，$13.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -6468,18 +6456,18 @@
       "keyword_zh": "Goody Ouchless松紧发带",
       "landed_fl": {
         "high": 10,
-        "low": 9,
+        "low": 8,
         "sell_min": 17
       },
       "opportunity_score": 45.3,
-      "price": "$4.17",
+      "price": "$3.97",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "松紧发带",
       "rating": 4.7,
       "ratings_count": 20750,
       "reason_codes": [],
-      "reason_zh": "20,750条评论·4.7分，$4.17适合小批进货",
+      "reason_zh": "20,750条评论·4.7分，$3.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -6517,22 +6505,28 @@
       "image": "data/img/B00J4YYFYA.jpg",
       "keyword_zh": "Q-tips纯棉棉签卫生和美容护理原装纯棉棉签100%纯棉7",
       "landed_fl": {
-        "high": 12,
-        "low": 10,
-        "sell_min": 20
+        "high": 6,
+        "low": 5,
+        "sell_min": 10
       },
-      "opportunity_score": 34.6,
-      "price": "$4.73",
-      "price_drop": null,
+      "opportunity_score": 29.6,
+      "price": "$2.40",
+      "price_drop": {
+        "drop": {
+          "pct": 49.3,
+          "prev_price": 4.73
+        },
+        "low_14d": false
+      },
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "纯棉棉签卫生和美容护理原装纯棉棉签100%纯棉7",
       "rating": 4.8,
       "ratings_count": 20051,
       "reason_codes": [],
-      "reason_zh": "20,051条评论·4.8分，$4.73适合小批进货",
+      "reason_zh": "20,051条评论·4.8分",
       "recommendation": "继续观察",
       "score_breakdown": {
-        "fit": 14.0,
+        "fit": 9.0,
         "fresh": 3.0,
         "market": 17.2,
         "multi_signal": 0.0,
@@ -6627,11 +6621,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "造型化合物36件装彩色盒",
       "rating": 4.8,
-      "ratings_count": 28797,
+      "ratings_count": 28798,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "28,797条评论·4.8分，$28.99适合小批进货",
+      "reason_zh": "28,798条评论·4.8分，$28.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -6729,11 +6723,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "防水双人尺寸床垫保护垫15英寸深的口袋",
       "rating": 4.5,
-      "ratings_count": 106767,
+      "ratings_count": 106768,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "106,767条评论·4.5分，$11.11适合小批进货",
+      "reason_zh": "106,768条评论·4.5分，$11.11适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -6831,11 +6825,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "大号床垫垫",
       "rating": 4.6,
-      "ratings_count": 160385,
+      "ratings_count": 160386,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "160,385条评论·4.6分，$20.99适合小批进货",
+      "reason_zh": "160,386条评论·4.6分，$20.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -6935,11 +6929,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "双人床套装",
       "rating": 4.6,
-      "ratings_count": 243780,
+      "ratings_count": 243779,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "243,780条评论·4.6分，$9.98适合小批进货",
+      "reason_zh": "243,779条评论·4.6分，$9.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -7140,11 +7134,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "即时读取数字肉类温度计",
       "rating": 4.8,
-      "ratings_count": 92323,
+      "ratings_count": 92324,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "92,323条评论·4.8分，$12.31适合小批进货",
+      "reason_zh": "92,324条评论·4.8分，$12.31适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -7192,9 +7186,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "全动态电视壁挂式32 70英寸电视 重达110磅",
       "rating": 4.8,
-      "ratings_count": 75837,
+      "ratings_count": 75836,
       "reason_codes": [],
-      "reason_zh": "75,837条评论·4.8分，$37.99适合小批进货",
+      "reason_zh": "75,836条评论·4.8分，$37.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -7213,7 +7207,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 25
+          "rank": 24
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -7242,11 +7236,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 4.6,
-      "ratings_count": 57192,
+      "ratings_count": 57191,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "57,192条评论·4.6分，$15.44适合小批进货",
+      "reason_zh": "57,191条评论·4.6分，$15.44适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -7294,9 +7288,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "精华睫毛公主假睫毛效果睫毛膏",
       "rating": 4.3,
-      "ratings_count": 418259,
+      "ratings_count": 418261,
       "reason_codes": [],
-      "reason_zh": "418,259条评论·4.3分，$4.97适合小批进货",
+      "reason_zh": "418,261条评论·4.3分，$4.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -7344,12 +7338,12 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "电涌保护器电源板",
       "rating": 4.8,
-      "ratings_count": 46667,
+      "ratings_count": 46668,
       "reason_codes": [
         "BRAND_PRODUCT",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "46,667条评论·4.8分，$10.62适合小批进货",
+      "reason_zh": "46,668条评论·4.8分，$10.62适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -7397,11 +7391,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "露得清卸妆胶束湿巾",
       "rating": 4.8,
-      "ratings_count": 121915,
+      "ratings_count": 121916,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "121,915条评论·4.8分，$9.97适合小批进货",
+      "reason_zh": "121,916条评论·4.8分，$9.97适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -7655,11 +7649,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "食品厨房秤",
       "rating": 4.6,
-      "ratings_count": 177316,
+      "ratings_count": 177317,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "同时上2个榜，177,316条评论·4.6分",
+      "reason_zh": "同时上2个榜，177,317条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -7764,9 +7758,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "& 获奖眼罩 蓬松的眼睛",
       "rating": 4.4,
-      "ratings_count": 48888,
+      "ratings_count": 48887,
       "reason_codes": [],
-      "reason_zh": "48,888条评论·4.4分，$21.56适合小批进货",
+      "reason_zh": "48,887条评论·4.4分，$21.56适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -7814,9 +7808,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "加绒床毯标准双人床灰色",
       "rating": 4.6,
-      "ratings_count": 179650,
+      "ratings_count": 179648,
       "reason_codes": [],
-      "reason_zh": "179,650条评论·4.6分，$19.99适合小批进货",
+      "reason_zh": "179,648条评论·4.6分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -7864,9 +7858,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "电动气球泵",
       "rating": 4.7,
-      "ratings_count": 26088,
+      "ratings_count": 26087,
       "reason_codes": [],
-      "reason_zh": "26,088条评论·4.7分，$14.23适合小批进货",
+      "reason_zh": "26,087条评论·4.7分，$14.23适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -7964,9 +7958,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "阻力环运动带 配有说明指南和手提包",
       "rating": 4.5,
-      "ratings_count": 136980,
+      "ratings_count": 136979,
       "reason_codes": [],
-      "reason_zh": "24小时排名12→7(↑42%)，136,980条评论·4.5分",
+      "reason_zh": "24小时排名12→7(↑42%)，136,979条评论·4.5分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -7997,9 +7991,9 @@
         "rank_delta": 5,
         "rank_pct": 41.7,
         "rank_prev": 12,
-        "surge_rank": 13
+        "surge_rank": 12
       },
-      "surge_rank": 13,
+      "surge_rank": 12,
       "title_en": "Fit Simplify Resistance Loop Exercise Bands with Instruction Guide and Carry Bag, Set of 5",
       "title_zh": "Fit Simple 阻力环运动带，配有说明指南和手提包",
       "url_1688": "https://m.1688.com/offer_search/-D7E8C1A6BBB7D4CBB6AFB4F820C5E4D3D0CBB5C3F7D6B8C4CFBACDCAD6CCE1B0FC.html",
@@ -8228,9 +8222,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "超细纤维毛巾快干露营、旅行和健身毛巾 袖珍",
       "rating": 4.6,
-      "ratings_count": 30924,
+      "ratings_count": 30925,
       "reason_codes": [],
-      "reason_zh": "30,924条评论·4.6分，$12.99适合小批进货",
+      "reason_zh": "30,925条评论·4.6分，$12.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -8381,11 +8375,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "用于午餐盒和冷藏箱的冰袋",
       "rating": 4.6,
-      "ratings_count": 31617,
+      "ratings_count": 31618,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "31,617条评论·4.6分，$15.99适合小批进货",
+      "reason_zh": "31,618条评论·4.6分，$15.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -8433,9 +8427,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "普通烟酰胺10% 锌1%",
       "rating": 4.7,
-      "ratings_count": 67074,
+      "ratings_count": 67075,
       "reason_codes": [],
-      "reason_zh": "67,074条评论·4.7分，$6.00适合小批进货",
+      "reason_zh": "67,075条评论·4.7分，$6.00适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -8536,11 +8530,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "透明质酸保湿洁面乳",
       "rating": 4.7,
-      "ratings_count": 133296,
+      "ratings_count": 133297,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "133,296条评论·4.7分，$14.24适合小批进货",
+      "reason_zh": "133,297条评论·4.7分，$14.24适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -8887,16 +8881,16 @@
         "sell_min": 53
       },
       "opportunity_score": 28.6,
-      "price": "$12.89",
+      "price": "$12.80",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "床上用品18枕芯",
       "rating": 4.6,
-      "ratings_count": 219116,
+      "ratings_count": 219115,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "219,116条评论·4.6分，$12.89适合小批进货",
+      "reason_zh": "219,115条评论·4.6分，$12.80适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -8944,9 +8938,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "普通壬二酸悬浮液10%",
       "rating": 4.5,
-      "ratings_count": 9309,
+      "ratings_count": 9310,
       "reason_codes": [],
-      "reason_zh": "9,309条评论·4.5分，$12.20适合小批进货",
+      "reason_zh": "9,310条评论·4.5分，$12.20适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -8994,11 +8988,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "大号床单4件套",
       "rating": 4.5,
-      "ratings_count": 457519,
+      "ratings_count": 457526,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "457,519条评论·4.5分，$24.99适合小批进货",
+      "reason_zh": "457,526条评论·4.5分，$24.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -9098,12 +9092,12 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 带液晶显示屏的数字厨房秤",
       "rating": 4.7,
-      "ratings_count": 118999,
+      "ratings_count": 119000,
       "reason_codes": [
         "BRAND_PRODUCT",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "同时上2个榜，118,999条评论·4.7分",
+      "reason_zh": "同时上2个榜，119,000条评论·4.7分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -9156,9 +9150,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "乙醇酸7% 去角质爽肤水",
       "rating": 4.7,
-      "ratings_count": 64975,
+      "ratings_count": 64976,
       "reason_codes": [],
-      "reason_zh": "64,975条评论·4.7分，$13.50适合小批进货",
+      "reason_zh": "64,976条评论·4.7分，$13.50适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -9241,9 +9235,9 @@
         "rank_delta": 15,
         "rank_pct": 34.9,
         "rank_prev": 43,
-        "surge_rank": 22
+        "surge_rank": 21
       },
-      "surge_rank": 22,
+      "surge_rank": 21,
       "title_en": "Amazon Basics Cast Iron Kettlebell for Strength Training, Textured Wide Handle, Black",
       "title_zh": "Amazon Basics 用于力量训练的铸铁壶铃",
       "url_1688": "https://m.1688.com/offer_search/-D3C3D3DAC1A6C1BFD1B5C1B7B5C4D6FDCCFABAF8C1E5.html",
@@ -9267,9 +9261,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "床上用品超柔软加绒床毯标准双人床灰色",
       "rating": 4.5,
-      "ratings_count": 93383,
+      "ratings_count": 93384,
       "reason_codes": [],
-      "reason_zh": "93,383条评论·4.5分，$17.94适合小批进货",
+      "reason_zh": "93,384条评论·4.5分，$17.94适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -9474,9 +9468,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "夜间痤疮粉刺贴片",
       "rating": 4.6,
-      "ratings_count": 186083,
+      "ratings_count": 186085,
       "reason_codes": [],
-      "reason_zh": "186,083条评论·4.6分，$12.99适合小批进货",
+      "reason_zh": "186,085条评论·4.6分，$12.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -9524,9 +9518,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "加重背心",
       "rating": 4.5,
-      "ratings_count": 17877,
+      "ratings_count": 17878,
       "reason_codes": [],
-      "reason_zh": "17,877条评论·4.5分，$27.89适合小批进货",
+      "reason_zh": "17,878条评论·4.5分，$27.89适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -9674,9 +9668,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "女士面部剃须刀",
       "rating": 4.6,
-      "ratings_count": 200468,
+      "ratings_count": 200469,
       "reason_codes": [],
-      "reason_zh": "200,468条评论·4.6分，$5.50适合小批进货",
+      "reason_zh": "200,469条评论·4.6分，$5.50适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -9774,11 +9768,11 @@
       "primary_risk_zh": "属于「搬家/普通收纳」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "塑料食品储存容器不含 密封盖非常",
       "rating": 4.7,
-      "ratings_count": 59689,
+      "ratings_count": 59690,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "59,689条评论·4.7分，$32.48适合小批进货",
+      "reason_zh": "59,690条评论·4.7分，$32.48适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -9928,11 +9922,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "超软床垫罩 缓解背痛",
       "rating": 4.3,
-      "ratings_count": 59803,
+      "ratings_count": 59805,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "59,803条评论·4.3分，$36.99适合小批进货",
+      "reason_zh": "59,805条评论·4.3分，$36.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -9980,11 +9974,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "特深双人床单套装",
       "rating": 4.4,
-      "ratings_count": 105166,
+      "ratings_count": 105167,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "105,166条评论·4.4分，$39.99适合小批进货",
+      "reason_zh": "105,167条评论·4.4分，$39.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -10053,7 +10047,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 28
+          "rank": 27
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -10132,9 +10126,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "天然除臭剂含有天然成分",
       "rating": 4.4,
-      "ratings_count": 116917,
+      "ratings_count": 116906,
       "reason_codes": [],
-      "reason_zh": "116,917条评论·4.4分，$13.97适合小批进货",
+      "reason_zh": "116,906条评论·4.4分，$13.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -10638,9 +10632,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "清洁毛巾 ®",
       "rating": 4.8,
-      "ratings_count": 43177,
+      "ratings_count": 43176,
       "reason_codes": [],
-      "reason_zh": "43,177条评论·4.8分，$17.95适合小批进货",
+      "reason_zh": "43,176条评论·4.8分，$17.95适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -10688,9 +10682,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "预洗羽绒被套大号",
       "rating": 4.5,
-      "ratings_count": 38517,
+      "ratings_count": 38519,
       "reason_codes": [],
-      "reason_zh": "38,517条评论·4.5分，$27.99适合小批进货",
+      "reason_zh": "38,519条评论·4.5分，$27.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -10728,12 +10722,12 @@
       "image": "data/img/B07PFYT8MC.jpg",
       "keyword_zh": "雷诺兹厨房未漂白羊皮纸卷",
       "landed_fl": {
-        "high": 8,
-        "low": 7,
-        "sell_min": 13
+        "high": 10,
+        "low": 9,
+        "sell_min": 17
       },
       "opportunity_score": 23.5,
-      "price": "$3.39",
+      "price": "$4.19",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "雷诺兹厨房未漂白羊皮纸卷",
@@ -10742,7 +10736,7 @@
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "23,567条评论·4.8分，$3.39适合小批进货",
+      "reason_zh": "23,567条评论·4.8分，$4.19适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.6,
@@ -11080,6 +11074,56 @@
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=HAPPY%20NUTS%20Comfort%20Cream%20Deodorant%20For%20Men%3A%20Anti-Chafing%20Sweat%20Defense&charset=utf8"
     },
     {
+      "amazon_url": "https://www.amazon.com/dp/B07SHFPD8S",
+      "asin": "B07SHFPD8S",
+      "confidence": "high",
+      "first_seen": "2026-09-24",
+      "image": "data/img/B07SHFPD8S.jpg",
+      "keyword_zh": "Pipishell 全动态电视壁挂支架，适用于 Echo S",
+      "landed_fl": {
+        "high": 40,
+        "low": 34,
+        "sell_min": 67
+      },
+      "opportunity_score": 41.4,
+      "price": "$15.98",
+      "price_drop": null,
+      "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
+      "procurement_keyword_zh": "全动态电视壁挂支架21 15和13",
+      "rating": 4.6,
+      "ratings_count": 215244,
+      "reason_codes": [],
+      "reason_zh": "215,244条评论·4.6分，$15.98适合小批进货",
+      "recommendation": "继续观察",
+      "score_breakdown": {
+        "fit": 13.4,
+        "fresh": 8.0,
+        "market": 20.0,
+        "multi_signal": 0.0,
+        "risk": 0.0,
+        "trend": 0.0
+      },
+      "signals": {
+        "amazon_surge": false,
+        "new_release": false,
+        "tiktok": []
+      },
+      "sources": [
+        {
+          "category": "electronics",
+          "list": "bestsellers",
+          "rank": 30
+        }
+      ],
+      "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
+      "surge": null,
+      "surge_rank": null,
+      "title_en": "Pipishell Full Motion TV Wall Mount for Echo Show 21/15 and 13-43 Inch Flat Curved Screen TVs & Monitors, Max VESA 200x200mm up to 44lbs, TV Mount Wall Bracket with Rotation Swivel Tilt Extension",
+      "title_zh": "Pipishell 全动态电视壁挂支架，适用于 Echo Show 21/15 和 13-43 英寸平面曲面电视和显示器",
+      "url_1688": "https://m.1688.com/offer_search/-C8ABB6AFCCACB5E7CAD3B1DAB9D2D6A7BCDC3231203135BACD3133.html",
+      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Pipishell%20Full%20Motion%20TV%20Wall%20Mount%20for%20Echo%20Show%2021/15%20and%2013-43%20Inch%20Flat%20Curved%20Screen%20TVs%20%26%20Monitors&charset=utf8"
+    },
+    {
       "amazon_url": "https://www.amazon.com/dp/B07T869RNY",
       "asin": "B07T869RNY",
       "confidence": "high",
@@ -11097,11 +11141,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "果蝇和蚊虫飞行昆虫陷阱",
       "rating": 4.2,
-      "ratings_count": 56334,
+      "ratings_count": 56333,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "56,334条评论·4.2分，$19.97适合小批进货",
+      "reason_zh": "56,333条评论·4.2分，$19.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -11251,9 +11295,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "100% 棉华夫格编织厨房洗碗布6件装",
       "rating": 4.5,
-      "ratings_count": 41094,
+      "ratings_count": 41095,
       "reason_codes": [],
-      "reason_zh": "41,094条评论·4.5分，$8.98适合小批进货",
+      "reason_zh": "41,095条评论·4.5分，$8.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -11410,11 +11454,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": null,
       "rating": 4.7,
-      "ratings_count": 77597,
+      "ratings_count": 77598,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "77,597条评论·4.7分，$29.75适合小批进货",
+      "reason_zh": "77,598条评论·4.7分，$29.75适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -11564,14 +11608,17 @@
         "sell_min": 42
       },
       "opportunity_score": 43.3,
-      "price": "$10.19",
-      "price_drop": null,
+      "price": "$9.97",
+      "price_drop": {
+        "drop": null,
+        "low_14d": true
+      },
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "10% 过氧化苯甲酰痤疮泡沫洗面奶",
       "rating": 4.6,
       "ratings_count": 83551,
       "reason_codes": [],
-      "reason_zh": "83,551条评论·4.6分，$10.19适合小批进货",
+      "reason_zh": "83,551条评论·4.6分，$9.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -11669,9 +11716,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "胖乎乎的斑点海豹枕头",
       "rating": 4.5,
-      "ratings_count": 15422,
+      "ratings_count": 15421,
       "reason_codes": [],
-      "reason_zh": "15,422条评论·4.5分，$26.99适合小批进货",
+      "reason_zh": "15,421条评论·4.5分，$26.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -11771,9 +11818,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "迷你8英寸姜黄色猫可爱毛绒动物",
       "rating": 4.8,
-      "ratings_count": 75498,
+      "ratings_count": 75499,
       "reason_codes": [],
-      "reason_zh": "75,498条评论·4.8分，$8.33适合小批进货",
+      "reason_zh": "75,499条评论·4.8分，$8.33适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -11821,11 +11868,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "不锈钢水瓶32盎司非常",
       "rating": 4.6,
-      "ratings_count": 139178,
+      "ratings_count": 139179,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "同时上2个榜，139,178条评论·4.6分",
+      "reason_zh": "同时上2个榜，139,179条评论·4.6分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -11980,9 +12027,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "播放 散装讲义42包1盎司建模复合罐",
       "rating": 4.9,
-      "ratings_count": 17543,
+      "ratings_count": 17544,
       "reason_codes": [],
-      "reason_zh": "17,543条评论·4.9分，$16.99适合小批进货",
+      "reason_zh": "17,544条评论·4.9分，$16.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -12083,11 +12130,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "大号床垫保护套防水",
       "rating": 4.5,
-      "ratings_count": 18777,
+      "ratings_count": 18779,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "18,777条评论·4.5分，$12.59适合小批进货",
+      "reason_zh": "18,779条评论·4.5分，$12.59适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -12237,9 +12284,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "日常面部保湿霜",
       "rating": 4.6,
-      "ratings_count": 25897,
+      "ratings_count": 25896,
       "reason_codes": [],
-      "reason_zh": "25,897条评论·4.6分，$13.29适合小批进货",
+      "reason_zh": "25,896条评论·4.6分，$13.29适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -12439,9 +12486,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "床上用品角板床枕头",
       "rating": 4.5,
-      "ratings_count": 79753,
+      "ratings_count": 79755,
       "reason_codes": [],
-      "reason_zh": "79,753条评论·4.5分，$29.89适合小批进货",
+      "reason_zh": "79,755条评论·4.5分，$29.89适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -12693,11 +12740,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "美泰 爬行者角色毛绒玩具",
       "rating": 4.8,
-      "ratings_count": 9943,
+      "ratings_count": 9953,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "9,943条评论·4.8分，$11.87适合小批进货",
+      "reason_zh": "9,953条评论·4.8分，$11.87适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -12797,9 +12844,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "每月自动续订的计划",
       "rating": 4.4,
-      "ratings_count": 280506,
+      "ratings_count": 280503,
       "reason_codes": [],
-      "reason_zh": "280,506条评论·4.4分，$11.99适合小批进货",
+      "reason_zh": "280,503条评论·4.4分，$11.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -12847,11 +12894,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "乳木果润肤乳 香草羊绒",
       "rating": 4.7,
-      "ratings_count": 78763,
+      "ratings_count": 78764,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "78,763条评论·4.7分，$9.97适合小批进货",
+      "reason_zh": "78,764条评论·4.7分，$9.97适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -12949,11 +12996,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "食品真空封口袋6包",
       "rating": 4.4,
-      "ratings_count": 4700,
+      "ratings_count": 4701,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "4,700条评论·4.4分，$16.99适合小批进货",
+      "reason_zh": "4,701条评论·4.4分，$16.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.6,
@@ -13197,17 +13244,17 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 28.0,
+      "opportunity_score": 28.4,
       "price": "$9.98",
       "price_drop": null,
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "壁式充电器",
       "rating": 4.7,
-      "ratings_count": 118571,
+      "ratings_count": 118573,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "118,571条评论·4.7分，$9.98适合小批进货",
+      "reason_zh": "118,573条评论·4.7分，$9.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -13215,7 +13262,7 @@
         "market": 20.0,
         "multi_signal": 0.0,
         "risk": -6.0,
-        "trend": 4.0
+        "trend": 4.4
       },
       "signals": {
         "amazon_surge": false,
@@ -13226,7 +13273,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 10
+          "rank": 9
         }
       ],
       "store_fit_reason_zh": "「低趣味刚需品」与Goodies游客门店不匹配",
@@ -13355,9 +13402,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "电缆扎带",
       "rating": 4.6,
-      "ratings_count": 24328,
+      "ratings_count": 24330,
       "reason_codes": [],
-      "reason_zh": "24,328条评论·4.6分，$6.99适合小批进货",
+      "reason_zh": "24,330条评论·4.6分，$6.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -13376,7 +13423,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 29
+          "rank": 28
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -13607,12 +13654,12 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "电涌保护器电源板",
       "rating": 4.8,
-      "ratings_count": 68749,
+      "ratings_count": 68748,
       "reason_codes": [
         "BULKY_ITEM",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "68,749条评论·4.8分，$11.99适合小批进货",
+      "reason_zh": "68,748条评论·4.8分，$11.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -13631,7 +13678,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 21
+          "rank": 20
         }
       ],
       "store_fit_reason_zh": "「低趣味刚需品」与Goodies游客门店不匹配",
@@ -13812,9 +13859,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "伞绳550磅4毫米",
       "rating": 4.7,
-      "ratings_count": 9241,
+      "ratings_count": 9239,
       "reason_codes": [],
-      "reason_zh": "9,241条评论·4.7分，$6.99适合小批进货",
+      "reason_zh": "9,239条评论·4.7分，$6.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -14068,9 +14115,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "应急毯聚酯薄膜热空间生存装备和用品4件装箔纸",
       "rating": 4.7,
-      "ratings_count": 5306,
+      "ratings_count": 5307,
       "reason_codes": [],
-      "reason_zh": "5,306条评论·4.7分，$6.99适合小批进货",
+      "reason_zh": "5,307条评论·4.7分，$6.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -14118,9 +14165,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "耳鼻毛修剪器",
       "rating": 4.4,
-      "ratings_count": 95703,
+      "ratings_count": 95706,
       "reason_codes": [],
-      "reason_zh": "95,703条评论·4.4分，$9.99适合小批进货",
+      "reason_zh": "95,706条评论·4.4分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -14441,7 +14488,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 26
+          "rank": 25
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -14514,7 +14561,7 @@
         "low": 29,
         "sell_min": 58
       },
-      "opportunity_score": 35.8,
+      "opportunity_score": 36.2,
       "price": "$13.96",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
@@ -14530,7 +14577,7 @@
         "market": 17.0,
         "multi_signal": 0.0,
         "risk": 0.0,
-        "trend": 0.4
+        "trend": 0.8
       },
       "signals": {
         "amazon_surge": false,
@@ -14541,7 +14588,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 19
+          "rank": 18
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -14620,11 +14667,11 @@
       "primary_risk_zh": "属于「清洁/纯家务用品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "卧室空气净化器家用宠物宿舍",
       "rating": 4.6,
-      "ratings_count": 45632,
+      "ratings_count": 45620,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "45,632条评论·4.6分",
+      "reason_zh": "45,620条评论·4.6分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 6.0,
@@ -14722,9 +14769,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "象牙沐浴露",
       "rating": 4.8,
-      "ratings_count": 21101,
+      "ratings_count": 21100,
       "reason_codes": [],
-      "reason_zh": "21,101条评论·4.8分，$6.97适合小批进货",
+      "reason_zh": "21,100条评论·4.8分，$6.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -14772,11 +14819,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "6英尺电涌保护器电源板 带8个宽插座和4个 USB",
       "rating": 4.6,
-      "ratings_count": 53679,
+      "ratings_count": 53682,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "53,679条评论·4.6分，$9.99适合小批进货",
+      "reason_zh": "53,682条评论·4.6分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -15076,9 +15123,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "胡椒喷雾器 带快速释放钥匙扣 用于自卫",
       "rating": 4.7,
-      "ratings_count": 116808,
+      "ratings_count": 116804,
       "reason_codes": [],
-      "reason_zh": "116,808条评论·4.7分，$16.99适合小批进货",
+      "reason_zh": "116,804条评论·4.7分，$16.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -15126,9 +15173,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "用于 智能电视远程更换",
       "rating": 4.3,
-      "ratings_count": 92175,
+      "ratings_count": 92176,
       "reason_codes": [],
-      "reason_zh": "92,175条评论·4.3分，$8.52适合小批进货",
+      "reason_zh": "92,176条评论·4.3分，$8.52适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -15276,11 +15323,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "更安全的家庭飞行昆虫陷阱",
       "rating": 4.2,
-      "ratings_count": 39148,
+      "ratings_count": 39149,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "39,148条评论·4.2分，$9.09适合小批进货",
+      "reason_zh": "39,149条评论·4.2分，$9.09适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -15328,9 +15375,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "金色气球不同尺寸铬金气球拱门套件129件",
       "rating": 4.5,
-      "ratings_count": 9406,
+      "ratings_count": 9407,
       "reason_codes": [],
-      "reason_zh": "9,406条评论·4.5分，$8.99适合小批进货",
+      "reason_zh": "9,407条评论·4.5分，$8.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -15378,11 +15425,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "爽肤水垫零毛孔垫2 0用于去角质和毛孔护理",
       "rating": 4.6,
-      "ratings_count": 32751,
+      "ratings_count": 32756,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "32,751条评论·4.6分，$18.90适合小批进货",
+      "reason_zh": "32,756条评论·4.6分，$18.90适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -15424,17 +15471,17 @@
         "low": 19,
         "sell_min": 37
       },
-      "opportunity_score": 30.7,
+      "opportunity_score": 31.1,
       "price": "$8.97",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "2件装 替换遥控器",
       "rating": 4.5,
-      "ratings_count": 74754,
+      "ratings_count": 74755,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "74,754条评论·4.5分，$8.97适合小批进货",
+      "reason_zh": "74,755条评论·4.5分，$8.97适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -15442,7 +15489,7 @@
         "market": 19.5,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 2.8
+        "trend": 3.2
       },
       "signals": {
         "amazon_surge": false,
@@ -15453,7 +15500,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 13
+          "rank": 12
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -15482,9 +15529,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "柯达16紧凑型数码相机",
       "rating": 4.4,
-      "ratings_count": 8748,
+      "ratings_count": 8747,
       "reason_codes": [],
-      "reason_zh": "8,748条评论·4.4分",
+      "reason_zh": "8,747条评论·4.4分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 6.4,
@@ -15527,14 +15574,14 @@
         "sell_min": 33
       },
       "opportunity_score": 37.6,
-      "price": "$7.91",
+      "price": "$7.89",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "4英寸月神蝙蝠可爱毛绒",
       "rating": 4.8,
       "ratings_count": 1416,
       "reason_codes": [],
-      "reason_zh": "1,416条评论·4.8分，$7.91适合小批进货",
+      "reason_zh": "1,416条评论·4.8分，$7.89适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -15734,9 +15781,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "生物胶原真正深层面膜",
       "rating": 4.5,
-      "ratings_count": 48373,
+      "ratings_count": 48378,
       "reason_codes": [],
-      "reason_zh": "48,373条评论·4.5分，$19.00适合小批进货",
+      "reason_zh": "48,378条评论·4.5分，$19.00适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -15824,12 +15871,12 @@
       "image": "data/img/B0B41MYSGP.jpg",
       "keyword_zh": "创可贴品牌旅行便携式急救包",
       "landed_fl": {
-        "high": 26,
-        "low": 22,
-        "sell_min": 43
+        "high": 25,
+        "low": 21,
+        "sell_min": 42
       },
       "opportunity_score": 0.0,
-      "price": "$10.50",
+      "price": "$9.97",
       "price_drop": null,
       "primary_risk_zh": "药品/医疗类，不做",
       "procurement_keyword_zh": "创可贴品牌旅行便携式急救包",
@@ -15839,7 +15886,7 @@
         "EXCLUDED_MEDICAL",
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "14,514条评论·4.8分，$10.50适合小批进货",
+      "reason_zh": "14,514条评论·4.8分，$9.97适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.2,
@@ -15943,9 +15990,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "中号午餐袋",
       "rating": 4.5,
-      "ratings_count": 63361,
+      "ratings_count": 63363,
       "reason_codes": [],
-      "reason_zh": "同时上2个榜，63,361条评论·4.5分",
+      "reason_zh": "同时上2个榜，63,363条评论·4.5分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -16046,9 +16093,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "牛10英寸毛绒动物感官玩具0岁以上儿童",
       "rating": 4.8,
-      "ratings_count": 4858,
+      "ratings_count": 4859,
       "reason_codes": [],
-      "reason_zh": "4,858条评论·4.8分，$28.00适合小批进货",
+      "reason_zh": "4,859条评论·4.8分，$28.00适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -16096,9 +16143,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "固体指甲胶超强 按压指甲和指甲尖15克",
       "rating": 4.4,
-      "ratings_count": 28999,
+      "ratings_count": 28998,
       "reason_codes": [],
-      "reason_zh": "28,999条评论·4.4分，$9.99适合小批进货",
+      "reason_zh": "28,998条评论·4.4分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -16249,12 +16296,12 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "金属床架",
       "rating": 4.6,
-      "ratings_count": 34566,
+      "ratings_count": 34567,
       "reason_codes": [
         "BULKY_ITEM",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "34,566条评论·4.6分",
+      "reason_zh": "34,567条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 6.0,
@@ -16302,9 +16349,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "原生清洁沐浴露",
       "rating": 4.6,
-      "ratings_count": 2527,
+      "ratings_count": 2528,
       "reason_codes": [],
-      "reason_zh": "2,527条评论·4.6分，$15.97适合小批进货",
+      "reason_zh": "2,528条评论·4.6分，$15.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -16392,12 +16439,12 @@
       "image": "data/img/B0B9T4KCV7.jpg",
       "keyword_zh": "Nalgene 32 盎司广口水瓶",
       "landed_fl": {
-        "high": 40,
+        "high": 39,
         "low": 33,
-        "sell_min": 67
+        "sell_min": 65
       },
       "opportunity_score": 26.7,
-      "price": "$15.86",
+      "price": "$15.73",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "32盎司广口水瓶",
@@ -16406,7 +16453,7 @@
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "25,869条评论·4.8分，$15.86适合小批进货",
+      "reason_zh": "25,869条评论·4.8分，$15.73适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -16708,11 +16755,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "浪涌保护器电源板 带900浪涌保护",
       "rating": 4.8,
-      "ratings_count": 14373,
+      "ratings_count": 14372,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "14,373条评论·4.8分，$24.99适合小批进货",
+      "reason_zh": "14,372条评论·4.8分，$24.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -16914,9 +16961,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "11相框",
       "rating": 4.4,
-      "ratings_count": 43711,
+      "ratings_count": 43712,
       "reason_codes": [],
-      "reason_zh": "43,711条评论·4.4分，$6.99适合小批进货",
+      "reason_zh": "43,712条评论·4.4分，$6.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -17068,11 +17115,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "缠绕面膜胶原蛋白",
       "rating": 4.5,
-      "ratings_count": 24608,
+      "ratings_count": 24609,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "24,608条评论·4.5分，$15.20适合小批进货",
+      "reason_zh": "24,609条评论·4.5分，$15.20适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 14.0,
@@ -17120,9 +17167,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "宠物动物园刺猬毛绒动物毛绒玩具",
       "rating": 4.7,
-      "ratings_count": 6182,
+      "ratings_count": 6181,
       "reason_codes": [],
-      "reason_zh": "6,182条评论·4.7分，$9.99适合小批进货",
+      "reason_zh": "6,181条评论·4.7分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -17170,11 +17217,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "真无线耳塞",
       "rating": 4.4,
-      "ratings_count": 115528,
+      "ratings_count": 115527,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "115,528条评论·4.4分，$20.99适合小批进货",
+      "reason_zh": "115,527条评论·4.4分，$20.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -17526,11 +17573,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "防水床垫保护垫",
       "rating": 4.6,
-      "ratings_count": 26762,
+      "ratings_count": 26765,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "26,762条评论·4.6分，$25.49适合小批进货",
+      "reason_zh": "26,765条评论·4.6分，$25.49适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -17578,11 +17625,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "空气炸锅",
       "rating": 4.8,
-      "ratings_count": 21887,
+      "ratings_count": 21888,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "21,887条评论·4.8分",
+      "reason_zh": "21,888条评论·4.8分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 3.0,
@@ -17678,11 +17725,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "飞行昆虫陷阱补充墨盒 果蝇和蚊虫",
       "rating": 4.8,
-      "ratings_count": 37193,
+      "ratings_count": 37194,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "37,193条评论·4.8分，$14.97适合小批进货",
+      "reason_zh": "37,194条评论·4.8分，$14.97适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -17724,17 +17771,17 @@
         "low": 94,
         "sell_min": 187
       },
-      "opportunity_score": 20.1,
+      "opportunity_score": 20.5,
       "price": "$44.99",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "混合主动降噪耳机",
       "rating": 4.5,
-      "ratings_count": 74939,
+      "ratings_count": 74943,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "74,939条评论·4.5分",
+      "reason_zh": "74,943条评论·4.5分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 9.4,
@@ -17742,7 +17789,7 @@
         "market": 19.5,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 1.2
+        "trend": 1.6
       },
       "signals": {
         "amazon_surge": false,
@@ -17753,7 +17800,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 17
+          "rank": 16
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -17936,11 +17983,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 篮式咖啡过滤器8 12杯咖啡机",
       "rating": 4.8,
-      "ratings_count": 25165,
+      "ratings_count": 25166,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "25,165条评论·4.8分",
+      "reason_zh": "25,166条评论·4.8分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 7.8,
@@ -18071,9 +18118,9 @@
         "rank_delta": 7,
         "rank_pct": 41.2,
         "rank_prev": 17,
-        "surge_rank": 14
+        "surge_rank": 13
       },
-      "surge_rank": 14,
+      "surge_rank": 13,
       "title_en": "Resistance Bands for Working Out, Physical Therapy, Exercise, Pilates, Yoga | Latex-Free Stretch Bands for Women or Men, Elastic Exercise Bands Set for Stretching, fitness, Rehab, Workout, Gym and Home",
       "title_zh": "锻炼阻力带",
       "url_1688": "https://m.1688.com/offer_search/-B6CDC1B6D7E8C1A6B4F8.html",
@@ -18097,11 +18144,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 棒4选择",
       "rating": 4.1,
-      "ratings_count": 16712,
+      "ratings_count": 16713,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "16,712条评论·4.1分",
+      "reason_zh": "16,713条评论·4.1分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 9.4,
@@ -18120,7 +18167,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 27
+          "rank": 26
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -18149,12 +18196,12 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "一次性空气炸锅内胆",
       "rating": 4.6,
-      "ratings_count": 28127,
+      "ratings_count": 28128,
       "reason_codes": [
         "BRAND_PRODUCT",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "28,127条评论·4.6分，$9.99适合小批进货",
+      "reason_zh": "28,128条评论·4.6分，$9.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -18198,18 +18245,15 @@
       },
       "opportunity_score": 31.1,
       "price": "$7.64",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "充电器磁性USB 充电线",
       "rating": 4.3,
-      "ratings_count": 7281,
+      "ratings_count": 7282,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "7,281条评论·4.3分，$7.64适合小批进货",
+      "reason_zh": "7,282条评论·4.3分，$7.64适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -18257,9 +18301,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "儿童水壶和幼儿杯",
       "rating": 4.5,
-      "ratings_count": 12981,
+      "ratings_count": 12982,
       "reason_codes": [],
-      "reason_zh": "12,981条评论·4.5分，$19.99适合小批进货",
+      "reason_zh": "12,982条评论·4.5分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -18357,9 +18401,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "2片冷触烤面包机",
       "rating": 4.1,
-      "ratings_count": 13344,
+      "ratings_count": 13345,
       "reason_codes": [],
-      "reason_zh": "13,344条评论·4.1分，$15.99适合小批进货",
+      "reason_zh": "13,345条评论·4.1分，$15.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -18521,9 +18565,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "情感 饺子",
       "rating": 4.8,
-      "ratings_count": 8656,
+      "ratings_count": 8657,
       "reason_codes": [],
-      "reason_zh": "8,656条评论·4.8分，$16.99适合小批进货",
+      "reason_zh": "8,657条评论·4.8分，$16.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -18621,11 +18665,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "大号被子套装预洗柔软床上用品套装3件套米色90英",
       "rating": 4.2,
-      "ratings_count": 11094,
+      "ratings_count": 11097,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "11,094条评论·4.2分，$31.99适合小批进货",
+      "reason_zh": "11,097条评论·4.2分，$31.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -18925,11 +18969,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "奶油滑唇线笔",
       "rating": 4.6,
-      "ratings_count": 20561,
+      "ratings_count": 20562,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "20,561条评论·4.6分",
+      "reason_zh": "20,562条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 9.0,
@@ -18977,9 +19021,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": null,
       "rating": 4.3,
-      "ratings_count": 17137,
+      "ratings_count": 17138,
       "reason_codes": [],
-      "reason_zh": "17,137条评论·4.3分，$9.99适合小批进货",
+      "reason_zh": "17,138条评论·4.3分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -19027,11 +19071,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊16",
       "rating": 4.5,
-      "ratings_count": 20581,
+      "ratings_count": 20584,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "20,581条评论·4.5分",
+      "reason_zh": "20,584条评论·4.5分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 6.4,
@@ -19079,12 +19123,12 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "空气炸锅",
       "rating": 4.6,
-      "ratings_count": 3810,
+      "ratings_count": 3809,
       "reason_codes": [
         "BULKY_ITEM",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "3,810条评论·4.6分",
+      "reason_zh": "3,809条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 6.0,
@@ -19132,9 +19176,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "16盎司二合一玻璃烹饪橄榄油喷雾器",
       "rating": 4.4,
-      "ratings_count": 49803,
+      "ratings_count": 49805,
       "reason_codes": [],
-      "reason_zh": "49,803条评论·4.4分，$7.99适合小批进货",
+      "reason_zh": "49,805条评论·4.4分，$7.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -19177,16 +19221,16 @@
         "sell_min": 142
       },
       "opportunity_score": 40.8,
-      "price": "$33.95",
+      "price": "$33.90",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "玻璃杯带手柄和吸管30盎司",
       "rating": 4.7,
-      "ratings_count": 205264,
+      "ratings_count": 205268,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "同时上2个榜，205,264条评论·4.7分",
+      "reason_zh": "同时上2个榜，205,268条评论·4.7分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -19283,7 +19327,7 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 32.9,
+      "opportunity_score": 33.3,
       "price": "$9.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
@@ -19299,7 +19343,7 @@
         "market": 16.3,
         "multi_signal": 0.0,
         "risk": 0.0,
-        "trend": 3.2
+        "trend": 3.6
       },
       "signals": {
         "amazon_surge": false,
@@ -19310,7 +19354,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 12
+          "rank": 11
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -19334,14 +19378,14 @@
         "sell_min": 33
       },
       "opportunity_score": 29.1,
-      "price": "$8.11",
+      "price": "$7.95",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "®可爱的™ ™填充动物",
       "rating": 4.8,
       "ratings_count": 337,
       "reason_codes": [],
-      "reason_zh": "$8.11适合小批进货",
+      "reason_zh": "$7.95适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -19383,22 +19427,22 @@
         "low": 67,
         "sell_min": 133
       },
-      "opportunity_score": 34.9,
+      "opportunity_score": 34.8,
       "price": "$31.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "旅行者40盎司",
       "rating": 4.6,
-      "ratings_count": 18304,
+      "ratings_count": 18302,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "同时上2个榜，18,304条评论·4.6分",
+      "reason_zh": "同时上2个榜，18,302条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
         "fresh": 0.0,
-        "market": 17.1,
+        "market": 17.0,
         "multi_signal": 5.0,
         "risk": -10.0,
         "trend": 6.8
@@ -19446,11 +19490,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "降噪耳塞",
       "rating": 4.3,
-      "ratings_count": 42578,
+      "ratings_count": 42579,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "42,578条评论·4.3分，$26.99适合小批进货",
+      "reason_zh": "42,579条评论·4.3分，$26.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -19469,7 +19513,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 24
+          "rank": 23
         }
       ],
       "store_fit_reason_zh": "「手机配件/小电子」是Goodies核心品类，游客顺手就买",
@@ -19698,9 +19742,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "™ 2片超薄烤面包机",
       "rating": 4.2,
-      "ratings_count": 20776,
+      "ratings_count": 20777,
       "reason_codes": [],
-      "reason_zh": "20,776条评论·4.2分，$24.98适合小批进货",
+      "reason_zh": "20,777条评论·4.2分，$24.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -19748,9 +19792,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "6件装女孩粉色史莱姆套装",
       "rating": 4.6,
-      "ratings_count": 2733,
+      "ratings_count": 2734,
       "reason_codes": [],
-      "reason_zh": "2,733条评论·4.6分，$13.59适合小批进货",
+      "reason_zh": "2,734条评论·4.6分，$13.59适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -19850,9 +19894,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "特惠100礼包",
       "rating": 4.8,
-      "ratings_count": 4637,
+      "ratings_count": 4636,
       "reason_codes": [],
-      "reason_zh": "4,637条评论·4.8分，$25.98适合小批进货",
+      "reason_zh": "4,636条评论·4.8分，$25.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -19900,11 +19944,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 4.6,
-      "ratings_count": 29170,
+      "ratings_count": 29171,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "29,170条评论·4.6分",
+      "reason_zh": "29,171条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 6.4,
@@ -20002,9 +20046,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "衣物挂烫机",
       "rating": 4.2,
-      "ratings_count": 130973,
+      "ratings_count": 130972,
       "reason_codes": [],
-      "reason_zh": "130,973条评论·4.2分，$24.99适合小批进货",
+      "reason_zh": "130,972条评论·4.2分，$24.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
@@ -20052,9 +20096,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "24件装慢回弹压力立方体",
       "rating": 3.5,
-      "ratings_count": 1107,
+      "ratings_count": 1108,
       "reason_codes": [],
-      "reason_zh": "1,107条评论·3.5分，$19.99适合小批进货",
+      "reason_zh": "1,108条评论·3.5分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -20152,9 +20196,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "酒店扩散器油编号1014",
       "rating": 4.4,
-      "ratings_count": 11824,
+      "ratings_count": 11825,
       "reason_codes": [],
-      "reason_zh": "11,824条评论·4.4分，$9.99适合小批进货",
+      "reason_zh": "11,825条评论·4.4分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -20302,11 +20346,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "转3 5毫米音频耳机适配器",
       "rating": 4.5,
-      "ratings_count": 4901,
+      "ratings_count": 4902,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "4,901条评论·4.5分，$9.99适合小批进货",
+      "reason_zh": "4,902条评论·4.5分，$9.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -20354,11 +20398,11 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "2走廊可水洗跑步地毯 复古软厨房洗衣跑步机",
       "rating": 4.6,
-      "ratings_count": 10609,
+      "ratings_count": 10612,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "10,609条评论·4.6分，$20.64适合小批进货",
+      "reason_zh": "10,612条评论·4.6分，$20.64适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -20560,9 +20604,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "替换语音遥控器",
       "rating": 4.2,
-      "ratings_count": 8125,
+      "ratings_count": 8126,
       "reason_codes": [],
-      "reason_zh": "8,125条评论·4.2分，$9.98适合小批进货",
+      "reason_zh": "8,126条评论·4.2分，$9.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -20610,11 +20654,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 4.7,
-      "ratings_count": 20849,
+      "ratings_count": 20851,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "20,849条评论·4.7分，$30.00适合小批进货",
+      "reason_zh": "20,851条评论·4.7分，$30.00适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -20662,11 +20706,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "带 插头的耳机",
       "rating": 4.5,
-      "ratings_count": 18243,
+      "ratings_count": 18244,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "18,243条评论·4.5分，$19.00适合小批进货",
+      "reason_zh": "18,244条评论·4.5分，$19.00适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -20764,11 +20808,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "滑块隔热不锈钢咖啡杯",
       "rating": 4.6,
-      "ratings_count": 14948,
+      "ratings_count": 14949,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "14,948条评论·4.6分，$24.99适合小批进货",
+      "reason_zh": "14,949条评论·4.6分，$24.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -20816,9 +20860,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "10透明质酸红润舒缓精华液",
       "rating": 4.5,
-      "ratings_count": 6764,
+      "ratings_count": 6765,
       "reason_codes": [],
-      "reason_zh": "6,764条评论·4.5分，$19.80适合小批进货",
+      "reason_zh": "6,765条评论·4.5分，$19.80适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -20866,9 +20910,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "30件装柔捏捏乐",
       "rating": 4.6,
-      "ratings_count": 5029,
+      "ratings_count": 5031,
       "reason_codes": [],
-      "reason_zh": "5,029条评论·4.6分，$9.99适合小批进货",
+      "reason_zh": "5,031条评论·4.6分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -20916,9 +20960,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "视网膜皮肤增强面部和身体精华液 皮肤不均匀5",
       "rating": 4.3,
-      "ratings_count": 12675,
+      "ratings_count": 12677,
       "reason_codes": [],
-      "reason_zh": "12,675条评论·4.3分，$19.99适合小批进货",
+      "reason_zh": "12,677条评论·4.3分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -20960,17 +21004,17 @@
         "low": 208,
         "sell_min": 413
       },
-      "opportunity_score": 49.1,
+      "opportunity_score": 49.9,
       "price": "$99.00",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "苹果4无线耳机",
       "rating": 4.5,
-      "ratings_count": 34952,
+      "ratings_count": 34953,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "24小时排名38→15(↑60%)，34,952条评论·4.5分",
+      "reason_zh": "24小时排名38→14(↑63%)，34,953条评论·4.5分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.0,
@@ -20978,7 +21022,7 @@
         "market": 18.2,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 19.9
+        "trend": 20.7
       },
       "signals": {
         "amazon_surge": true,
@@ -20989,7 +21033,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 15
+          "rank": 14
         }
       ],
       "store_fit_reason_zh": "「可定制空白品(Workshop)」是Goodies核心品类，游客顺手就买",
@@ -20997,13 +21041,13 @@
         "category": "electronics",
         "is_new_entry": false,
         "list": "bestsellers",
-        "rank": 15,
-        "rank_delta": 23,
-        "rank_pct": 60.5,
+        "rank": 14,
+        "rank_delta": 24,
+        "rank_pct": 63.2,
         "rank_prev": 38,
-        "surge_rank": 6
+        "surge_rank": 3
       },
-      "surge_rank": 6,
+      "surge_rank": 3,
       "title_en": "Apple AirPods 4 Wireless Earbuds | Bluetooth Headphones, Personalized Spatial Audio, Sweat & Water Resistant, USB-C Charging Case, H2 Chip",
       "title_zh": "苹果 AirPods 4 无线耳机",
       "url_1688": "https://m.1688.com/offer_search/-C6BBB9FB34CEDECFDFB6FABBFA.html",
@@ -21027,11 +21071,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "32盎司隔热不锈钢水瓶",
       "rating": 4.5,
-      "ratings_count": 5973,
+      "ratings_count": 5974,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "5,973条评论·4.5分，$27.99适合小批进货",
+      "reason_zh": "5,974条评论·4.5分，$27.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -21064,33 +21108,30 @@
     {
       "amazon_url": "https://www.amazon.com/dp/B0DGQVYW2K",
       "asin": "B0DGQVYW2K",
-      "confidence": "high",
+      "confidence": "low",
       "first_seen": "2026-09-24",
       "image": "data/img/B0DGQVYW2K.jpg",
       "keyword_zh": "闪烁视频门铃",
-      "landed_fl": {
-        "high": 125,
-        "low": 105,
-        "sell_min": 208
-      },
-      "opportunity_score": 22.4,
-      "price": "$49.99",
+      "landed_fl": null,
+      "opportunity_score": 11.4,
+      "price": null,
       "price_drop": null,
-      "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
+      "primary_risk_zh": "价格缺失，毛利空间待采购价确认",
       "procurement_keyword_zh": "闪烁视频门铃",
       "rating": 4.3,
-      "ratings_count": 16955,
+      "ratings_count": 16959,
       "reason_codes": [
+        "NO_PRICE",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "16,955条评论·4.3分",
-      "recommendation": "继续观察",
+      "reason_zh": "16,959条评论·4.3分",
+      "recommendation": "高风险",
       "score_breakdown": {
-        "fit": 6.0,
+        "fit": 0.0,
         "fresh": 8.0,
         "market": 14.4,
         "multi_signal": 0.0,
-        "risk": -6.0,
+        "risk": -11.0,
         "trend": 0.0
       },
       "signals": {
@@ -21231,11 +21272,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 棒高清",
       "rating": 4.1,
-      "ratings_count": 5473,
+      "ratings_count": 5475,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "同时上2个榜，5,473条评论·4.1分",
+      "reason_zh": "同时上2个榜，5,475条评论·4.1分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -21341,9 +21382,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "电动盐和胡椒粉碎机套装自动电池胡椒粉碎机摇床可调",
       "rating": 4.4,
-      "ratings_count": 9000,
+      "ratings_count": 9002,
       "reason_codes": [],
-      "reason_zh": "9,000条评论·4.4分，$19.99适合小批进货",
+      "reason_zh": "9,002条评论·4.4分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -21391,9 +21432,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "睫毛丛套装",
       "rating": 4.3,
-      "ratings_count": 11841,
+      "ratings_count": 11842,
       "reason_codes": [],
-      "reason_zh": "11,841条评论·4.3分，$14.99适合小批进货",
+      "reason_zh": "11,842条评论·4.3分，$14.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -21493,11 +21534,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "2件装闪光粉色背景",
       "rating": 4.5,
-      "ratings_count": 6302,
+      "ratings_count": 6303,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "6,302条评论·4.5分，$5.98适合小批进货",
+      "reason_zh": "6,303条评论·4.5分，$5.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -21565,7 +21606,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 23
+          "rank": 22
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -21692,7 +21733,7 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 24.5,
+      "opportunity_score": 24.9,
       "price": "$9.99",
       "price_drop": null,
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
@@ -21710,7 +21751,7 @@
         "market": 13.1,
         "multi_signal": 0.0,
         "risk": -6.0,
-        "trend": 2.4
+        "trend": 2.8
       },
       "signals": {
         "amazon_surge": false,
@@ -21721,7 +21762,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 14
+          "rank": 13
         }
       ],
       "store_fit_reason_zh": "「低趣味刚需品」与Goodies游客门店不匹配",
@@ -21902,11 +21943,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "2 0翻转吸管杯",
       "rating": 4.7,
-      "ratings_count": 69840,
+      "ratings_count": 69841,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "69,840条评论·4.7分",
+      "reason_zh": "69,841条评论·4.7分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.0,
@@ -22004,11 +22045,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "硅胶磁球坐立不安成人和青少年玩具",
       "rating": 4.7,
-      "ratings_count": 2075,
+      "ratings_count": 2074,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "2,075条评论·4.7分，$9.99适合小批进货",
+      "reason_zh": "2,074条评论·4.7分，$9.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -22106,9 +22147,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "便携式婴儿发声机及婴儿和儿童必需品",
       "rating": 4.7,
-      "ratings_count": 2908,
+      "ratings_count": 2909,
       "reason_codes": [],
-      "reason_zh": "2,908条评论·4.7分，$16.99适合小批进货",
+      "reason_zh": "2,909条评论·4.7分，$16.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -22156,9 +22197,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "透明质酸100保湿霜",
       "rating": 4.6,
-      "ratings_count": 5731,
+      "ratings_count": 5732,
       "reason_codes": [],
-      "reason_zh": "5,731条评论·4.6分，$21.60适合小批进货",
+      "reason_zh": "5,732条评论·4.6分，$21.60适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -22206,11 +22247,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "18抱枕芯2件装",
       "rating": 4.4,
-      "ratings_count": 5141,
+      "ratings_count": 5142,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "5,141条评论·4.4分，$12.91适合小批进货",
+      "reason_zh": "5,142条评论·4.4分，$12.91适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 12.8,
@@ -22258,9 +22299,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "带语音遥控功能",
       "rating": 4.6,
-      "ratings_count": 24472,
+      "ratings_count": 24473,
       "reason_codes": [],
-      "reason_zh": "24,472条评论·4.6分，$29.99适合小批进货",
+      "reason_zh": "24,473条评论·4.6分，$29.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -22404,18 +22445,18 @@
         "low": 29,
         "sell_min": 58
       },
-      "opportunity_score": 11.2,
+      "opportunity_score": 11.6,
       "price": "$13.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": null,
       "rating": 4.7,
-      "ratings_count": 8122,
+      "ratings_count": 8125,
       "reason_codes": [
         "BULKY_ITEM",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "8,122条评论·4.7分，$13.99适合小批进货",
+      "reason_zh": "8,125条评论·4.7分，$13.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -22423,7 +22464,7 @@
         "market": 15.6,
         "multi_signal": 0.0,
         "risk": -16.0,
-        "trend": 1.6
+        "trend": 2.0
       },
       "signals": {
         "amazon_surge": false,
@@ -22434,7 +22475,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 16
+          "rank": 15
         }
       ],
       "store_fit_reason_zh": "「低趣味刚需品」与Goodies游客门店不匹配",
@@ -22457,7 +22498,7 @@
         "low": 897,
         "sell_min": 1780
       },
-      "opportunity_score": 23.8,
+      "opportunity_score": 24.2,
       "price": "$427.00",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
@@ -22475,7 +22516,7 @@
         "market": 17.8,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 3.6
+        "trend": 4.0
       },
       "signals": {
         "amazon_surge": false,
@@ -22486,7 +22527,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 11
+          "rank": 10
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -22496,67 +22537,6 @@
       "title_zh": "苹果iPad 11英寸：A16芯片",
       "url_1688": "https://m.1688.com/offer_search/-C6BBB9FB3131D3A2B4E720D0BEC6AC.html",
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Apple%20iPad%2011-inch%3A%20A16%20chip&charset=utf8"
-    },
-    {
-      "amazon_url": "https://www.amazon.com/dp/B0F1BMM2B7",
-      "asin": "B0F1BMM2B7",
-      "confidence": "high",
-      "first_seen": "2026-09-24",
-      "image": "data/img/B0F1BMM2B7.jpg",
-      "keyword_zh": "闪烁视频门铃+户外4",
-      "landed_fl": {
-        "high": 70,
-        "low": 59,
-        "sell_min": 117
-      },
-      "opportunity_score": 56.2,
-      "price": "$27.99",
-      "price_drop": null,
-      "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
-      "procurement_keyword_zh": "闪烁视频门铃 户外4",
-      "rating": 4.5,
-      "ratings_count": 1280,
-      "reason_codes": [
-        "LOW_STORE_FIT"
-      ],
-      "reason_zh": "24小时排名98→9(↑91%)，1,280条评论·4.5分",
-      "recommendation": "小批测试",
-      "score_breakdown": {
-        "fit": 10.0,
-        "fresh": 8.0,
-        "market": 12.4,
-        "multi_signal": 0.0,
-        "risk": -6.0,
-        "trend": 31.8
-      },
-      "signals": {
-        "amazon_surge": true,
-        "new_release": false,
-        "tiktok": []
-      },
-      "sources": [
-        {
-          "category": "electronics",
-          "list": "bestsellers",
-          "rank": 9
-        }
-      ],
-      "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
-      "surge": {
-        "category": "electronics",
-        "is_new_entry": false,
-        "list": "bestsellers",
-        "rank": 9,
-        "rank_delta": 89,
-        "rank_pct": 90.8,
-        "rank_prev": 98,
-        "surge_rank": 2
-      },
-      "surge_rank": 2,
-      "title_en": "Blink Video Doorbell + Outdoor 4 – Wireless smart security cameras, head-to-toe HD view, two-year battery life. Sync Module Core included – 1 camera system + Video Doorbell",
-      "title_zh": "闪烁视频门铃+户外4",
-      "url_1688": "https://m.1688.com/offer_search/-C9C1CBB8CAD3C6B5C3C5C1E520BBA7CDE234.html",
-      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Blink%20Video%20Doorbell%20%2B%20Outdoor%204&charset=utf8"
     },
     {
       "amazon_url": "https://www.amazon.com/dp/B0F2BF31PW",
@@ -22576,9 +22556,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "带吸管水瓶",
       "rating": 4.7,
-      "ratings_count": 48379,
+      "ratings_count": 48378,
       "reason_codes": [],
-      "reason_zh": "48,379条评论·4.7分，$19.99适合小批进货",
+      "reason_zh": "48,378条评论·4.7分，$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -22716,19 +22696,22 @@
       "image": "data/img/B0F43LPB8S.jpg",
       "keyword_zh": "Comper 女式细肩带运动文胸弹力无钢圈锻炼文胸轻质锻炼文",
       "landed_fl": {
-        "high": 32,
-        "low": 27,
-        "sell_min": 53
+        "high": 30,
+        "low": 25,
+        "sell_min": 50
       },
       "opportunity_score": 26.4,
-      "price": "$12.99",
-      "price_drop": null,
+      "price": "$11.98",
+      "price_drop": {
+        "drop": null,
+        "low_14d": true
+      },
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "女式细肩带运动文胸弹力无钢圈锻炼文胸轻质锻炼文胸",
       "rating": 4.0,
       "ratings_count": 1016,
       "reason_codes": [],
-      "reason_zh": "1,016条评论·4.0分，$12.99适合小批进货",
+      "reason_zh": "1,016条评论·4.0分，$11.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -22920,19 +22903,19 @@
       "image": "data/img/B0F5WNKNB9.jpg",
       "keyword_zh": "兔子可微波加热和加重毛绒动物",
       "landed_fl": {
-        "high": 62,
-        "low": 52,
-        "sell_min": 103
+        "high": 65,
+        "low": 54,
+        "sell_min": 108
       },
       "opportunity_score": 37.4,
-      "price": "$24.95",
+      "price": "$25.95",
       "price_drop": null,
-      "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
+      "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "兔子可微波加热和加重毛绒动物",
       "rating": 4.5,
       "ratings_count": 1265,
       "reason_codes": [],
-      "reason_zh": "1,265条评论·4.5分，$24.95适合小批进货",
+      "reason_zh": "1,265条评论·4.5分，$25.95适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -23024,17 +23007,17 @@
         "low": 147,
         "sell_min": 292
       },
-      "opportunity_score": 19.4,
+      "opportunity_score": 19.8,
       "price": "$69.99",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "亚马逊 电视棒4",
       "rating": 4.6,
-      "ratings_count": 114494,
+      "ratings_count": 114496,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "114,494条评论·4.6分",
+      "reason_zh": "114,496条评论·4.6分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 9.4,
@@ -23042,7 +23025,7 @@
         "market": 20.0,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 0.0
+        "trend": 0.4
       },
       "signals": {
         "amazon_surge": false,
@@ -23053,7 +23036,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 20
+          "rank": 19
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -23332,11 +23315,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "不锈钢水瓶24盎司黑樱桃味",
       "rating": 4.6,
-      "ratings_count": 139178,
+      "ratings_count": 139179,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "139,178条评论·4.6分，$29.99适合小批进货",
+      "reason_zh": "139,179条评论·4.6分，$29.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -23586,7 +23569,7 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "加重毛绒动物树懒毛绒玩具",
       "rating": 4.6,
-      "ratings_count": 418,
+      "ratings_count": 419,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -24079,7 +24062,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 20
+          "rank": 19
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按运动大类中性判断",
@@ -24358,10 +24341,7 @@
       },
       "opportunity_score": 25.2,
       "price": "$9.37",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "史迪仔瞌睡星星乙烯基毛绒夹式惊喜玩具",
       "rating": 4.5,
@@ -24417,9 +24397,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "日常玻璃杯14盎司",
       "rating": 4.2,
-      "ratings_count": 1407,
+      "ratings_count": 1408,
       "reason_codes": [],
-      "reason_zh": "1,407条评论·4.2分，$24.99适合小批进货",
+      "reason_zh": "1,408条评论·4.2分，$24.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
@@ -24620,7 +24600,7 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "可爱的浣熊填充动物软生日 给孩子们",
       "rating": 4.4,
-      "ratings_count": 254,
+      "ratings_count": 255,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -25631,7 +25611,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "植物11514",
       "rating": 5.0,
-      "ratings_count": 62,
+      "ratings_count": 63,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -26041,9 +26021,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "帕尼尼 世界杯贴纸收藏盒",
       "rating": 4.2,
-      "ratings_count": 1909,
+      "ratings_count": 1910,
       "reason_codes": [],
-      "reason_zh": "1,909条评论·4.2分",
+      "reason_zh": "1,910条评论·4.2分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.0,
@@ -26830,9 +26810,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "水凝胶眼罩 眼底",
       "rating": 4.5,
-      "ratings_count": 4527,
+      "ratings_count": 4529,
       "reason_codes": [],
-      "reason_zh": "4,527条评论·4.5分，$23.00适合小批进货",
+      "reason_zh": "4,529条评论·4.5分，$23.00适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -27030,7 +27010,7 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "响铃有线门铃2",
       "rating": 4.4,
-      "ratings_count": 420,
+      "ratings_count": 421,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -27065,9 +27045,9 @@
         "rank_delta": 52,
         "rank_pct": 66.7,
         "rank_prev": 78,
-        "surge_rank": 3
+        "surge_rank": 2
       },
-      "surge_rank": 3,
+      "surge_rank": 2,
       "title_en": "Ring Wired Doorbell 2K Plus (Newest Model) — Retinal 2K with wide-angle video, 6x Enhanced Zoom, and Night Vision, Nickel Silver",
       "title_zh": "响铃有线门铃 2K Plus",
       "url_1688": "https://m.1688.com/offer_search/-CFECC1E5D3D0CFDFC3C5C1E532.html",
@@ -27186,7 +27166,7 @@
         "sell_min": 250
       },
       "opportunity_score": 36.8,
-      "price": "$59.97",
+      "price": "$59.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "游轮玩具套装 含滑梯",
@@ -27618,7 +27598,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "狗狗巡逻队恐龙电影马歇尔恐龙救援消防车玩具车",
       "rating": 4.7,
-      "ratings_count": 59,
+      "ratings_count": 60,
       "reason_codes": [],
       "reason_zh": "$15.97适合小批进货",
       "recommendation": "继续观察",
@@ -28025,11 +28005,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "胶原蛋白多重唇膏棒",
       "rating": 3.9,
-      "ratings_count": 3706,
+      "ratings_count": 3708,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "3,706条评论·3.9分，$19.90适合小批进货",
+      "reason_zh": "3,708条评论·3.9分，$19.90适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 14.0,
@@ -28172,9 +28152,9 @@
         "rank_delta": 2,
         "rank_pct": 50.0,
         "rank_prev": 4,
-        "surge_rank": 10
+        "surge_rank": 8
       },
-      "surge_rank": 10,
+      "surge_rank": 8,
       "title_en": "Magic Jellykins Water-Activated 3-Inch Surprise Toys 2-Pack | Global Trend Toy Provides Fun Surprise Unboxing and Collectability with Themed Waves; Sensory Details Encourage Tactile Play",
       "title_zh": "Magic Jellykins水激活3英寸惊喜玩具2件装",
       "url_1688": "https://m.1688.com/offer_search/-CBAEBCA4BBEE33D3A2B4E7BEAACFB2CDE6BEDF32BCFED7B0.html",
@@ -28219,7 +28199,7 @@
         {
           "category": "beauty",
           "list": "new-releases",
-          "rank": 51
+          "rank": 52
         }
       ],
       "store_fit_reason_zh": "「美妆个护/美甲」是Goodies核心品类，游客顺手就买",
@@ -28374,7 +28354,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 75
+          "rank": 74
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -28445,12 +28425,12 @@
       "image": "data/img/B0GL9VL87H.jpg",
       "keyword_zh": "Aphmau 6 英寸 MeeMeow 神秘毛绒玩具",
       "landed_fl": {
-        "high": 62,
-        "low": 52,
-        "sell_min": 103
+        "high": 30,
+        "low": 25,
+        "sell_min": 50
       },
       "opportunity_score": 14.9,
-      "price": "$24.95",
+      "price": "$11.99",
       "price_drop": null,
       "primary_risk_zh": "评论仅3条，需求规模未验证",
       "procurement_keyword_zh": "6英寸 神秘毛绒玩具",
@@ -28460,7 +28440,7 @@
         "LOW_REVIEWS",
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "$24.95适合小批进货",
+      "reason_zh": "$11.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 20.0,
@@ -28656,20 +28636,20 @@
         "low": 27,
         "sell_min": 53
       },
-      "opportunity_score": 35.9,
+      "opportunity_score": 35.8,
       "price": "$12.84",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "原生深层清洁洁面乳",
       "rating": 4.6,
-      "ratings_count": 164,
+      "ratings_count": 154,
       "reason_codes": [],
       "reason_zh": "$12.84适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 7.0,
-        "market": 8.9,
+        "market": 8.8,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -28712,7 +28692,7 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "防鼠袋12件装 家用 车库汽车地下室驱鼠剂",
       "rating": 3.1,
-      "ratings_count": 482,
+      "ratings_count": 483,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -28850,6 +28830,58 @@
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=SHOKZ%20OpenDots%202%20Open-Ear%20Clip-On%20Earbuds&charset=utf8"
     },
     {
+      "amazon_url": "https://www.amazon.com/dp/B0GQT348HX",
+      "asin": "B0GQT348HX",
+      "confidence": "high",
+      "first_seen": "2026-09-24",
+      "image": "data/img/B0GQT348HX.jpg",
+      "keyword_zh": "2只装USB C耳机有线耳机适用于三星Galaxy",
+      "landed_fl": {
+        "high": 37,
+        "low": 31,
+        "sell_min": 62
+      },
+      "opportunity_score": 26.3,
+      "price": "$14.99",
+      "price_drop": null,
+      "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
+      "procurement_keyword_zh": "2只装USB 耳机有线耳机 三星",
+      "rating": 4.4,
+      "ratings_count": 211,
+      "reason_codes": [
+        "BRAND_PRODUCT"
+      ],
+      "reason_zh": "$14.99适合小批进货",
+      "recommendation": "高风险",
+      "score_breakdown": {
+        "fit": 13.4,
+        "fresh": 15.0,
+        "market": 7.9,
+        "multi_signal": 0.0,
+        "risk": -10.0,
+        "trend": 0.0
+      },
+      "signals": {
+        "amazon_surge": false,
+        "new_release": true,
+        "tiktok": []
+      },
+      "sources": [
+        {
+          "category": "electronics",
+          "list": "new-releases",
+          "rank": 80
+        }
+      ],
+      "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
+      "surge": null,
+      "surge_rank": null,
+      "title_en": "2 Pack USB C Headphones Wired Earbuds for Samsung Galaxy, iPhone 17/16/15 | Wired Earbuds USB C with Clear Mic & Noise Isolation, HiFi Stereo, Type C, Wired Headphones for Galaxy S26 Ultra S25 A16",
+      "title_zh": "2只装USB C耳机有线耳机适用于三星Galaxy",
+      "url_1688": "https://m.1688.com/offer_search/-32D6BBD7B055534220B6FABBFAD3D0CFDFB6FABBFA20C8FDD0C7.html",
+      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=2%20Pack%20USB%20C%20Headphones%20Wired%20Earbuds%20for%20Samsung%20Galaxy&charset=utf8"
+    },
+    {
       "amazon_url": "https://www.amazon.com/dp/B0GR1PQBZT",
       "asin": "B0GR1PQBZT",
       "confidence": "low",
@@ -28963,23 +28995,20 @@
         "low": 187,
         "sell_min": 370
       },
-      "opportunity_score": 26.0,
+      "opportunity_score": 26.1,
       "price": "$89.00",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "富士13即拍相机",
       "rating": 4.4,
-      "ratings_count": 23,
+      "ratings_count": 24,
       "reason_codes": [],
       "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 6.4,
         "fresh": 15.0,
-        "market": 4.6,
+        "market": 4.7,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -29066,7 +29095,7 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 38.1,
+      "opportunity_score": 38.5,
       "price": "$10.00",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
@@ -29082,7 +29111,7 @@
         "market": 11.9,
         "multi_signal": 5.0,
         "risk": 0.0,
-        "trend": 0.8
+        "trend": 1.2
       },
       "signals": {
         "amazon_surge": false,
@@ -29093,7 +29122,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 18
+          "rank": 17
         },
         {
           "category": "electronics",
@@ -29212,56 +29241,6 @@
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Quatish%20Travel%20Utensils%20with%20Case&charset=utf8"
     },
     {
-      "amazon_url": "https://www.amazon.com/dp/B0GSPPKHM9",
-      "asin": "B0GSPPKHM9",
-      "confidence": "medium",
-      "first_seen": "2026-09-24",
-      "image": "data/img/B0GSPPKHM9.jpg",
-      "keyword_zh": "Homaxy椭圆形耐热餐垫6件套",
-      "landed_fl": {
-        "high": 75,
-        "low": 63,
-        "sell_min": 125
-      },
-      "opportunity_score": 34.9,
-      "price": "$29.99",
-      "price_drop": null,
-      "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
-      "procurement_keyword_zh": "椭圆形耐热餐垫6件套",
-      "rating": 4.9,
-      "ratings_count": 38,
-      "reason_codes": [],
-      "reason_zh": "$29.99适合小批进货",
-      "recommendation": "继续观察",
-      "score_breakdown": {
-        "fit": 13.6,
-        "fresh": 15.0,
-        "market": 6.3,
-        "multi_signal": 0.0,
-        "risk": 0.0,
-        "trend": 0.0
-      },
-      "signals": {
-        "amazon_surge": false,
-        "new_release": true,
-        "tiktok": []
-      },
-      "sources": [
-        {
-          "category": "kitchen",
-          "list": "new-releases",
-          "rank": 80
-        }
-      ],
-      "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
-      "surge": null,
-      "surge_rank": null,
-      "title_en": "Homaxy Oval Heat Resistant Placemats Set of 6, Reddish Brown | Waterproof Wipeable PU Place Mats, Faux Leather Reversible Table Mats, 11.8\" x 17\"",
-      "title_zh": "Homaxy椭圆形耐热餐垫6件套",
-      "url_1688": "https://m.1688.com/offer_search/-CDD6D4B2D0CEC4CDC8C8B2CDB5E636BCFECCD7.html",
-      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Homaxy%20Oval%20Heat%20Resistant%20Placemats%20Set%20of%206&charset=utf8"
-    },
-    {
       "amazon_url": "https://www.amazon.com/dp/B0GSSMD97S",
       "asin": "B0GSSMD97S",
       "confidence": "high",
@@ -29269,19 +29248,19 @@
       "image": "data/img/B0GSSMD97S.jpg",
       "keyword_zh": "达芙文 Epiduo 痤疮凝胶治疗",
       "landed_fl": {
-        "high": 50,
-        "low": 42,
-        "sell_min": 83
+        "high": 49,
+        "low": 41,
+        "sell_min": 82
       },
       "opportunity_score": 37.7,
-      "price": "$19.83",
+      "price": "$19.49",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "达芙文 痤疮凝胶治疗",
       "rating": 4.6,
       "ratings_count": 150,
       "reason_codes": [],
-      "reason_zh": "$19.83适合小批进货",
+      "reason_zh": "$19.49适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 14.0,
@@ -29329,7 +29308,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "儿童耳机带线男生女生旅行礼品",
       "rating": 4.7,
-      "ratings_count": 959,
+      "ratings_count": 960,
       "reason_codes": [],
       "reason_zh": "$10.98适合小批进货",
       "recommendation": "继续观察",
@@ -29488,7 +29467,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": null,
       "rating": 4.3,
-      "ratings_count": 2177,
+      "ratings_count": 2178,
       "reason_codes": [],
       "reason_zh": "24小时排名6→4(↑33%)，同时上2个榜",
       "recommendation": "继续观察",
@@ -29656,7 +29635,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "水瓶25盎司玫瑰石英",
       "rating": 4.8,
-      "ratings_count": 322,
+      "ratings_count": 321,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -29708,11 +29687,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "數字溫度計",
       "rating": 4.7,
-      "ratings_count": 1641,
+      "ratings_count": 1642,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "同时上2个榜，1,641条评论·4.7分",
+      "reason_zh": "同时上2个榜，1,642条评论·4.7分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -29861,13 +29840,13 @@
         "low": 52,
         "sell_min": 103
       },
-      "opportunity_score": 28.0,
+      "opportunity_score": 28.1,
       "price": "$24.97",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "抗衰老精华素含多肽和透明质酸",
       "rating": 4.7,
-      "ratings_count": 32,
+      "ratings_count": 33,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -29876,7 +29855,7 @@
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 12.0,
-        "market": 6.0,
+        "market": 6.1,
         "multi_signal": 0.0,
         "risk": -10.0,
         "trend": 0.0
@@ -29915,14 +29894,11 @@
       },
       "opportunity_score": 59.2,
       "price": "$72.99",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "亚马逊10平板电脑",
       "rating": 4.5,
-      "ratings_count": 44391,
+      "ratings_count": 44393,
       "reason_codes": [],
       "reason_zh": "24小时排名10→4(↑60%)，同时上2个榜",
       "recommendation": "小批测试",
@@ -29943,7 +29919,7 @@
         {
           "category": "electronics",
           "list": "bestsellers",
-          "rank": 22
+          "rank": 21
         },
         {
           "category": "electronics",
@@ -29960,9 +29936,9 @@
         "rank_delta": 6,
         "rank_pct": 60.0,
         "rank_prev": 10,
-        "surge_rank": 7
+        "surge_rank": 6
       },
-      "surge_rank": 7,
+      "surge_rank": 6,
       "title_en": "Amazon Fire HD 10 tablet, built for relaxation, 10.1\" vibrant Full HD screen, octa-core processor, 4 GB RAM, 32 GB, Black",
       "title_zh": "亚马逊 Fire HD 10 平板电脑",
       "url_1688": "https://m.1688.com/offer_search/-D1C7C2EDD1B73130C6BDB0E5B5E7C4D4.html",
@@ -30270,7 +30246,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 13
+          "rank": 12
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
@@ -30395,15 +30371,15 @@
         "low": 59,
         "sell_min": 117
       },
-      "opportunity_score": 35.1,
+      "opportunity_score": 48.2,
       "price": "$27.98",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "可伸缩厨房台面碗碟晾干架",
       "rating": 4.3,
-      "ratings_count": 82,
+      "ratings_count": 81,
       "reason_codes": [],
-      "reason_zh": "$27.98适合小批进货",
+      "reason_zh": "24小时排名24→16(↑33%)，$27.98适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -30411,10 +30387,10 @@
         "market": 6.5,
         "multi_signal": 0.0,
         "risk": 0.0,
-        "trend": 0.0
+        "trend": 13.1
       },
       "signals": {
-        "amazon_surge": false,
+        "amazon_surge": true,
         "new_release": true,
         "tiktok": []
       },
@@ -30422,12 +30398,21 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 17
+          "rank": 16
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
-      "surge": null,
-      "surge_rank": null,
+      "surge": {
+        "category": "kitchen",
+        "is_new_entry": false,
+        "list": "new-releases",
+        "rank": 16,
+        "rank_delta": 8,
+        "rank_pct": 33.3,
+        "rank_prev": 24,
+        "surge_rank": 27
+      },
+      "surge_rank": 27,
       "title_en": "SAYZH Expandable Dish Drying Rack for Kitchen Counter, Metal, Black | Foldable Over Sink, Large Capacity, Rust-Resistant, Adjustable for Most Sinks, Automatic Drainage, Removable Utensil Holder",
       "title_zh": "SAYZH 可伸缩厨房台面碗碟晾干架",
       "url_1688": "https://m.1688.com/offer_search/-BFC9C9ECCBF5B3F8B7BFCCA8C3E6CDEBB5FAC1C0B8C9BCDC.html",
@@ -30547,12 +30532,12 @@
       "image": "data/img/B0GXC9SDV9.jpg",
       "keyword_zh": "万智牌现实断裂指挥官套牌",
       "landed_fl": {
-        "high": 198,
-        "low": 167,
-        "sell_min": 330
+        "high": 190,
+        "low": 159,
+        "sell_min": 317
       },
       "opportunity_score": 12.0,
-      "price": "$79.39",
+      "price": "$75.88",
       "price_drop": null,
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": "万智牌现实断裂指挥官套牌",
@@ -30737,7 +30722,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 80
+          "rank": 79
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -30787,7 +30772,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 76
+          "rank": 75
         }
       ],
       "store_fit_reason_zh": "「文具/DIY手工材料」是Goodies核心品类，游客顺手就买",
@@ -30968,7 +30953,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "日常保湿面部和身体乳",
       "rating": 4.6,
-      "ratings_count": 162,
+      "ratings_count": 163,
       "reason_codes": [],
       "reason_zh": "$15.74适合小批进货",
       "recommendation": "继续观察",
@@ -31231,7 +31216,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "锻炼用阻力带",
       "rating": 4.3,
-      "ratings_count": 459,
+      "ratings_count": 460,
       "reason_codes": [],
       "reason_zh": "$17.98适合小批进货",
       "recommendation": "继续观察",
@@ -31281,7 +31266,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "® 1200平方英尺蜘蛛网万圣节装饰与40只假蜘蛛",
       "rating": 4.5,
-      "ratings_count": 61,
+      "ratings_count": 59,
       "reason_codes": [],
       "reason_zh": "$6.99适合小批进货",
       "recommendation": "继续观察",
@@ -31331,7 +31316,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "超级进化 漆黑助推器捆绑包",
       "rating": 4.2,
-      "ratings_count": 851,
+      "ratings_count": 852,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -31404,7 +31389,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 75
+          "rank": 76
         }
       ],
       "store_fit_reason_zh": "「小型运动户外用品」可小量试售，非核心但有机会",
@@ -31483,11 +31468,11 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "充气立式桨板10 6配有 桨板配件",
       "rating": 4.8,
-      "ratings_count": 18468,
+      "ratings_count": 18467,
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "18,468条评论·4.8分",
+      "reason_zh": "18,467条评论·4.8分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 4.2,
@@ -31843,7 +31828,7 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "室内果蝇捕捉器",
       "rating": 4.2,
-      "ratings_count": 829,
+      "ratings_count": 830,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -31891,10 +31876,7 @@
       },
       "opportunity_score": 36.8,
       "price": "$12.87",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "厨房不锈钢带唇金属切菜板",
       "rating": 4.6,
@@ -31919,7 +31901,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 70
+          "rank": 71
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -32094,18 +32076,15 @@
       },
       "opportunity_score": 31.7,
       "price": "$9.98",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "通用电视遥控器仅 三星 海信 索尼 智能电视遥控器替换件",
       "rating": 4.3,
-      "ratings_count": 7948,
+      "ratings_count": 7951,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "7,948条评论·4.3分，$9.98适合小批进货",
+      "reason_zh": "7,951条评论·4.3分，$9.98适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -32153,7 +32132,7 @@
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "害虫啮齿动物驱避袋",
       "rating": 4.6,
-      "ratings_count": 380,
+      "ratings_count": 382,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -32276,7 +32255,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 61
+          "rank": 62
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -32378,7 +32357,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 69
+          "rank": 70
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -32684,7 +32663,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 57
+          "rank": 58
         }
       ],
       "store_fit_reason_zh": "「小型运动户外用品」可小量试售，非核心但有机会",
@@ -32969,7 +32948,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "男士电动剃须刀",
       "rating": 4.8,
-      "ratings_count": 95,
+      "ratings_count": 96,
       "reason_codes": [],
       "reason_zh": "$16.99适合小批进货",
       "recommendation": "继续观察",
@@ -33169,7 +33148,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "成人万圣节拼图1000块女巫鬼屋27 5英寸",
       "rating": 4.7,
-      "ratings_count": 71,
+      "ratings_count": 69,
       "reason_codes": [],
       "reason_zh": "$15.99适合小批进货",
       "recommendation": "继续观察",
@@ -33213,7 +33192,7 @@
         "low": 84,
         "sell_min": 167
       },
-      "opportunity_score": 46.5,
+      "opportunity_score": 46.8,
       "price": "$39.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
@@ -33221,7 +33200,7 @@
       "rating": 4.3,
       "ratings_count": 373,
       "reason_codes": [],
-      "reason_zh": "24小时排名80→53(↑34%)，$39.99适合小批进货",
+      "reason_zh": "24小时排名81→53(↑35%)，$39.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -33229,7 +33208,7 @@
         "market": 8.7,
         "multi_signal": 0.0,
         "risk": 0.0,
-        "trend": 9.6
+        "trend": 9.9
       },
       "signals": {
         "amazon_surge": true,
@@ -33249,9 +33228,9 @@
         "is_new_entry": false,
         "list": "new-releases",
         "rank": 53,
-        "rank_delta": 27,
-        "rank_pct": 33.8,
-        "rank_prev": 80,
+        "rank_delta": 28,
+        "rank_pct": 34.6,
+        "rank_prev": 81,
         "surge_rank": 23
       },
       "surge_rank": 23,
@@ -33299,7 +33278,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 77
+          "rank": 78
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -33556,7 +33535,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 15
+          "rank": 14
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -33579,20 +33558,20 @@
         "low": 15,
         "sell_min": 28
       },
-      "opportunity_score": 34.6,
+      "opportunity_score": 34.7,
       "price": "$6.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "灰色浴室地毯30",
       "rating": 4.3,
-      "ratings_count": 103,
+      "ratings_count": 104,
       "reason_codes": [],
       "reason_zh": "$6.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
         "fresh": 15.0,
-        "market": 6.8,
+        "market": 6.9,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -33708,7 +33687,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 53
+          "rank": 54
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -33789,7 +33768,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "粉色加热毯电热毯50英寸 英寸",
       "rating": 4.7,
-      "ratings_count": 84,
+      "ratings_count": 83,
       "reason_codes": [],
       "reason_zh": "$33.29适合小批进货",
       "recommendation": "继续观察",
@@ -34068,7 +34047,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 23
+          "rank": 22
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -34247,7 +34226,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "户外太阳能万圣节装饰品",
       "rating": 4.2,
-      "ratings_count": 201,
+      "ratings_count": 199,
       "reason_codes": [],
       "reason_zh": "$11.99适合小批进货",
       "recommendation": "继续观察",
@@ -34291,20 +34270,20 @@
         "low": 84,
         "sell_min": 167
       },
-      "opportunity_score": 33.9,
+      "opportunity_score": 33.8,
       "price": "$39.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "20伏12英寸2合1无绳割草机和电动草坪修剪机",
       "rating": 4.6,
-      "ratings_count": 33,
+      "ratings_count": 32,
       "reason_codes": [],
       "reason_zh": "$39.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 12.8,
         "fresh": 15.0,
-        "market": 6.1,
+        "market": 6.0,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -34368,7 +34347,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 26
+          "rank": 24
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -34397,11 +34376,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "三星65英寸级水晶 系列三星 智能电视",
       "rating": 4.2,
-      "ratings_count": 1041,
+      "ratings_count": 1042,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "1,041条评论·4.2分",
+      "reason_zh": "1,042条评论·4.2分",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 4.4,
@@ -34499,7 +34478,7 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "家用跑步机",
       "rating": 4.6,
-      "ratings_count": 274,
+      "ratings_count": 275,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -34626,7 +34605,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 28
+          "rank": 27
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -34872,7 +34851,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 4.7,
-      "ratings_count": 124,
+      "ratings_count": 125,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -34895,7 +34874,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 21
+          "rank": 20
         }
       ],
       "store_fit_reason_zh": "「小型运动户外用品」可小量试售，非核心但有机会",
@@ -34999,7 +34978,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 25
+          "rank": 28
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -35009,56 +34988,6 @@
       "title_zh": "HOMEPEAK 2 件装黑色露背式桌布，长方形，适用于 6 英尺桌子",
       "url_1688": "https://m.1688.com/offer_search/-32BCFED7B0BADAC9ABC2B6B1B3CABDD7C0B2BC20B3A4B7BDD0CE36D3A2B3DFD7C0D7D3.html",
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=HOMEPEAK%202%20Pack%20Black%20Open%20Back%20Fitted%20Tablecloth%20Rectangle%20for%206ft%20Table&charset=utf8"
-    },
-    {
-      "amazon_url": "https://www.amazon.com/dp/B0H4TW22N2",
-      "asin": "B0H4TW22N2",
-      "confidence": "high",
-      "first_seen": "2026-09-22",
-      "image": "data/img/B0H4TW22N2.jpg",
-      "keyword_zh": "数码相机4K自动对焦视频摄影相机，带16倍变焦防抖动功能",
-      "landed_fl": {
-        "high": 107,
-        "low": 90,
-        "sell_min": 178
-      },
-      "opportunity_score": 40.6,
-      "price": "$42.97",
-      "price_drop": null,
-      "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
-      "procurement_keyword_zh": "数码相机4自动对焦视频摄影相机",
-      "rating": 4.6,
-      "ratings_count": 257,
-      "reason_codes": [],
-      "reason_zh": "榜单在售商品",
-      "recommendation": "继续观察",
-      "score_breakdown": {
-        "fit": 16.0,
-        "fresh": 15.0,
-        "market": 9.6,
-        "multi_signal": 0.0,
-        "risk": 0.0,
-        "trend": 0.0
-      },
-      "signals": {
-        "amazon_surge": false,
-        "new_release": true,
-        "tiktok": []
-      },
-      "sources": [
-        {
-          "category": "electronics",
-          "list": "new-releases",
-          "rank": 74
-        }
-      ],
-      "store_fit_reason_zh": "「礼品/钥匙扣/小装饰」是Goodies核心品类，游客顺手就买",
-      "surge": null,
-      "surge_rank": null,
-      "title_en": "Digital Camera 4K Autofocus Vlogging Camera for Photography with 16X Zoom Anti Shake, 32GB Card, 48MP Compact Portable Point and Shoot Camera Gift for Kids Boys Girls Beginner（White）",
-      "title_zh": "数码相机4K自动对焦视频摄影相机，带16倍变焦防抖动功能",
-      "url_1688": "https://m.1688.com/offer_search/-CAFDC2EBCFE0BBFA34D7D4B6AFB6D4BDB9CAD3C6B5C9E3D3B0CFE0BBFA.html",
-      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Digital%20Camera%204K%20Autofocus%20Vlogging%20Camera%20for%20Photography%20with%2016X%20Zoom%20Anti%20Shake&charset=utf8"
     },
     {
       "amazon_url": "https://www.amazon.com/dp/B0H4V1975Z",
@@ -35099,7 +35028,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 73
+          "rank": 74
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -35178,11 +35107,11 @@
       "primary_risk_zh": "属于「专业工具」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "5包不干胶浴室支架和分配器 儿童和成人",
       "rating": 4.5,
-      "ratings_count": 1326,
+      "ratings_count": 1328,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "1,326条评论·4.5分，$9.99适合小批进货",
+      "reason_zh": "1,328条评论·4.5分，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -35280,7 +35209,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "微波炉和空气炸锅带",
       "rating": 4.6,
-      "ratings_count": 187,
+      "ratings_count": 188,
       "reason_codes": [
         "BRAND_PRODUCT",
         "BULKY_ITEM",
@@ -35355,7 +35284,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 67
+          "rank": 68
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -35484,7 +35413,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "女士润肤油",
       "rating": 4.8,
-      "ratings_count": 439,
+      "ratings_count": 442,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -35659,7 +35588,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 66
+          "rank": 67
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -35682,7 +35611,7 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 35.9,
+      "opportunity_score": 35.2,
       "price": "$9.99",
       "price_drop": null,
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
@@ -35692,7 +35621,7 @@
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "24小时排名87→55(↑37%)，$9.99适合小批进货",
+      "reason_zh": "24小时排名86→56(↑35%)，$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -35700,7 +35629,7 @@
         "market": 6.0,
         "multi_signal": 0.0,
         "risk": -6.0,
-        "trend": 10.9
+        "trend": 10.2
       },
       "signals": {
         "amazon_surge": true,
@@ -35711,7 +35640,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 55
+          "rank": 56
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
@@ -35719,13 +35648,13 @@
         "category": "kitchen",
         "is_new_entry": false,
         "list": "new-releases",
-        "rank": 55,
-        "rank_delta": 32,
-        "rank_pct": 36.8,
-        "rank_prev": 87,
-        "surge_rank": 19
+        "rank": 56,
+        "rank_delta": 30,
+        "rank_pct": 34.9,
+        "rank_prev": 86,
+        "surge_rank": 22
       },
-      "surge_rank": 19,
+      "surge_rank": 22,
       "title_en": "Lifewit Pot Lids Organizer Inside Cabinet, Pan Organizer with 7 Dividers | 6 Adjustable Sections for Kitchen Organization, Under Cabinet Storage for Cutting Board, Plates, Baking Sheets, 12.7\" x 6\"",
       "title_zh": "Lifewit锅盖收纳柜内置",
       "url_1688": "https://m.1688.com/offer_search/-B9F8B8C7CAD5C4C9B9F1C4DAD6C3.html",
@@ -35876,7 +35805,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 60
+          "rank": 61
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
@@ -35928,7 +35857,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 19
+          "rank": 18
         }
       ],
       "store_fit_reason_zh": "「美妆个护/美甲」是Goodies核心品类，游客顺手就买",
@@ -36059,7 +35988,7 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "家用除湿机 带自动关闭睡眠模式",
       "rating": 4.3,
-      "ratings_count": 719,
+      "ratings_count": 721,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -36262,8 +36191,8 @@
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "秋季门垫",
-      "rating": 4.8,
-      "ratings_count": 118,
+      "rating": 4.7,
+      "ratings_count": 119,
       "reason_codes": [],
       "reason_zh": "$19.99适合小批进货",
       "recommendation": "继续观察",
@@ -36336,7 +36265,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 76
+          "rank": 77
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -36488,7 +36417,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 56
+          "rank": 57
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -36517,12 +36446,12 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "带磁力锁盖的3保护壳",
       "rating": 4.5,
-      "ratings_count": 23344,
+      "ratings_count": 23343,
       "reason_codes": [
         "BRAND_PRODUCT",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "23,344条评论·4.5分，$17.99适合小批进货",
+      "reason_zh": "23,343条评论·4.5分，$17.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -36622,7 +36551,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "管睫毛膏成熟女性",
       "rating": 4.6,
-      "ratings_count": 51,
+      "ratings_count": 50,
       "reason_codes": [],
       "reason_zh": "$29.95适合小批进货",
       "recommendation": "继续观察",
@@ -36707,7 +36636,7 @@
     {
       "amazon_url": "https://www.amazon.com/dp/B0H6TLKTG8",
       "asin": "B0H6TLKTG8",
-      "confidence": "medium",
+      "confidence": "high",
       "first_seen": "2026-09-22",
       "image": "data/img/B0H6TLKTG8.jpg",
       "keyword_zh": "适用于Owala Freesip的2包装替换盖",
@@ -36722,7 +36651,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "2包装替换盖",
       "rating": 4.5,
-      "ratings_count": 49,
+      "ratings_count": 50,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -36795,7 +36724,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 62
+          "rank": 63
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -36823,8 +36752,8 @@
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "简单的步行计步器",
-      "rating": 4.4,
-      "ratings_count": 45,
+      "rating": 4.3,
+      "ratings_count": 44,
       "reason_codes": [],
       "reason_zh": "$13.99适合小批进货",
       "recommendation": "继续观察",
@@ -36924,7 +36853,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "加重毛绒狗",
       "rating": 4.4,
-      "ratings_count": 98,
+      "ratings_count": 99,
       "reason_codes": [],
       "reason_zh": "$29.99适合小批进货",
       "recommendation": "继续观察",
@@ -36997,7 +36926,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 64
+          "rank": 65
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -37174,13 +37103,13 @@
         "low": 17,
         "sell_min": 33
       },
-      "opportunity_score": 22.4,
+      "opportunity_score": 22.3,
       "price": "$7.99",
       "price_drop": null,
       "primary_risk_zh": "属于「清洁/纯家务用品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "2件装硅胶皂碟带排水孔浴室淋浴盒厨房柜台酒吧海绵",
       "rating": 4.8,
-      "ratings_count": 124,
+      "ratings_count": 122,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -37189,7 +37118,7 @@
       "score_breakdown": {
         "fit": 10.0,
         "fresh": 10.0,
-        "market": 8.4,
+        "market": 8.3,
         "multi_signal": 0.0,
         "risk": -6.0,
         "trend": 0.0
@@ -37277,7 +37206,7 @@
         "sell_min": 567
       },
       "opportunity_score": 28.6,
-      "price": "$135.97",
+      "price": "$135.99",
       "price_drop": null,
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": "精灵30周年庆加成捆绑包",
@@ -37350,11 +37279,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 4.7,
-      "ratings_count": 20849,
+      "ratings_count": 20851,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "20,849条评论·4.7分，$33.75适合小批进货",
+      "reason_zh": "20,851条评论·4.7分，$33.75适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 16.0,
@@ -37373,7 +37302,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 18
+          "rank": 17
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -37425,7 +37354,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 14
+          "rank": 13
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -37581,7 +37510,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 18
+          "rank": 17
         }
       ],
       "store_fit_reason_zh": "「旅行/沙滩小物」是Goodies核心品类，游客顺手就买",
@@ -37656,20 +37585,20 @@
         "low": 55,
         "sell_min": 108
       },
-      "opportunity_score": 37.0,
+      "opportunity_score": 37.1,
       "price": "$25.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "带把手的踏板阻力带腿部健身器材",
       "rating": 5.0,
-      "ratings_count": 31,
+      "ratings_count": 33,
       "reason_codes": [],
       "reason_zh": "$25.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
         "fresh": 15.0,
-        "market": 6.0,
+        "market": 6.1,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -37733,7 +37662,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 58
+          "rank": 59
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -37856,13 +37785,13 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 27.0,
+      "opportunity_score": 27.1,
       "price": "$9.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "椰子油软软",
-      "rating": 3.7,
-      "ratings_count": 127,
+      "rating": 3.8,
+      "ratings_count": 128,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -37871,7 +37800,7 @@
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 12.0,
-        "market": 5.0,
+        "market": 5.1,
         "multi_signal": 0.0,
         "risk": -10.0,
         "trend": 0.0
@@ -37935,7 +37864,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 65
+          "rank": 66
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -37964,9 +37893,9 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "30英寸巨型蓝色蝾螈毛绒填充动物",
       "rating": 4.5,
-      "ratings_count": 1850,
+      "ratings_count": 1836,
       "reason_codes": [],
-      "reason_zh": "1,850条评论·4.5分，$26.96适合小批进货",
+      "reason_zh": "1,836条评论·4.5分，$26.96适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
@@ -38004,12 +37933,12 @@
       "image": "data/img/B0H7RM2ZMC.jpg",
       "keyword_zh": "吹叶机",
       "landed_fl": {
-        "high": 75,
-        "low": 63,
-        "sell_min": 125
+        "high": 312,
+        "low": 262,
+        "sell_min": 520
       },
-      "opportunity_score": 24.7,
-      "price": "$29.99",
+      "opportunity_score": 17.7,
+      "price": "$124.99",
       "price_drop": null,
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": null,
@@ -38018,10 +37947,10 @@
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "$29.99适合小批进货",
+      "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
       "score_breakdown": {
-        "fit": 10.0,
+        "fit": 3.0,
         "fresh": 15.0,
         "market": 5.7,
         "multi_signal": 0.0,
@@ -38166,7 +38095,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "带白噪音和睡眠模式的侧枕睡眠耳塞",
       "rating": 4.6,
-      "ratings_count": 701,
+      "ratings_count": 702,
       "reason_codes": [],
       "reason_zh": "$29.99适合小批进货",
       "recommendation": "继续观察",
@@ -38187,7 +38116,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 78
+          "rank": 77
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -38344,7 +38273,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 16
+          "rank": 15
         }
       ],
       "store_fit_reason_zh": "「搬家/普通收纳」与Goodies游客门店不匹配",
@@ -38417,7 +38346,7 @@
         "low": 29,
         "sell_min": 58
       },
-      "opportunity_score": 44.9,
+      "opportunity_score": 26.5,
       "price": "$13.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
@@ -38427,7 +38356,7 @@
       "reason_codes": [
         "BULKY_ITEM"
       ],
-      "reason_zh": "24小时排名9→4(↑56%)，$13.99适合小批进货",
+      "reason_zh": "$13.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.6,
@@ -38435,10 +38364,10 @@
         "market": 7.9,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 18.4
+        "trend": 0.0
       },
       "signals": {
-        "amazon_surge": true,
+        "amazon_surge": false,
         "new_release": true,
         "tiktok": []
       },
@@ -38450,17 +38379,8 @@
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
-      "surge": {
-        "category": "kitchen",
-        "is_new_entry": false,
-        "list": "new-releases",
-        "rank": 4,
-        "rank_delta": 5,
-        "rank_pct": 55.6,
-        "rank_prev": 9,
-        "surge_rank": 8
-      },
-      "surge_rank": 8,
+      "surge": null,
+      "surge_rank": null,
       "title_en": "EUIRIO 24 Piece Silverware Set with Steak Knives Food Grade Stainless Steel Flatware Set for 4 Cutlery Utensil Set Mirror Polished Dishwasher Safe for Home Restaurant",
       "title_zh": "EUIRIO 24 件银器套装带牛排刀食品级不锈钢餐具套装适用于 4 件餐具套装镜面抛光可用洗碗机清洗适合家庭餐厅",
       "url_1688": "https://m.1688.com/offer_search/-3234BCFED2F8C6F7CCD7D7B0B4F8C5A3C5C5B5B6CAB3C6B7BCB6B2BBD0E2B8D6B2CDBEDFCCD7D7B034BCFEB2CD.html",
@@ -38607,7 +38527,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 52
+          "rank": 53
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
@@ -38739,7 +38659,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "骷髅万圣节挂窗",
       "rating": 4.3,
-      "ratings_count": 56,
+      "ratings_count": 54,
       "reason_codes": [],
       "reason_zh": "$8.98适合小批进货",
       "recommendation": "继续观察",
@@ -38783,20 +38703,20 @@
         "low": 21,
         "sell_min": 42
       },
-      "opportunity_score": 34.2,
+      "opportunity_score": 34.3,
       "price": "$9.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "保温水壶",
       "rating": 4.2,
-      "ratings_count": 68,
+      "ratings_count": 69,
       "reason_codes": [],
       "reason_zh": "$9.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
         "fresh": 12.0,
-        "market": 6.2,
+        "market": 6.3,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -38839,7 +38759,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；体积和海运成本待确认",
       "procurement_keyword_zh": "带盖和冰盒的冰块托盘",
       "rating": 4.5,
-      "ratings_count": 554,
+      "ratings_count": 555,
       "reason_codes": [],
       "reason_zh": "$9.99适合小批进货",
       "recommendation": "继续观察",
@@ -38860,7 +38780,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 19
+          "rank": 18
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -39132,12 +39052,12 @@
       "image": "data/img/B0H8SV3WJ8.jpg",
       "keyword_zh": "精灵宝可梦TCG ：第30次庆典精英训练器礼盒",
       "landed_fl": {
-        "high": 524,
-        "low": 440,
-        "sell_min": 873
+        "high": 513,
+        "low": 431,
+        "sell_min": 855
       },
       "opportunity_score": 2.6,
-      "price": "$209.50",
+      "price": "$205.39",
       "price_drop": null,
       "primary_risk_zh": "评论仅2条，需求规模未验证",
       "procurement_keyword_zh": "精灵 第30次庆典精英训练器礼盒",
@@ -39576,7 +39496,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 71
+          "rank": 72
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -39914,20 +39834,20 @@
         "low": 63,
         "sell_min": 125
       },
-      "opportunity_score": 41.8,
+      "opportunity_score": 41.9,
       "price": "$29.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "系列毛绒万圣节百叶窗盒",
       "rating": 4.6,
-      "ratings_count": 290,
+      "ratings_count": 291,
       "reason_codes": [],
       "reason_zh": "同时上2个榜，$29.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 7.0,
-        "market": 9.8,
+        "market": 9.9,
         "multi_signal": 5.0,
         "risk": 0.0,
         "trend": 0.0
@@ -39965,12 +39885,12 @@
       "image": "data/img/B0H9SYK5Q7.jpg",
       "keyword_zh": "EA SPORTS FC 27标准版PlayStation5",
       "landed_fl": {
-        "high": 172,
-        "low": 145,
-        "sell_min": 287
+        "high": 175,
+        "low": 147,
+        "sell_min": 292
       },
       "opportunity_score": 0.0,
-      "price": "$69.00",
+      "price": "$69.99",
       "price_drop": null,
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": "27标准版",
@@ -40000,7 +39920,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 17
+          "rank": 16
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按运动大类中性判断",
@@ -40023,7 +39943,7 @@
         "low": 25,
         "sell_min": 50
       },
-      "opportunity_score": 40.5,
+      "opportunity_score": 41.8,
       "price": "$11.98",
       "price_drop": null,
       "primary_risk_zh": "评论仅1条，需求规模未验证",
@@ -40033,7 +39953,7 @@
       "reason_codes": [
         "LOW_REVIEWS"
       ],
-      "reason_zh": "24小时排名16→10(↑38%)，同时上2个榜",
+      "reason_zh": "24小时排名16→9(↑44%)，同时上2个榜",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.6,
@@ -40041,7 +39961,7 @@
         "market": 0.3,
         "multi_signal": 5.0,
         "risk": -8.0,
-        "trend": 14.6
+        "trend": 15.9
       },
       "signals": {
         "amazon_surge": true,
@@ -40057,7 +39977,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 10
+          "rank": 9
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按家居/厨房大类中性判断",
@@ -40065,13 +39985,13 @@
         "category": "kitchen",
         "is_new_entry": false,
         "list": "new-releases",
-        "rank": 10,
-        "rank_delta": 6,
-        "rank_pct": 37.5,
+        "rank": 9,
+        "rank_delta": 7,
+        "rank_pct": 43.8,
         "rank_prev": 16,
-        "surge_rank": 18
+        "surge_rank": 11
       },
-      "surge_rank": 18,
+      "surge_rank": 11,
       "title_en": "Brew Glitter Grim Reaper Black Rimming Sugar, Cocktail Garnish, 4oz",
       "title_zh": "Brew Glitter Grim Reaper黑边糖",
       "url_1688": "https://m.1688.com/offer_search/-4272657720476C6974746572204772696D20526561706572BADAB1DFCCC7.html",
@@ -40189,13 +40109,13 @@
         "low": 27,
         "sell_min": 53
       },
-      "opportunity_score": 30.1,
+      "opportunity_score": 30.0,
       "price": "$12.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "大椰子油黄油软糖玩具",
       "rating": 4.6,
-      "ratings_count": 19,
+      "ratings_count": 18,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -40204,7 +40124,7 @@
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 15.0,
-        "market": 5.1,
+        "market": 5.0,
         "multi_signal": 0.0,
         "risk": -10.0,
         "trend": 0.0
@@ -40344,20 +40264,20 @@
         "low": 42,
         "sell_min": 83
       },
-      "opportunity_score": 30.1,
+      "opportunity_score": 30.2,
       "price": "$19.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "带把手的踏板阻力带",
       "rating": 5.0,
-      "ratings_count": 60,
+      "ratings_count": 64,
       "reason_codes": [],
       "reason_zh": "$19.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 16.0,
         "fresh": 7.0,
-        "market": 7.1,
+        "market": 7.2,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -40371,7 +40291,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 15
+          "rank": 21
         }
       ],
       "store_fit_reason_zh": "「小型运动户外用品」可小量试售，非核心但有机会",
@@ -40477,7 +40397,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 74
+          "rank": 75
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -40506,7 +40426,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "松脆花生泥 玩具",
       "rating": 3.6,
-      "ratings_count": 102,
+      "ratings_count": 103,
       "reason_codes": [],
       "reason_zh": "$12.99适合小批进货",
       "recommendation": "继续观察",
@@ -40781,7 +40701,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 79
+          "rank": 78
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -40978,13 +40898,13 @@
         "low": 105,
         "sell_min": 208
       },
-      "opportunity_score": 20.8,
+      "opportunity_score": 19.1,
       "price": "$49.99",
       "price_drop": null,
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "厨房用钛切菜板",
       "rating": 5.0,
-      "ratings_count": 35,
+      "ratings_count": 13,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -40993,7 +40913,7 @@
       "score_breakdown": {
         "fit": 9.6,
         "fresh": 15.0,
-        "market": 6.2,
+        "market": 4.5,
         "multi_signal": 0.0,
         "risk": -10.0,
         "trend": 0.0
@@ -41007,7 +40927,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 6
+          "rank": 26
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -41069,9 +40989,9 @@
         "rank_delta": 19,
         "rank_pct": 40.4,
         "rank_prev": 47,
-        "surge_rank": 15
+        "surge_rank": 14
       },
-      "surge_rank": 15,
+      "surge_rank": 14,
       "title_en": "Wireless Earbuds Bluetooth Headphones, 54H Playtime Stereo Over Ear Buds with ENC Noise Cancelling, LED Power Display, IPX7 Waterproof Sport Earphones with Earhooks for Running/Workouts (Black)",
       "title_zh": "无线耳塞式蓝牙耳机",
       "url_1688": "https://m.1688.com/offer_search/-CEDECFDFB6FAC8FBCABDC0B6D1C0B6FABBFA.html",
@@ -41095,7 +41015,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "开耳式无线耳塞式蓝牙耳机",
       "rating": 5.0,
-      "ratings_count": 52,
+      "ratings_count": 54,
       "reason_codes": [],
       "reason_zh": "$26.98适合小批进货",
       "recommendation": "继续观察",
@@ -41128,6 +41048,58 @@
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Open%20Ear%20Wireless%20Earbuds%20Bluetooth%20Headphones&charset=utf8"
     },
     {
+      "amazon_url": "https://www.amazon.com/dp/B0HCBL1TGD",
+      "asin": "B0HCBL1TGD",
+      "confidence": "medium",
+      "first_seen": "2026-09-24",
+      "image": "data/img/B0HCBL1TGD.jpg",
+      "keyword_zh": "厨房用钛切菜板",
+      "landed_fl": {
+        "high": 165,
+        "low": 139,
+        "sell_min": 275
+      },
+      "opportunity_score": 19.1,
+      "price": "$65.99",
+      "price_drop": null,
+      "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
+      "procurement_keyword_zh": "厨房用钛切菜板",
+      "rating": 5.0,
+      "ratings_count": 13,
+      "reason_codes": [
+        "BULKY_ITEM"
+      ],
+      "reason_zh": "榜单在售商品",
+      "recommendation": "高风险",
+      "score_breakdown": {
+        "fit": 9.6,
+        "fresh": 15.0,
+        "market": 4.5,
+        "multi_signal": 0.0,
+        "risk": -10.0,
+        "trend": 0.0
+      },
+      "signals": {
+        "amazon_surge": false,
+        "new_release": true,
+        "tiktok": []
+      },
+      "sources": [
+        {
+          "category": "kitchen",
+          "list": "new-releases",
+          "rank": 52
+        }
+      ],
+      "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
+      "surge": null,
+      "surge_rank": null,
+      "title_en": "Titanium Cutting Boards for Kitchen, Non-Toxic Pure Titanium Chopping & Kneading Board with Cutting Mat, Dishwasher Safe for Meat, Fruit, Vegetables & Bread,20 * 16",
+      "title_zh": "厨房用钛切菜板",
+      "url_1688": "https://m.1688.com/offer_search/-B3F8B7BFD3C3EED1C7D0B2CBB0E5.html",
+      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Titanium%20Cutting%20Boards%20for%20Kitchen&charset=utf8"
+    },
+    {
       "amazon_url": "https://www.amazon.com/dp/B0HCBVQHBN",
       "asin": "B0HCBVQHBN",
       "confidence": "medium",
@@ -41139,13 +41111,13 @@
         "low": 63,
         "sell_min": 125
       },
-      "opportunity_score": 25.4,
+      "opportunity_score": 25.2,
       "price": "$29.99",
       "price_drop": null,
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": null,
       "rating": 5.0,
-      "ratings_count": 39,
+      "ratings_count": 36,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -41154,7 +41126,7 @@
       "score_breakdown": {
         "fit": 10.0,
         "fresh": 15.0,
-        "market": 6.4,
+        "market": 6.2,
         "multi_signal": 0.0,
         "risk": -6.0,
         "trend": 0.0
@@ -41297,11 +41269,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "家用除湿机",
       "rating": 4.1,
-      "ratings_count": 5557,
+      "ratings_count": 5558,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "5,557条评论·4.1分",
+      "reason_zh": "5,558条评论·4.1分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 6.0,
@@ -41451,7 +41423,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "半固化凝胶指甲条",
       "rating": 4.3,
-      "ratings_count": 958,
+      "ratings_count": 951,
       "reason_codes": [],
       "reason_zh": "$9.99适合小批进货",
       "recommendation": "继续观察",
@@ -41551,7 +41523,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "无线耳塞式耳机",
       "rating": 4.8,
-      "ratings_count": 825,
+      "ratings_count": 828,
       "reason_codes": [],
       "reason_zh": "$19.99适合小批进货",
       "recommendation": "继续观察",
@@ -41595,20 +41567,20 @@
         "low": 2,
         "sell_min": 5
       },
-      "opportunity_score": 30.1,
+      "opportunity_score": 30.2,
       "price": "$1.17",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；季节窗口可能较短，注意物流周期",
       "procurement_keyword_zh": "万圣节幽灵雕像幽灵装饰有趣幽灵雕像可爱幽灵雕像幽",
       "rating": 4.3,
-      "ratings_count": 32,
+      "ratings_count": 33,
       "reason_codes": [],
       "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 15.0,
         "fresh": 10.0,
-        "market": 5.1,
+        "market": 5.2,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -41751,7 +41723,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "即时读取肉类温度计",
       "rating": 4.6,
-      "ratings_count": 65,
+      "ratings_count": 66,
       "reason_codes": [],
       "reason_zh": "$9.97适合小批进货",
       "recommendation": "继续观察",
@@ -41772,7 +41744,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 7
+          "rank": 6
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -41851,11 +41823,11 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "遥控器的更换件",
       "rating": 4.2,
-      "ratings_count": 1128,
+      "ratings_count": 1129,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "1,128条评论·4.2分，$25.99适合小批进货",
+      "reason_zh": "1,129条评论·4.2分，$25.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 13.4,
@@ -41903,7 +41875,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": null,
       "rating": 4.3,
-      "ratings_count": 87,
+      "ratings_count": 88,
       "reason_codes": [],
       "reason_zh": "$26.00适合小批进货",
       "recommendation": "继续观察",
@@ -41953,7 +41925,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "电动指甲钳",
       "rating": 4.8,
-      "ratings_count": 75,
+      "ratings_count": 76,
       "reason_codes": [],
       "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
@@ -42043,22 +42015,22 @@
       "image": "data/img/B0HDCN8X4G.jpg",
       "keyword_zh": "2026无线耳机蓝牙5.4耳机",
       "landed_fl": {
-        "high": 82,
-        "low": 69,
-        "sell_min": 137
+        "high": 225,
+        "low": 189,
+        "sell_min": 375
       },
-      "opportunity_score": 37.5,
-      "price": "$32.99",
+      "opportunity_score": 30.5,
+      "price": "$89.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "无线耳机蓝牙5 4耳机",
       "rating": 4.8,
-      "ratings_count": 187,
+      "ratings_count": 186,
       "reason_codes": [],
-      "reason_zh": "$32.99适合小批进货",
+      "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
       "score_breakdown": {
-        "fit": 13.4,
+        "fit": 6.4,
         "fresh": 15.0,
         "market": 9.1,
         "multi_signal": 0.0,
@@ -42103,7 +42075,7 @@
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": null,
       "rating": 3.6,
-      "ratings_count": 23,
+      "ratings_count": 24,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -42136,56 +42108,6 @@
       "title_zh": "Slush Apple Squishy",
       "url_1688": "https://m.1688.com/offer_search/-536C757368204170706C652053717569736879.html",
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Slush%20Apple%20Squishy&charset=utf8"
-    },
-    {
-      "amazon_url": "https://www.amazon.com/dp/B0HDNVZD3V",
-      "asin": "B0HDNVZD3V",
-      "confidence": "high",
-      "first_seen": "2026-09-23",
-      "image": "data/img/B0HDNVZD3V.jpg",
-      "keyword_zh": "PDRN 粉色胶原蛋白丰盈多效香膏棒",
-      "landed_fl": {
-        "high": 38,
-        "low": 32,
-        "sell_min": 63
-      },
-      "opportunity_score": 43.4,
-      "price": "$15.28",
-      "price_drop": null,
-      "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
-      "procurement_keyword_zh": "粉色胶原蛋白丰盈多效香膏棒",
-      "rating": 4.4,
-      "ratings_count": 289,
-      "reason_codes": [],
-      "reason_zh": "$15.28适合小批进货",
-      "recommendation": "继续观察",
-      "score_breakdown": {
-        "fit": 20.0,
-        "fresh": 15.0,
-        "market": 8.4,
-        "multi_signal": 0.0,
-        "risk": 0.0,
-        "trend": 0.0
-      },
-      "signals": {
-        "amazon_surge": false,
-        "new_release": true,
-        "tiktok": []
-      },
-      "sources": [
-        {
-          "category": "beauty",
-          "list": "new-releases",
-          "rank": 52
-        }
-      ],
-      "store_fit_reason_zh": "「美妆个护/美甲」是Goodies核心品类，游客顺手就买",
-      "surge": null,
-      "surge_rank": null,
-      "title_en": "PDRN Pink Collagen Volume Multi Balm Stick, K-Beauty Skin Booster with Volufiline, Multi-use Care for Face, Neck, Under-Eyes & Forehead, Helps Hydrate & Smooth the Look of Fine Lines, 1Pack lip makeup",
-      "title_zh": "PDRN 粉色胶原蛋白丰盈多效香膏棒",
-      "url_1688": "https://m.1688.com/offer_search/-B7DBC9ABBDBAD4ADB5B0B0D7B7E1D3AFB6E0D0A7CFE3B8E0B0F4.html",
-      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=PDRN%20Pink%20Collagen%20Volume%20Multi%20Balm%20Stick&charset=utf8"
     },
     {
       "amazon_url": "https://www.amazon.com/dp/B0HDP4ZY3W",
@@ -42251,20 +42173,20 @@
         "low": 63,
         "sell_min": 125
       },
-      "opportunity_score": 32.6,
+      "opportunity_score": 34.2,
       "price": "$29.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "混合主动降噪蓝牙耳机无线耳机",
-      "rating": 4.4,
-      "ratings_count": 512,
+      "rating": 4.5,
+      "ratings_count": 514,
       "reason_codes": [],
       "reason_zh": "$29.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
         "fresh": 10.0,
-        "market": 9.2,
+        "market": 10.8,
         "multi_signal": 0.0,
         "risk": 0.0,
         "trend": 0.0
@@ -42459,7 +42381,7 @@
       "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
       "procurement_keyword_zh": "數字溫度計",
       "rating": 4.7,
-      "ratings_count": 44,
+      "ratings_count": 45,
       "reason_codes": [
         "BULKY_ITEM"
       ],
@@ -42487,7 +42409,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 11
+          "rank": 10
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -42539,7 +42461,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 27
+          "rank": 25
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -42549,6 +42471,58 @@
       "title_zh": "双腔微波炉鸡蛋偷猎者",
       "url_1688": "https://m.1688.com/offer_search/-CBABC7BBCEA2B2A8C2AFBCA6B5B0CDB5C1D4D5DF.html",
       "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=Dual%20Cavity%20Microwave%20Egg%20Poacher&charset=utf8"
+    },
+    {
+      "amazon_url": "https://www.amazon.com/dp/B0HF7XMX3T",
+      "asin": "B0HF7XMX3T",
+      "confidence": "high",
+      "first_seen": "2026-09-24",
+      "image": "data/img/B0HF7XMX3T.jpg",
+      "keyword_zh": "TYMO 4.0吹风机毛刷",
+      "landed_fl": {
+        "high": 187,
+        "low": 157,
+        "sell_min": 312
+      },
+      "opportunity_score": 24.9,
+      "price": "$74.99",
+      "price_drop": null,
+      "primary_risk_zh": "体积和海运成本待确认，大件不适合Aruba补货",
+      "procurement_keyword_zh": "4 0吹风机毛刷",
+      "rating": 4.0,
+      "ratings_count": 794,
+      "reason_codes": [
+        "BULKY_ITEM"
+      ],
+      "reason_zh": "榜单在售商品",
+      "recommendation": "高风险",
+      "score_breakdown": {
+        "fit": 10.0,
+        "fresh": 15.0,
+        "market": 9.9,
+        "multi_signal": 0.0,
+        "risk": -10.0,
+        "trend": 0.0
+      },
+      "signals": {
+        "amazon_surge": false,
+        "new_release": true,
+        "tiktok": []
+      },
+      "sources": [
+        {
+          "category": "beauty",
+          "list": "new-releases",
+          "rank": 51
+        }
+      ],
+      "store_fit_reason_zh": "非典型Goodies品类，按美妆大类中性判断",
+      "surge": null,
+      "surge_rank": null,
+      "title_en": "TYMO 4.0 Hair Blow Dryer Brush, Lightweight Ionic Blowout Hair Dryer Brush | 3X Faster Drying 5-in-1 Blowout Brush Adds Shine, Volume & Fullness for Anti-Frizz Straight, Curl & Blowout Style, Champagne",
+      "title_zh": "TYMO 4.0吹风机毛刷",
+      "url_1688": "https://m.1688.com/offer_search/-342030B4B5B7E7BBFAC3ABCBA2.html",
+      "url_1688_fallback": "https://s.1688.com/selloffer/offer_search.htm?keywords=TYMO%204.0%20Hair%20Blow%20Dryer%20Brush&charset=utf8"
     },
     {
       "amazon_url": "https://www.amazon.com/dp/B0HF89GGQG",
@@ -42568,7 +42542,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "安卓16平板电脑10寸",
       "rating": 4.3,
-      "ratings_count": 552,
+      "ratings_count": 551,
       "reason_codes": [],
       "reason_zh": "榜单在售商品",
       "recommendation": "继续观察",
@@ -42589,7 +42563,7 @@
         {
           "category": "electronics",
           "list": "new-releases",
-          "rank": 77
+          "rank": 76
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按电子大类中性判断",
@@ -42642,7 +42616,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 12
+          "rank": 11
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -42717,14 +42691,11 @@
       },
       "opportunity_score": 22.7,
       "price": "$39.99",
-      "price_drop": {
-        "drop": null,
-        "low_14d": true
-      },
+      "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
       "procurement_keyword_zh": "具有24 7心率功能的智能手表健身追踪器",
       "rating": 4.3,
-      "ratings_count": 163,
+      "ratings_count": 164,
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
@@ -42853,7 +42824,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 79
+          "rank": 80
         }
       ],
       "store_fit_reason_zh": "「搬家/普通收纳」与Goodies游客门店不匹配",
@@ -42928,7 +42899,7 @@
         "low": 44,
         "sell_min": 87
       },
-      "opportunity_score": 41.7,
+      "opportunity_score": 41.3,
       "price": "$20.99",
       "price_drop": null,
       "primary_risk_zh": "品牌/IP商品，1688拿货有仿品和侵权风险",
@@ -42938,7 +42909,7 @@
       "reason_codes": [
         "BRAND_PRODUCT"
       ],
-      "reason_zh": "24小时排名41→21(↑49%)，$20.99适合小批进货",
+      "reason_zh": "24小时排名40→21(↑48%)，$20.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.4,
@@ -42946,7 +42917,7 @@
         "market": 6.8,
         "multi_signal": 0.0,
         "risk": -10.0,
-        "trend": 16.5
+        "trend": 16.1
       },
       "signals": {
         "amazon_surge": true,
@@ -42966,12 +42937,12 @@
         "is_new_entry": false,
         "list": "new-releases",
         "rank": 21,
-        "rank_delta": 20,
-        "rank_pct": 48.8,
-        "rank_prev": 41,
-        "surge_rank": 11
+        "rank_delta": 19,
+        "rank_pct": 47.5,
+        "rank_prev": 40,
+        "surge_rank": 10
       },
-      "surge_rank": 11,
+      "surge_rank": 10,
       "title_en": "Smart Watch for Women, 120 Sports Modes Smartwatch with 1.83\" HD, Alexa Built-in, Heart Rate/Sleep Monitor, IP67 Waterproof, Bluetooth Call & Music Control Fitness Watch for iPhone/Android (Pink)",
       "title_zh": "女士智能手表",
       "url_1688": "https://m.1688.com/offer_search/-C5AECABFD6C7C4DCCAD6B1ED.html",
@@ -43223,7 +43194,7 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 16
+          "rank": 15
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按运动大类中性判断",
@@ -43246,7 +43217,7 @@
         "low": 84,
         "sell_min": 167
       },
-      "opportunity_score": 28.6,
+      "opportunity_score": 40.8,
       "price": "$39.99",
       "price_drop": null,
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
@@ -43256,7 +43227,7 @@
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "$39.99适合小批进货",
+      "reason_zh": "24小时排名29→20(↑31%)，$39.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 10.0,
@@ -43264,10 +43235,10 @@
         "market": 9.6,
         "multi_signal": 0.0,
         "risk": -6.0,
-        "trend": 0.0
+        "trend": 12.2
       },
       "signals": {
-        "amazon_surge": false,
+        "amazon_surge": true,
         "new_release": true,
         "tiktok": []
       },
@@ -43275,12 +43246,21 @@
         {
           "category": "sports",
           "list": "new-releases",
-          "rank": 21
+          "rank": 20
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
-      "surge": null,
-      "surge_rank": null,
+      "surge": {
+        "category": "sports",
+        "is_new_entry": false,
+        "list": "new-releases",
+        "rank": 20,
+        "rank_delta": 9,
+        "rank_pct": 31.0,
+        "rank_prev": 29,
+        "surge_rank": 28
+      },
+      "surge_rank": 28,
       "title_en": "OLIXIS Adjustable Dumbbell Set, 20/40/60LBS, 5-in-1 Weight Set",
       "title_zh": "OLIXIS可调哑铃套装",
       "url_1688": "https://m.1688.com/offer_search/-BFC9B5F7D1C6C1E5CCD7D7B0.html",
@@ -43585,7 +43565,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 20
+          "rank": 19
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -43687,7 +43667,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 54
+          "rank": 55
         }
       ],
       "store_fit_reason_zh": "「潮流玩具/捏捏乐/收藏小玩意」是Goodies核心品类，游客顺手就买",
@@ -43739,7 +43719,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 72
+          "rank": 73
         }
       ],
       "store_fit_reason_zh": "「礼品/钥匙扣/小装饰」是Goodies核心品类，游客顺手就买",
@@ -43768,11 +43748,11 @@
       "primary_risk_zh": "属于「大件家居/大家电」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": null,
       "rating": 4.3,
-      "ratings_count": 5226,
+      "ratings_count": 5227,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "5,226条评论·4.3分",
+      "reason_zh": "5,227条评论·4.3分",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 6.0,
@@ -43814,7 +43794,7 @@
         "low": 7,
         "sell_min": 15
       },
-      "opportunity_score": 27.7,
+      "opportunity_score": 32.0,
       "price": "$3.51",
       "price_drop": null,
       "primary_risk_zh": "评论仅1条，需求规模未验证",
@@ -43825,7 +43805,7 @@
         "LOW_REVIEWS",
         "LOW_STORE_FIT"
       ],
-      "reason_zh": "24小时排名36→25(↑31%)，同时上2个榜",
+      "reason_zh": "24小时排名5→3(↑40%)，同时上2个榜",
       "recommendation": "高风险",
       "score_breakdown": {
         "fit": 10.0,
@@ -43833,7 +43813,7 @@
         "market": 0.3,
         "multi_signal": 5.0,
         "risk": -14.0,
-        "trend": 11.4
+        "trend": 15.7
       },
       "signals": {
         "amazon_surge": true,
@@ -43854,16 +43834,16 @@
       ],
       "store_fit_reason_zh": "「搬家/普通收纳」与Goodies游客门店不匹配",
       "surge": {
-        "category": "home",
+        "category": "kitchen",
         "is_new_entry": false,
         "list": "new-releases",
-        "rank": 25,
-        "rank_delta": 11,
-        "rank_pct": 30.6,
-        "rank_prev": 36,
-        "surge_rank": 28
+        "rank": 3,
+        "rank_delta": 2,
+        "rank_pct": 40.0,
+        "rank_prev": 5,
+        "surge_rank": 15
       },
-      "surge_rank": 28,
+      "surge_rank": 15,
       "title_en": "2026 New 3 Packs Food Storage Containers Set with Lids, Stackable Food Containers for Meal Prep Kitchen Pantry, Pink",
       "title_zh": "2026年全新3包装食品储存容器套装带盖",
       "url_1688": "https://m.1688.com/offer_search/-C4EA33B0FCD7B0CAB3C6B7B4A2B4E6C8DDC6F7CCD7D7B0B4F8B8C7.html",
@@ -43917,7 +43897,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 8
+          "rank": 7
         }
       ],
       "store_fit_reason_zh": "「搬家/普通收纳」与Goodies游客门店不匹配",
@@ -43986,12 +43966,12 @@
       "image": "data/img/B0HGGJZ92H.jpg",
       "keyword_zh": "苹果2026 Mac mini台式电脑M6芯片",
       "landed_fl": {
-        "high": 2200,
-        "low": 1848,
-        "sell_min": 3667
+        "high": 2248,
+        "low": 1888,
+        "sell_min": 3747
       },
       "opportunity_score": 12.4,
-      "price": "$879.99",
+      "price": "$899.00",
       "price_drop": null,
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": "苹果 台式电脑 芯片",
@@ -44033,9 +44013,9 @@
         "rank_delta": 22,
         "rank_pct": 47.8,
         "rank_prev": 46,
-        "surge_rank": 12
+        "surge_rank": 9
       },
-      "surge_rank": 12,
+      "surge_rank": 9,
       "title_en": "Apple 2026 Mac mini Desktop Computer M6 chip | 12‑core CPU and 12‑core GPU, 16GB Unified Memory, 256GB SSD Storage",
       "title_zh": "苹果2026 Mac mini台式电脑M6芯片",
       "url_1688": "https://m.1688.com/offer_search/-C6BBB9FB20CCA8CABDB5E7C4D420D0BEC6AC.html",
@@ -44115,7 +44095,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；阿鲁巴本地需求未知，建议先小量试售",
       "procurement_keyword_zh": "无线耳塞蓝牙耳塞翻译耳塞实时70小时播放时间无线",
       "rating": 4.8,
-      "ratings_count": 372,
+      "ratings_count": 373,
       "reason_codes": [],
       "reason_zh": "$14.99适合小批进货",
       "recommendation": "继续观察",
@@ -44189,7 +44169,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 68
+          "rank": 69
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -44343,7 +44323,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 59
+          "rank": 60
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -44372,7 +44352,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；评论样本还不大，需求规模待观察",
       "procurement_keyword_zh": "超细纤维快干发膜涤纶混纺",
       "rating": 4.1,
-      "ratings_count": 85,
+      "ratings_count": 86,
       "reason_codes": [],
       "reason_zh": "$3.60适合小批进货",
       "recommendation": "继续观察",
@@ -44518,13 +44498,13 @@
         "low": 88,
         "sell_min": 175
       },
-      "opportunity_score": 29.8,
+      "opportunity_score": 29.9,
       "price": "$41.98",
       "price_drop": null,
       "primary_risk_zh": "属于「低趣味刚需品」，非Goodies门店品类，游客场景难出手",
       "procurement_keyword_zh": "5层储物架单元",
-      "rating": 4.2,
-      "ratings_count": 17,
+      "rating": 4.1,
+      "ratings_count": 18,
       "reason_codes": [
         "LOW_STORE_FIT"
       ],
@@ -44533,7 +44513,7 @@
       "score_breakdown": {
         "fit": 6.0,
         "fresh": 15.0,
-        "market": 4.2,
+        "market": 4.3,
         "multi_signal": 0.0,
         "risk": -6.0,
         "trend": 10.6
@@ -44559,9 +44539,9 @@
         "rank_delta": 32,
         "rank_pct": 35.2,
         "rank_prev": 91,
-        "surge_rank": 21
+        "surge_rank": 20
       },
-      "surge_rank": 21,
+      "surge_rank": 20,
       "title_en": "LEVELEVE 5-Tier Storage Shelving Unit, Metal, for Kitchen, Garage, Laundry Room, Adjustable, 35\" L x 16\" W x 70\" H, Rectangular, 1 Pack",
       "title_zh": "LEVELEVE 5层储物架单元",
       "url_1688": "https://m.1688.com/offer_search/-35B2E3B4A2CEEFBCDCB5A5D4AA.html",
@@ -44579,7 +44559,7 @@
         "low": 59,
         "sell_min": 117
       },
-      "opportunity_score": 48.5,
+      "opportunity_score": 49.0,
       "price": "$27.99",
       "price_drop": null,
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
@@ -44587,7 +44567,7 @@
       "rating": 4.5,
       "ratings_count": 95,
       "reason_codes": [],
-      "reason_zh": "24小时排名33→22(↑33%)，$27.99适合小批进货",
+      "reason_zh": "24小时排名34→22(↑35%)，$27.99适合小批进货",
       "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 13.2,
@@ -44595,7 +44575,7 @@
         "market": 7.9,
         "multi_signal": 0.0,
         "risk": 0.0,
-        "trend": 12.4
+        "trend": 12.9
       },
       "signals": {
         "amazon_surge": true,
@@ -44615,12 +44595,12 @@
         "is_new_entry": false,
         "list": "new-releases",
         "rank": 22,
-        "rank_delta": 11,
-        "rank_pct": 33.3,
-        "rank_prev": 33,
-        "surge_rank": 27
+        "rank_delta": 12,
+        "rank_pct": 35.3,
+        "rank_prev": 34,
+        "surge_rank": 19
       },
-      "surge_rank": 27,
+      "surge_rank": 19,
       "title_en": "Frylr Slant Board for Exercise, Calf Stretch Board, Foot Stretcher, Portable Foldable Wooden Wedge with 500 lb Capacity, Non-Slip Design, Carry Handle for Home, Gym and Office, Natural Wood",
       "title_zh": "Frylr斜板运动",
       "url_1688": "https://m.1688.com/offer_search/-D0B1B0E5D4CBB6AF.html",
@@ -44768,7 +44748,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 63
+          "rank": 64
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -44818,7 +44798,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 78
+          "rank": 79
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -44871,7 +44851,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 24
+          "rank": 23
         }
       ],
       "store_fit_reason_zh": "非典型Goodies品类，按厨房大类中性判断",
@@ -44900,7 +44880,7 @@
       "primary_risk_zh": "平台数据暂未发现明显风险；零售价偏高，毛利空间待采购价确认",
       "procurement_keyword_zh": "颈椎枕头缓解颈部疼痛",
       "rating": 4.9,
-      "ratings_count": 46,
+      "ratings_count": 47,
       "reason_codes": [],
       "reason_zh": "$33.99适合小批进货",
       "recommendation": "继续观察",
@@ -45188,7 +45168,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 9
+          "rank": 8
         }
       ],
       "store_fit_reason_zh": "「大件家居/大家电」与Goodies游客门店不匹配",
@@ -45310,9 +45290,9 @@
         "rank_delta": 1,
         "rank_pct": 50.0,
         "rank_prev": 2,
-        "surge_rank": 9
+        "surge_rank": 7
       },
-      "surge_rank": 9,
+      "surge_rank": 7,
       "title_en": "Apple AirPods 5 with Wireless Charging Case | Wireless Earbuds, Wireless Charging Case, Active Noise Cancellation, Personalized Spatial Audio, Live Translation, H2 Chip",
       "title_zh": "带无线充电盒的Apple AirPods 5",
       "url_1688": "https://m.1688.com/offer_search/-B4F8CEDECFDFB3E4B5E7BAD0B5C435.html",
@@ -45326,12 +45306,12 @@
       "image": "data/img/B0HJBCGY95.jpg",
       "keyword_zh": "Apple Watch Series 12 GPS 46毫米",
       "landed_fl": {
-        "high": 1100,
-        "low": 924,
-        "sell_min": 1833
+        "high": 1122,
+        "low": 943,
+        "sell_min": 1870
       },
       "opportunity_score": 0.5,
-      "price": "$439.99",
+      "price": "$449.00",
       "price_drop": null,
       "primary_risk_zh": "评论仅7条，需求规模未验证",
       "procurement_keyword_zh": "12 46毫米智能手表",
@@ -45410,7 +45390,7 @@
         {
           "category": "kitchen",
           "list": "new-releases",
-          "rank": 22
+          "rank": 21
         }
       ],
       "store_fit_reason_zh": "「小型厨房创意用品」可小量试售，非核心但有机会",
@@ -45534,12 +45514,12 @@
       "image": "data/img/B0HJZSMCB9.jpg",
       "keyword_zh": "2026年圣诞节Squishy基督降临节日历",
       "landed_fl": {
-        "high": 2,
-        "low": 2,
-        "sell_min": 3
+        "high": 32,
+        "low": 27,
+        "sell_min": 53
       },
-      "opportunity_score": 22.0,
-      "price": "$1.00",
+      "opportunity_score": 27.0,
+      "price": "$12.99",
       "price_drop": null,
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": "年 节 基督降临节日历",
@@ -45549,10 +45529,10 @@
         "LOW_REVIEWS",
         "NO_RATING"
       ],
-      "reason_zh": "同时上2个榜",
+      "reason_zh": "同时上2个榜，$12.99适合小批进货",
       "recommendation": "高风险",
       "score_breakdown": {
-        "fit": 15.0,
+        "fit": 20.0,
         "fresh": 15.0,
         "market": 0.0,
         "multi_signal": 5.0,
@@ -45643,27 +45623,36 @@
       "first_seen": "2026-09-23",
       "image": "data/img/B0HK38GM5S.jpg",
       "keyword_zh": "饺子枕",
-      "landed_fl": null,
-      "opportunity_score": 7.0,
-      "price": null,
-      "price_drop": null,
+      "landed_fl": {
+        "high": 2,
+        "low": 2,
+        "sell_min": 3
+      },
+      "opportunity_score": 17.0,
+      "price": "$1.00",
+      "price_drop": {
+        "drop": {
+          "pct": 93.3,
+          "prev_price": 14.99
+        },
+        "low_14d": false
+      },
       "primary_risk_zh": "评论仅0条，需求规模未验证",
       "procurement_keyword_zh": null,
       "rating": null,
       "ratings_count": null,
       "reason_codes": [
         "LOW_REVIEWS",
-        "NO_PRICE",
         "NO_RATING"
       ],
       "reason_zh": "榜单在售商品",
       "recommendation": "高风险",
       "score_breakdown": {
-        "fit": 10.0,
+        "fit": 15.0,
         "fresh": 15.0,
         "market": 0.0,
         "multi_signal": 0.0,
-        "risk": -18.0,
+        "risk": -13.0,
         "trend": 0.0
       },
       "signals": {
@@ -45807,25 +45796,24 @@
         "low": 31,
         "sell_min": 62
       },
-      "opportunity_score": 22.0,
+      "opportunity_score": 27.3,
       "price": "$14.99",
       "price_drop": null,
-      "primary_risk_zh": "评论仅0条，需求规模未验证",
+      "primary_risk_zh": "评论仅1条，需求规模未验证",
       "procurement_keyword_zh": "万圣节饺子毛绒玩具可爱柔软慢崛起成人毛绒饺子",
-      "rating": null,
-      "ratings_count": null,
+      "rating": 5.0,
+      "ratings_count": 1,
       "reason_codes": [
-        "LOW_REVIEWS",
-        "NO_RATING"
+        "LOW_REVIEWS"
       ],
       "reason_zh": "$14.99适合小批进货",
-      "recommendation": "高风险",
+      "recommendation": "继续观察",
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 15.0,
-        "market": 0.0,
+        "market": 0.3,
         "multi_signal": 0.0,
-        "risk": -13.0,
+        "risk": -8.0,
         "trend": 0.0
       },
       "signals": {
@@ -45918,13 +45906,13 @@
         "low": 25,
         "sell_min": 50
       },
-      "opportunity_score": 27.3,
+      "opportunity_score": 27.9,
       "price": "$11.99",
       "price_drop": null,
-      "primary_risk_zh": "评论仅1条，需求规模未验证",
+      "primary_risk_zh": "评论仅3条，需求规模未验证",
       "procurement_keyword_zh": null,
       "rating": 5.0,
-      "ratings_count": 1,
+      "ratings_count": 3,
       "reason_codes": [
         "LOW_REVIEWS"
       ],
@@ -45933,7 +45921,7 @@
       "score_breakdown": {
         "fit": 20.0,
         "fresh": 15.0,
-        "market": 0.3,
+        "market": 0.8999999999999999,
         "multi_signal": 0.0,
         "risk": -8.0,
         "trend": 0.0
@@ -46073,7 +46061,7 @@
       "B0GVTPKJVT",
       "B0G231WVLJ"
     ],
-    "qualified_count": 4,
+    "qualified_count": 3,
     "tied": [
       false,
       false,
