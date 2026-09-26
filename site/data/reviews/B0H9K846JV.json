@@ -1,5 +1,5 @@
 {
-  "asin": "B0HCY6DCQV",
+  "asin": "B0H9K846JV",
   "error_code": "bot_check_page",
   "expires_at": "2026-10-03T08:00:18Z",
   "fetched_at": "2026-09-26T08:00:18Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B0HCY6DCQV",
+  "source_url": "https://www.amazon.com/dp/B0H9K846JV",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
