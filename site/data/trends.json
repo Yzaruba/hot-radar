@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T21:23:10Z",
+  "generated_at": "2026-09-28T05:27:59Z",
   "hashtags": [
     {
       "curve": [
@@ -191,6 +191,23 @@
     {
       "curve": [
         0.0,
+        25.8,
+        85.7,
+        70.2,
+        79.7,
+        81.2,
+        100.0
+      ],
+      "keyword_zh": "婴儿清洁",
+      "name": "babycleaning",
+      "posts": 10638,
+      "rank": 12,
+      "url_1688": "https://m.1688.com/offer_search/-D3A4B6F9C7E5BDE0.html",
+      "zh": "婴儿清洁"
+    },
+    {
+      "curve": [
+        0.0,
         45.1,
         66.2,
         100.0,
@@ -201,7 +218,7 @@
       "keyword_zh": "婴儿湿巾",
       "name": "babywipes",
       "posts": 10405,
-      "rank": 12,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-D3A4B6F9CAAABDED.html",
       "zh": "婴儿湿巾"
     },
@@ -218,7 +235,7 @@
       "keyword_zh": "零号病人",
       "name": "patientzero",
       "posts": 9459,
-      "rank": 13,
+      "rank": 14,
       "url_1688": "https://m.1688.com/offer_search/-C1E3BAC5B2A1C8CB.html",
       "zh": "零号病人"
     },
@@ -235,7 +252,7 @@
       "keyword_zh": "弗洛雷斯马瑞拉斯🌻",
       "name": "floresamarillas🌻",
       "posts": 9430,
-      "rank": 14,
+      "rank": 15,
       "url_1688": "https://m.1688.com/offer_search/-B8A5C2E5C0D7CBB9C2EDC8F0C0ADCBB9.html",
       "zh": "弗洛雷斯马瑞拉斯🌻"
     },
@@ -252,7 +269,7 @@
       "keyword_zh": "客厅",
       "name": "livingroom",
       "posts": 9267,
-      "rank": 15,
+      "rank": 16,
       "url_1688": "https://m.1688.com/offer_search/-BFCDCCFC.html",
       "zh": "客厅"
     },
@@ -269,7 +286,7 @@
       "keyword_zh": "iphone18pro",
       "name": "iphone18pro",
       "posts": 9098,
-      "rank": 16,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-6970686F6E65313870726F.html",
       "zh": "iphone18pro"
     },
@@ -286,7 +303,7 @@
       "keyword_zh": "babydevelopment",
       "name": "babydevelopment",
       "posts": 9007,
-      "rank": 17,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-62616279646576656C6F706D656E74.html",
       "zh": "babydevelopment"
     },
@@ -303,7 +320,7 @@
       "keyword_zh": "宝宝可爱",
       "name": "babycute",
       "posts": 8772,
-      "rank": 18,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-B1A6B1A6BFC9B0AE.html",
       "zh": "宝宝可爱"
     },
@@ -320,7 +337,7 @@
       "keyword_zh": "拉伸的",
       "name": "stretched",
       "posts": 7857,
-      "rank": 19,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-C0ADC9ECB5C4.html",
       "zh": "拉伸的"
     },
@@ -337,7 +354,7 @@
       "keyword_zh": "婴儿和狗",
       "name": "babyanddog",
       "posts": 7657,
-      "rank": 20,
+      "rank": 21,
       "url_1688": "https://m.1688.com/offer_search/-D3A4B6F9BACDB9B7.html",
       "zh": "婴儿和狗"
     },
@@ -354,7 +371,7 @@
       "keyword_zh": "交谈",
       "name": "converse",
       "posts": 6783,
-      "rank": 21,
+      "rank": 22,
       "url_1688": "https://m.1688.com/offer_search/-BDBBCCB8.html",
       "zh": "交谈"
     },
@@ -371,26 +388,9 @@
       "keyword_zh": "宠物父母生活",
       "name": "petparentlife",
       "posts": 6277,
-      "rank": 22,
+      "rank": 23,
       "url_1688": "https://m.1688.com/offer_search/-B3E8CEEFB8B8C4B8C9FABBEE.html",
       "zh": "宠物父母生活"
-    },
-    {
-      "curve": [
-        34.2,
-        17.8,
-        36.7,
-        53.0,
-        100.0,
-        86.7,
-        0.0
-      ],
-      "keyword_zh": "口臭",
-      "name": "halitosis",
-      "posts": 4206,
-      "rank": 23,
-      "url_1688": "https://m.1688.com/offer_search/-BFDAB3F4.html",
-      "zh": "口臭"
     },
     {
       "curve": [
@@ -615,6 +615,23 @@
     },
     {
       "curve": [
+        0.0,
+        9.1,
+        19.3,
+        7.8,
+        23.1,
+        83.6,
+        100.0
+      ],
+      "keyword_zh": "艾尔威克",
+      "name": "airwick",
+      "posts": 1218,
+      "rank": 37,
+      "url_1688": "https://m.1688.com/offer_search/-B0ACB6FBCDFEBFCB.html",
+      "zh": "艾尔威克"
+    },
+    {
+      "curve": [
         33.5,
         44.7,
         95.7,
@@ -626,26 +643,43 @@
       "keyword_zh": "黄花🌼",
       "name": "yellowflowers🌼",
       "posts": 1180,
-      "rank": 37,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-BBC6BBA8.html",
       "zh": "黄花🌼"
     },
     {
       "curve": [
-        1.7,
         100.0,
-        14.0,
-        17.4,
-        0.0,
-        2.2,
-        7.3
+        16.0,
+        19.3,
+        2.3,
+        4.5,
+        9.5,
+        0.0
       ],
       "keyword_zh": "戈利古米斯",
       "name": "goligummies",
-      "posts": 1175,
-      "rank": 38,
+      "posts": 1163,
+      "rank": 39,
       "url_1688": "https://m.1688.com/offer_search/-B8EAC0FBB9C5C3D7CBB9.html",
       "zh": "戈利古米斯"
+    },
+    {
+      "curve": [
+        74.0,
+        100.0,
+        71.4,
+        52.1,
+        73.3,
+        0.0,
+        38.8
+      ],
+      "keyword_zh": "经期问题",
+      "name": "periodproblems",
+      "posts": 1060,
+      "rank": 40,
+      "url_1688": "https://m.1688.com/offer_search/-BEADC6DACECACCE2.html",
+      "zh": "经期问题"
     },
     {
       "curve": [
@@ -660,7 +694,7 @@
       "keyword_zh": "安卓提示",
       "name": "androidtips",
       "posts": 1045,
-      "rank": 39,
+      "rank": 41,
       "url_1688": "https://m.1688.com/offer_search/-B0B2D7BFCCE1CABE.html",
       "zh": "安卓提示"
     },
@@ -677,7 +711,7 @@
       "keyword_zh": "ucsd",
       "name": "ucsd",
       "posts": 968,
-      "rank": 40,
+      "rank": 42,
       "url_1688": "https://m.1688.com/offer_search/-75637364.html",
       "zh": "ucsd"
     },
@@ -694,60 +728,26 @@
       "keyword_zh": "沃尼奇手稿",
       "name": "voynichmanuscript",
       "posts": 911,
-      "rank": 41,
+      "rank": 43,
       "url_1688": "https://m.1688.com/offer_search/-CED6C4E1C6E6CAD6B8E5.html",
       "zh": "沃尼奇手稿"
     },
     {
       "curve": [
+        13.5,
         0.0,
-        39.1,
-        29.6,
-        44.8,
+        21.6,
         100.0,
-        75.0,
-        60.1
+        64.5,
+        43.3,
+        75.3
       ],
       "keyword_zh": "stanleytumbler",
       "name": "stanleytumbler",
-      "posts": 753,
-      "rank": 42,
+      "posts": 793,
+      "rank": 44,
       "url_1688": "https://m.1688.com/offer_search/-7374616E6C657974756D626C6572.html",
       "zh": "stanleytumbler"
-    },
-    {
-      "curve": [
-        30.0,
-        3.1,
-        18.4,
-        100.0,
-        33.6,
-        37.0,
-        0.0
-      ],
-      "keyword_zh": "梦想家毯子",
-      "name": "dreamerblanket",
-      "posts": 653,
-      "rank": 43,
-      "url_1688": "https://m.1688.com/offer_search/-C3CECFEBBCD2CCBAD7D3.html",
-      "zh": "梦想家毯子"
-    },
-    {
-      "curve": [
-        82.4,
-        84.3,
-        70.3,
-        72.2,
-        83.1,
-        100.0,
-        0.0
-      ],
-      "keyword_zh": "包袋整理器",
-      "name": "bagorganizer",
-      "posts": 558,
-      "rank": 44,
-      "url_1688": "https://m.1688.com/offer_search/-B0FCB4FCD5FBC0EDC6F7.html",
-      "zh": "包袋整理器"
     }
   ],
   "stale": false
