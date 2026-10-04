@@ -1,5 +1,5 @@
 {
-  "asin": "B07HDX46HS",
+  "asin": "B0GCHNKGZ7",
   "error_code": "bot_check_page",
   "expires_at": "2026-10-11T08:47:43Z",
   "fetched_at": "2026-10-04T08:47:43Z",
@@ -7,7 +7,7 @@
   "rating": null,
   "sample_count": 0,
   "schema_version": "review_summary.v1",
-  "source_url": "https://www.amazon.com/dp/B07HDX46HS",
+  "source_url": "https://www.amazon.com/dp/B0GCHNKGZ7",
   "star_distribution_sample": null,
   "status": "unavailable",
   "summary_zh": null,
