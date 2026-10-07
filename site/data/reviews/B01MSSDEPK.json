@@ -1,8 +1,8 @@
 {
   "asin": "B01MSSDEPK",
-  "error_code": "bot_check_page",
-  "expires_at": "2026-10-07T09:00:49Z",
-  "fetched_at": "2026-09-30T09:00:49Z",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-10-14T09:16:24Z",
+  "fetched_at": "2026-10-07T09:16:24Z",
   "provider": "amazon_page",
   "rating": null,
   "sample_count": 0,
