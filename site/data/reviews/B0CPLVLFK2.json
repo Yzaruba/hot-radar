@@ -1,0 +1,15 @@
+{
+  "asin": "B0CPLVLFK2",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-10-20T09:44:42Z",
+  "fetched_at": "2026-10-13T09:44:42Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B0CPLVLFK2",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}
