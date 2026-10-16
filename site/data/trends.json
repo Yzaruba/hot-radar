@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:35:41Z",
+  "generated_at": "2026-10-16T11:28:33Z",
   "hashtags": [
     {
       "curve": [
@@ -512,23 +512,6 @@
     },
     {
       "curve": [
-        41.9,
-        84.1,
-        100.0,
-        64.9,
-        18.5,
-        16.1,
-        0.0
-      ],
-      "keyword_zh": "hurricaneprep",
-      "name": "hurricaneprep",
-      "posts": 1903,
-      "rank": 31,
-      "url_1688": "https://m.1688.com/offer_search/-687572726963616E6570726570.html",
-      "zh": "hurricaneprep"
-    },
-    {
-      "curve": [
         100.0,
         74.0,
         0.0,
@@ -540,7 +523,7 @@
       "keyword_zh": "女性卫生",
       "name": "femininehygiene",
       "posts": 1727,
-      "rank": 32,
+      "rank": 31,
       "url_1688": "https://m.1688.com/offer_search/-C5AED0D4CEC0C9FA.html",
       "zh": "女性卫生"
     },
@@ -557,9 +540,26 @@
       "keyword_zh": "10月6日",
       "name": "6october",
       "posts": 1719,
-      "rank": 33,
+      "rank": 32,
       "url_1688": "https://m.1688.com/offer_search/-3130D4C236C8D5.html",
       "zh": "10月6日"
+    },
+    {
+      "curve": [
+        86.3,
+        100.0,
+        69.8,
+        29.9,
+        27.9,
+        14.0,
+        0.0
+      ],
+      "keyword_zh": "hurricaneprep",
+      "name": "hurricaneprep",
+      "posts": 1699,
+      "rank": 33,
+      "url_1688": "https://m.1688.com/offer_search/-687572726963616E6570726570.html",
+      "zh": "hurricaneprep"
     },
     {
       "curve": [
@@ -597,18 +597,35 @@
     },
     {
       "curve": [
+        25.7,
+        11.1,
+        3.4,
         0.0,
-        94.0,
+        28.7,
         100.0,
-        94.5,
-        73.1,
-        63.6,
-        47.0
+        97.9
+      ],
+      "keyword_zh": "提前投票",
+      "name": "earlyvoting",
+      "posts": 1096,
+      "rank": 36,
+      "url_1688": "https://m.1688.com/offer_search/-CCE1C7B0CDB6C6B1.html",
+      "zh": "提前投票"
+    },
+    {
+      "curve": [
+        91.2,
+        100.0,
+        91.9,
+        60.9,
+        47.0,
+        22.7,
+        0.0
       ],
       "keyword_zh": "dell",
       "name": "dell",
-      "posts": 1024,
-      "rank": 36,
+      "posts": 1034,
+      "rank": 37,
       "url_1688": "https://m.1688.com/offer_search/-64656C6C.html",
       "zh": "dell"
     },
@@ -625,7 +642,7 @@
       "keyword_zh": "普莱",
       "name": "mple",
       "posts": 975,
-      "rank": 37,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-C6D5C0B3.html",
       "zh": "普莱"
     },
@@ -642,7 +659,7 @@
       "keyword_zh": "施工设备",
       "name": "constructionequipment",
       "posts": 913,
-      "rank": 38,
+      "rank": 39,
       "url_1688": "https://m.1688.com/offer_search/-CAA9B9A4C9E8B1B8.html",
       "zh": "施工设备"
     },
@@ -659,26 +676,9 @@
       "keyword_zh": "婴儿小贴士",
       "name": "babytips",
       "posts": 900,
-      "rank": 39,
+      "rank": 40,
       "url_1688": "https://m.1688.com/offer_search/-D3A4B6F9D0A1CCF9CABF.html",
       "zh": "婴儿小贴士"
-    },
-    {
-      "curve": [
-        16.4,
-        25.7,
-        11.1,
-        3.4,
-        0.0,
-        28.7,
-        100.0
-      ],
-      "keyword_zh": "提前投票",
-      "name": "earlyvoting",
-      "posts": 871,
-      "rank": 40,
-      "url_1688": "https://m.1688.com/offer_search/-CCE1C7B0CDB6C6B1.html",
-      "zh": "提前投票"
     },
     {
       "curve": [
