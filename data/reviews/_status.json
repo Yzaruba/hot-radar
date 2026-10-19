@@ -7,61 +7,91 @@
   },
   "processed": [
     {
-      "asin": "B0GPY41JGK",
+      "asin": "B0GVTPKJVT",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0HBC265R4",
+      "asin": "B0HFQ2HRQ3",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0GCGGNZLL",
+      "asin": "B07BZS8RS9",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0H9WX2822",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0GZX38CVQ",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B00N1QPNMA",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0H81WQBHR",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0G36Z353F",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0GMYLJSKV",
-      "error": "no_reviews_rendered",
+      "asin": "B0HHJ2QLH2",
+      "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
       "asin": "B0G26XV3KS",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0GTMTZF3V",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0G3GF7FK2",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0HFY3CR3P",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0HCNGMKPV",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0HD1C5JTQ",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0H2J1T7XG",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0H6B4M7QG",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0GYPTBH84",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0H2FR3KH1",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0HFZKWVWB",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
@@ -73,55 +103,25 @@
       "status": "unavailable"
     },
     {
+      "asin": "B0DNGDPTL6",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0HKLHP8L3",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0DG2VRFV7",
+      "error": "no_reviews_rendered",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
       "asin": "B0GH7RHHGX",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HFS7K4GP",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HLG4L7ZS",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B00FXNAAW2",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0H69RS6GR",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0H1DNYY87",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HDNGZ4P9",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0H7VTHR4V",
-      "error": "no_reviews_rendered",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B00D7H9LIA",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
@@ -129,6 +129,6 @@
   ],
   "provider": "amazon_page",
   "requested": 20,
-  "run_at": "2026-10-18T07:25:32Z",
+  "run_at": "2026-10-19T08:05:44Z",
   "skipped_fresh_cache": 0
 }
