@@ -1,0 +1,15 @@
+{
+  "asin": "B0HJG6GWQX",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-10-31T07:36:19Z",
+  "fetched_at": "2026-10-24T07:36:19Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B0HJG6GWQX",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}
