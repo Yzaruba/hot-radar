@@ -1,0 +1,15 @@
+{
+  "asin": "B08T1FB7J3",
+  "error_code": "bot_check_page",
+  "expires_at": "2026-11-06T08:59:19Z",
+  "fetched_at": "2026-10-30T08:59:19Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B08T1FB7J3",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}

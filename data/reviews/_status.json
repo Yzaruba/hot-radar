@@ -7,31 +7,61 @@
   },
   "processed": [
     {
-      "asin": "B07FKYHTWP",
+      "asin": "B0HM1YKK7B",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B07SYYQZDN",
+      "asin": "B01GPK4LVW",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B006QF3TW4",
+      "asin": "B0FD9K3L3C",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0H2JVZYZZ",
-      "error": "no_reviews_rendered",
+      "asin": "B08T1FB7J3",
+      "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B09RCFN8JG",
+      "asin": "B0009I3T3S",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0H783FY5Z",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0B6H9JF8N",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0H7FR54KK",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0FX3GFYJP",
+      "error": "bot_check_page",
+      "sample": 0,
+      "status": "unavailable"
+    },
+    {
+      "asin": "B0FMPN7YP1",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
@@ -43,85 +73,55 @@
       "status": "unavailable"
     },
     {
-      "asin": "B0HBD1DBNQ",
+      "asin": "B0HKS98X51",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B00PSGOM32",
+      "asin": "B0HNSLZJ8S",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0HG21NQTJ",
+      "asin": "B01HQRD8EO",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0GR1X5HNB",
+      "asin": "B0GDNV91NW",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0HKCHDPQR",
+      "asin": "B004JT7F8I",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0GMWYVKH3",
-      "error": "bot_check_page",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HDCJ7B72",
-      "error": "bot_check_page",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B098KJMMGC",
-      "error": "bot_check_page",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HJG6GWQX",
+      "asin": "B0B9H9JWCJ",
       "error": "no_reviews_rendered",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0HFZKWVWB",
+      "asin": "B0HJSW1G3J",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B0DG2VRFV7",
+      "asin": "B0HDTWN22Q",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
     },
     {
-      "asin": "B08QRFZ6TH",
-      "error": "bot_check_page",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0HHHWSVJH",
-      "error": "bot_check_page",
-      "sample": 0,
-      "status": "unavailable"
-    },
-    {
-      "asin": "B0GMPMZB3G",
+      "asin": "B08KT2Z93D",
       "error": "bot_check_page",
       "sample": 0,
       "status": "unavailable"
@@ -129,6 +129,6 @@
   ],
   "provider": "amazon_page",
   "requested": 20,
-  "run_at": "2026-10-29T08:54:47Z",
+  "run_at": "2026-10-30T08:59:19Z",
   "skipped_fresh_cache": 0
 }
