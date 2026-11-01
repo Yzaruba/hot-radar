@@ -1,0 +1,15 @@
+{
+  "asin": "B0G36WL2LN",
+  "error_code": "no_reviews_rendered",
+  "expires_at": "2026-11-08T09:43:56Z",
+  "fetched_at": "2026-11-01T09:43:56Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B0G36WL2LN",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}
