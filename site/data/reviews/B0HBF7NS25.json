@@ -1,0 +1,15 @@
+{
+  "asin": "B0HBF7NS25",
+  "error_code": "bot_check_page",
+  "expires_at": "2026-11-24T11:09:21Z",
+  "fetched_at": "2026-11-17T11:09:21Z",
+  "provider": "amazon_page",
+  "rating": null,
+  "sample_count": 0,
+  "schema_version": "review_summary.v1",
+  "source_url": "https://www.amazon.com/dp/B0HBF7NS25",
+  "star_distribution_sample": null,
+  "status": "unavailable",
+  "summary_zh": null,
+  "total_review_count": null
+}
