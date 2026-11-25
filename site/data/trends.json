@@ -1,22 +1,39 @@
 {
-  "generated_at": "2026-11-25T08:40:11Z",
+  "generated_at": "2026-11-25T21:45:04Z",
   "hashtags": [
     {
       "curve": [
         0.0,
-        7.9,
-        14.4,
-        31.4,
-        45.4,
-        73.1,
+        5.7,
+        20.7,
+        33.0,
+        57.4,
+        81.1,
         100.0
       ],
       "keyword_zh": "感恩",
       "name": "thanksgiving",
-      "posts": 129019,
+      "posts": 159815,
       "rank": 1,
       "url_1688": "https://m.1688.com/offer_search/-B8D0B6F7.html",
       "zh": "感恩"
+    },
+    {
+      "curve": [
+        0.0,
+        81.2,
+        100.0,
+        87.2,
+        77.2,
+        64.1,
+        60.0
+      ],
+      "keyword_zh": "露西娅",
+      "name": "lucia",
+      "posts": 92718,
+      "rank": 2,
+      "url_1688": "https://m.1688.com/offer_search/-C2B6CEF7E6AB.html",
+      "zh": "露西娅"
     },
     {
       "curve": [
@@ -31,26 +48,9 @@
       "keyword_zh": "gta6clips",
       "name": "gta6clips",
       "posts": 83839,
-      "rank": 2,
+      "rank": 3,
       "url_1688": "https://m.1688.com/offer_search/-67746136636C697073.html",
       "zh": "gta6clips"
-    },
-    {
-      "curve": [
-        0.0,
-        44.9,
-        89.7,
-        100.0,
-        93.0,
-        87.5,
-        80.2
-      ],
-      "keyword_zh": "露西娅",
-      "name": "lucia",
-      "posts": 83438,
-      "rank": 3,
-      "url_1688": "https://m.1688.com/offer_search/-C2B6CEF7E6AB.html",
-      "zh": "露西娅"
     },
     {
       "curve": [
@@ -89,6 +89,23 @@
     {
       "curve": [
         0.0,
+        50.2,
+        76.8,
+        100.0,
+        83.7,
+        48.0,
+        43.6
+      ],
+      "keyword_zh": "嘘嘘嘘嘘",
+      "name": "husshusshuss",
+      "posts": 31321,
+      "rank": 6,
+      "url_1688": "https://m.1688.com/offer_search/-D0EAD0EAD0EAD0EA.html",
+      "zh": "嘘嘘嘘嘘"
+    },
+    {
+      "curve": [
+        0.0,
         9.7,
         40.4,
         66.8,
@@ -99,26 +116,9 @@
       "keyword_zh": "妈妈舒适黑色星期五",
       "name": "momcozyblackfriday",
       "posts": 30356,
-      "rank": 6,
+      "rank": 7,
       "url_1688": "https://m.1688.com/offer_search/-C2E8C2E8CAE6CACABADAC9ABD0C7C6DACEE5.html",
       "zh": "妈妈舒适黑色星期五"
-    },
-    {
-      "curve": [
-        0.0,
-        74.9,
-        87.5,
-        94.2,
-        100.0,
-        95.9,
-        87.0
-      ],
-      "keyword_zh": "嘘嘘嘘嘘",
-      "name": "husshusshuss",
-      "posts": 28522,
-      "rank": 7,
-      "url_1688": "https://m.1688.com/offer_search/-D0EAD0EAD0EAD0EA.html",
-      "zh": "嘘嘘嘘嘘"
     },
     {
       "curve": [
@@ -140,6 +140,22 @@
     {
       "curve": [
         0.0,
+        85.7,
+        95.3,
+        89.9,
+        98.3,
+        100.0
+      ],
+      "keyword_zh": "actionsceneedits",
+      "name": "actionsceneedits",
+      "posts": 24118,
+      "rank": 9,
+      "url_1688": "https://m.1688.com/offer_search/-616374696F6E7363656E656564697473.html",
+      "zh": "actionsceneedits"
+    },
+    {
+      "curve": [
+        0.0,
         23.7,
         85.5,
         100.0,
@@ -150,9 +166,43 @@
       "keyword_zh": "曼迪",
       "name": "mandy",
       "posts": 13633,
-      "rank": 9,
+      "rank": 10,
       "url_1688": "https://m.1688.com/offer_search/-C2FCB5CF.html",
       "zh": "曼迪"
+    },
+    {
+      "curve": [
+        0.0,
+        17.8,
+        50.6,
+        60.3,
+        100.0,
+        87.9,
+        76.1
+      ],
+      "keyword_zh": "和我一起旅行",
+      "name": "travelwithme",
+      "posts": 11664,
+      "rank": 11,
+      "url_1688": "https://m.1688.com/offer_search/-BACDCED2D2BBC6F0C2C3D0D0.html",
+      "zh": "和我一起旅行"
+    },
+    {
+      "curve": [
+        0.0,
+        2.0,
+        17.0,
+        25.2,
+        47.8,
+        82.5,
+        100.0
+      ],
+      "keyword_zh": "#happythanksgiving",
+      "name": "happythanksgiving",
+      "posts": 10416,
+      "rank": 12,
+      "url_1688": "https://m.1688.com/offer_search/-2368617070797468616E6B73676976696E67.html",
+      "zh": "#happythanksgiving"
     },
     {
       "curve": [
@@ -167,7 +217,7 @@
       "keyword_zh": "带着宝宝旅行",
       "name": "travelingwithbaby",
       "posts": 9060,
-      "rank": 10,
+      "rank": 13,
       "url_1688": "https://m.1688.com/offer_search/-B4F8D7C5B1A6B1A6C2C3D0D0.html",
       "zh": "带着宝宝旅行"
     },
@@ -184,7 +234,7 @@
       "keyword_zh": "carsoftiktok比赛",
       "name": "carsoftiktokcontest",
       "posts": 7723,
-      "rank": 11,
+      "rank": 14,
       "url_1688": "https://m.1688.com/offer_search/-636172736F6674696B746F6BB1C8C8FC.html",
       "zh": "carsoftiktok比赛"
     },
@@ -201,26 +251,9 @@
       "keyword_zh": "亚马逊黑色星期五",
       "name": "amazonblackfriday",
       "posts": 7080,
-      "rank": 12,
+      "rank": 15,
       "url_1688": "https://m.1688.com/offer_search/-D1C7C2EDD1B7BADAC9ABD0C7C6DACEE5.html",
       "zh": "亚马逊黑色星期五"
-    },
-    {
-      "curve": [
-        100.0,
-        76.6,
-        42.5,
-        15.5,
-        7.7,
-        0.0,
-        2.9
-      ],
-      "keyword_zh": "红杯日",
-      "name": "redcupday",
-      "posts": 6883,
-      "rank": 13,
-      "url_1688": "https://m.1688.com/offer_search/-BAECB1ADC8D5.html",
-      "zh": "红杯日"
     },
     {
       "curve": [
@@ -235,7 +268,7 @@
       "keyword_zh": "窗饰",
       "name": "windowtreatments",
       "posts": 6842,
-      "rank": 14,
+      "rank": 16,
       "url_1688": "https://m.1688.com/offer_search/-B4B0CACE.html",
       "zh": "窗饰"
     },
@@ -252,7 +285,7 @@
       "keyword_zh": "2026年感恩节",
       "name": "thanksgiving2026",
       "posts": 6364,
-      "rank": 15,
+      "rank": 17,
       "url_1688": "https://m.1688.com/offer_search/-32303236C4EAB8D0B6F7BDDA.html",
       "zh": "2026年感恩节"
     },
@@ -269,24 +302,24 @@
       "keyword_zh": "牙齿感染",
       "name": "toothinfection",
       "posts": 5600,
-      "rank": 16,
+      "rank": 18,
       "url_1688": "https://m.1688.com/offer_search/-D1C0B3DDB8D0C8BE.html",
       "zh": "牙齿感染"
     },
     {
       "curve": [
         0.0,
-        30.6,
-        83.5,
+        76.2,
         100.0,
-        82.7,
-        65.4,
-        58.0
+        75.0,
+        50.1,
+        39.4,
+        41.3
       ],
       "keyword_zh": "辛辛那提祖",
       "name": "cincinnatizoo",
-      "posts": 5252,
-      "rank": 17,
+      "posts": 5505,
+      "rank": 19,
       "url_1688": "https://m.1688.com/offer_search/-D0C1D0C1C4C7CCE1D7E6.html",
       "zh": "辛辛那提祖"
     },
@@ -303,9 +336,26 @@
       "keyword_zh": "河马",
       "name": "hippo",
       "posts": 5140,
-      "rank": 18,
+      "rank": 20,
       "url_1688": "https://m.1688.com/offer_search/-BAD3C2ED.html",
       "zh": "河马"
+    },
+    {
+      "curve": [
+        0.0,
+        82.9,
+        95.2,
+        100.0,
+        99.4,
+        96.1,
+        95.8
+      ],
+      "keyword_zh": "dessa",
+      "name": "dessa",
+      "posts": 4394,
+      "rank": 21,
+      "url_1688": "https://m.1688.com/offer_search/-6465737361.html",
+      "zh": "dessa"
     },
     {
       "curve": [
@@ -320,26 +370,9 @@
       "keyword_zh": "慢性bv",
       "name": "chronicbv",
       "posts": 4028,
-      "rank": 19,
+      "rank": 22,
       "url_1688": "https://m.1688.com/offer_search/-C2FDD0D46276.html",
       "zh": "慢性bv"
-    },
-    {
-      "curve": [
-        32.7,
-        0.0,
-        82.9,
-        95.2,
-        100.0,
-        99.4,
-        96.1
-      ],
-      "keyword_zh": "dessa",
-      "name": "dessa",
-      "posts": 3722,
-      "rank": 20,
-      "url_1688": "https://m.1688.com/offer_search/-6465737361.html",
-      "zh": "dessa"
     },
     {
       "curve": [
@@ -354,7 +387,7 @@
       "keyword_zh": "微笑检查",
       "name": "smilecheck",
       "posts": 3697,
-      "rank": 21,
+      "rank": 23,
       "url_1688": "https://m.1688.com/offer_search/-CEA2D0A6BCECB2E9.html",
       "zh": "微笑检查"
     },
@@ -371,7 +404,7 @@
       "keyword_zh": "经典周末",
       "name": "classicweekend",
       "posts": 3694,
-      "rank": 22,
+      "rank": 24,
       "url_1688": "https://m.1688.com/offer_search/-BEADB5E4D6DCC4A9.html",
       "zh": "经典周末"
     },
@@ -388,7 +421,7 @@
       "keyword_zh": "拉斯维加斯大奖赛",
       "name": "lasvegasgp",
       "posts": 3620,
-      "rank": 23,
+      "rank": 25,
       "url_1688": "https://m.1688.com/offer_search/-C0ADCBB9CEACBCD3CBB9B4F3BDB1C8FC.html",
       "zh": "拉斯维加斯大奖赛"
     },
@@ -405,24 +438,24 @@
       "keyword_zh": "hygienetok",
       "name": "hygienetok",
       "posts": 3474,
-      "rank": 24,
+      "rank": 26,
       "url_1688": "https://m.1688.com/offer_search/-68796769656E65746F6B.html",
       "zh": "hygienetok"
     },
     {
       "curve": [
         0.0,
-        62.1,
-        67.8,
-        71.0,
+        15.1,
+        23.4,
         100.0,
-        85.8,
-        72.7
+        62.5,
+        27.9,
+        46.5
       ],
       "keyword_zh": "胡斯胡斯",
       "name": "husshuss",
-      "posts": 2866,
-      "rank": 25,
+      "posts": 3085,
+      "rank": 27,
       "url_1688": "https://m.1688.com/offer_search/-BAFACBB9BAFACBB9.html",
       "zh": "胡斯胡斯"
     },
@@ -439,7 +472,7 @@
       "keyword_zh": "牙疼",
       "name": "toothache",
       "posts": 2863,
-      "rank": 26,
+      "rank": 28,
       "url_1688": "https://m.1688.com/offer_search/-D1C0CCDB.html",
       "zh": "牙疼"
     },
@@ -456,7 +489,7 @@
       "keyword_zh": "大括号检查",
       "name": "bracescheck",
       "posts": 2745,
-      "rank": 27,
+      "rank": 29,
       "url_1688": "https://m.1688.com/offer_search/-B4F3C0A8BAC5BCECB2E9.html",
       "zh": "大括号检查"
     },
@@ -473,7 +506,7 @@
       "keyword_zh": "hyroxdallas",
       "name": "hyroxdallas",
       "posts": 2168,
-      "rank": 28,
+      "rank": 30,
       "url_1688": "https://m.1688.com/offer_search/-6879726F7864616C6C6173.html",
       "zh": "hyroxdallas"
     },
@@ -490,7 +523,7 @@
       "keyword_zh": "决赛周",
       "name": "finalsweek",
       "posts": 1486,
-      "rank": 29,
+      "rank": 31,
       "url_1688": "https://m.1688.com/offer_search/-BEF6C8FCD6DC.html",
       "zh": "决赛周"
     },
@@ -507,7 +540,7 @@
       "keyword_zh": "Bogg包",
       "name": "boggbag",
       "posts": 1344,
-      "rank": 30,
+      "rank": 32,
       "url_1688": "https://m.1688.com/offer_search/-426F6767B0FC.html",
       "zh": "Bogg包"
     },
@@ -524,7 +557,7 @@
       "keyword_zh": "树木照明",
       "name": "treelighting",
       "posts": 1257,
-      "rank": 31,
+      "rank": 33,
       "url_1688": "https://m.1688.com/offer_search/-CAF7C4BED5D5C3F7.html",
       "zh": "树木照明"
     },
@@ -541,7 +574,7 @@
       "keyword_zh": "带领",
       "name": "lead",
       "posts": 1224,
-      "rank": 32,
+      "rank": 34,
       "url_1688": "https://m.1688.com/offer_search/-B4F8C1EC.html",
       "zh": "带领"
     },
@@ -558,7 +591,7 @@
       "keyword_zh": "感恩节",
       "name": "thankgiving",
       "posts": 1163,
-      "rank": 33,
+      "rank": 35,
       "url_1688": "https://m.1688.com/offer_search/-B8D0B6F7BDDA.html",
       "zh": "感恩节"
     },
@@ -575,7 +608,7 @@
       "keyword_zh": "缝隙清洁",
       "name": "gapcleaning",
       "posts": 1042,
-      "rank": 34,
+      "rank": 36,
       "url_1688": "https://m.1688.com/offer_search/-B7ECCFB6C7E5BDE0.html",
       "zh": "缝隙清洁"
     },
@@ -592,7 +625,7 @@
       "keyword_zh": "农场",
       "name": "granja",
       "posts": 1039,
-      "rank": 35,
+      "rank": 37,
       "url_1688": "https://m.1688.com/offer_search/-C5A9B3A1.html",
       "zh": "农场"
     },
@@ -609,7 +642,7 @@
       "keyword_zh": "vlogmas2026",
       "name": "vlogmas2026",
       "posts": 986,
-      "rank": 36,
+      "rank": 38,
       "url_1688": "https://m.1688.com/offer_search/-766C6F676D617332303236.html",
       "zh": "vlogmas2026"
     },
@@ -626,7 +659,7 @@
       "keyword_zh": "日语",
       "name": "japaneselanguage",
       "posts": 863,
-      "rank": 37,
+      "rank": 39,
       "url_1688": "https://m.1688.com/offer_search/-C8D5D3EF.html",
       "zh": "日语"
     },
@@ -643,7 +676,7 @@
       "keyword_zh": "粉色装饰",
       "name": "pinkdecor",
       "posts": 671,
-      "rank": 38,
+      "rank": 40,
       "url_1688": "https://m.1688.com/offer_search/-B7DBC9ABD7B0CACE.html",
       "zh": "粉色装饰"
     },
@@ -660,7 +693,7 @@
       "keyword_zh": "感恩节赠品",
       "name": "thanksgivinggiveaway",
       "posts": 643,
-      "rank": 39,
+      "rank": 41,
       "url_1688": "https://m.1688.com/offer_search/-B8D0B6F7BDDAD4F9C6B7.html",
       "zh": "感恩节赠品"
     },
@@ -677,7 +710,7 @@
       "keyword_zh": "пк",
       "name": "пк",
       "posts": 629,
-      "rank": 40,
+      "rank": 42,
       "url_1688": "https://m.1688.com/offer_search/-A7E1A7DC.html",
       "zh": "пк"
     },
@@ -694,7 +727,7 @@
       "keyword_zh": "通宵达旦",
       "name": "allnighter",
       "posts": 589,
-      "rank": 41,
+      "rank": 43,
       "url_1688": "https://m.1688.com/offer_search/-CDA8CFFCB4EFB5A9.html",
       "zh": "通宵达旦"
     },
@@ -711,7 +744,7 @@
       "keyword_zh": "铬书",
       "name": "chromebook",
       "posts": 546,
-      "rank": 42,
+      "rank": 44,
       "url_1688": "https://m.1688.com/offer_search/-B8F5CAE9.html",
       "zh": "铬书"
     }
